@@ -1,0 +1,17 @@
+####################################################
+### Jekyll Configuration. No need to touch this. ###
+####################################################
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :compressed # You might prefer to minify using :compressed
+
+baseurl: "" # the subpath of your site, e.g. /blog
+destination: docs
+# Exclude these files from your production _site
+exclude:
+  - resources
+  - LICENSE
+  - README.md
+  - Gemfile
+  - Gemfile.lock

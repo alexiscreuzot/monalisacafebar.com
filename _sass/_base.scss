@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+@font-face {
+  font-family: 'Atteron';
+  src: url('./assets/fonts/Atteron.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+html {
+  background: #e4dccb;
+  overflow-x: hidden;
+
+  body {
+    height: 100%;
+    color: #111;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+
+    h1, h2 {
+      font-family: 'Atteron', serif;
+      color: #111;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      line-height: 1.2;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+      line-height: 1.5;
+      padding: 2rem 0;
+    }
+
+    p, li, td {
+      color: #454;
+      font-size: 1.3rem;
+      line-height: 1.5;
+      padding: 1rem 0;
+    }
+
+    a {
+      text-decoration: none;
+      transition: color 250ms;
+      color: rgb(147, 187, 68);
+
+      &:hover {
+        opacity: 0.7;
+
+      }
+    }
+  }
+}
+
+.waves {
+  height: 70px;
+  width: 100%;
+  z-index:1;
+  margin-bottom: -10px;
+}
+
+#wave {
+  fill:#e4dccb;
+}
+
+.container {
+  max-width: 1024px;
+  margin: auto;
+  padding: 1.25rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  padding: 1rem;
+}
+
+.section {
+  padding: 0;
+}
+
+.centered {
+  text-align: center;
+  margin: auto;
+}
+
+#top {
+  position: relative;
+  text-align: center;
+  background-color: #BABAA6;
+  padding: 4rem 0 0;
+
+  margin-bottom: 2rem;
+
+  .front {
+    width: auto;
+    height: 320px;
+    background: url("./assets/images/monalisa_b.png") no-repeat center / contain;
+    animation: fadein 4s;
+    margin-bottom: 4rem;
+  }
+}
+
+#menu {
+
+  img.menu {
+    width: 200px;
+    height: 280px;
+    border-radius: 12px;
+  }
+
+  td {
+    padding: 0;
+    white-space:nowrap;
+    padding-top: 0.4rem;
+  }
+
+  td.days {
+    border-bottom: 2px dotted #898;
+    padding-right: 1rem;
+  }
+
+  td.hours {
+    font-weight: bold;
+    white-space:nowrap;
+  }
+}
+
+
+footer {
+  color: #9a9da9;
+  font-size: 1rem;
+  line-height: 1.25;
+  flex: 0 0 auto;
+  overflow: hidden;
+  padding: 4rem 0 2rem;
+  text-align: center;
+  position: relative;
+  z-index: 30;
+}
+
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .column {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
