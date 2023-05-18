@@ -1,9 +1,7 @@
 head:
   title: MONALISA CAFÉ - BAR
-  description: |
-    Café Veracruzano en el centro de Santiago de Quérétaro
-  keywords: |
-    cafe, bar, santiago de Querétaro, moka, cappuccino, espresso, americano, latte, frappe
+  description: Café Veracruzano en el centro de Santiago de Quérétaro
+  keywords: cafe, bar, santiago de Querétaro, moka, cappuccino, espresso, americano, latte, frappe
 
 intro: |
   <b>Nuestro delicioso café proviene de la región de Coatepec, Veracruz</b>, una zona localizada a una altitud de 1200m sobre el nivel del mar, reconocida mundialmente por su exquisito café.<br/><br/>
@@ -36,7 +34,5 @@ menu:
   
 contact:
   title: Ubicacion <i>&</i> contacto
-  address: |
-    Mariano Matamoros 2B, Centro<br/>
-    <b>76000 Santiago de Querétaro, Qro.</b>
+  address: Mariano Matamoros 2B, Centro<br/><b>76000 Santiago de Querétaro, Qro.</b>
   contact_us: Contáctanos
