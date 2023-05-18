@@ -50,3 +50,18 @@
     position:absolute;
     transform: scaleX(-1);
 }
+
+@media (max-width: 800px) {
+    .leave1 {
+        width: 18%;
+    }
+    
+    .leave2 {
+        width: 16%;
+    }
+
+    .leave3 {
+        width: 22%;
+    }
+  }
+  
