@@ -3,6 +3,7 @@ html {
   overflow-x: hidden;
 
   body {
+    overflow-x: hidden;
     height: 100%;
     color: #111;
     font-family: 'DM Sans', sans-serif;
@@ -49,6 +50,10 @@ html {
   }
 }
 
+.wrapper {
+  overflow-x: hidden;
+}
+
 .waves {
   height: 70px;
   width: 100%;
@@ -92,6 +97,7 @@ html {
 }
 
 #top {
+  overflow-x: hidden;
   position: relative;
   text-align: center;
   background-color: #BABAA6;
