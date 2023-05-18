@@ -78,6 +78,7 @@ html {
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
+  margin: 0!important;
   padding: 1rem;
 }
 
@@ -137,6 +138,10 @@ html {
     border-style: solid;
   }
 
+  table {
+    margin: 0 2rem;
+  }
+
   td {
     padding: 0;
     white-space:nowrap;
@@ -144,6 +149,7 @@ html {
   }
 
   td.days {
+    width: 100%;
     border-bottom: 2px dotted #898;
     padding-right: 1rem;
   }
