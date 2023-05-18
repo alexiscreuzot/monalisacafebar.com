@@ -47,7 +47,7 @@ html {
       color: rgb(147, 187, 68);
 
       &:hover {
-        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
         opacity: 0.7;
       }
     }
