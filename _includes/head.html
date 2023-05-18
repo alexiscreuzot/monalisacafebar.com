@@ -1,10 +1,14 @@
 <head>
 	<meta charset="utf-8" />
-	<title>{{ site.title }}</title>
-	<meta name="description" content="{{ site.description }}">
-	<meta name="keywords" content="{{ site.keywords }}" />
+	<title>{% t head.title %}</title>
+	<meta name="description" content="{% t head.description %}" />
+	<meta name="keywords" content="{% t head.keywords %}" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-	<link rel="icon" type="image/x-icon" href="{{ "/assets/images/favicon.ico" | prepend: site.baseurl_root }}"/>
+	<meta property="og:title" content="{% t head.title %}">
+	<meta property="og:description" content="{% t head.description %}">
+	<!-- <meta property="og:image" content="./assets/images/thumbnail.jpg"> -->
+	<meta property="og:url" content="https://monalisacafebar.com">
+	<meta name="theme-color" content="#BABAA6" />
 	<link rel="stylesheet" href="{{ "/main.css" | prepend: site.baseurl_root }}"/>
-</head>
+  </head>
+  

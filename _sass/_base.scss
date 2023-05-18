@@ -27,6 +27,10 @@ html {
       font-size: 2.5rem;
       line-height: 1.5;
       padding: 2rem 0;
+
+      i {
+        font-family: Baskerville;
+      }
     }
 
     p, li, td {
@@ -97,7 +101,6 @@ html {
 }
 
 #top {
-  overflow-x: hidden;
   position: relative;
   text-align: center;
   background-color: #BABAA6;
@@ -106,10 +109,10 @@ html {
 
   .front {
     width: auto;
-    height: 320px;
+    height: 330px;
     background: url("./assets/images/monalisa_b.png") no-repeat center / contain;
-    animation: fadein 4s;
     margin-bottom: 4rem;
+    opacity: 0.6;
   }
 }
 
@@ -148,15 +151,18 @@ html {
     margin: 0 2rem;
   }
 
+  tr.even {
+    background-color: rgba($color: #000000, $alpha: 0.05);
+  }
+
   td {
     padding: 0;
     white-space:nowrap;
-    padding-top: 0.4rem;
+    padding: 0.3rem 0.6rem;
   }
 
   td.days {
     width: 100%;
-    border-bottom: 2px dotted #898;
     padding-right: 1rem;
   }
 
