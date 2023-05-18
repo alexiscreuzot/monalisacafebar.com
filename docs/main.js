@@ -14,3 +14,7 @@ ScrollReveal().reveal(".scale-up", {
 ScrollReveal().reveal('.leave1', { distance: '200px', origin: 'left', delay: 500, duration: 1000, reset: false });
 ScrollReveal().reveal('.leave2', { distance: '200px', origin: 'right', delay: 800, duration: 1100, reset: false });
 ScrollReveal().reveal('.leave3', { distance: '200px', origin: 'left', delay: 1000, duration: 800, reset: false });
+
+
+ScrollReveal().reveal('.leave4', { distance: '200px', origin: 'left', delay: 500, duration: 1000, reset: false });
+ScrollReveal().reveal('.leave5', { distance: '200px', origin: 'right', delay: 800, duration: 1100, reset: false });
