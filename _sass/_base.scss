@@ -1,11 +1,11 @@
 html {
-  background: #e4dccb;
+  background: $background;
   overflow-x: hidden;
 
   body {
     overflow-x: hidden;
     height: 100%;
-    color: #111;
+    color: $font-primary;
     font-family: 'DM Sans', sans-serif;
     font-size: 1em;
     line-height: 1.5;
@@ -15,7 +15,7 @@ html {
 
     h1, h2 {
       font-family: 'Atteron', serif;
-      color: #111;
+      color: $font-primary;
     }
 
     h1 {
@@ -34,7 +34,7 @@ html {
     }
 
     p, li, td {
-      color: #454;
+      color: $font-secondary;
       font-size: 1.3rem;
       line-height: 1.5;
       padding: 1rem 0;
@@ -44,7 +44,6 @@ html {
       -webkit-transition: all 0.3s;
       text-decoration: none;
       transition: color 250ms;
-      color: rgb(147, 187, 68);
 
       &:hover {
         transition: all 0.3s;
@@ -58,15 +57,8 @@ html {
   overflow-x: hidden;
 }
 
-.waves {
-  height: 70px;
-  width: 100%;
-  z-index:1;
-  margin-bottom: -10px;
-}
-
-#wave {
-  fill:#e4dccb;
+.section {
+  padding: 0;
 }
 
 .container {
@@ -91,10 +83,6 @@ html {
   padding: 1rem;
 }
 
-.section {
-  padding: 0;
-}
-
 .centered {
   text-align: center;
   margin: auto;
@@ -103,7 +91,7 @@ html {
 #top {
   position: relative;
   text-align: center;
-  background-color: #BABAA6;
+  background-color: $secondary;
   padding: 4rem 0 0;
   margin-bottom: 2rem;
 
@@ -114,6 +102,17 @@ html {
     margin-bottom: 4rem;
     opacity: 0.6;
   }
+
+  .waves {
+    height: 70px;
+    width: 100%;
+    z-index:1;
+    margin-bottom: -10px;
+  
+    #wave {
+      fill: $background;
+    }
+  }  
 }
 
 #intro {
@@ -135,13 +134,12 @@ html {
 }
 
 #menu {
-
   img.menu {
-    width: 200px;
-    height: 280px;
+    width: 225px;
+    height: 310px;
     border-radius: 12px;
     border-width: 12px;
-    border-color: #BABAA6;
+    border-color: lighten($background, 4%);
     border-style: solid;
   }
 
@@ -150,21 +148,24 @@ html {
   }
 
   tr.even {
-    background-color: rgba($color: #000000, $alpha: 0.05);
+    background-color: lighten($background, 4%);
+    border-radius: 10px;
   }
 
   td {
     padding: 0;
     white-space:nowrap;
-    padding: 0.3rem 0.6rem;
+    padding: 0.4rem 0.6rem;
   }
 
   td.days {
+    border-radius: 10px 0 0 10px;
     width: 100%;
     padding-right: 1rem;
   }
 
   td.hours {
+    border-radius: 0px 10px 10px 0px;
     font-weight: bold;
     white-space:nowrap;
   }
