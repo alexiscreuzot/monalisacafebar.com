@@ -1,10 +1,15 @@
 ---
-# Front matter comment to ensure Jekyll properly reads file.
+
 ---
+
+html {
+	overflow-x: hidden;
+}
 
 @import 
     "_reset",
     "_variables",
     "_base",
     "leaves",
-    "buttons"
+    "buttons",
+    "nanogallery";

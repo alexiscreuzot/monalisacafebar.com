@@ -1,6 +1,6 @@
 html {
+
   background: $background;
-  overflow-x: hidden;
 
   body {
     overflow-x: hidden;
@@ -130,18 +130,6 @@ html {
     height: 160px;
     border-radius: 100px;
     margin-bottom: 2rem;
-  }
-
-  #nanogallery2 {
-    padding: 2rem 0 1 rem;
-  }
-
-  .nGY2 .nGY2GThumbnail {
-    background-color: transparent;
-    transition: all 0.3s;
-    &:hover {
-      opacity: 0.5;
-    }
   }
 
 }
