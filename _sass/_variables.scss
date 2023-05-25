@@ -3,8 +3,10 @@
 
 @font-face {
   font-family: 'Atteron';
-  src: url('./assets/fonts/Atteron.ttf')  format('truetype'), /* Safari, Android, iOS */
+  src: url('./assets/fonts/Atteron.ttf')  format('truetype'); /* Safari, Android, iOS */
+  font-display: swap;
 }
+
 
 $background : #e4dccb;
 $primary : #787B66;
