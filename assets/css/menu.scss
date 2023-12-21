@@ -1,12 +1,19 @@
 ---
 ---
 
+@font-face {
+    font-family: 'Atteron';
+    src: url('../fonts/Atteron.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-display: swap;
+}
+
 body {
     background: #e4dccb;
 }
 
-h2, h3 {
-    font-family: serif;
+h2 {
+    font-family: 'Atteron', serif;
+    font-size: 1.5rem;
 }
 
 .title, ul li {
