@@ -7,20 +7,6 @@
     <title>Coffee Menu</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ "assets/css/menu.css" | prepend: site.baseurl_root }}"/>
-    <style type="text/css">
-
-        #header {
-            border-radius: 50% 50% 0 0;
-            background: #FCECDD;
-            padding: 50px 50px 0 50px;
-        } 
-
-        #content {
-            background: #FCECDD;
-            padding: 10px 10px 40px 10px;
-        } 
-        
-    </style>
 </head>
 
 <body class="md:p-12">
@@ -39,7 +25,7 @@
             <div class="w-60 h-72" style="background:url('https://monalisacafebar.com/assets/images/monalisa_b.png') no-repeat center/contain; opacity: 0.6;">
             </div>
         </div>
-        <h2 class="text-3xl mt-16 text-center">Desayuno</h2>
+        <h2 class="text-3xl mt-12 text-center">Desayuno</h2>
     </div>
 
     <div id="content">
@@ -292,7 +278,7 @@
             </div>
 
             <div>
-                <div class="p-4  ">
+                <div class="p-4 ">
                     <div class="title flex justify-between items-center text-xl  ">
                         <p>Pan Dulce</p>
                         <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
@@ -302,6 +288,212 @@
             </div>
 
         </div>
+
+
+        <h2 class="text-3xl mt-8  text-center">Café y especialidades</h2>
+        <div class="container mx-auto grid md:grid-cols-3 gap-4">
+
+            <div>
+                <div class="p-4">
+                    <div class="title flex justify-between items-center text-xl  ">
+                        <p>Espresso</p>
+                    </div>
+                    <ul class="text-base ">
+                        <li class="flex justify-between items-center">
+                            <p>Regular</p>
+                            <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                            <span>$30</span>
+                        </li>
+                        <li class="flex justify-between items-center">
+                            <p>Cortado</p>
+                            <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                            <span>$35</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div>
+                <div class="p-4 ">
+                    <div class="title flex justify-between items-center text-xl  ">
+                        <p>Latte</p>
+                        <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                        <p>$45</p>
+                    </div>
+                    <p class="text-xs my-2">Caliente, frio o frappe</p>
+                    <ul class="flex mt-2 space-x-2 text-sm">
+                        <li class="border border-black border-opacity-50 p-1 rounded">Crema Irlandesa (+$25)</li>
+                        <li class="border border-black border-opacity-50 p-1 rounded">Caramelo (+$25)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div>
+                <div class="p-4">
+                    <div class="title flex justify-between items-center text-xl  ">
+                        <p>Americano</p>
+                        <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                        <span>$30</span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="p-4">
+                    <div class="title flex justify-between items-center text-xl  ">
+                        <p>Mocha</p>
+                        <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                        <span>$60</span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="p-4">
+                    <div class="title flex justify-between items-center text-xl  ">
+                        <p>Taro</p>
+                        <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                        <span>$65</span>
+                    </div>
+                    <p class="text-xs my-2">Caliente, frio o frappe</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="p-4">
+                    <div class="title flex justify-between items-center text-xl  ">
+                        <p>Matcha</p>
+                        <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                        <span>$75</span>
+                    </div>
+                    <p class="text-xs my-2">Caliente, frio o frappe</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="p-4">
+                    <div class="title flex justify-between items-center text-xl  ">
+                        <p>Chai</p>
+                        <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                        <span>$70</span>
+                    </div>
+                    <p class="text-xs my-2">Con vanilla, especias, té verde. Caliente, frio o frappe</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="p-4">
+                    <div class="title flex justify-between items-center text-xl  ">
+                        <p>Infusiones</p>
+                        <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                        <span>$40</span>
+                    </div>
+                    <p class="text-xs my-2">Manzanilla / Té verde / Manzana-Canela / Hierbabuena / Limón</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="p-4">
+                    <div class="title flex justify-between items-center text-xl  ">
+                        <p>Tisanas</p>
+                        <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                        <span>$50</span>
+                    </div>
+                    <p class="text-xs my-2">Moras / Coco-Arandano / Fresa-Manzana</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="p-4">
+                    <div class="title flex justify-between items-center text-xl  ">
+                        <p>Chocolate Tradicional Mexicano</p>
+                        <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                        <span>$40</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <h2 class="text-3xl mt-8  text-center">Otras Bebidas</h2>
+        <div class="container mx-auto grid md:grid-cols-3 gap-4">
+
+            <div>
+                <div class="p-4">
+                    <div class="title flex justify-between items-center text-xl  ">
+                        <p>Sunsetti</p>
+                        <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                        <span>$55</span>
+                    </div>
+                    <p class="text-xs my-2">Con base de naranja y fresa, inspirada de los atardeceres de verano italiano</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="p-4">
+                    <div class="title flex justify-between items-center text-xl  ">
+                        <p>Jugo</p>
+                        <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                        <span>$35</span>
+                    </div>
+                    <p class="text-xs my-2">Naranja / Verde</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="p-4">
+                    <div class="title flex justify-between items-center text-xl  ">
+                        <p>Naranjada</p>
+                        <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                        <span>$35</span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="p-4">
+                    <div class="title flex justify-between items-center text-xl  ">
+                        <p>Refresco</p>
+                        <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                        <span>$25</span>
+                    </div>
+                    <p class="text-xs my-2">Coca / Coca-light / Fanta / Sprite / Sidral</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="p-4">
+                    <div class="title flex justify-between items-center text-xl  ">
+                        <p>Sodas Italianas</p>
+                        <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                        <span>$50</span>
+                    </div>
+                    <p class="text-xs my-2">Lichi / Mango / Fresa / Cereza / Coco / Sandia / Mojito</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="p-4 ">
+                    <div class="title flex justify-between items-center text-xl  ">
+                        <p>Agua Embotellada</p>
+                    </div>
+                    <ul class="text-base ">
+                        <li class="flex justify-between items-center">
+                            <p>Natural</p>
+                            <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                            <span>$15</span>
+                        </li>
+                        <li class="flex justify-between items-center">
+                            <p>Mineral</p>
+                            <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                            <span>$25</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+                
+        </div>
+
     </div>
     
 
