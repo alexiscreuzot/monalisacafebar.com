@@ -37,3 +37,190 @@ contact:
   title: Ubicacion <i>&</i> contacto
   address: Mariano Matamoros 2B, Centro<br/><b>76000 Santiago de Querétaro, Qro.</b>
   contact_us: Contáctanos
+
+
+menu_sections:
+  - section_name: Desayunos
+    columns: 2
+    menu_items:
+      - name: Chilaquiles
+        price: $60
+        description: Rojos os verdes. Acompañados de frijolitos refritos.
+        options:
+          - option_name: Mole artesanal
+            option_price: +$20
+          - option_name: Pollo
+            option_price: +$30
+          - option_name: Cecina
+            option_price: +$60
+      - name: Huevos al gusto
+        price: $65
+        description: Estrellados, divorciados, revueltos, omelete, rancheros. Con de frijolitos refritos.
+        options:
+          - option_name: Jamon
+            option_price: +$20
+          - option_name: Tocino
+            option_price: +$20
+          - option_name: Chorizo
+            option_price: +$45
+      - name: Enchiladas
+        price: $80
+        description: Rojos os verdes.Con frijolitos refritos.
+        options:
+          - option_name: Mole artesanal
+            option_price: +$20
+          - option_name: Pollo
+            option_price: +$30
+          - option_name: Cecina
+            option_price: +$60
+      - name: Molletes
+        price: $70
+        description: Acompañados de frijoles y pico de gallo.
+        options:
+          - option_name: Chorizo
+            option_price: +$30
+          - option_name: Jamon
+            option_price: $15
+      - name: Hotcakes
+        choices:
+          - choice_name: Tradicionales con mantequilla
+            choice_price: $55
+          - choice_name: Con frutos rojos y miel de maple
+            choice_price: $90
+        description: Esponjosos hot cakes caseros con un toque de vainilla
+
+  - section_name: Platos fuertes
+    columns: 2
+    menu_items:
+      - name: Hamburguesa
+        price: $130
+        description: Carne, mezcla de quesos, lechuga, tomate, cebolla caramelizada, aderezo de la casa. Acompañada de papas a la francesa.
+        options:
+          - option_name: Piña
+            option_price: +$15
+          - option_name: Tocino
+            option_price: +$15
+          - option_name: Carne extra
+            option_price: +$40
+      - name: Pepito
+        description: Acompañados de papas a la francesa y aderezo de la casa.
+        choices:
+          - choice_name: Arrachera
+            choice_price: $155
+          - choice_name: Pollo al pesto
+            choice_price: $135
+      - name: Tacos Gourmet
+        description: Acompañados de guacamole y de una rica salsa macha Veracruzana.
+        choices:
+          - choice_name: Arrachera
+            choice_price: $125
+          - choice_name: Cecina
+            choice_price: $125
+
+  - section_name: Ensaladas
+    columns: 2
+    menu_items:
+      - name: Ensalada Mona
+        price: $60
+        description: Mezcla de lechugas, espinaca, aguacate, queso panela, julianas de tortilla y chile guajillo.
+        options:
+          - option_name: Pollo
+            option_price: +$30
+          - option_name: Arrachera
+            option_price: +$60
+      - name: Ensalada Lisa
+        price: $85
+        description: Mezcla de lechugas, manzana, nuez caramelizada, arándanos, queso de cabra, vinagreta de miel y mostaza.
+        options:
+          - option_name: Pollo
+            option_price: +$30
+          - option_name: Arrachera
+            option_price: +$60
+
+  - section_name: Snacks
+    columns: 2
+    menu_items:
+      - name: Dedos de mozzarella
+        price: $85
+        description: Acompañados de salsa marinara de la casa.
+      - name: Papas a la Francesa
+        price: $75
+        description: Orden de 400g de deliciosas papas sazonadas con limón y pimienta.
+
+  - section_name: Postres
+    columns: 2
+    menu_items:
+      - name: Pastel
+        description: Ricos pasteles caseros.
+        choices:
+          - choice_name: De Zanahoria
+            choice_price: $65
+          - choice_name: De Chocolate
+            choice_price: $65
+          - choice_name: De Tres Leches (cajeta)
+            choice_price: $65
+      - name: Pan Dulce
+        price: $30
+  - section_name: Café y especialidades
+    columns: 3
+    menu_items:
+      - name: Espresso
+        choices:
+          - choice_name: Regular
+            choice_price: $30
+          - choice_name: Cortado
+            choice_price: $35
+      - name: Latte
+        price: $45
+        description: Caliente, frio o frappe
+        options:
+          - option_name: Crema Irlandesa
+            option_price: +$25
+          - option_name: Caramelo
+            option_price: +$25
+      - name: Americano
+        price: $30
+      - name: Mocha
+        price: $60
+      - name: Taro
+        price: $65
+        description: Caliente, frio o frappe
+      - name: Matcha
+        price: $75
+        description: Caliente, frio o frappe
+      - name: Chai
+        price: $70
+        description: Vanilla / Especias / Té verde. Caliente, frio o frappe
+      - name: Infusiones
+        price: $40
+        description: Manzanilla / Té verde / Manzana-Canela / Hierbabuena / Limón
+      - name: Tisanas
+        price: $50
+        description: Moras / Coco-Arandano / Fresa-Manzana
+      - name: Chocolate Tradicional Mexicano
+        price: $40
+
+  - section_name: Otras Bebidas
+    columns: 3
+    menu_items:
+      - name: Sunsetti
+        price: $55
+        description: Con base de naranja y fresa, inspirada de los atardeceres de verano italiano
+      - name: Jugo
+        price: $35
+        description: Naranja / Verde
+      - name: Naranjada
+        price: $35
+      - name: Refresco
+        price: $25
+        description: Coca / Coca-light / Fanta / Sprite / Sidral
+      - name: Sodas Italianas
+        price: $50
+        description: Lichi / Mango / Fresa / Cereza / Coco / Sandia / Mojito
+      - name: Agua Embotellada
+        choices:
+          - choice_name: Natural
+            choice_price: $15
+          - choice_name: Mineral
+            choice_price: $25
+
