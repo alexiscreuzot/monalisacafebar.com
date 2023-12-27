@@ -1,3 +1,7 @@
+global:
+  current_lang: English
+  current_lang_id: en
+
 head:
   title: "Monalisa Café-Bar: Tranquil Café in the Center of Querétaro"
   description: In the heart of Querétaro, enjoy the authenticity of Veracruz coffee at our café-bar. A vibrant destination that combines tradition and modernity to provide unforgettable culinary experiences and high-quality service.

@@ -1,0 +1,23 @@
+.languages {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px 40px;
+    z-index: 100;
+}
+.languages ul li {
+    display: inline;
+}
+.languages ul li a {
+    text-decoration: none;
+    font-size: 40px; /* Adjust the font size as needed */
+    margin-left: 10px; /* Adjust the margin as needed */
+}
+
+.languages ul li a {
+    opacity: 0.5; /* Adjust the opacity for the inactive language link */
+}
+
+.languages a.selected, .languages a:hover {
+    opacity: 1; /* Adjust the opacity for the active language link */
+}
