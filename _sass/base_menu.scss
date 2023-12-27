@@ -1,0 +1,123 @@
+body {
+    background: #e4dccb;
+    padding: 0.5rem 1rem;
+}
+
+h2 {
+    font-family: 'Atteron', serif;
+    font-size: 1.5rem;
+}
+
+#content, #header {
+    background: #FCECDD;
+}
+
+#header {
+    border-radius: 50% 50% 0 0;
+    padding: 2rem 2rem 0 2rem;
+}
+
+#content {
+    padding: 0 2rem 2rem 2rem;
+    border-radius: 0 0 20px 20px;
+}
+
+
+.languages {
+    position: relative;
+    padding: 20px 0 0 0;
+    z-index: 100;
+    text-align: center;
+}
+
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-link {
+    width: 12rem;
+    max-width: 13rem;
+    opacity: 0.6;
+}
+
+.header-img {
+    width: 100%;
+}
+
+.section-title {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.grid {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    gap: 1rem;
+}
+
+.card {
+    padding: 1rem;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.25rem;
+}
+
+.small-text {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.option-list {
+    display: flex;
+    margin-top: 0.5rem;
+    column-gap: 0.5rem;
+    font-size: 0.875rem;
+}
+
+.option {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+}
+
+.choice-list {
+    font-size: 1rem;
+}
+
+.choice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dots {
+    border-style: solid;
+    border-width: 0 0 2px;
+    border-color: #000;
+    border-bottom-style: dotted;
+    flex-grow: 1;
+}
+
+@media (min-width: 768px) {
+
+    .md\:grid-cols-2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    
+    .md\:grid-cols-3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    body {
+        padding: 2rem 4rem;
+    }
+
+}

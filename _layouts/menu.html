@@ -5,69 +5,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee Menu</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="{{ "/assets/css/menu.css" | prepend: site.baseurl_root }}"/>
+    <link rel="stylesheet" href="{{ "/menu.css" | prepend: site.baseurl_root }}"/>
 </head>
+<body>
 
-<body class="md:p-12">
-
-    <div id="overlay">
-        <div class="leave1" data-sr-id="2"></div>
-        <div class="leave2" data-sr-id="3"></div>
-        <div class="leave3" data-sr-id="4"></div>
-        <div class="leave4" data-sr-id="5"></div>
-        <div class="leave5" data-sr-id="6"></div>
-    </div>
+    {% include overlay.html %}
 
     <div id="header">
 
-        <div class="flex items-center justify-center block">
-            <a class="w-52 opacity-60" href="{{ site.baseurl_root }}/">
-                <img src="{{ site.baseurl_root }}/assets/images/monalisa_b.png">
+        <div class="center-flex">
+            <a class="header-link" href="./index.html">
+                <img class="header-img" src="{{ site.baseurl_root }}/assets/images/monalisa_b.png">
             </a>
-            </div>
-            {% include languages.html %}
         </div>
+        {% include languages.html %}
+    </div>
     </div>
 
     <div id="content">
 
         {% for section in site.translations[site.lang].menu_sections %}
-        <h2 class="pt-8 text-center">{{ section.section_name }}</h2>
-        <div class="mx-auto grid md:grid-cols-{{ section.columns }} gap-4">
+        <h2 class="section-title">{{ section.section_name }}</h2>
+        <div class="grid md:grid-cols-{{ section.columns }}">
         
             {% for item in section.menu_items %}
-            <div>
-                <div class="p-4">
-                    <div class="title flex justify-between items-center text-xl ">
+            <div class="card">
+                <div class="title">
                     <p>{{ item.name }} <span class="font-semibold text-base"></span></p>
                     {% if item.price %}
-                    <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                    <div class="dots">&nbsp;</div>
                     {% endif %}
                     <p>{{ item.price }}</p>
-                    </div>
-                    <p class="text-xs my-2">{{ item.description }}</p>
-
-                    {% if item.options %}
-                    <ul class="flex mt-2 space-x-2 text-sm">
-                        {% for option in item.options %}
-                        <li class="border border-black border-opacity-50 p-1 rounded">{{ option.option_name }} ({{ option.option_price }})</li>
-                        {% endfor %}
-                    </ul>
-                    {% endif %}
-
-                    {% if item.choices %}
-                    <ul class="text-base "">
-                        {% for choice in item.choices %}
-                        <li class="flex justify-between items-center">
-                            <p>{{ choice.choice_name }}</p>
-                            <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
-                            <span>{{ choice.choice_price }}</span>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                    {% endif %}
                 </div>
+                <p class="small-text">{{ item.description }}</p>
+
+                {% if item.options %}
+                <ul class="option-list">
+                    {% for option in item.options %}
+                    <li class="option">{{ option.option_name }} ({{ option.option_price }})</li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+
+                {% if item.choices %}
+                <ul class="choice-list">
+                    {% for choice in item.choices %}
+                    <li class="choice">
+                        <p>{{ choice.choice_name }}</p>
+                        <div class="dots">&nbsp;</div>
+                        <span>{{ choice.choice_price }}</span>
+                    </li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
             </div>
             {% endfor %}
         </div>

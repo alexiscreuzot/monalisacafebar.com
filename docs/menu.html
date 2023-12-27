@@ -5,28 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee Menu</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/menu.css"/>
+    <link rel="stylesheet" href="/menu.css"/>
 </head>
-
-<body class="md:p-12">
+<body>
 
     <div id="overlay">
-        <div class="leave1" data-sr-id="2"></div>
-        <div class="leave2" data-sr-id="3"></div>
-        <div class="leave3" data-sr-id="4"></div>
-        <div class="leave4" data-sr-id="5"></div>
-        <div class="leave5" data-sr-id="6"></div>
-    </div>
+    <div class="leave1"></div>
+    <div class="leave2"></div>
+    <div class="leave3"></div>
+    <div class="leave4"></div>
+    <div class="leave5"></div>
+</div>
 
     <div id="header">
 
-        <div class="flex items-center justify-center block">
-            <a class="w-52 opacity-60" href="/">
-                <img src="/assets/images/monalisa_b.png">
+        <div class="center-flex">
+            <a class="header-link" href="./index.html">
+                <img class="header-img" src="/assets/images/monalisa_b.png">
             </a>
-            </div>
-            <div class="languages">
+        </div>
+        <div class="languages">
     <ul>
     
     
@@ -35,722 +33,662 @@
     <li><a href="/en/menu.html" >🇺🇸</a></li>
     </ul>
 </div>
-        </div>
+    </div>
     </div>
 
     <div id="content">
 
         
-        <h2 class="pt-8 text-center">Desayunos</h2>
-        <div class="mx-auto grid md:grid-cols-2 gap-4">
+        <h2 class="section-title">Desayunos</h2>
+        <div class="grid md:grid-cols-2">
         
             
-            <div>
-                <div class="p-4">
-                    <div class="title flex justify-between items-center text-xl ">
+            <div class="card">
+                <div class="title">
                     <p>Chilaquiles <span class="font-semibold text-base"></span></p>
                     
-                    <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                    <div class="dots">&nbsp;</div>
                     
                     <p>$60</p>
-                    </div>
-                    <p class="text-xs my-2">Rojos os verdes. Acompañados de frijolitos refritos.</p>
-
-                    
-                    <ul class="flex mt-2 space-x-2 text-sm">
-                        
-                        <li class="border border-black border-opacity-50 p-1 rounded">Mole artesanal (+$20)</li>
-                        
-                        <li class="border border-black border-opacity-50 p-1 rounded">Pollo (+$30)</li>
-                        
-                        <li class="border border-black border-opacity-50 p-1 rounded">Cecina (+$60)</li>
-                        
-                    </ul>
-                    
-
-                    
                 </div>
+                <p class="small-text">Rojos os verdes. Acompañados de frijolitos refritos.</p>
+
+                
+                <ul class="option-list">
+                    
+                    <li class="option">Mole artesanal (+$20)</li>
+                    
+                    <li class="option">Pollo (+$30)</li>
+                    
+                    <li class="option">Cecina (+$60)</li>
+                    
+                </ul>
+                
+
+                
             </div>
             
-            <div>
-                <div class="p-4">
-                    <div class="title flex justify-between items-center text-xl ">
+            <div class="card">
+                <div class="title">
                     <p>Huevos al gusto <span class="font-semibold text-base"></span></p>
                     
-                    <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                    <div class="dots">&nbsp;</div>
                     
                     <p>$65</p>
-                    </div>
-                    <p class="text-xs my-2">Estrellados, divorciados, revueltos, omelete, rancheros. Con de frijolitos refritos.</p>
-
-                    
-                    <ul class="flex mt-2 space-x-2 text-sm">
-                        
-                        <li class="border border-black border-opacity-50 p-1 rounded">Jamon (+$20)</li>
-                        
-                        <li class="border border-black border-opacity-50 p-1 rounded">Tocino (+$20)</li>
-                        
-                        <li class="border border-black border-opacity-50 p-1 rounded">Chorizo (+$45)</li>
-                        
-                    </ul>
-                    
-
-                    
                 </div>
+                <p class="small-text">Estrellados, divorciados, revueltos, omelete, rancheros. Con de frijolitos refritos.</p>
+
+                
+                <ul class="option-list">
+                    
+                    <li class="option">Jamon (+$20)</li>
+                    
+                    <li class="option">Tocino (+$20)</li>
+                    
+                    <li class="option">Chorizo (+$45)</li>
+                    
+                </ul>
+                
+
+                
             </div>
             
-            <div>
-                <div class="p-4">
-                    <div class="title flex justify-between items-center text-xl ">
+            <div class="card">
+                <div class="title">
                     <p>Enchiladas <span class="font-semibold text-base"></span></p>
                     
-                    <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                    <div class="dots">&nbsp;</div>
                     
                     <p>$80</p>
-                    </div>
-                    <p class="text-xs my-2">Rojos os verdes.Con frijolitos refritos.</p>
-
-                    
-                    <ul class="flex mt-2 space-x-2 text-sm">
-                        
-                        <li class="border border-black border-opacity-50 p-1 rounded">Mole artesanal (+$20)</li>
-                        
-                        <li class="border border-black border-opacity-50 p-1 rounded">Pollo (+$30)</li>
-                        
-                        <li class="border border-black border-opacity-50 p-1 rounded">Cecina (+$60)</li>
-                        
-                    </ul>
-                    
-
-                    
                 </div>
+                <p class="small-text">Rojos os verdes.Con frijolitos refritos.</p>
+
+                
+                <ul class="option-list">
+                    
+                    <li class="option">Mole artesanal (+$20)</li>
+                    
+                    <li class="option">Pollo (+$30)</li>
+                    
+                    <li class="option">Cecina (+$60)</li>
+                    
+                </ul>
+                
+
+                
             </div>
             
-            <div>
-                <div class="p-4">
-                    <div class="title flex justify-between items-center text-xl ">
+            <div class="card">
+                <div class="title">
                     <p>Molletes <span class="font-semibold text-base"></span></p>
                     
-                    <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                    <div class="dots">&nbsp;</div>
                     
                     <p>$70</p>
-                    </div>
-                    <p class="text-xs my-2">Acompañados de frijoles y pico de gallo.</p>
-
-                    
-                    <ul class="flex mt-2 space-x-2 text-sm">
-                        
-                        <li class="border border-black border-opacity-50 p-1 rounded">Chorizo (+$30)</li>
-                        
-                        <li class="border border-black border-opacity-50 p-1 rounded">Jamon ($15)</li>
-                        
-                    </ul>
-                    
-
-                    
                 </div>
+                <p class="small-text">Acompañados de frijoles y pico de gallo.</p>
+
+                
+                <ul class="option-list">
+                    
+                    <li class="option">Chorizo (+$30)</li>
+                    
+                    <li class="option">Jamon ($15)</li>
+                    
+                </ul>
+                
+
+                
             </div>
             
-            <div>
-                <div class="p-4">
-                    <div class="title flex justify-between items-center text-xl ">
+            <div class="card">
+                <div class="title">
                     <p>Hotcakes <span class="font-semibold text-base"></span></p>
                     
                     <p></p>
-                    </div>
-                    <p class="text-xs my-2">Esponjosos hot cakes caseros con un toque de vainilla</p>
-
-                    
-
-                    
-                    <ul class="text-base "">
-                        
-                        <li class="flex justify-between items-center">
-                            <p>Tradicionales con mantequilla</p>
-                            <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
-                            <span>$55</span>
-                        </li>
-                        
-                        <li class="flex justify-between items-center">
-                            <p>Con frutos rojos y miel de maple</p>
-                            <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
-                            <span>$90</span>
-                        </li>
-                        
-                    </ul>
-                    
                 </div>
+                <p class="small-text">Esponjosos hot cakes caseros con un toque de vainilla</p>
+
+                
+
+                
+                <ul class="choice-list">
+                    
+                    <li class="choice">
+                        <p>Tradicionales con mantequilla</p>
+                        <div class="dots">&nbsp;</div>
+                        <span>$55</span>
+                    </li>
+                    
+                    <li class="choice">
+                        <p>Con frutos rojos y miel de maple</p>
+                        <div class="dots">&nbsp;</div>
+                        <span>$90</span>
+                    </li>
+                    
+                </ul>
+                
             </div>
             
         </div>
         
-        <h2 class="pt-8 text-center">Platos fuertes</h2>
-        <div class="mx-auto grid md:grid-cols-2 gap-4">
+        <h2 class="section-title">Platos fuertes</h2>
+        <div class="grid md:grid-cols-2">
         
             
-            <div>
-                <div class="p-4">
-                    <div class="title flex justify-between items-center text-xl ">
+            <div class="card">
+                <div class="title">
                     <p>Hamburguesa <span class="font-semibold text-base"></span></p>
                     
-                    <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                    <div class="dots">&nbsp;</div>
                     
                     <p>$130</p>
-                    </div>
-                    <p class="text-xs my-2">Carne, mezcla de quesos, lechuga, tomate, cebolla caramelizada, aderezo de la casa. Acompañada de papas a la francesa.</p>
-
-                    
-                    <ul class="flex mt-2 space-x-2 text-sm">
-                        
-                        <li class="border border-black border-opacity-50 p-1 rounded">Piña (+$15)</li>
-                        
-                        <li class="border border-black border-opacity-50 p-1 rounded">Tocino (+$15)</li>
-                        
-                        <li class="border border-black border-opacity-50 p-1 rounded">Carne extra (+$40)</li>
-                        
-                    </ul>
-                    
-
-                    
                 </div>
+                <p class="small-text">Carne, mezcla de quesos, lechuga, tomate, cebolla caramelizada, aderezo de la casa. Acompañada de papas a la francesa.</p>
+
+                
+                <ul class="option-list">
+                    
+                    <li class="option">Piña (+$15)</li>
+                    
+                    <li class="option">Tocino (+$15)</li>
+                    
+                    <li class="option">Carne extra (+$40)</li>
+                    
+                </ul>
+                
+
+                
             </div>
             
-            <div>
-                <div class="p-4">
-                    <div class="title flex justify-between items-center text-xl ">
+            <div class="card">
+                <div class="title">
                     <p>Pepito <span class="font-semibold text-base"></span></p>
                     
                     <p></p>
-                    </div>
-                    <p class="text-xs my-2">Acompañados de papas a la francesa y aderezo de la casa.</p>
-
-                    
-
-                    
-                    <ul class="text-base "">
-                        
-                        <li class="flex justify-between items-center">
-                            <p>Arrachera</p>
-                            <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
-                            <span>$155</span>
-                        </li>
-                        
-                        <li class="flex justify-between items-center">
-                            <p>Pollo al pesto</p>
-                            <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
-                            <span>$135</span>
-                        </li>
-                        
-                    </ul>
-                    
                 </div>
+                <p class="small-text">Acompañados de papas a la francesa y aderezo de la casa.</p>
+
+                
+
+                
+                <ul class="choice-list">
+                    
+                    <li class="choice">
+                        <p>Arrachera</p>
+                        <div class="dots">&nbsp;</div>
+                        <span>$155</span>
+                    </li>
+                    
+                    <li class="choice">
+                        <p>Pollo al pesto</p>
+                        <div class="dots">&nbsp;</div>
+                        <span>$135</span>
+                    </li>
+                    
+                </ul>
+                
             </div>
             
-            <div>
-                <div class="p-4">
-                    <div class="title flex justify-between items-center text-xl ">
+            <div class="card">
+                <div class="title">
                     <p>Tacos Gourmet <span class="font-semibold text-base"></span></p>
                     
                     <p></p>
-                    </div>
-                    <p class="text-xs my-2">Acompañados de guacamole y de una rica salsa macha Veracruzana.</p>
-
-                    
-
-                    
-                    <ul class="text-base "">
-                        
-                        <li class="flex justify-between items-center">
-                            <p>Arrachera</p>
-                            <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
-                            <span>$125</span>
-                        </li>
-                        
-                        <li class="flex justify-between items-center">
-                            <p>Cecina</p>
-                            <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
-                            <span>$125</span>
-                        </li>
-                        
-                    </ul>
-                    
                 </div>
+                <p class="small-text">Acompañados de guacamole y de una rica salsa macha Veracruzana.</p>
+
+                
+
+                
+                <ul class="choice-list">
+                    
+                    <li class="choice">
+                        <p>Arrachera</p>
+                        <div class="dots">&nbsp;</div>
+                        <span>$125</span>
+                    </li>
+                    
+                    <li class="choice">
+                        <p>Cecina</p>
+                        <div class="dots">&nbsp;</div>
+                        <span>$125</span>
+                    </li>
+                    
+                </ul>
+                
             </div>
             
         </div>
         
-        <h2 class="pt-8 text-center">Ensaladas</h2>
-        <div class="mx-auto grid md:grid-cols-2 gap-4">
+        <h2 class="section-title">Ensaladas</h2>
+        <div class="grid md:grid-cols-2">
         
             
-            <div>
-                <div class="p-4">
-                    <div class="title flex justify-between items-center text-xl ">
+            <div class="card">
+                <div class="title">
                     <p>Ensalada Mona <span class="font-semibold text-base"></span></p>
                     
-                    <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                    <div class="dots">&nbsp;</div>
                     
                     <p>$60</p>
-                    </div>
-                    <p class="text-xs my-2">Mezcla de lechugas, espinaca, aguacate, queso panela, julianas de tortilla y chile guajillo.</p>
-
-                    
-                    <ul class="flex mt-2 space-x-2 text-sm">
-                        
-                        <li class="border border-black border-opacity-50 p-1 rounded">Pollo (+$30)</li>
-                        
-                        <li class="border border-black border-opacity-50 p-1 rounded">Arrachera (+$60)</li>
-                        
-                    </ul>
-                    
-
-                    
                 </div>
+                <p class="small-text">Mezcla de lechugas, espinaca, aguacate, queso panela, julianas de tortilla y chile guajillo.</p>
+
+                
+                <ul class="option-list">
+                    
+                    <li class="option">Pollo (+$30)</li>
+                    
+                    <li class="option">Arrachera (+$60)</li>
+                    
+                </ul>
+                
+
+                
             </div>
             
-            <div>
-                <div class="p-4">
-                    <div class="title flex justify-between items-center text-xl ">
+            <div class="card">
+                <div class="title">
                     <p>Ensalada Lisa <span class="font-semibold text-base"></span></p>
                     
-                    <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                    <div class="dots">&nbsp;</div>
                     
                     <p>$85</p>
-                    </div>
-                    <p class="text-xs my-2">Mezcla de lechugas, manzana, nuez caramelizada, arándanos, queso de cabra, vinagreta de miel y mostaza.</p>
-
-                    
-                    <ul class="flex mt-2 space-x-2 text-sm">
-                        
-                        <li class="border border-black border-opacity-50 p-1 rounded">Pollo (+$30)</li>
-                        
-                        <li class="border border-black border-opacity-50 p-1 rounded">Arrachera (+$60)</li>
-                        
-                    </ul>
-                    
-
-                    
                 </div>
+                <p class="small-text">Mezcla de lechugas, manzana, nuez caramelizada, arándanos, queso de cabra, vinagreta de miel y mostaza.</p>
+
+                
+                <ul class="option-list">
+                    
+                    <li class="option">Pollo (+$30)</li>
+                    
+                    <li class="option">Arrachera (+$60)</li>
+                    
+                </ul>
+                
+
+                
             </div>
             
         </div>
         
-        <h2 class="pt-8 text-center">Snacks</h2>
-        <div class="mx-auto grid md:grid-cols-2 gap-4">
+        <h2 class="section-title">Snacks</h2>
+        <div class="grid md:grid-cols-2">
         
             
-            <div>
-                <div class="p-4">
-                    <div class="title flex justify-between items-center text-xl ">
+            <div class="card">
+                <div class="title">
                     <p>Dedos de mozzarella <span class="font-semibold text-base"></span></p>
                     
-                    <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                    <div class="dots">&nbsp;</div>
                     
                     <p>$85</p>
-                    </div>
-                    <p class="text-xs my-2">Acompañados de salsa marinara de la casa.</p>
-
-                    
-
-                    
                 </div>
+                <p class="small-text">Acompañados de salsa marinara de la casa.</p>
+
+                
+
+                
             </div>
             
-            <div>
-                <div class="p-4">
-                    <div class="title flex justify-between items-center text-xl ">
+            <div class="card">
+                <div class="title">
                     <p>Papas a la Francesa <span class="font-semibold text-base"></span></p>
                     
-                    <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                    <div class="dots">&nbsp;</div>
                     
                     <p>$75</p>
-                    </div>
-                    <p class="text-xs my-2">Orden de 400g de deliciosas papas sazonadas con limón y pimienta.</p>
-
-                    
-
-                    
                 </div>
+                <p class="small-text">Orden de 400g de deliciosas papas sazonadas con limón y pimienta.</p>
+
+                
+
+                
             </div>
             
         </div>
         
-        <h2 class="pt-8 text-center">Postres</h2>
-        <div class="mx-auto grid md:grid-cols-2 gap-4">
+        <h2 class="section-title">Postres</h2>
+        <div class="grid md:grid-cols-2">
         
             
-            <div>
-                <div class="p-4">
-                    <div class="title flex justify-between items-center text-xl ">
+            <div class="card">
+                <div class="title">
                     <p>Pastel <span class="font-semibold text-base"></span></p>
                     
                     <p></p>
-                    </div>
-                    <p class="text-xs my-2">Ricos pasteles caseros.</p>
-
-                    
-
-                    
-                    <ul class="text-base "">
-                        
-                        <li class="flex justify-between items-center">
-                            <p>De Zanahoria</p>
-                            <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
-                            <span>$65</span>
-                        </li>
-                        
-                        <li class="flex justify-between items-center">
-                            <p>De Chocolate</p>
-                            <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
-                            <span>$65</span>
-                        </li>
-                        
-                        <li class="flex justify-between items-center">
-                            <p>De Tres Leches (cajeta)</p>
-                            <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
-                            <span>$65</span>
-                        </li>
-                        
-                    </ul>
-                    
                 </div>
+                <p class="small-text">Ricos pasteles caseros.</p>
+
+                
+
+                
+                <ul class="choice-list">
+                    
+                    <li class="choice">
+                        <p>De Zanahoria</p>
+                        <div class="dots">&nbsp;</div>
+                        <span>$65</span>
+                    </li>
+                    
+                    <li class="choice">
+                        <p>De Chocolate</p>
+                        <div class="dots">&nbsp;</div>
+                        <span>$65</span>
+                    </li>
+                    
+                    <li class="choice">
+                        <p>De Tres Leches (cajeta)</p>
+                        <div class="dots">&nbsp;</div>
+                        <span>$65</span>
+                    </li>
+                    
+                </ul>
+                
             </div>
             
-            <div>
-                <div class="p-4">
-                    <div class="title flex justify-between items-center text-xl ">
+            <div class="card">
+                <div class="title">
                     <p>Pan Dulce <span class="font-semibold text-base"></span></p>
                     
-                    <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                    <div class="dots">&nbsp;</div>
                     
                     <p>$30</p>
-                    </div>
-                    <p class="text-xs my-2"></p>
-
-                    
-
-                    
                 </div>
+                <p class="small-text"></p>
+
+                
+
+                
             </div>
             
         </div>
         
-        <h2 class="pt-8 text-center">Café y especialidades</h2>
-        <div class="mx-auto grid md:grid-cols-3 gap-4">
+        <h2 class="section-title">Café y especialidades</h2>
+        <div class="grid md:grid-cols-3">
         
             
-            <div>
-                <div class="p-4">
-                    <div class="title flex justify-between items-center text-xl ">
+            <div class="card">
+                <div class="title">
                     <p>Espresso <span class="font-semibold text-base"></span></p>
                     
                     <p></p>
-                    </div>
-                    <p class="text-xs my-2"></p>
-
-                    
-
-                    
-                    <ul class="text-base "">
-                        
-                        <li class="flex justify-between items-center">
-                            <p>Regular</p>
-                            <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
-                            <span>$30</span>
-                        </li>
-                        
-                        <li class="flex justify-between items-center">
-                            <p>Cortado</p>
-                            <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
-                            <span>$35</span>
-                        </li>
-                        
-                    </ul>
-                    
                 </div>
+                <p class="small-text"></p>
+
+                
+
+                
+                <ul class="choice-list">
+                    
+                    <li class="choice">
+                        <p>Regular</p>
+                        <div class="dots">&nbsp;</div>
+                        <span>$30</span>
+                    </li>
+                    
+                    <li class="choice">
+                        <p>Cortado</p>
+                        <div class="dots">&nbsp;</div>
+                        <span>$35</span>
+                    </li>
+                    
+                </ul>
+                
             </div>
             
-            <div>
-                <div class="p-4">
-                    <div class="title flex justify-between items-center text-xl ">
+            <div class="card">
+                <div class="title">
                     <p>Latte <span class="font-semibold text-base"></span></p>
                     
-                    <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                    <div class="dots">&nbsp;</div>
                     
                     <p>$45</p>
-                    </div>
-                    <p class="text-xs my-2">Caliente, frio o frappe</p>
-
-                    
-                    <ul class="flex mt-2 space-x-2 text-sm">
-                        
-                        <li class="border border-black border-opacity-50 p-1 rounded">Crema Irlandesa (+$25)</li>
-                        
-                        <li class="border border-black border-opacity-50 p-1 rounded">Caramelo (+$25)</li>
-                        
-                    </ul>
-                    
-
-                    
                 </div>
+                <p class="small-text">Caliente, frio o frappe</p>
+
+                
+                <ul class="option-list">
+                    
+                    <li class="option">Crema Irlandesa (+$25)</li>
+                    
+                    <li class="option">Caramelo (+$25)</li>
+                    
+                </ul>
+                
+
+                
             </div>
             
-            <div>
-                <div class="p-4">
-                    <div class="title flex justify-between items-center text-xl ">
+            <div class="card">
+                <div class="title">
                     <p>Americano <span class="font-semibold text-base"></span></p>
                     
-                    <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                    <div class="dots">&nbsp;</div>
                     
                     <p>$30</p>
-                    </div>
-                    <p class="text-xs my-2"></p>
-
-                    
-
-                    
                 </div>
+                <p class="small-text"></p>
+
+                
+
+                
             </div>
             
-            <div>
-                <div class="p-4">
-                    <div class="title flex justify-between items-center text-xl ">
+            <div class="card">
+                <div class="title">
                     <p>Mocha <span class="font-semibold text-base"></span></p>
                     
-                    <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                    <div class="dots">&nbsp;</div>
                     
                     <p>$60</p>
-                    </div>
-                    <p class="text-xs my-2"></p>
-
-                    
-
-                    
                 </div>
+                <p class="small-text"></p>
+
+                
+
+                
             </div>
             
-            <div>
-                <div class="p-4">
-                    <div class="title flex justify-between items-center text-xl ">
+            <div class="card">
+                <div class="title">
                     <p>Taro <span class="font-semibold text-base"></span></p>
                     
-                    <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                    <div class="dots">&nbsp;</div>
                     
                     <p>$65</p>
-                    </div>
-                    <p class="text-xs my-2">Caliente, frio o frappe</p>
-
-                    
-
-                    
                 </div>
+                <p class="small-text">Caliente, frio o frappe</p>
+
+                
+
+                
             </div>
             
-            <div>
-                <div class="p-4">
-                    <div class="title flex justify-between items-center text-xl ">
+            <div class="card">
+                <div class="title">
                     <p>Matcha <span class="font-semibold text-base"></span></p>
                     
-                    <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                    <div class="dots">&nbsp;</div>
                     
                     <p>$75</p>
-                    </div>
-                    <p class="text-xs my-2">Caliente, frio o frappe</p>
-
-                    
-
-                    
                 </div>
+                <p class="small-text">Caliente, frio o frappe</p>
+
+                
+
+                
             </div>
             
-            <div>
-                <div class="p-4">
-                    <div class="title flex justify-between items-center text-xl ">
+            <div class="card">
+                <div class="title">
                     <p>Chai <span class="font-semibold text-base"></span></p>
                     
-                    <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                    <div class="dots">&nbsp;</div>
                     
                     <p>$70</p>
-                    </div>
-                    <p class="text-xs my-2">Vanilla / Especias / Té verde. Caliente, frio o frappe</p>
-
-                    
-
-                    
                 </div>
+                <p class="small-text">Vanilla / Especias / Té verde. Caliente, frio o frappe</p>
+
+                
+
+                
             </div>
             
-            <div>
-                <div class="p-4">
-                    <div class="title flex justify-between items-center text-xl ">
+            <div class="card">
+                <div class="title">
                     <p>Infusiones <span class="font-semibold text-base"></span></p>
                     
-                    <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                    <div class="dots">&nbsp;</div>
                     
                     <p>$40</p>
-                    </div>
-                    <p class="text-xs my-2">Manzanilla / Té verde / Manzana-Canela / Hierbabuena / Limón</p>
-
-                    
-
-                    
                 </div>
+                <p class="small-text">Manzanilla / Té verde / Manzana-Canela / Hierbabuena / Limón</p>
+
+                
+
+                
             </div>
             
-            <div>
-                <div class="p-4">
-                    <div class="title flex justify-between items-center text-xl ">
+            <div class="card">
+                <div class="title">
                     <p>Tisanas <span class="font-semibold text-base"></span></p>
                     
-                    <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                    <div class="dots">&nbsp;</div>
                     
                     <p>$50</p>
-                    </div>
-                    <p class="text-xs my-2">Moras / Coco-Arandano / Fresa-Manzana</p>
-
-                    
-
-                    
                 </div>
+                <p class="small-text">Moras / Coco-Arandano / Fresa-Manzana</p>
+
+                
+
+                
             </div>
             
-            <div>
-                <div class="p-4">
-                    <div class="title flex justify-between items-center text-xl ">
+            <div class="card">
+                <div class="title">
                     <p>Chocolate Tradicional Mexicano <span class="font-semibold text-base"></span></p>
                     
-                    <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                    <div class="dots">&nbsp;</div>
                     
                     <p>$40</p>
-                    </div>
-                    <p class="text-xs my-2"></p>
-
-                    
-
-                    
                 </div>
+                <p class="small-text"></p>
+
+                
+
+                
             </div>
             
         </div>
         
-        <h2 class="pt-8 text-center">Otras Bebidas</h2>
-        <div class="mx-auto grid md:grid-cols-3 gap-4">
+        <h2 class="section-title">Otras Bebidas</h2>
+        <div class="grid md:grid-cols-3">
         
             
-            <div>
-                <div class="p-4">
-                    <div class="title flex justify-between items-center text-xl ">
+            <div class="card">
+                <div class="title">
                     <p>Sunsetti <span class="font-semibold text-base"></span></p>
                     
-                    <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                    <div class="dots">&nbsp;</div>
                     
                     <p>$55</p>
-                    </div>
-                    <p class="text-xs my-2">Con base de naranja y fresa, inspirada de los atardeceres de verano italiano</p>
-
-                    
-
-                    
                 </div>
+                <p class="small-text">Con base de naranja y fresa, inspirada de los atardeceres de verano italiano</p>
+
+                
+
+                
             </div>
             
-            <div>
-                <div class="p-4">
-                    <div class="title flex justify-between items-center text-xl ">
+            <div class="card">
+                <div class="title">
                     <p>Jugo <span class="font-semibold text-base"></span></p>
                     
-                    <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                    <div class="dots">&nbsp;</div>
                     
                     <p>$35</p>
-                    </div>
-                    <p class="text-xs my-2">Naranja / Verde</p>
-
-                    
-
-                    
                 </div>
+                <p class="small-text">Naranja / Verde</p>
+
+                
+
+                
             </div>
             
-            <div>
-                <div class="p-4">
-                    <div class="title flex justify-between items-center text-xl ">
+            <div class="card">
+                <div class="title">
                     <p>Naranjada <span class="font-semibold text-base"></span></p>
                     
-                    <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                    <div class="dots">&nbsp;</div>
                     
                     <p>$35</p>
-                    </div>
-                    <p class="text-xs my-2"></p>
-
-                    
-
-                    
                 </div>
+                <p class="small-text"></p>
+
+                
+
+                
             </div>
             
-            <div>
-                <div class="p-4">
-                    <div class="title flex justify-between items-center text-xl ">
+            <div class="card">
+                <div class="title">
                     <p>Refresco <span class="font-semibold text-base"></span></p>
                     
-                    <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                    <div class="dots">&nbsp;</div>
                     
                     <p>$25</p>
-                    </div>
-                    <p class="text-xs my-2">Coca / Coca-light / Fanta / Sprite / Sidral</p>
-
-                    
-
-                    
                 </div>
+                <p class="small-text">Coca / Coca-light / Fanta / Sprite / Sidral</p>
+
+                
+
+                
             </div>
             
-            <div>
-                <div class="p-4">
-                    <div class="title flex justify-between items-center text-xl ">
+            <div class="card">
+                <div class="title">
                     <p>Sodas Italianas <span class="font-semibold text-base"></span></p>
                     
-                    <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
+                    <div class="dots">&nbsp;</div>
                     
                     <p>$50</p>
-                    </div>
-                    <p class="text-xs my-2">Lichi / Mango / Fresa / Cereza / Coco / Sandia / Mojito</p>
-
-                    
-
-                    
                 </div>
+                <p class="small-text">Lichi / Mango / Fresa / Cereza / Coco / Sandia / Mojito</p>
+
+                
+
+                
             </div>
             
-            <div>
-                <div class="p-4">
-                    <div class="title flex justify-between items-center text-xl ">
+            <div class="card">
+                <div class="title">
                     <p>Agua Embotellada <span class="font-semibold text-base"></span></p>
                     
                     <p></p>
-                    </div>
-                    <p class="text-xs my-2"></p>
-
-                    
-
-                    
-                    <ul class="text-base "">
-                        
-                        <li class="flex justify-between items-center">
-                            <p>Natural</p>
-                            <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
-                            <span>$15</span>
-                        </li>
-                        
-                        <li class="flex justify-between items-center">
-                            <p>Mineral</p>
-                            <div class="dots flex-grow border-solid border-b-2 border-black border-dotted border-bottom border-opacity-50">&nbsp;</div>
-                            <span>$25</span>
-                        </li>
-                        
-                    </ul>
-                    
                 </div>
+                <p class="small-text"></p>
+
+                
+
+                
+                <ul class="choice-list">
+                    
+                    <li class="choice">
+                        <p>Natural</p>
+                        <div class="dots">&nbsp;</div>
+                        <span>$15</span>
+                    </li>
+                    
+                    <li class="choice">
+                        <p>Mineral</p>
+                        <div class="dots">&nbsp;</div>
+                        <span>$25</span>
+                    </li>
+                    
+                </ul>
+                
             </div>
             
         </div>
