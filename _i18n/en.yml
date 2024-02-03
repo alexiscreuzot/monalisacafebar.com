@@ -17,25 +17,25 @@ menu:
   schedule:
     - 
       day: Monday
-      hours: 8:30am - 10:00pm
+      hours: 9:30am - 10:00pm
     -
       day: Tuesday
       hours: Closed
     -
       day: Wednesday
-      hours: 8:30am - 10:00pm
+      hours: 9:30am - 10:00pm
     - 
       day: Thursday
-      hours: 8:30am - 10:00pm
+      hours: 9:30am - 10:00pm
     - 
       day: Friday
-      hours: 8:30am - 11:00pm
+      hours: 9:30am - 11:00pm
     - 
       day: Saturday
-      hours: 8:30am - 11:00pm
+      hours: 9:30am - 11:00pm
     - 
       day: Sunday
-      hours: 8:30am - 10:00pm
+      hours: 9:30am - 10:00pm
   
 contact:
   title: Location <i>&</i> Contact

@@ -17,25 +17,25 @@ menu:
   schedule:
     - 
       day: Lunes
-      hours: 8:30am - 10:00pm
+      hours: 9:30am - 10:00pm
     -
       day: Martes
       hours: Cerrado
     -
       day: Miércoles
-      hours: 8:30am - 10:00pm
+      hours: 9:30am - 10:00pm
     - 
       day: Jueves
-      hours: 8:30am - 10:00pm
+      hours: 9:30am - 10:00pm
     - 
       day: Viernes
-      hours: 8:30am - 11:00pm
+      hours: 9:30am - 11:00pm
     - 
       day: Sábado
-      hours: 8:30am - 11:00pm
+      hours: 9:30am - 11:00pm
     - 
       day: Domingo
-      hours: 8:30am - 10:00pm
+      hours: 9:30am - 10:00pm
   
 contact:
   title: Ubicacion <i>&</i> contacto
