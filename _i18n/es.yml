@@ -51,7 +51,7 @@ menu_sections:
       - name: ✪ Chilaquiles
         price: $60
         description: Rojos os verdes. Acompañados de frijolitos refritos.
-        image: chilaquiles.png
+        image: chilaquiles.jpeg
         options:
           - option_name: Mole
             option_price: +$20
@@ -62,7 +62,7 @@ menu_sections:
       - name: Huevos al gusto
         price: $65
         description: Estrellados, divorciados, revueltos, omelete, rancheros. Con de frijolitos refritos.
-        image: huevos.png
+        image: huevos.jpeg
         options:
           - option_name: Jamon
             option_price: +$20
@@ -73,7 +73,7 @@ menu_sections:
       - name: Enchiladas
         price: $80
         description: Rojos os verdes.Con frijolitos refritos.
-        image: enchiladas.png
+        image: enchiladas.jpeg
         options:
           - option_name: ✪ Mole
             option_price: +$20
@@ -84,14 +84,14 @@ menu_sections:
       - name: Molletes
         price: $70
         description: Acompañados de frijoles y pico de gallo.
-        image: molletes.png
+        image: molletes.jpeg
         options:
           - option_name: Chorizo
             option_price: +$30
           - option_name: Jamon
             option_price: $15
       - name: Hotcakes
-        image: hotcakes.png
+        image: hotcakes.jpeg
         choices:
           - choice_name: Tradicionales con mantequilla
             choice_price: $55
@@ -105,7 +105,7 @@ menu_sections:
       - name: ✪ Hamburguesa
         price: $130
         description: Carne, mezcla de quesos, lechuga, tomate, cebolla caramelizada, aderezo de la casa. Acompañada de papas a la francesa.
-        image: burger.png
+        image: burger.jpeg
         options:
           - option_name: Piña
             option_price: +$15
@@ -115,7 +115,7 @@ menu_sections:
             option_price: +$40
       - name: Pepito
         description: Acompañados de papas a la francesa y aderezo de la casa.
-        image: pepito.png
+        image: pepito.jpeg
         choices:
           - choice_name: Arrachera
             choice_price: $155
@@ -123,7 +123,7 @@ menu_sections:
             choice_price: $135
       - name: Tacos Gourmet
         description: Acompañados de guacamole y de una rica salsa macha Veracruzana.
-        image: tacos.png
+        image: tacos.jpeg
         choices:
           - choice_name: Arrachera
             choice_price: $125
@@ -136,7 +136,7 @@ menu_sections:
       - name: Ensalada Mona
         price: $60
         description: Mezcla de lechugas, espinaca, aguacate, queso panela, julianas de tortilla y chile guajillo.
-        image: ensalada_mona.png
+        image: ensalada_mona.jpeg
         options:
           - option_name: Pollo
             option_price: +$30
@@ -145,7 +145,7 @@ menu_sections:
       - name: Ensalada Lisa
         price: $85
         description: Mezcla de lechugas, manzana, nuez caramelizada, arándanos, queso de cabra, vinagreta de miel y mostaza.
-        image: ensalada_lisa.png
+        image: ensalada_lisa.jpeg
         options:
           - option_name: Pollo
             option_price: +$30
@@ -158,7 +158,7 @@ menu_sections:
       - name: Dedos de mozzarella
         price: $85
         description: Acompañados de salsa marinara de la casa.
-        image: dedos.png
+        image: dedos.jpeg
       - name: Papas a la Francesa
         price: $75
         description: Orden de 400g de deliciosas papas sazonadas con limón y pimienta.
@@ -168,7 +168,7 @@ menu_sections:
     menu_items:
       - name: Pastel
         description: Ricos pasteles caseros.
-        image: pastel.png
+        image: pastel.jpeg
         choices:
           - choice_name: De Zanahoria
             choice_price: $65
@@ -223,11 +223,18 @@ menu_sections:
       - name: Sunsetti
         price: $55
         description: Con base de naranja y fresa, inspirada de los atardeceres de verano italiano
+        image: sunsetti.jpeg
+      - name: Cherry Tonic
+        price: $55
+        description: Con base de cereza, tónica y un shot de espresso
+        image: cherry_tonic.jpeg
+      - name: Naranjada / Limonada
+        price: $35
+        description: Con agua natural o mineral
+        image: lemonada.jpeg
       - name: Jugo
         price: $35
         description: Naranja / Verde
-      - name: Naranjada / Limonada
-        price: $35
       - name: Refresco
         price: $25
         description: Coca / Coca-light / Fanta / Sprite / Sidral

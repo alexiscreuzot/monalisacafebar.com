@@ -210,11 +210,14 @@ menu_sections:
       - name: Sunsetti
         price: $55
         description: With a base of orange and strawberry, inspired by Italian summer sunsets.
+      - name: Cherry Tonic
+        price: $55
+        description: With a base of cherry and tonic water, topped with a shot of espresso
+      - name: Orangeade / Lemonade
+        price: $35
       - name: Juice
         price: $35
         description: Orange / Green
-      - name: Orangeade / Lemonade
-        price: $35
       - name: Soft Drinks
         price: $25
         description: Coca-Cola / Diet Coca-Cola / Fanta / Sprite / Sidral
