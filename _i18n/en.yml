@@ -13,6 +13,7 @@ intro: "<b>Our delicious coffee comes from the Coatepec region in Veracruz</b>, 
   At Monalisa, we take care of making <b>our own blend of 100% Arabica variety</b>, achieving predominant notes of nuts, almonds, chocolate, caramel, grapefruit, and lime fruits, with medium acidity, creating a unique flavor and aroma."
 
 menu:
+  recommendations:  ✪ Chef specials
   title: Menu <i>&</i> Hours
   schedule:
     - 
@@ -46,7 +47,7 @@ menu_sections:
   - section_name: Breakfast
     columns: 2
     menu_items:
-      - name: Chilaquiles
+      - name: ✪ Chilaquiles
         price: $60
         description: Red or green. Accompanied by refried beans.
         options:
@@ -70,7 +71,7 @@ menu_sections:
         price: $80
         description: Red or green. With refried beans.
         options:
-          - option_name: Homemade mole
+          - option_name: ✪ Homemade mole
             option_price: +$20
           - option_name: Chicken
             option_price: +$30
@@ -95,7 +96,7 @@ menu_sections:
   - section_name: Main Courses
     columns: 2
     menu_items:
-      - name: Burger
+      - name: ✪ Burger
         price: $130
         description: Meat, cheese blend, lettuce, tomato, caramelized onions, house dressing. Served with French fries.
         options:
@@ -110,7 +111,7 @@ menu_sections:
         choices:
           - choice_name: Skirt steak (Arrachera)
             choice_price: $155
-          - choice_name: Pesto chicken
+          - choice_name: ✪ Pesto chicken
             choice_price: $135
       - name: Gourmet Tacos
         description: Served with guacamole and a delicious Veracruz-style macha sauce.
@@ -212,7 +213,7 @@ menu_sections:
       - name: Juice
         price: $35
         description: Orange / Green
-      - name: Orangeade
+      - name: Orangeade / Lemonade
         price: $35
       - name: Soft Drinks
         price: $25

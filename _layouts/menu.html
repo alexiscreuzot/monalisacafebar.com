@@ -58,11 +58,23 @@
                     {% endfor %}
                 </ul>
                 {% endif %}
+
+                {% if item.image %}
+                <div class="photo">
+                    <img src="/assets/images/menu/{{ item.image }}"/>
+                </div>
+                {% endif %}
             </div>
             {% endfor %}
         </div>
         {% endfor %}
 
+        
+
+    </div>
+
+    <div class="menu-footer">
+        <p>{% t menu.recommendations %}</p>
     </div>
 
 </body>
