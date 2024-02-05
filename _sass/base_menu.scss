@@ -5,7 +5,7 @@ body {
 
 h2 {
     font-family: 'Atteron', serif;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
 #content, #header {
@@ -55,7 +55,6 @@ h2 {
     margin-right: auto;
     display: grid;
     gap: 0.25rem;
-    
 }
 
 .card {
@@ -66,12 +65,13 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
+    font-weight: bold;
 }
 
 .small-text {
     opacity: 0.75;
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
@@ -80,7 +80,7 @@ h2 {
     display: flex;
     margin-top: 0.5rem;
     column-gap: 0.5rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 .option {

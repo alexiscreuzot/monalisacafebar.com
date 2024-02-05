@@ -53,7 +53,7 @@ menu_sections:
         description: Rojos os verdes. Acompañados de frijolitos refritos.
         image: chilaquiles.png
         options:
-          - option_name: Mole artesanal
+          - option_name: Mole
             option_price: +$20
           - option_name: Pollo
             option_price: +$30
@@ -75,7 +75,7 @@ menu_sections:
         description: Rojos os verdes.Con frijolitos refritos.
         image: enchiladas.png
         options:
-          - option_name: ✪ Mole artesanal
+          - option_name: ✪ Mole
             option_price: +$20
           - option_name: Pollo
             option_price: +$30
