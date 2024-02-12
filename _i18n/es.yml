@@ -81,7 +81,7 @@ menu_sections:
             option_price: +$30
           - option_name: Cecina
             option_price: +$60
-      - name: Molletes
+      - name: ✪ Molletes
         price: $70
         description: Acompañados de frijoles y pico de gallo.
         image: molletes.jpeg
@@ -166,18 +166,22 @@ menu_sections:
   - section_name: Postres
     columns: 2
     menu_items:
-      - name: Pastel
-        description: Ricos pasteles caseros.
+      - name: Pasteles / Pies
+        description: Ricos pies y pasteles caseros.
         image: pastel.jpeg
         choices:
-          - choice_name: De Zanahoria
+          - choice_name: Pastel De Zanahoria
             choice_price: $65
-          - choice_name: De Chocolate
+          - choice_name: Pie De Limon
             choice_price: $65
-          - choice_name: De Tres Leches (cajeta)
+          - choice_name: ✪ Pie De Platano
             choice_price: $65
-      - name: Pan Dulce
-        price: $30
+      - name: Otros Dulces
+        choices: 
+          - choice_name: Pan dulces
+            choice_price: $40
+          - choice_name: Galletas
+            choice_price: $20
   - section_name: Café y especialidades
     columns: 3
     menu_items:

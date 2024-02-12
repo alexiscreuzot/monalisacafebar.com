@@ -77,7 +77,7 @@ menu_sections:
             option_price: +$30
           - option_name: Cured meat (Cecina)
             option_price: +$60
-      - name: Molletes
+      - name: ✪ Molletes
         price: $70
         description: Accompanied by beans and pico de gallo.
         options:
@@ -154,17 +154,21 @@ menu_sections:
   - section_name: Desserts
     columns: 2
     menu_items:
-      - name: Cake
-        description: Delicious homemade cakes.
+      - name: Cake / pies
+        description: Delicious homemade cakes and pies.
         choices:
           - choice_name: Carrot Cake
             choice_price: $65
-          - choice_name: Chocolate Cake
+          - choice_name: Lemon Pie
             choice_price: $65
-          - choice_name: Three Milk Cake (Cajeta)
+          - choice_name: ✪ Banana Pie
             choice_price: $65
-      - name: Sweet Bread
-        price: $30
+      - name: Sweet Snacks
+        choices:
+          - choice_name: Pastries
+            choice_price: $40
+          - choice_name: Cookies
+            choice_price: $20
   - section_name: Coffee and Specialties
     columns: 3
     menu_items:
