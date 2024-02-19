@@ -59,7 +59,30 @@ h2 {
 
 .card {
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
 }
+
+.infos {
+    flex-grow: 1;
+}
+
+.image {
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    img {
+        width: 50%;
+        margin: auto;
+        aspect-ratio: 1 / 1;
+        border-radius: 50%;
+    }
+}
+
+.image:empty {
+    display: none;
+}
+
 
 .title {
     display: flex;
@@ -70,10 +93,11 @@ h2 {
 }
 
 .small-text {
-    opacity: 0.75;
-    font-size: 1rem;
+    opacity: 0.9;
+    font-size: 1.1rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
+    font-style: italic;
 }
 
 .option-list {
@@ -109,18 +133,6 @@ h2 {
     opacity: 0.2;
 }
 
-.photo
-{
-    text-align: center;
-    padding-top: 2rem;
-    img {
-        width: 60%;
-        height: auto;
-        border-radius: 50%;
-        margin: auto;
-        aspect-ratio: 1 / 1;
-    }
-} 
 
 .menu-footer {
     padding: 2rem 1rem;
@@ -128,14 +140,27 @@ h2 {
 
 @media (min-width: 768px) {
 
-    .photo
-    {
+    .card {
+        flex-direction: row;
 
-        img {
-            width: 50%;
+        .infos {
+            flex-grow: 1;
+            width: 100%;
         }
-    } 
 
+        .image {
+            padding: 0 1rem;
+            flex-grow: 1;
+            width: 50%;
+            img {
+                width: 100%;
+                margin: auto;
+                aspect-ratio: 1 / 1;
+                border-radius: 50%;
+            }
+        }
+    }
+ 
     .md\:grid-cols-2 {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }

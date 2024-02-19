@@ -30,38 +30,41 @@
         
             {% for item in section.menu_items %}
             <div class="card">
-                <div class="title">
-                    <p>{{ item.name }} <span class="font-semibold text-base"></span></p>
-                    {% if item.price %}
-                    <div class="dots">&nbsp;</div>
-                    {% endif %}
-                    <p>{{ item.price }}</p>
-                </div>
-                <p class="small-text">{{ item.description }}</p>
-
-                {% if item.options %}
-                <ul class="option-list">
-                    {% for option in item.options %}
-                    <li class="option">{{ option.option_name }} ({{ option.option_price }})</li>
-                    {% endfor %}
-                </ul>
-                {% endif %}
-
-                {% if item.choices %}
-                <ul class="choice-list">
-                    {% for choice in item.choices %}
-                    <li class="choice">
-                        <p>{{ choice.choice_name }}</p>
+                <div class="infos">
+                    <div class="title">
+                        <p>{{ item.name }} <span class="font-semibold text-base"></span></p>
+                        {% if item.price %}
                         <div class="dots">&nbsp;</div>
-                        <span>{{ choice.choice_price }}</span>
-                    </li>
-                    {% endfor %}
-                </ul>
-                {% endif %}
-
+                        {% endif %}
+                        <p>{{ item.price }}</p>
+                    </div>
+                    <p class="small-text">{{ item.description }}</p>
+    
+                    {% if item.options %}
+                    <ul class="option-list">
+                        {% for option in item.options %}
+                        <li class="option">{{ option.option_name }} ({{ option.option_price }})</li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+    
+                    {% if item.choices %}
+                    <ul class="choice-list">
+                        {% for choice in item.choices %}
+                        <li class="choice">
+                            <p>{{ choice.choice_name }}</p>
+                            <div class="dots">&nbsp;</div>
+                            <b>{{ choice.choice_price }}</b>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                </div>
                 {% if item.image %}
-                <div class="photo">
+                <div class="image">
+                    
                     <img src="/assets/images/menu/{{ item.image }}"/>
+                    
                 </div>
                 {% endif %}
             </div>
