@@ -50,16 +50,18 @@ menu_sections:
       - name: ✪ Chilaquiles
         price: $60
         description: Red or green. Accompanied by refried beans.
+        image: chilaquiles.jpeg
         options:
-          - option_name: Homemade mole
+          - option_name: Mole
             option_price: +$20
           - option_name: Chicken
             option_price: +$30
-          - option_name: Cured meat (Cecina)
+          - option_name: Cecina
             option_price: +$60
-      - name: Eggs to your liking
+      - name: Eggs to Order
         price: $65
-        description: Fried, divorced, scrambled, omelette, ranch-style. With refried beans.
+        description: Scrambled, divorced, sunny-side-up, omelette, rancheros. With refried beans.
+        image: huevos.jpeg
         options:
           - option_name: Ham
             option_price: +$20
@@ -70,55 +72,61 @@ menu_sections:
       - name: Enchiladas
         price: $80
         description: Red or green. With refried beans.
+        image: enchiladas.jpg
         options:
-          - option_name: ✪ Homemade mole
+          - option_name: ✪ Mole
             option_price: +$20
           - option_name: Chicken
             option_price: +$30
-          - option_name: Cured meat (Cecina)
+          - option_name: Cecina
             option_price: +$60
       - name: ✪ Molletes
         price: $70
         description: Accompanied by beans and pico de gallo.
+        image: molletes.jpeg
         options:
           - option_name: Chorizo
             option_price: +$30
           - option_name: Ham
             option_price: $15
-      - name: Pancakes
+      - name: Hotcakes
+        image: hotcakes.jpeg
         choices:
-          - choice_name: Traditional with butter
+          - choice_name: Traditional with Butter
             choice_price: $55
-          - choice_name: With red fruits and maple syrup
+          - choice_name: With Berries and Maple Syrup
             choice_price: $90
-        description: Fluffy homemade pancakes with a touch of vanilla
+        description: Fluffy homemade hotcakes with a touch of vanilla.
 
   - section_name: Main Courses
     columns: 2
     menu_items:
       - name: ✪ Burger
         price: $130
-        description: Meat, cheese blend, lettuce, tomato, caramelized onions, house dressing. Served with French fries.
+        description: Meat, blend of cheeses, lettuce, tomato, caramelized onions, house dressing. Served with french fries.
+        image: burger.jpeg
         options:
           - option_name: Pineapple
             option_price: +$15
           - option_name: Bacon
             option_price: +$15
-          - option_name: Extra meat
+          - option_name: Extra Meat
             option_price: +$40
       - name: Pepito
-        description: Served with French fries and house dressing.
+        description: Served with french fries and house dressing.
+        image: pepito.jpeg
         choices:
-          - choice_name: Skirt steak (Arrachera)
+          - choice_name: Skirt Steak
             choice_price: $155
-          - choice_name: ✪ Pesto chicken
+          - choice_name: ✪ Pesto Chicken
             choice_price: $135
       - name: Gourmet Tacos
         description: Served with guacamole and a delicious Veracruz-style macha sauce.
+        image: tacos.jpeg
         choices:
-          - choice_name: Skirt steak (Arrachera)
+          - choice_name: Skirt Steak
             choice_price: $125
-          - choice_name: Cured meat (Cecina)
+          - choice_name: Cecina
             choice_price: $125
 
   - section_name: Salads
@@ -127,18 +135,20 @@ menu_sections:
       - name: Mona Salad
         price: $60
         description: Mix of lettuces, spinach, avocado, panela cheese, tortilla strips, and guajillo chili.
+        image: ensalada_mona.jpeg
         options:
           - option_name: Chicken
             option_price: +$30
-          - option_name: Skirt steak (Arrachera)
+          - option_name: Skirt Steak
             option_price: +$60
       - name: Lisa Salad
         price: $85
-        description: Mix of lettuces, apple, caramelized nuts, cranberries, goat cheese, honey, and mustard vinaigrette.
+        description: Mix of lettuces, apple, caramelized walnuts, cranberries, goat cheese, honey-mustard vinaigrette.
+        image: ensalada_lisa.jpg
         options:
           - option_name: Chicken
             option_price: +$30
-          - option_name: Skirt steak (Arrachera)
+          - option_name: Skirt Steak
             option_price: +$60
 
   - section_name: Snacks
@@ -147,28 +157,39 @@ menu_sections:
       - name: Mozzarella Sticks
         price: $85
         description: Served with house marinara sauce.
+        image: dedos.jpeg
       - name: French Fries
         price: $75
-        description: Order of 400g of delicious fries seasoned with lemon and pepper.
+        description: 400g order of delicious seasoned fries with lemon and pepper.
 
   - section_name: Desserts
     columns: 2
     menu_items:
-      - name: Cake / pies
-        description: Delicious homemade cakes and pies.
+      - name: Cakes
+        description: Delicious homemade cakes.
+        image: pastel.jpeg
         choices:
+          - choice_name: ✪ Banana Bread
+            choice_price: $65
           - choice_name: Carrot Cake
+            choice_price: $65
+      - name: Pies
+        description: Delicious homemade pies.
+        image: pie.jpg
+        choices:
+          - choice_name: ✪ Banana Cream Pie
             choice_price: $65
           - choice_name: Lemon Pie
             choice_price: $65
-          - choice_name: ✪ Banana Pie
+          - choice_name: Nut Kutchel
             choice_price: $65
-      - name: Sweet Snacks
+      - name: Bakery
         choices:
-          - choice_name: Pastries
+          - choice_name: Sweet Breads
             choice_price: $40
           - choice_name: Cookies
             choice_price: $20
+
   - section_name: Coffee and Specialties
     columns: 3
     menu_items:
@@ -180,32 +201,44 @@ menu_sections:
             choice_price: $35
       - name: Latte
         price: $45
-        description: Hot, cold, or frappe
+        description: One part espresso and three parts steamed milk.
         options:
           - option_name: Irish Cream
             option_price: +$25
           - option_name: Caramel
             option_price: +$25
+      - name: ✪ Flat White
+        price: $45
+        description: Our specialty, one part espresso and two parts velvety milk.
       - name: Americano
+        description: A classic, best enjoyed with our coffee blend.
         price: $30
       - name: Mocha
+        description: Latte with a touch of chocolate.
         price: $60
-      - name: Taro
+      - name: ✪ Taro
         price: $65
-        description: Hot, cold, or frappe
+        description: Lightly flavored drink with a mix of nut, vanilla, sweet potato, and floral notes.
       - name: Matcha
         price: $75
-        description: Hot, cold, or frappe
+        description: Lightly flavored green tea drink with a sweet and bitter touch.
       - name: Chai
-        price: $70
-        description: Vanilla / Spices / Green Tea. Hot, cold, or frappe
+        description: Tea-based, delicious, creamy, and spicy drink, topped with milk foam.
+        choices:
+          - choice_name: Vanilla
+            choice_price: $70
+          - choice_name: Spices
+            choice_price: $70
+          - choice_name: Green Tea
+            choice_price: $70
       - name: Infusions
         price: $40
         description: Chamomile / Green Tea / Apple-Cinnamon / Peppermint / Lemon
       - name: Herbal Teas
         price: $50
-        description: Blackberry / Coconut-Blueberry / Strawberry-Apple
-      - name: Traditional Mexican Hot Chocolate
+        description: Cherry Cream / Coconut-Blueberry / Strawberry-Apple
+      - name: Mexican Traditional Hot Chocolate
+        description: Another classic, chocolate with a touch of cinnamon.
         price: $40
 
   - section_name: Other Drinks
@@ -213,26 +246,31 @@ menu_sections:
     menu_items:
       - name: Sunsetti
         price: $55
-        description: With a base of orange and strawberry, inspired by Italian summer sunsets.
-      - name: Cherry Tonic
+        description: Orange and strawberry-based, inspired by Italian summer sunsets.
+        image: sunsetti.jpg
+      - name: ✪ Cherry Tonic
         price: $55
-        description: With a base of cherry and tonic water, topped with a shot of espresso
+        description: Cherry-based, tonic, and a shot of espresso.
+        image: cherry_tonic.jpeg
       - name: Orangeade / Lemonade
         price: $35
+        description: With natural or mineral water.
+        image: limonada.jpeg
       - name: Juice
         price: $35
-        description: Orange / Green
-      - name: Soft Drinks
+        description: Orange Juice / Green Juice
+      - name: Soda
         price: $25
-        description: Coca-Cola / Diet Coca-Cola / Fanta / Sprite / Sidral
+        description: Coke / Diet Coke / Fanta / Sprite / Apple Soda
       - name: Italian Sodas
         price: $50
         description: Lychee / Mango / Strawberry / Cherry / Coconut / Watermelon / Mojito
       - name: Bottled Water
         choices:
-          - choice_name: Natural
+          - choice_name: Still
             choice_price: $15
-          - choice_name: Mineral
+          - choice_name: Sparkling
             choice_price: $25
+
 
 

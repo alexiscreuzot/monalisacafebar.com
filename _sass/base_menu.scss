@@ -1,6 +1,7 @@
 body {
     background: #e4dccb;
     padding: 10px 1rem;
+    font-family :'Times New Roman', Times, serif;
 }
 
 h2 {
@@ -17,16 +18,22 @@ h2 {
     padding: 2rem 2rem 0 2rem;
 }
 
+.intro {
+    padding: 0 2rem;
+    padding-top: 2rem;
+    font-size: 1.2rem;
+    text-align: center;
+    font-style: italic;
+}
+
 #content {
     border-radius: 0 0 20px 20px;
 }
 
-
 .languages {
-    position: relative;
-    padding: 20px 0 0 0;
+    padding-right: 20px;
     z-index: 100;
-    text-align: center;
+    text-align: right;
 }
 
 .center-flex {
@@ -37,11 +44,11 @@ h2 {
 
 .header-link {
     max-width: 10rem;
-    opacity: 0.6;
+    opacity: 0.7;
 }
 
 .header-img {
-    width: 100%;
+    width: 90%;
 }
 
 .section-title {
@@ -75,7 +82,7 @@ h2 {
         width: 50%;
         margin: auto;
         aspect-ratio: 1 / 1;
-        border-radius: 50%;
+        border-radius: 8%;
     }
 }
 
@@ -108,9 +115,12 @@ h2 {
 }
 
 .option {
-    border: 1px solid $primary;
-    padding: 0.25rem;
+    // border: 1px solid $primary;
+    padding: 0.3rem 0.5rem;
     border-radius: 0.25rem;
+    background-color: rgba(136, 142, 128, 0.15);
+    font-size: 0.9rem;
+    font-weight: bold;
 }
 
 .choice-list {
@@ -121,6 +131,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-weight: bold;
 }
 
 .dots {
@@ -151,12 +162,9 @@ h2 {
         .image {
             padding: 0 1rem;
             flex-grow: 1;
-            width: 50%;
+            width: 45%;
             img {
                 width: 100%;
-                margin: auto;
-                aspect-ratio: 1 / 1;
-                border-radius: 50%;
             }
         }
     }

@@ -73,7 +73,7 @@ menu_sections:
       - name: Enchiladas
         price: $80
         description: Rojos os verdes.Con frijolitos refritos.
-        image: enchiladas.jpeg
+        image: enchiladas.jpg
         options:
           - option_name: ✪ Mole
             option_price: +$20
@@ -145,7 +145,7 @@ menu_sections:
       - name: Ensalada Lisa
         price: $85
         description: Mezcla de lechugas, manzana, nuez caramelizada, arándanos, queso de cabra, vinagreta de miel y mostaza.
-        image: ensalada_lisa.jpeg
+        image: ensalada_lisa.jpg
         options:
           - option_name: Pollo
             option_price: +$30
@@ -166,22 +166,31 @@ menu_sections:
   - section_name: Postres
     columns: 2
     menu_items:
-      - name: Pasteles / Pies
-        description: Ricos pies y pasteles caseros.
+      - name: Pasteles
+        description: Ricos pasteles caseros.
         image: pastel.jpeg
         choices:
+          - choice_name: ✪ Panque De Platano
+            choice_price: $65
           - choice_name: Pastel De Zanahoria
+            choice_price: $65
+      - name: Pies
+        description: Ricos pies caseros.
+        image: pie.jpg
+        choices:
+          - choice_name: ✪ Pie De Platano
             choice_price: $65
           - choice_name: Pie De Limon
             choice_price: $65
-          - choice_name: ✪ Pie De Platano
+          - choice_name: Kutchel de Nuez
             choice_price: $65
-      - name: Otros Dulces
+      - name: Panaderia
         choices: 
           - choice_name: Pan dulces
             choice_price: $40
           - choice_name: Galletas
             choice_price: $20
+            
   - section_name: Café y especialidades
     columns: 3
     menu_items:
@@ -193,32 +202,44 @@ menu_sections:
             choice_price: $35
       - name: Latte
         price: $45
-        description: Caliente, frio o frappe
+        description: Una parte de espresso y 3 partes de leche vaporizada
         options:
           - option_name: Crema Irlandesa
             option_price: +$25
           - option_name: Caramelo
             option_price: +$25
+      - name: ✪ Flat White
+        price: $45
+        description: Nuestra especialidad, 1 parte de espresso y 2 partes de leche aterciopelada
       - name: Americano
+        description: Un clasico, el mejor para saborear a nuestra mezcla de café
         price: $30
       - name: Mocha
+        description: Latte con un toque de chocolate
         price: $60
-      - name: Taro
+      - name: ✪ Taro
         price: $65
-        description: Caliente, frio o frappe
+        description: Bebida con sabor ligero a mezcla de nuez, vainilla, camote y toque floral
       - name: Matcha
         price: $75
-        description: Caliente, frio o frappe
+        description: Bebida con sabor ligero a té verde, con un toque dulce y amargo
       - name: Chai
-        price: $70
-        description: Vanilla / Especias / Té verde. Caliente, frio o frappe
+        description: Bebida a base de té, deliciosa, cremosa y picante, rematada con espuma de leche
+        choices:
+          - choice_name: Vanilla
+            choice_price: $70
+          - choice_name: Especias
+            choice_price: $70
+          - choice_name: Té verde
+            choice_price: $70
       - name: Infusiones
         price: $40
         description: Manzanilla / Té verde / Manzana-Canela / Hierbabuena / Limón
       - name: Tisanas
         price: $50
-        description: Moras / Coco-Arandano / Fresa-Manzana
+        description: Crema de Cereza / Coco-Arandano / Fresa-Manzana
       - name: Chocolate Tradicional Mexicano
+        description: Otro clasico, chocolate con un toque de canela
         price: $40
 
   - section_name: Otras Bebidas
@@ -227,15 +248,15 @@ menu_sections:
       - name: Sunsetti
         price: $55
         description: Con base de naranja y fresa, inspirada de los atardeceres de verano italiano
-        image: sunsetti.jpeg
-      - name: Cherry Tonic
+        image: sunsetti.jpg
+      - name: ✪ Cherry Tonic
         price: $55
         description: Con base de cereza, tónica y un shot de espresso
         image: cherry_tonic.jpeg
       - name: Naranjada / Limonada
         price: $35
         description: Con agua natural o mineral
-        image: lemonada.jpeg
+        image: limonada.jpeg
       - name: Jugo
         price: $35
         description: Naranja / Verde
