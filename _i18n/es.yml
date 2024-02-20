@@ -202,7 +202,7 @@ menu_sections:
             choice_price: $35
       - name: Latte
         price: $45
-        description: Una parte de espresso y 3 partes de leche vaporizada
+        description: Una parte espresso, 3 partes leche vaporizada
         options:
           - option_name: Crema Irlandesa
             option_price: +$25
@@ -210,9 +210,9 @@ menu_sections:
             option_price: +$25
       - name: ✪ Flat White
         price: $45
-        description: Nuestra especialidad, 1 parte de espresso y 2 partes de leche aterciopelada
+        description: "Nuestra especialidad : 1 parte espresso, 2 partes leche aterciopelada"
       - name: Americano
-        description: Un clasico, el mejor para saborear a nuestra mezcla de café
+        description: Un clasico, perfecto para saborear a nuestra mezcla de café
         price: $30
       - name: Mocha
         description: Latte con un toque de chocolate
@@ -224,7 +224,7 @@ menu_sections:
         price: $75
         description: Bebida con sabor ligero a té verde, con un toque dulce y amargo
       - name: Chai
-        description: Bebida a base de té, deliciosa, cremosa y picante, rematada con espuma de leche
+        description: Bebida cremosa a base de té, rematada con espuma de leche
         choices:
           - choice_name: Vanilla
             choice_price: $70
