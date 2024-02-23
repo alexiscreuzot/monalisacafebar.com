@@ -1,55 +1,71 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    <link href="./assets/fonts/icofont/icofont.css" rel="stylesheet">
-    <style>
-        .content {
-            display: grid;
-            grid-template-rows: auto 1fr auto; /* Aspect ratio 12:18 */
-            grid-row-gap: 2rem;
-        }
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+            rel="stylesheet"
+        />
+        <link href="./assets/fonts/icofont/icofont.css" rel="stylesheet" />
+        <style>
+            .content {
+                display: grid;
+                grid-template-rows: auto 1fr auto; /* Aspect ratio 12:18 */
+                grid-row-gap: 2rem;
+            }
 
-        .container {
-            max-width: 700px;
-            max-height: 1050px;
-        }
+            .container {
+                max-width: 700px;
+                max-height: 1050px;
+            }
+        </style>
+    </head>
+    <body class="text-white">
+        <div
+            class="content container mx-auto flex flex-col items-center justify-center bg-green-600 text-center"
+        >
+            <img
+                src="assets/images/flyer_top2.jpg"
+                alt="Restaurant image"
+                class="w-full"
+            />
 
-    </style>
-</head>
-<body class="text-white">
+            <h1
+                class="text-5xl font-extrabold tracking-wide text-black opacity-40"
+            >
+                SE SOLICITA
+            </h1>
 
-    <div class="container mx-auto flex flex-col items-center justify-center content text-center bg-green-600">
-        <img src="assets/images/flyer_top2.jpg" alt="Restaurant image" class="w-full"> 
-        
-        <h1 class="text-5xl font-extrabold tracking-wide text-black opacity-40">SE SOLICITA</h1>
+            <p class="text-3xl font-semibold text-white opacity-90">
+                Cociner@ con experiencia<br />
+                <span class="text-xl">Desde $2,300 / semana</span>
+            </p>
 
-        <p class="text-3xl font-semibold text-white opacity-90">
-            Cociner@ con experiencia<br/>
-            <span class="text-xl">Desde $2,300 / semana</span>
-        </p>
+            <div class="mx-auto space-y-1 text-left opacity-90">
+                <h3 class="text-xl font-bold text-white">Horario</h3>
+                <ul class="ml-4 list-disc pb-2 text-lg opacity-70">
+                    <li>Tiempor completo</li>
+                    <li>Turno vespertino de 8 horas</li>
+                </ul>
+                <h3 class="text-xl font-bold text-white">Prestaciones</h3>
+                <ul class="ml-4 list-disc text-lg opacity-70">
+                    <li>Servicio de comedor</li>
+                    <li>Bebidas gratis</li>
+                    <li>Propinas</li>
+                </ul>
+            </div>
 
-        <div class="space-y-1 text-left mx-auto opacity-90">
-
-            <h3 class="text-xl font-bold text-white">Horario</h3>
-            <ul class="list-disc ml-4 pb-2 text-lg opacity-70">
-                <li>Tiempor completo</li>
-                <li>Turno vespertino de 8 horas</li>
-            </ul>
-            <h3 class="text-xl font-bold text-white ">Prestaciones</h3>
-            <ul class="list-disc ml-4 text-lg opacity-70">
-                <li>Servicio de comedor</li>
-                <li>Bebidas gratis</li>
-                <li>Propinas</li>
-            </ul>
+            <div
+                class="mb-8 font-serif text-xl font-semibold text-black opacity-80"
+            >
+                <p class="opacity-50">
+                    Monalisa<br />Andador Matamoros 2b, Querétaro Centro
+                </p>
+                <p class="mt-2 text-2xl font-semibold text-white">
+                    <i class="icofont-whatsapp"></i> 446-118-2832
+                </p>
+            </div>
         </div>
-
-        <div class="font-semibold text-xl font-serif mb-8 text-black opacity-80">
-            <p class="opacity-50">Monalisa<br/>Andador Matamoros 2b, Querétaro Centro</p>
-            <p class="text-2xl font-semibold mt-2 text-white"><i class="icofont-whatsapp"></i> 446-118-2832</p>
-        </div>
-    </div>
-</body>
+    </body>
 </html>

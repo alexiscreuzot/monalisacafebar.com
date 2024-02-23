@@ -2,7 +2,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    padding: 20px 40px;
+    padding: 10px 20px;
     z-index: 100;
 }
 .languages ul li {
@@ -10,7 +10,7 @@
 }
 .languages ul li a {
     text-decoration: none;
-    font-size: 40px; /* Adjust the font size as needed */
+    font-size: 30px; /* Adjust the font size as needed */
     margin-left: 10px; /* Adjust the margin as needed */
 }
 
@@ -20,4 +20,15 @@
 
 .languages a.selected, .languages a:hover {
     opacity: 1; /* Adjust the opacity for the active language link */
+}
+
+@media (min-width: 768px) {
+    .languages {
+        padding: 20px 40px;
+    }
+
+    .languages ul li a {
+        font-size: 40px;
+    }
+
 }
