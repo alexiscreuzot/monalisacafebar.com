@@ -31,7 +31,7 @@ menu:
     - day: Sábado
       hours: 9:30am - 11:00pm
     - day: Domingo
-      hours: 9:00am - 9:00pm
+      hours: 9:30am - 9:00pm
 
 contact:
   title: Ubicacion <i>&</i> contacto
@@ -43,7 +43,7 @@ menu_sections:
     columns: 2
     menu_items:
       - name: ✪ Chilaquiles
-        price: $60
+        price: $65
         description: Rojos os verdes. Acompañados de frijolitos refritos.
         image: chilaquiles.jpeg
         options:
@@ -128,7 +128,7 @@ menu_sections:
     columns: 2
     menu_items:
       - name: Ensalada Mona
-        price: $60
+        price: $70
         description: Mezcla de lechugas, espinaca, aguacate, queso panela, julianas de tortilla y chile guajillo.
         image: ensalada_mona.jpeg
         options:
@@ -137,7 +137,7 @@ menu_sections:
           - option_name: Arrachera
             option_price: +$60
       - name: Ensalada Lisa
-        price: $85
+        price: $80
         description: Mezcla de lechugas, manzana, nuez caramelizada, arándanos, queso de cabra, vinagreta de miel y mostaza.
         image: ensalada_lisa.jpg
         options:
@@ -158,18 +158,17 @@ menu_sections:
         description: Orden de 400g de deliciosas papas sazonadas con limón y pimienta.
 
   - section_name: Postres
+    description: "Nuestros pasteles y pies son caseros, cortesia de <b>Betún Pasteleria</b>."
     columns: 2
     menu_items:
       - name: Pasteles
-        description: Ricos pasteles caseros.
         image: pastel.jpeg
         choices:
           - choice_name: ✪ Panque De Platano
             choice_price: $65
           - choice_name: Pastel De Zanahoria
-            choice_price: $65
+            choice_price: $75
       - name: Pies
-        description: Ricos pies caseros.
         image: pie.jpg
         choices:
           - choice_name: ✪ Pie De Platano
@@ -180,12 +179,13 @@ menu_sections:
             choice_price: $65
       - name: Panaderia
         choices:
-          - choice_name: Pan dulces
+          - choice_name: Pan dulce
             choice_price: $40
-          - choice_name: Galletas
+          - choice_name: Galleta
             choice_price: $20
 
   - section_name: Café y especialidades
+    description: "La mayoria de nuestras bebidas se pueden tomar <b>caliente, frias o frappé</b>.<br/> También contamos con <b>leches vegetales ($10 adicional)</b>."
     columns: 3
     menu_items:
       - name: Espresso
@@ -195,7 +195,7 @@ menu_sections:
           - choice_name: Cortado
             choice_price: $35
       - name: Latte
-        price: $45
+        price: $55
         description: Una parte espresso, 3 partes leche vaporizada
         options:
           - option_name: Crema Irlandesa
@@ -203,11 +203,11 @@ menu_sections:
           - option_name: Caramelo
             option_price: +$25
       - name: ✪ Flat White
-        price: $45
+        price: $50
         description: "Nuestra especialidad : 1 parte espresso, 2 partes leche aterciopelada"
       - name: Americano
         description: Un clasico, perfecto para saborear a nuestra mezcla de café
-        price: $30
+        price: $35
       - name: Mocha
         description: Latte con un toque de chocolate
         price: $60
@@ -255,7 +255,7 @@ menu_sections:
         price: $35
         description: Naranja / Verde
       - name: Refresco
-        price: $25
+        price: $30
         description: Coca / Coca-light / Fanta / Sprite / Sidral
       - name: Sodas Italianas
         price: $50
@@ -263,6 +263,6 @@ menu_sections:
       - name: Agua Embotellada
         choices:
           - choice_name: Natural
-            choice_price: $15
+            choice_price: $20
           - choice_name: Mineral
             choice_price: $25

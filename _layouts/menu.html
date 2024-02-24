@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee Menu</title>
-    <link rel="stylesheet" href="{{ "/menu.css" | prepend: site.baseurl_root }}"/>
+    <link rel="stylesheet" href="{{ " /menu.css" | prepend: site.baseurl_root }}" />
 </head>
+
 <body>
 
     {% include overlay.html %}
@@ -20,18 +21,22 @@
                 <img class="header-img" src="{{ site.baseurl_root }}/assets/images/monalisa_b.png">
             </a>
         </div>
-        
+
         <p class="intro">{% t intro %}</p>
 
-    </div>
     </div>
 
     <div id="content">
 
         {% for section in site.translations[site.lang].menu_sections %}
         <h2 class="section-title">{{ section.section_name }}</h2>
+
+        {% if section.description %}
+        <div class="section-description">{{ section.description }}</div>
+        {% endif %}
+
         <div class="grid md:grid-cols-{{ section.columns }}">
-        
+
             {% for item in section.menu_items %}
             <div class="card">
                 <div class="infos">
@@ -43,7 +48,7 @@
                         <p>{{ item.price }}</p>
                     </div>
                     <p class="small-text">{{ item.description }}</p>
-    
+
                     {% if item.options %}
                     <ul class="option-list">
                         {% for option in item.options %}
@@ -51,7 +56,7 @@
                         {% endfor %}
                     </ul>
                     {% endif %}
-    
+
                     {% if item.choices %}
                     <ul class="choice-list">
                         {% for choice in item.choices %}
@@ -66,17 +71,13 @@
                 </div>
                 {% if item.image %}
                 <div class="image">
-                    
-                    <img src="/assets/images/menu/{{ item.image }}"/>
-                    
+                    <img src="/assets/images/menu/{{ item.image }}" />
                 </div>
                 {% endif %}
             </div>
             {% endfor %}
         </div>
         {% endfor %}
-
-        
 
     </div>
 
@@ -85,4 +86,5 @@
     </div>
 
 </body>
+
 </html>
