@@ -40,7 +40,7 @@ contact:
 
 menu_sections:
   - section_name: Desayunos
-    columns: 2
+    columns: 3
     menu_items:
       - name: ✪ Chilaquiles
         price: $65
@@ -94,7 +94,7 @@ menu_sections:
         description: Esponjosos hot cakes caseros con un toque de vainilla
 
   - section_name: Platos fuertes
-    columns: 2
+    columns: 3
     menu_items:
       - name: ✪ Hamburguesa
         price: $130
@@ -125,7 +125,7 @@ menu_sections:
             choice_price: $125
 
   - section_name: Ensaladas
-    columns: 2
+    columns: 3
     menu_items:
       - name: Ensalada Mona
         price: $70
@@ -147,7 +147,7 @@ menu_sections:
             option_price: +$60
 
   - section_name: Snacks
-    columns: 2
+    columns: 3
     menu_items:
       - name: Dedos de mozzarella
         price: $85
@@ -159,7 +159,7 @@ menu_sections:
 
   - section_name: Postres
     description: "Nuestros pasteles y pies son caseros, cortesia de <b>Betún Pasteleria</b>."
-    columns: 2
+    columns: 3
     menu_items:
       - name: Pasteles
         image: pastel.jpeg
@@ -175,8 +175,6 @@ menu_sections:
             choice_price: $65
           - choice_name: Pie De Limon
             choice_price: $65
-          - choice_name: Kuchen de Nuez
-            choice_price: $65
       - name: Panaderia
         choices:
           - choice_name: Pan dulce
@@ -189,34 +187,33 @@ menu_sections:
     columns: 3
     menu_items:
       - name: Espresso
+        image: espresso.jpg
         choices:
           - choice_name: Regular
             choice_price: $30
           - choice_name: Cortado
             choice_price: $35
+      - name: ✪ Flat White
+        price: $50
+        image: flat_white.jpg
+        description: "Nuestra especialidad : 1 parte espresso, 2 partes leche aterciopelada"
       - name: Latte
         price: $55
         description: Una parte espresso, 3 partes leche vaporizada
+        image: latte.jpg
         options:
           - option_name: Crema Irlandesa
             option_price: +$25
           - option_name: Caramelo
             option_price: +$25
-      - name: ✪ Flat White
-        price: $50
-        description: "Nuestra especialidad : 1 parte espresso, 2 partes leche aterciopelada"
       - name: Americano
         description: Un clasico, perfecto para saborear a nuestra mezcla de café
         price: $35
+        image: americano.jpg
       - name: Mocha
         description: Latte con un toque de chocolate
         price: $60
-      - name: ✪ Taro
-        price: $65
-        description: Bebida con sabor ligero a mezcla de nuez, vainilla, camote y toque floral
-      - name: Matcha
-        price: $75
-        description: Bebida con sabor ligero a té verde, con un toque dulce y amargo
+        image: mocha.jpg
       - name: Chai
         description: Bebida cremosa a base de té, rematada con espuma de leche
         choices:
@@ -226,12 +223,21 @@ menu_sections:
             choice_price: $70
           - choice_name: Té verde
             choice_price: $70
+      - name: ✪ Taro
+        price: $65
+        description: Bebida con sabor ligero a mezcla de nuez, vainilla, camote y toque floral
+        image: taro.jpg
+      - name: Matcha
+        price: $75
+        description: Bebida con sabor ligero a té verde, con un toque dulce y amargo
+        image: matcha.jpg
       - name: Infusiones
         price: $40
         description: Manzanilla / Té verde / Manzana-Canela / Hierbabuena / Limón
       - name: Tisanas
         price: $50
         description: Crema de Cereza / Coco-Arandano / Fresa-Manzana
+        image: tisana.jpg
       - name: Chocolate Tradicional Mexicano
         description: Otro clasico, chocolate con un toque de canela
         price: $40
@@ -251,15 +257,16 @@ menu_sections:
         price: $35
         description: Con agua natural o mineral
         image: limonada.jpeg
+      - name: Sodas Italianas
+        price: $50
+        description: Lichi / Mango / Fresa / Cereza / Coco / Sandia / Mojito
+        image: soda_italiano.jpg
       - name: Jugo
         price: $35
         description: Naranja / Verde
       - name: Refresco
         price: $30
         description: Coca / Coca-light / Fanta / Sprite / Sidral
-      - name: Sodas Italianas
-        price: $50
-        description: Lichi / Mango / Fresa / Cereza / Coco / Sandia / Mojito
       - name: Agua Embotellada
         choices:
           - choice_name: Natural

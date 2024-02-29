@@ -1,0 +1,247 @@
+html {
+    background: red;
+}
+
+body {
+    background: #e4dccb;
+    padding: 10px 1rem;
+    font-family :'Times New Roman', Times, serif;
+    overflow: hidden;
+}
+
+h2 {
+    font-family: 'Atteron', serif;
+    font-size: 1.6rem;
+}
+
+.languages {
+    display: none;
+}
+
+#dimensionsDisplay {
+    display: none;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+#content, #header {
+    background: #FCECDD;
+}
+
+#header {
+    border-radius: 50% 50%/200px 200px 0 0;
+    padding: 2rem 2rem 0 2rem;
+}
+
+.intro {
+    padding: 0 2rem;
+    padding-top: 2rem;
+    font-size: 1rem;
+    text-align: center;
+    font-style: italic;
+}
+
+#content {
+    border-radius: 0 0 20px 20px;
+}
+
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-link {
+    max-width: 8rem;
+    opacity: 0.7;
+}
+
+.header-img {
+    width: 90%;
+}
+
+.section-title {
+    padding-top: 1.5rem;
+    text-align: center;
+}
+
+.section-description {
+    padding: 0 2rem 2rem 2rem;
+    font-size: 1.2rem;
+    text-align: center;
+    font-style: italic;
+}
+
+.grid {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    padding: 0 1rem;
+}
+
+.card {
+    padding: 1rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.infos {
+    flex-grow: 1;
+}
+
+.image {
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    img {
+        width: 50%;
+        margin: auto;
+        aspect-ratio: 1 / 1;
+        border-radius: 8%;
+    }
+}
+
+.image:empty {
+    display: none;
+}
+
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.small-text {
+    opacity: 0.9;
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-style: italic;
+}
+
+.option-list {
+    display: flex;
+    margin-top: 0.5rem;
+    column-gap: 0.5rem;
+    font-size: 1rem;
+}
+
+.option {
+    // border: 1px solid $primary;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.25rem;
+    background-color: rgba(136, 142, 128, 0.15);
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.choice-list {
+    font-size: 1rem;
+}
+
+.choice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.dots {
+    border-style: solid;
+    border-width: 0 0 2px;
+    border-color: #000;
+    border-bottom-style: dotted;
+    flex-grow: 1;
+    margin: 0 4px 0;
+    opacity: 0.2;
+}
+
+.menu-footer {
+    padding: 2rem 1rem;
+}
+
+.leave1 {
+
+    top : 8%;
+
+}
+
+.leave2 {
+    top : 5%;
+}
+
+.leave3 {
+    top : 33%;
+}
+
+.leave4 {
+    top : 55%;
+}
+
+.leave5 {
+    top : 140%;
+}
+
+@media (min-width: 768px) {
+
+    .grid {
+        padding: 0;
+    }
+
+    .card {
+        flex-direction: row;
+
+        .infos {
+            flex-grow: 1;
+            width: 100%;
+        }
+
+        .image {
+            padding: 0 1rem;
+            flex-grow: 1;
+            width: 50%;
+            max-width: 180px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .md\:grid-cols-2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .md\:grid-cols-3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    body {
+        padding: 2rem 4rem;
+        border:2px solid red;
+    }
+
+    #header {
+        border-radius: 50% 50%/300px 300px 0 0;
+    }
+
+    .header-link {
+        max-width: 10rem;
+    }
+
+    .intro {
+        padding: 2rem 8rem 0rem 8rem;
+        font-size: 1.3rem;
+    }
+
+    #content {
+        padding: 0 2rem 2rem 2rem;
+    }
+
+}
