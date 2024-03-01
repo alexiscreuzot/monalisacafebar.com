@@ -158,7 +158,7 @@ menu_sections:
         description: Orden de 400g de deliciosas papas sazonadas con limón y pimienta.
 
   - section_name: Postres
-    description: "Nuestros pasteles y pies son caseros, cortesia de <b>Betún Pasteleria</b>."
+    description: "Disfrutan nuestros pasteles y pies son caseros, cortesia de <b>Betún Pasteleria</b>."
     columns: 3
     menu_items:
       - name: Pasteles
