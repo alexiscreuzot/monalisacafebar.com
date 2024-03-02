@@ -1,6 +1,11 @@
+$main_bg: #e4dccb;
+$content_bg: #FCECDD;
+//$content_bg: #e4dccb;
+//$main_bg: #FCECDD;
+
+
 body {
-    background: #e4dccb;
-    padding: 10px 1rem;
+    background: $main_bg;
     font-family :'Times New Roman', Times, serif;
     overflow: hidden;
 }
@@ -10,22 +15,25 @@ h2 {
     font-size: 1.6rem;
 }
 
-#dimensionsDisplay {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 5px;
-    border: 1px solid #ccc;
+.languages {
+    display: none;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0 2rem;
 }
 
 #content, #header {
-    background: #FCECDD;
+    background: $content_bg;
 }
 
 #header {
-    border-radius: 50% 50% 0 0;
+    border-radius: 50% 50%/200px 200px 0 0;
     padding: 2rem 2rem 0 2rem;
+    margin-top: 2rem;
 }
 
 .intro {
@@ -38,6 +46,8 @@ h2 {
 
 #content {
     border-radius: 0 0 20px 20px;
+    padding-bottom: 2rem;
+    flex-grow: 1;
 }
 
 .center-flex {
@@ -100,7 +110,6 @@ h2 {
     display: none;
 }
 
-
 .title {
     display: flex;
     justify-content: space-between;
@@ -154,59 +163,56 @@ h2 {
     opacity: 0.2;
 }
 
-.menu-footer {
-    padding: 2rem 1rem;
+#footer {
+    padding: 2rem;
 }
 
 @media (min-width: 768px) {
 
-    .grid {
-        padding: 0;
-    }
-
-    .card {
-        flex-direction: row;
-
-        .infos {
-            flex-grow: 1;
-            width: 100%;
+    #header {
+        border-radius: 50% 50%/300px 300px 0 0;
+          .header-link {
+            max-width: 10rem;
         }
-
-        .image {
-            padding: 0 1rem;
-            flex-grow: 1;
-            width: 50%;
-            max-width: 180px;
-            img {
-                width: 100%;
-            }
-        }
-    }
-
-    .md\:grid-cols-2 {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
-    .md\:grid-cols-3 {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-
-    body {
-        padding: 1rem 2rem;
-    }
-
-    .header-link {
-        max-width: 10rem;
     }
 
     .intro {
-        padding: 0 8rem;
-        padding-top: 1.5rem;
-        font-size: 1.2rem;
+        padding: 2rem 8rem 0rem 8rem;
+        font-size: 1.3rem;
     }
 
     #content {
-        padding: 0 2rem 2rem 2rem;
+        padding:0 2rem;
+        .md\:grid-cols-2 {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .md\:grid-cols-3 {
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+
+        .grid {
+            padding: 0;
+        }
+
+        .card {
+            flex-direction: row;
+
+            .infos {
+                flex-grow: 1;
+                width: 100%;
+            }
+
+            .image {
+                padding: 0 1rem;
+                flex-grow: 1;
+                width: 50%;
+                max-width: 180px;
+                img {
+                    width: 100%;
+                }
+            }
+        }
     }
 
 }

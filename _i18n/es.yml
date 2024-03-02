@@ -87,9 +87,9 @@ menu_sections:
       - name: Hotcakes
         image: hotcakes.jpeg
         choices:
-          - choice_name: Tradicionales con mantequilla
+          - choice_name: Tradicionales de mantequilla
             choice_price: $55
-          - choice_name: Con frutos rojos y miel de maple
+          - choice_name: Marmelada casera
             choice_price: $90
         description: Esponjosos hot cakes caseros con un toque de vainilla
 
@@ -98,7 +98,7 @@ menu_sections:
     menu_items:
       - name: ✪ Hamburguesa
         price: $130
-        description: Carne, mezcla de quesos, lechuga, tomate, cebolla caramelizada, aderezo de la casa. Acompañada de papas a la francesa.
+        description: Carne, queso, lechuga, tomate, cebolla caramelizada y aderezo casero. Acompañada de papas a la francesa.
         image: burger.jpeg
         options:
           - option_name: Piña
