@@ -124,7 +124,7 @@ menu_sections:
           - choice_name: Cecina
             choice_price: $125
 
-  - section_name: Ensaladas
+  - section_name: Saludable
     columns: 3
     menu_items:
       - name: Ensalada Mona
@@ -145,6 +145,11 @@ menu_sections:
             option_price: +$30
           - option_name: Arrachera
             option_price: +$60
+      - name: Avocado Toast
+        price: $80
+        description: Avocado toast con huevo pochado y aderezo de la casa. Accompagnado de lechuga y jitomate.
+        image: placeholder.png
+
 
   - section_name: Snacks
     columns: 3
@@ -156,6 +161,10 @@ menu_sections:
       - name: Papas a la Francesa
         price: $75
         description: Orden de 400g de deliciosas papas sazonadas con limón y pimienta.
+      - name: Guacamole
+        price: $75
+        description: Orden de guacamole casero con totopos.
+        image: placeholder.png
 
   - section_name: Postres
     description: "Disfrutan nuestros pasteles y pies son caseros, cortesia de <b>Betún Pasteleria</b>."
