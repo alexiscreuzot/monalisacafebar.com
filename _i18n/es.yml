@@ -185,7 +185,6 @@ menu_sections:
       - name: Americano
         description: Una parte espresso, 4 partes agua
         price: $35
-        image: americano.jpg
       - name: Europeo
         description: Una parte espresso, 2 partes agua
         price: $35

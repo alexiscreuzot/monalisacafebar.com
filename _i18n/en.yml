@@ -74,7 +74,7 @@ menu_sections:
       - name: ✪ Flat White
         price: $50
         image: flat_white.jpg
-        description: "Our specialty: 1 part espresso, 2 parts velvety milk"
+        description: Our specialty! 1 part espresso, 2 parts velvety milk
       - name: Latte
         price: $55
         description: One part espresso, 3 parts steamed milk
@@ -89,7 +89,6 @@ menu_sections:
       - name: Americano
         description: 1 part espresso, 4 parts water
         price: $35
-        image: americano.jpg
       - name: Europeo
         description: 1 part espresso, 2 parts water
         price: $35
