@@ -39,7 +39,7 @@ contact:
 
 menu_sections:
   - section_name: Alimentos
-    description: "<br/><br/><b>Estamos reimaginando nuestro menu para ofrecerte una experiencia culinaria única. ¡Pronto más detalles!</b><br/><br/>"
+    description: "<br/><br/><b>✨ Estamos reimaginando nuestro menu para ofrecerte una experiencia culinaria única.<br/>¡Pronto más detalles!</b><br/><br/>"
   #   columns: 3
   #   menu_items:
   #     - name: 🌿 Queso crema
@@ -186,49 +186,49 @@ menu_sections:
         image: americano.jpg
       - name: Mocha
         description: Latte con un toque de chocolate
-        price: $60
+        price: $65
         image: mocha.jpg
       - name: Chai
         description: Bebida cremosa a base de té, rematada con espuma de leche
         choices:
           - choice_name: Vanilla
-            choice_price: $70
+            choice_price: $80
           - choice_name: Especias
-            choice_price: $70
+            choice_price: $80
           - choice_name: Té verde
-            choice_price: $70
+            choice_price: $80
       - name: ✪ Taro
-        price: $65
+        price: $70
         description: Bebida con sabor ligero a mezcla de nuez, vainilla, camote y toque floral
         image: taro.jpg
       - name: Matcha
-        price: $75
+        price: $80
         description: Bebida con sabor ligero a té verde, con un toque dulce y amargo
         image: matcha.jpg
       - name: Infusiones
         price: $40
         description: Manzanilla / Té verde / Manzana-Canela / Hierbabuena / Limón
       - name: Tisanas
-        price: $50
+        price: $55
         description: Crema de Cereza / Coco-Arandano / Fresa-Manzana
         image: tisana.jpg
       - name: Chocolate Tradicional Mexicano
         description: Otro clasico, chocolate con un toque de canela
-        price: $40
+        price: $50
 
   - section_name: Otras Bebidas
     columns: 3
     menu_items:
       - name: Sunsetti
-        price: $55
+        price: $60
         description: Con base de naranja y fresa, inspirada de los atardeceres de verano italiano
         image: sunsetti.jpg
       - name: ✪ Cherry Tonic
-        price: $55
+        price: $60
         description: Con base de cereza, tónica y un shot de espresso
         image: cherry_tonic.jpeg
       - name: Naranjada / Limonada
-        price: $35
+        price: $40
         description: Con agua natural o mineral
         image: limonada.jpeg
       - name: Sodas Italianas
@@ -236,7 +236,7 @@ menu_sections:
         description: Lichi / Mango / Fresa / Cereza / Coco / Sandia / Mojito
         image: soda_italiano.jpg
       - name: Jugo
-        price: $35
+        price: $40
         description: Naranja / Verde
       - name: Refresco
         price: $30
@@ -247,3 +247,22 @@ menu_sections:
             choice_price: $20
           - choice_name: Mineral
             choice_price: $25
+  - section_name: Alcohol
+    columns: 3
+    menu_items:
+      - name: Cerveza Nacional
+        choices:
+        - choice_name: Victoria
+          choice_price: $35
+        - choice_name: Mineral
+          choice_price: $35
+      - name: Cerveza Artesanal
+        choices:
+        - choice_name: Bulla
+          choice_price: $80
+        - choice_name: Milpa
+          choice_price: $80
+        - choice_name: Quiota
+          choice_price: $80
+        - choice_name: Xocolat 
+          choice_price: $80

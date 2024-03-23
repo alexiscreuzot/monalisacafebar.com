@@ -11,8 +11,7 @@ head:
     Coffee and Work Experience in Querétaro Center
 
 intro:
-  "<b>Our delicious coffee comes from the Coatepec region in Veracruz</b>, an area located at an altitude of 1200m above sea level, globally recognized for its exquisite coffee.<br/><br/>
-  At Monalisa, we take care of making <b>our own blend of 100% Arabica variety</b>, achieving predominant notes of nuts, almonds, chocolate, caramel, grapefruit, and lime fruits, with medium acidity, creating a unique flavor and aroma."
+  "At Monalisa, we take care of making <b>our own blend of 100% Arabica variety from the Coatepec region in Veracruz</b>, achieving predominant notes of nuts, almonds, chocolate, caramel, grapefruit, and lime fruits, with medium acidity, creating a unique flavor and aroma."
 
 menu:
   recommendations: ✪ Chef's Recommendation
@@ -40,7 +39,7 @@ contact:
 
 menu_sections:
   - section_name: Food
-    description: "<br/><br/><b>We're reimagining our menu to offer you a unique culinary experience. More details coming soon!</b><br/><br/>"
+    description: "<br/><br/><b>✨ We're reimagining our menu to offer you a unique culinary experience.<br/>More details coming soon!</b><br/><br/>"
 
   - section_name: Desserts
     columns: 3
@@ -91,49 +90,49 @@ menu_sections:
         image: americano.jpg
       - name: Mocha
         description: Latte with a touch of chocolate
-        price: $60
+        price: $65
         image: mocha.jpg
       - name: Chai
         description: Creamy tea-based drink topped with milk foam
         choices:
           - choice_name: Vanilla
-            choice_price: $70
+            choice_price: $80
           - choice_name: Spices
-            choice_price: $70
+            choice_price: $80
           - choice_name: Green Tea
-            choice_price: $70
+            choice_price: $80
       - name: ✪ Taro
-        price: $65
+        price: $70
         description: Beverage with a light flavor of nut, vanilla, sweet potato, and floral notes
         image: taro.jpg
       - name: Matcha
-        price: $75
+        price: $80
         description: Beverage with a light flavor of green tea, with a sweet and bitter touch
         image: matcha.jpg
       - name: Infusions
         price: $40
         description: Chamomile / Green Tea / Apple-Cinnamon / Peppermint / Lemon
       - name: Tisanes
-        price: $50
+        price: $55
         description: Cherry Cream / Coconut-Blueberry / Strawberry-Apple
         image: tisana.jpg
       - name: Traditional Mexican Hot Chocolate
         description: Another classic, chocolate with a hint of cinnamon
-        price: $40
+        price: $50
 
   - section_name: Other Beverages
     columns: 3
     menu_items:
       - name: Sunsetti
-        price: $55
+        price: $60
         description: With a base of orange and strawberry, inspired by Italian summer sunsets
         image: sunsetti.jpg
       - name: ✪ Cherry Tonic
-        price: $55
+        price: $60
         description: With a base of cherry, tonic, and a shot of espresso
         image: cherry_tonic.jpeg
       - name: Orangeade / Lemonade
-        price: $35
+        price: $40
         description: With natural or mineral water
         image: limonada.jpeg
       - name: Italian Sodas
@@ -141,7 +140,7 @@ menu_sections:
         description: Lychee / Mango / Strawberry / Cherry / Coconut / Watermelon / Mojito
         image: soda_italiano.jpg
       - name: Juice
-        price: $35
+        price: $40
         description: Orange / Green
       - name: Soft Drink
         price: $30
@@ -152,4 +151,23 @@ menu_sections:
             choice_price: $20
           - choice_name: Mineral
             choice_price: $25
+  - section_name: Alcohol
+    columns: 3
+    menu_items:
+      - name: National Beer
+        choices:
+        - choice_name: Victoria
+          choice_price: $35
+        - choice_name: Mineral
+          choice_price: $35
+      - name: Artisanal Beer
+        choices:
+        - choice_name: Bulla
+          choice_price: $80
+        - choice_name: Milpa
+          choice_price: $80
+        - choice_name: Quiota
+          choice_price: $80
+        - choice_name: Xocolat 
+          choice_price: $80
 
