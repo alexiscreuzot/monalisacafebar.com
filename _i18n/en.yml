@@ -84,14 +84,15 @@ menu_sections:
             option_price: +$25
           - option_name: Caramel
             option_price: +$25
+          - option_name: Mocha
+            option_price: +$15
       - name: Americano
-        description: A classic, perfect for savoring our coffee blend
+        description: 1 part espresso, 4 parts water
         price: $35
         image: americano.jpg
-      - name: Mocha
-        description: Latte with a touch of chocolate
-        price: $65
-        image: mocha.jpg
+      - name: Europeo
+        description: 1 part espresso, 2 parts water
+        price: $35
       - name: Chai
         description: Creamy tea-based drink topped with milk foam
         choices:
