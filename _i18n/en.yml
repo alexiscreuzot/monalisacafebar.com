@@ -39,119 +39,21 @@ contact:
   contact_us: Contact Us
 
 menu_sections:
-  menu_sections:
   - section_name: Food
-    description: "<br/><br/><b>We are reimagining our menu to offer you a unique culinary experience. More details soon!</b><br/><br/>"
-  #   columns: 3
-  #   menu_items:
-  #     - name: 🌿 Queso crema
-  #       description: El clasico
-  #       price: $40
-  #       image: placeholder.png
-  #       options:
-  #         - option_name: Miel
-  #           option_price: +$20
-  #         - option_name: Miel de Maple
-  #           option_price: +$20
-  #         - option_name: Mermelada de fresa
-  #           option_price: +$20
-  #     - name: 🌿 Vegano
-  #       description: Hummus, tomate cherry, aceite de oliva, germinado, ajonjoli. Acompañado de ensalada de la casa.
-  #       price: $80
-  #       image: placeholder.png
-  #     - name: 🌿 Da Vinci 
-  #       description: Queso de cabra, nueces caramelizadas y rebanadas de pera. Acompañado de ensalada de la casa.
-  #       price: $85
-  #       image: placeholder.png
-  #     # - name: Caprese
-  #     #   description: Queso mozzarella, jitomate, albahaca, aceite de oliva. Acompañado de ensalada de la casa.
-  #     #   price: $85
-  #     - name: Al Pesto
-  #       description: Pollo, pesto de la casa, aguacate, jitomate. Acompañado de ensalada de la casa.
-  #       price: $85
-  #       image: placeholder.png
-  #     - name: Ibérico
-  #       description: Salami, Jamon, queso cheddar, aceite de oliva. Acompañado de ensalada de la casa.
-  #       price: $85
-  #       image: placeholder.png
-  #     - name: 🌿 Mexicano
-  #       description: Frijol refrito, queso cheddar, pico de gallo, aguacate. Acompañado de ensalada de la casa.
-  #       price: $85
-  #       image: placeholder.png
-  #       options:
-  #         - option_name: Pollo
-  #           option_price: +$40
-  #         - option_name: Jamon
-  #           option_price: +$40
-
-  # - section_name: Platos fuertes
-  #   columns: 3
-  #   menu_items:
-  #     - name: ✪ 🌿 Chilaquiles
-  #       price: $65
-  #       description: Con salsa verde de la casa. Acompañados de frijolitos refritos.
-  #       image: chilaquiles.jpeg
-  #       options:
-  #         - option_name: Pollo
-  #           option_price: +$30
-  #     - name: ✪ Hamburguesa
-  #       price: $130
-  #       description: Carne, queso, lechuga, tomate, cebolla caramelizada y aderezo casero. Acompañada de papas a la francesa.
-  #       image: burger.jpeg
-  #     - name: Hot Dog
-  #       description: Acompañados de papas a la francesa y aderezo de la casa.
-  #       price: $120
-
-  # - section_name: Ensaladas
-  #   columns: 3
-  #   menu_items:
-  #     - name: 🌿 Ensalada Mona
-  #       price: $70
-  #       description: Mezcla de lechugas, espinaca, aguacate, queso panela, julianas de tortilla y chile guajillo.
-  #       image: ensalada_mona.jpeg
-  #       options:
-  #         - option_name: Pollo
-  #           option_price: +$30
-  #         - option_name: Arrachera
-  #           option_price: +$60
-  #     - name: 🌿 Ensalada Lisa
-  #       price: $80
-  #       description: Mezcla de lechugas, manzana, nuez caramelizada, arándanos, queso de cabra, vinagreta de miel y mostaza.
-  #       image: ensalada_lisa.jpg
-  #       options:
-  #         - option_name: Pollo
-  #           option_price: +$30
-  #         - option_name: Arrachera
-  #           option_price: +$60
-
-  # - section_name: Snacks
-  #   columns: 3
-  #   menu_items:
-  #     - name: Dedos de mozzarella
-  #       price: $85
-  #       description: Acompañados de salsa marinara de la casa.
-  #       image: dedos.jpeg
-  #     - name: Papas a la Francesa
-  #       price: $75
-  #       description: Orden de 400g de deliciosas papas sazonadas con limón y pimienta.
-  #     - name: Guacamole
-  #       price: $75
-  #       description: Orden de guacamole casero con totopos.
-  #       image: placeholder.png
+    description: "<br/><br/><b>We're reimagining our menu to offer you a unique culinary experience. More details coming soon!</b><br/><br/>"
 
   - section_name: Desserts
-    description: "Enjoy our homemade cakes and pies, courtesy of <b>Betún Pasteleria</b>."
     columns: 3
     menu_items:
-      - name: Cakes & Pies
+      - name: Pies and Cakes
         image: pastel.jpeg
         choices:
+          - choice_name: ✪ Carrot Cake
+            choice_price: $75
           - choice_name: ✪ Banana Bread
             choice_price: $65
-          - choice_name: Carrot Cake
-            choice_price: $75
           - choice_name: Lemon Pie
-            choice_price: $55
+            choice_price: $65
       - name: Bakery
         choices:
           - choice_name: Sweet Bread
@@ -160,7 +62,7 @@ menu_sections:
             choice_price: $20
 
   - section_name: Coffee and Specialties
-    description: "Most of our drinks can be served <b>hot, cold, or blended</b>.<br/> We also offer <b>plant-based milk (+$10)</b>."
+    description: "<br/>Most of our drinks can be enjoyed <b>hot, cold, or as a frappé</b>.<br/>We also offer <b>plant-based milks ($10 additional)</b>."
     columns: 3
     menu_items:
       - name: Espresso
@@ -173,10 +75,10 @@ menu_sections:
       - name: ✪ Flat White
         price: $50
         image: flat_white.jpg
-        description: "Our specialty: 1 part espresso, 2 parts velvety milk."
+        description: "Our specialty: 1 part espresso, 2 parts velvety milk"
       - name: Latte
         price: $55
-        description: One part espresso, 3 parts steamed milk.
+        description: One part espresso, 3 parts steamed milk
         image: latte.jpg
         options:
           - option_name: Irish Cream
@@ -184,15 +86,15 @@ menu_sections:
           - option_name: Caramel
             option_price: +$25
       - name: Americano
-        description: A classic, perfect to savor our coffee blend.
+        description: A classic, perfect for savoring our coffee blend
         price: $35
         image: americano.jpg
       - name: Mocha
-        description: Latte with a touch of chocolate.
+        description: Latte with a touch of chocolate
         price: $60
         image: mocha.jpg
       - name: Chai
-        description: Creamy tea-based drink, topped with milk foam.
+        description: Creamy tea-based drink topped with milk foam
         choices:
           - choice_name: Vanilla
             choice_price: $70
@@ -202,21 +104,21 @@ menu_sections:
             choice_price: $70
       - name: ✪ Taro
         price: $65
-        description: Lightly flavored drink with a blend of nuts, vanilla, sweet potato, and floral notes.
+        description: Beverage with a light flavor of nut, vanilla, sweet potato, and floral notes
         image: taro.jpg
       - name: Matcha
         price: $75
-        description: Lightly flavored green tea drink, with a sweet and bitter touch.
+        description: Beverage with a light flavor of green tea, with a sweet and bitter touch
         image: matcha.jpg
       - name: Infusions
         price: $40
-        description: Chamomile / Green Tea / Apple-Cinnamon / Mint / Lemon
+        description: Chamomile / Green Tea / Apple-Cinnamon / Peppermint / Lemon
       - name: Tisanes
         price: $50
-        description: Cherry Cream / Coconut-Cranberry / Strawberry-Apple
+        description: Cherry Cream / Coconut-Blueberry / Strawberry-Apple
         image: tisana.jpg
       - name: Traditional Mexican Hot Chocolate
-        description: Another classic, chocolate with a hint of cinnamon.
+        description: Another classic, chocolate with a hint of cinnamon
         price: $40
 
   - section_name: Other Beverages
@@ -224,15 +126,15 @@ menu_sections:
     menu_items:
       - name: Sunsetti
         price: $55
-        description: Orange and strawberry-based, inspired by Italian summer sunsets.
+        description: With a base of orange and strawberry, inspired by Italian summer sunsets
         image: sunsetti.jpg
       - name: ✪ Cherry Tonic
         price: $55
-        description: Cherry-based, tonic with a shot of espresso.
+        description: With a base of cherry, tonic, and a shot of espresso
         image: cherry_tonic.jpeg
       - name: Orangeade / Lemonade
         price: $35
-        description: With natural or mineral water.
+        description: With natural or mineral water
         image: limonada.jpeg
       - name: Italian Sodas
         price: $50
@@ -241,12 +143,13 @@ menu_sections:
       - name: Juice
         price: $35
         description: Orange / Green
-      - name: Soft Drinks
+      - name: Soft Drink
         price: $30
-        description: Coke / Diet Coke / Fanta / Sprite / Sidral
+        description: Coca-Cola / Diet Coke / Fanta / Sprite / Sidral
       - name: Bottled Water
         choices:
-          - choice_name: Natural
+          - choice_name: Regular
             choice_price: $20
           - choice_name: Mineral
             choice_price: $25
+
