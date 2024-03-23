@@ -11,8 +11,7 @@ head:
     Experiencia de café y trabajo en Querétaro centro
 
 intro:
-  "<b>Nuestro delicioso café proviene de la región de Coatepec, Veracruz</b>, una zona localizada a una altitud de 1200m sobre el nivel del mar, reconocida mundialmente por su exquisito café.<br/><br/>
-  En Monalisa nos encargamos de hacer <b>nuestra propia mezcla de variedad 100% arábica</b>, logrando notas predominantes de nuez, almendra, chocolate, caramelo, frutales de toronja y lima, con acidez media, logrando un sabor y aroma únicos."
+  "En Monalisa nos encargamos de hacer <b>nuestra propia mezcla de variedad 100% arábica de la región de Coatepec, Veracruz</b>, logrando notas predominantes de nuez, almendra, chocolate, caramelo, frutales de toronja y lima, con acidez media, logrando un sabor y aroma únicos."
 
 menu:
   recommendations: ✪ Recomendación del chef
@@ -39,151 +38,117 @@ contact:
   contact_us: Contáctanos
 
 menu_sections:
-  - section_name: Desayunos
-    columns: 3
-    menu_items:
-      - name: ✪ Chilaquiles
-        price: $65
-        description: Rojos os verdes. Acompañados de frijolitos refritos.
-        image: chilaquiles.jpeg
-        options:
-          - option_name: Mole
-            option_price: +$20
-          - option_name: Pollo
-            option_price: +$30
-          - option_name: Cecina
-            option_price: +$60
-      - name: Huevos al gusto
-        price: $65
-        description: Estrellados, divorciados, revueltos, omelete, rancheros. Con de frijolitos refritos.
-        image: huevos.jpeg
-        options:
-          - option_name: Jamon
-            option_price: +$20
-          - option_name: Tocino
-            option_price: +$20
-          - option_name: Chorizo
-            option_price: +$45
-      - name: Enchiladas
-        price: $80
-        description: Rojos os verdes.Con frijolitos refritos.
-        image: enchiladas.jpg
-        options:
-          - option_name: ✪ Mole
-            option_price: +$20
-          - option_name: Pollo
-            option_price: +$30
-          - option_name: Cecina
-            option_price: +$60
-      - name: ✪ Molletes
-        price: $70
-        description: Acompañados de frijoles y pico de gallo.
-        image: molletes.jpeg
-        options:
-          - option_name: Chorizo
-            option_price: +$30
-          - option_name: Jamon
-            option_price: $15
-      - name: Hotcakes
-        image: hotcakes.jpeg
-        choices:
-          - choice_name: Tradicionales de mantequilla
-            choice_price: $55
-          - choice_name: Marmelada casera
-            choice_price: $90
-        description: Esponjosos hot cakes caseros con un toque de vainilla
+  - section_name: Alimentos
+    description: "<br/><br/><b>Estamos reimaginando nuestro menu para ofrecerte una experiencia culinaria única. ¡Pronto más detalles!</b><br/><br/>"
+  #   columns: 3
+  #   menu_items:
+  #     - name: 🌿 Queso crema
+  #       description: El clasico
+  #       price: $40
+  #       image: placeholder.png
+  #       options:
+  #         - option_name: Miel
+  #           option_price: +$20
+  #         - option_name: Miel de Maple
+  #           option_price: +$20
+  #         - option_name: Mermelada de fresa
+  #           option_price: +$20
+  #     - name: 🌿 Vegano
+  #       description: Hummus, tomate cherry, aceite de oliva, germinado, ajonjoli. Acompañado de ensalada de la casa.
+  #       price: $80
+  #       image: placeholder.png
+  #     - name: 🌿 Da Vinci 
+  #       description: Queso de cabra, nueces caramelizadas y rebanadas de pera. Acompañado de ensalada de la casa.
+  #       price: $85
+  #       image: placeholder.png
+  #     # - name: Caprese
+  #     #   description: Queso mozzarella, jitomate, albahaca, aceite de oliva. Acompañado de ensalada de la casa.
+  #     #   price: $85
+  #     - name: Al Pesto
+  #       description: Pollo, pesto de la casa, aguacate, jitomate. Acompañado de ensalada de la casa.
+  #       price: $85
+  #       image: placeholder.png
+  #     - name: Ibérico
+  #       description: Salami, Jamon, queso cheddar, aceite de oliva. Acompañado de ensalada de la casa.
+  #       price: $85
+  #       image: placeholder.png
+  #     - name: 🌿 Mexicano
+  #       description: Frijol refrito, queso cheddar, pico de gallo, aguacate. Acompañado de ensalada de la casa.
+  #       price: $85
+  #       image: placeholder.png
+  #       options:
+  #         - option_name: Pollo
+  #           option_price: +$40
+  #         - option_name: Jamon
+  #           option_price: +$40
 
-  - section_name: Platos fuertes
-    columns: 3
-    menu_items:
-      - name: ✪ Hamburguesa
-        price: $130
-        description: Carne, queso, lechuga, tomate, cebolla caramelizada y aderezo casero. Acompañada de papas a la francesa.
-        image: burger.jpeg
-        options:
-          - option_name: Piña
-            option_price: +$15
-          - option_name: Tocino
-            option_price: +$15
-          - option_name: Carne extra
-            option_price: +$40
-      - name: Pepito
-        description: Acompañados de papas a la francesa y aderezo de la casa.
-        image: pepito.jpeg
-        choices:
-          - choice_name: Arrachera
-            choice_price: $155
-          - choice_name: ✪ Pollo al pesto
-            choice_price: $135
-      - name: Tacos Gourmet
-        description: Acompañados de guacamole y de una rica salsa macha Veracruzana.
-        image: tacos.jpeg
-        choices:
-          - choice_name: Arrachera
-            choice_price: $125
-          - choice_name: Cecina
-            choice_price: $125
+  # - section_name: Platos fuertes
+  #   columns: 3
+  #   menu_items:
+  #     - name: ✪ 🌿 Chilaquiles
+  #       price: $65
+  #       description: Con salsa verde de la casa. Acompañados de frijolitos refritos.
+  #       image: chilaquiles.jpeg
+  #       options:
+  #         - option_name: Pollo
+  #           option_price: +$30
+  #     - name: ✪ Hamburguesa
+  #       price: $130
+  #       description: Carne, queso, lechuga, tomate, cebolla caramelizada y aderezo casero. Acompañada de papas a la francesa.
+  #       image: burger.jpeg
+  #     - name: Hot Dog
+  #       description: Acompañados de papas a la francesa y aderezo de la casa.
+  #       price: $120
 
-  - section_name: Saludable
-    columns: 3
-    menu_items:
-      - name: Ensalada Mona
-        price: $70
-        description: Mezcla de lechugas, espinaca, aguacate, queso panela, julianas de tortilla y chile guajillo.
-        image: ensalada_mona.jpeg
-        options:
-          - option_name: Pollo
-            option_price: +$30
-          - option_name: Arrachera
-            option_price: +$60
-      - name: Ensalada Lisa
-        price: $80
-        description: Mezcla de lechugas, manzana, nuez caramelizada, arándanos, queso de cabra, vinagreta de miel y mostaza.
-        image: ensalada_lisa.jpg
-        options:
-          - option_name: Pollo
-            option_price: +$30
-          - option_name: Arrachera
-            option_price: +$60
-      # - name: Avocado Toast
-      #   price: $80
-      #   description: Avocado toast con huevo pochado y aderezo de la casa. Accompagnado de lechuga y jitomate.
-      #   image: placeholder.png
+  # - section_name: Ensaladas
+  #   columns: 3
+  #   menu_items:
+  #     - name: 🌿 Ensalada Mona
+  #       price: $70
+  #       description: Mezcla de lechugas, espinaca, aguacate, queso panela, julianas de tortilla y chile guajillo.
+  #       image: ensalada_mona.jpeg
+  #       options:
+  #         - option_name: Pollo
+  #           option_price: +$30
+  #         - option_name: Arrachera
+  #           option_price: +$60
+  #     - name: 🌿 Ensalada Lisa
+  #       price: $80
+  #       description: Mezcla de lechugas, manzana, nuez caramelizada, arándanos, queso de cabra, vinagreta de miel y mostaza.
+  #       image: ensalada_lisa.jpg
+  #       options:
+  #         - option_name: Pollo
+  #           option_price: +$30
+  #         - option_name: Arrachera
+  #           option_price: +$60
 
-
-  - section_name: Snacks
-    columns: 3
-    menu_items:
-      - name: Dedos de mozzarella
-        price: $85
-        description: Acompañados de salsa marinara de la casa.
-        image: dedos.jpeg
-      - name: Papas a la Francesa
-        price: $75
-        description: Orden de 400g de deliciosas papas sazonadas con limón y pimienta.
-      # - name: Guacamole
-      #   price: $75
-      #   description: Orden de guacamole casero con totopos.
-      #   image: placeholder.png
+  # - section_name: Snacks
+  #   columns: 3
+  #   menu_items:
+  #     - name: Dedos de mozzarella
+  #       price: $85
+  #       description: Acompañados de salsa marinara de la casa.
+  #       image: dedos.jpeg
+  #     - name: Papas a la Francesa
+  #       price: $75
+  #       description: Orden de 400g de deliciosas papas sazonadas con limón y pimienta.
+  #     - name: Guacamole
+  #       price: $75
+  #       description: Orden de guacamole casero con totopos.
+  #       image: placeholder.png
 
   - section_name: Postres
-    description: "Disfrutan nuestros pasteles y pies son caseros, cortesia de <b>Betún Pasteleria</b>."
     columns: 3
     menu_items:
-      - name: Pasteles
+      - name: Pays y Pasteles
         image: pastel.jpeg
         choices:
-          - choice_name: ✪ Panque De Platano
-            choice_price: $65
-          - choice_name: Pastel De Zanahoria
+          - choice_name: ✪ Pastel De Zanahoria
             choice_price: $75
-      - name: Pies
-        image: pie.jpg
-        choices:
-          - choice_name: ✪ Pie De Platano
+          - choice_name: ✪ Panque de Platano
             choice_price: $65
-          - choice_name: Pie De Limon
-            choice_price: $55
+          - choice_name: Pay De Limon
+            choice_price: $65
       - name: Panaderia
         choices:
           - choice_name: Pan dulce
@@ -192,7 +157,7 @@ menu_sections:
             choice_price: $20
 
   - section_name: Café y especialidades
-    description: "La mayoria de nuestras bebidas se pueden tomar <b>caliente, frias o frappé</b>.<br/> También contamos con <b>leches vegetales ($10 adicional)</b>."
+    description: "<br/>La mayoria de nuestras bebidas se pueden tomar <b>caliente, frias o frappé</b>.<br/>También contamos con <b>leches vegetales ($10 adicional)</b>."
     columns: 3
     menu_items:
       - name: Espresso
