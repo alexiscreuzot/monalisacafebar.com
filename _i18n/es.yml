@@ -167,6 +167,12 @@ menu_sections:
             choice_price: $30
           - choice_name: Cortado
             choice_price: $35
+      - name: Americano
+        description: Una parte espresso, 4 partes agua
+        price: $35
+      - name: Europeo
+        description: Una parte espresso, 2 partes agua
+        price: $35
       - name: ✪ Flat White
         price: $50
         image: flat_white.jpg
@@ -182,12 +188,7 @@ menu_sections:
             option_price: +$25
           - option_name: Mocha
             option_price: +$15
-      - name: Americano
-        description: Una parte espresso, 4 partes agua
-        price: $35
-      - name: Europeo
-        description: Una parte espresso, 2 partes agua
-        price: $35
+      
       - name: Chai
         description: Bebida cremosa a base de té, rematada con espuma de leche
         choices:

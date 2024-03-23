@@ -1,5 +1,5 @@
-$main_bg: #e4dccb;
-$content_bg: #FCECDD;
+$main_bg: #e4dfcb;
+$content_bg: #FDEDDE;
 //$content_bg: #e4dccb;
 //$main_bg: #FCECDD;
 
@@ -185,6 +185,10 @@ h2 {
     .intro {
         padding: 2rem 8rem 0rem 8rem;
         font-size: 1.3rem;
+    }
+
+    #wrapper {
+        margin: 0 4rem;
     }
 
     #content {

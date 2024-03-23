@@ -70,6 +70,12 @@ menu_sections:
             choice_price: $30
           - choice_name: Cortado
             choice_price: $35
+      - name: Americano
+        description: 1 part espresso, 4 parts water
+        price: $35
+      - name: Europeo
+        description: 1 part espresso, 2 parts water
+        price: $35
       - name: ✪ Flat White
         price: $50
         image: flat_white.jpg
@@ -85,12 +91,6 @@ menu_sections:
             option_price: +$25
           - option_name: Mocha
             option_price: +$15
-      - name: Americano
-        description: 1 part espresso, 4 parts water
-        price: $35
-      - name: Europeo
-        description: 1 part espresso, 2 parts water
-        price: $35
       - name: Chai
         description: Creamy tea-based drink topped with milk foam
         choices:
