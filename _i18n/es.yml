@@ -143,12 +143,12 @@ menu_sections:
       - name: Pays y Pasteles
         image: pastel.jpeg
         choices:
-          - choice_name: ✪ Pastel De Zanahoria
-            choice_price: $75
           - choice_name: ✪ Panque de Platano
             choice_price: $65
-          - choice_name: Pay De Limon
+          - choice_name: ✪ Pay De Limon
             choice_price: $65
+          - choice_name: Pastel De Zanahoria
+            choice_price: $75
       - name: Panaderia
         choices:
           - choice_name: Pan dulce

@@ -47,12 +47,12 @@ menu_sections:
       - name: Pies and Cakes
         image: pastel.jpeg
         choices:
-          - choice_name: ✪ Carrot Cake
-            choice_price: $75
           - choice_name: ✪ Banana Bread
             choice_price: $65
-          - choice_name: Lemon Pie
+          - choice_name: ✪ Lemon Pie
             choice_price: $65
+          - choice_name: Carrot Cake
+            choice_price: $75
       - name: Bakery
         choices:
           - choice_name: Sweet Bread
