@@ -39,140 +39,117 @@ contact:
   contact_us: Contact Us
 
 menu_sections:
-  - section_name: Breakfast
-    columns: 3
-    menu_items:
-      - name: ✪ Chilaquiles
-        price: $65
-        description: Red or green. Served with refried beans.
-        image: chilaquiles.jpeg
-        options:
-          - option_name: Mole
-            option_price: +$20
-          - option_name: Chicken
-            option_price: +$30
-          - option_name: Beef
-            option_price: +$60
-      - name: Eggs Your Way
-        price: $65
-        description: Scrambled, sunny-side-up, over easy, omelette, rancheros. Served with refried beans.
-        image: huevos.jpeg
-        options:
-          - option_name: Ham
-            option_price: +$20
-          - option_name: Bacon
-            option_price: +$20
-          - option_name: Chorizo
-            option_price: +$45
-      - name: Enchiladas
-        price: $80
-        description: Red or green. With refried beans.
-        image: enchiladas.jpg
-        options:
-          - option_name: ✪ Mole
-            option_price: +$20
-          - option_name: Chicken
-            option_price: +$30
-          - option_name: Beef
-            option_price: +$60
-      - name: ✪ Molletes
-        price: $70
-        description: Served with beans and pico de gallo.
-        image: molletes.jpeg
-        options:
-          - option_name: Chorizo
-            option_price: +$30
-          - option_name: Ham
-            option_price: $15
-      - name: Hotcakes
-        image: hotcakes.jpeg
-        choices:
-          - choice_name: Traditional with butter
-            choice_price: $55
-          - choice_name: Homemade marmalade
-            choice_price: $90
-        description: Fluffy homemade hotcakes with a hint of vanilla.
+  menu_sections:
+  - section_name: Food
+    description: "<br/><br/><b>We are reimagining our menu to offer you a unique culinary experience. More details soon!</b><br/><br/>"
+  #   columns: 3
+  #   menu_items:
+  #     - name: 🌿 Queso crema
+  #       description: El clasico
+  #       price: $40
+  #       image: placeholder.png
+  #       options:
+  #         - option_name: Miel
+  #           option_price: +$20
+  #         - option_name: Miel de Maple
+  #           option_price: +$20
+  #         - option_name: Mermelada de fresa
+  #           option_price: +$20
+  #     - name: 🌿 Vegano
+  #       description: Hummus, tomate cherry, aceite de oliva, germinado, ajonjoli. Acompañado de ensalada de la casa.
+  #       price: $80
+  #       image: placeholder.png
+  #     - name: 🌿 Da Vinci 
+  #       description: Queso de cabra, nueces caramelizadas y rebanadas de pera. Acompañado de ensalada de la casa.
+  #       price: $85
+  #       image: placeholder.png
+  #     # - name: Caprese
+  #     #   description: Queso mozzarella, jitomate, albahaca, aceite de oliva. Acompañado de ensalada de la casa.
+  #     #   price: $85
+  #     - name: Al Pesto
+  #       description: Pollo, pesto de la casa, aguacate, jitomate. Acompañado de ensalada de la casa.
+  #       price: $85
+  #       image: placeholder.png
+  #     - name: Ibérico
+  #       description: Salami, Jamon, queso cheddar, aceite de oliva. Acompañado de ensalada de la casa.
+  #       price: $85
+  #       image: placeholder.png
+  #     - name: 🌿 Mexicano
+  #       description: Frijol refrito, queso cheddar, pico de gallo, aguacate. Acompañado de ensalada de la casa.
+  #       price: $85
+  #       image: placeholder.png
+  #       options:
+  #         - option_name: Pollo
+  #           option_price: +$40
+  #         - option_name: Jamon
+  #           option_price: +$40
 
-  - section_name: Main Courses
-    columns: 3
-    menu_items:
-      - name: ✪ Burger
-        price: $130
-        description: Beef, cheese, lettuce, tomato, caramelized onion, and homemade dressing. Served with French fries.
-        image: burger.jpeg
-        options:
-          - option_name: Pineapple
-            option_price: +$15
-          - option_name: Bacon
-            option_price: +$15
-          - option_name: Extra Meat
-            option_price: +$40
-      - name: Pepito
-        description: Served with French fries and house dressing.
-        image: pepito.jpeg
-        choices:
-          - choice_name: Skirt Steak
-            choice_price: $155
-          - choice_name: ✪ Pesto Chicken
-            choice_price: $135
-      - name: Gourmet Tacos
-        description: Served with guacamole and a delicious Veracruzana macha sauce.
-        image: tacos.jpeg
-        choices:
-          - choice_name: Skirt Steak
-            choice_price: $125
-          - choice_name: Beef Jerky
-            choice_price: $125
+  # - section_name: Platos fuertes
+  #   columns: 3
+  #   menu_items:
+  #     - name: ✪ 🌿 Chilaquiles
+  #       price: $65
+  #       description: Con salsa verde de la casa. Acompañados de frijolitos refritos.
+  #       image: chilaquiles.jpeg
+  #       options:
+  #         - option_name: Pollo
+  #           option_price: +$30
+  #     - name: ✪ Hamburguesa
+  #       price: $130
+  #       description: Carne, queso, lechuga, tomate, cebolla caramelizada y aderezo casero. Acompañada de papas a la francesa.
+  #       image: burger.jpeg
+  #     - name: Hot Dog
+  #       description: Acompañados de papas a la francesa y aderezo de la casa.
+  #       price: $120
 
-  - section_name: Healthy Options
-    columns: 3
-    menu_items:
-      - name: Mona Salad
-        price: $70
-        description: Mixed greens, spinach, avocado, panela cheese, tortilla strips, and guajillo chili.
-        image: ensalada_mona.jpeg
-        options:
-          - option_name: Chicken
-            option_price: +$30
-          - option_name: Skirt Steak
-            option_price: +$60
-      - name: Lisa Salad
-        price: $80
-        description: Mixed greens, apple, caramelized walnut, cranberries, goat cheese, honey mustard vinaigrette.
-        image: ensalada_lisa.jpg
-        options:
-          - option_name: Chicken
-            option_price: +$30
-          - option_name: Skirt Steak
-            option_price: +$60
+  # - section_name: Ensaladas
+  #   columns: 3
+  #   menu_items:
+  #     - name: 🌿 Ensalada Mona
+  #       price: $70
+  #       description: Mezcla de lechugas, espinaca, aguacate, queso panela, julianas de tortilla y chile guajillo.
+  #       image: ensalada_mona.jpeg
+  #       options:
+  #         - option_name: Pollo
+  #           option_price: +$30
+  #         - option_name: Arrachera
+  #           option_price: +$60
+  #     - name: 🌿 Ensalada Lisa
+  #       price: $80
+  #       description: Mezcla de lechugas, manzana, nuez caramelizada, arándanos, queso de cabra, vinagreta de miel y mostaza.
+  #       image: ensalada_lisa.jpg
+  #       options:
+  #         - option_name: Pollo
+  #           option_price: +$30
+  #         - option_name: Arrachera
+  #           option_price: +$60
 
-  - section_name: Snacks
-    columns: 3
-    menu_items:
-      - name: Mozzarella Sticks
-        price: $85
-        description: Served with house marinara sauce.
-        image: dedos.jpeg
-      - name: French Fries
-        price: $75
-        description: 400g of delicious seasoned fries with lemon and pepper.
+  # - section_name: Snacks
+  #   columns: 3
+  #   menu_items:
+  #     - name: Dedos de mozzarella
+  #       price: $85
+  #       description: Acompañados de salsa marinara de la casa.
+  #       image: dedos.jpeg
+  #     - name: Papas a la Francesa
+  #       price: $75
+  #       description: Orden de 400g de deliciosas papas sazonadas con limón y pimienta.
+  #     - name: Guacamole
+  #       price: $75
+  #       description: Orden de guacamole casero con totopos.
+  #       image: placeholder.png
 
   - section_name: Desserts
     description: "Enjoy our homemade cakes and pies, courtesy of <b>Betún Pasteleria</b>."
     columns: 3
     menu_items:
-      - name: Cakes
+      - name: Cakes & Pies
         image: pastel.jpeg
         choices:
           - choice_name: ✪ Banana Bread
             choice_price: $65
           - choice_name: Carrot Cake
             choice_price: $75
-      - name: Pies
-        image: pie.jpg
-        choices:
-          - choice_name: ✪ Banana Pie
-            choice_price: $65
           - choice_name: Lemon Pie
             choice_price: $55
       - name: Bakery
