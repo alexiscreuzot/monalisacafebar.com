@@ -30,6 +30,10 @@
 
         <p class="intro">{% t intro %}</p>
 
+        <div class="legend">
+          <p>{% t menu.recommendations %}</p>
+        </div>
+        
         {% for section in site.translations[site.lang].menu_sections %}
           <h2 class="section-title">{{ section.section_name }}</h2>
 
@@ -85,9 +89,9 @@
 
       </div>
 
-      <div id="footer">
+      <!-- <div id="footer">
         <p>{% t menu.recommendations %}</p>
-      </div>
+      </div> -->
     </div>
 
   </body>

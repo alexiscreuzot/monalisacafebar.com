@@ -158,7 +158,7 @@ menu_sections:
         choices:
         - choice_name: Victoria
           choice_price: $35
-        - choice_name: Mineral
+        - choice_name: Corona
           choice_price: $35
       - name: Artisanal Beer
         choices:
