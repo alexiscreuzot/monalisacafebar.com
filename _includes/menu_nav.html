@@ -1,0 +1,23 @@
+<div class="nav">
+  <div id="icon" onclick="toggleNav()">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+  </div>
+  <ul id="menu-nav"">
+    <br/>
+    {% for section in site.translations[site.lang].menu_sections %}
+      <li><a href="#{{ section.section_name }}" onclick="toggleNav()">{{ section.section_name }}</a></li>
+    {% endfor %}
+    <br/>
+  </ul>
+</div>
+
+  <script>
+    function toggleNav() {
+      var menu = document.getElementById("menu-nav");
+      menu.classList.toggle("show");
+      var icon = document.getElementById("icon");
+      icon.classList.toggle("change");
+    }
+  </script>

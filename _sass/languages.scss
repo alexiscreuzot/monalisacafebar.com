@@ -1,34 +1,51 @@
+
+
 .languages {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 10px 20px;
+    font-family: 'DM Sans', sans-serif;
+    position:absolute;
+    right: 0.8rem;
+    top: 0.8rem;
+    display: inline;
     z-index: 100;
 }
-.languages ul li {
-    display: inline;
+
+.languages .selected-language {
+    font-size: 2rem;
+    padding: 8px 16px;
+    cursor: pointer;
 }
-.languages ul li a {
+
+.languages #language-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.languages #language-menu.show {
+    display: block;
+}
+
+.languages #language-menu li {
+    font-size: 2rem;
+    list-style: none;
+    padding:0 8px;
+
+    &.hide-language {
+        display:none
+    }
+}
+
+.languages #language-menu li a {
+    display: block;
+    padding: 4px 10px;
     text-decoration: none;
-    font-size: 30px; /* Adjust the font size as needed */
-    margin-left: 10px; /* Adjust the margin as needed */
 }
 
-.languages ul li a {
-    opacity: 0.5; /* Adjust the opacity for the inactive language link */
-}
-
-.languages a.selected, .languages a:hover {
-    opacity: 1; /* Adjust the opacity for the active language link */
-}
 
 @media (min-width: 768px) {
     .languages {
-        padding: 20px 40px;
+        right: 4rem;
     }
-
-    .languages ul li a {
-        font-size: 40px;
-    }
-
 }

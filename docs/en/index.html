@@ -25,17 +25,6 @@
 
     <div id="top">
   <div class="container">
-
-    <div class="languages">
-    <ul>
-    
-    
-    
-    <li><a href="/" >🇲🇽</a></li>
-    <li><a href="/en/" class="selected">🇺🇸</a></li>
-    </ul>
-</div>
-
     <div class="front">&nbsp;</div>
   </div>
   <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -67,6 +56,32 @@
       
   </div>
 </div>
+    
+    <div class="languages">
+    <div class="selected-language" onclick="toggleLanguageMenu()">
+      🇺🇸
+    </div>
+    <ul id="language-menu">
+      
+        
+          <li>
+            <a href="/">
+              🇲🇽
+            </a>
+          </li>
+        
+      
+        
+      
+    </ul>
+  </div>
+  
+  <script>
+    function toggleLanguageMenu() {
+      var menu = document.getElementById("language-menu");
+      menu.classList.toggle("show");
+    }
+  </script>
     
     <div id="menu" class="section">
   <div class="container">

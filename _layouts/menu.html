@@ -12,7 +12,10 @@
 
     {% include overlay.html %}
 
+    {% include menu_nav.html %}
+
     {% include languages.html %}
+
 
     <div id="wrapper">
 
@@ -24,18 +27,18 @@
           </a>
         </div>
 
+        <p class="intro">{% t intro %}</p>
       </div>
 
       <div id="content">
 
-        <p class="intro">{% t intro %}</p>
-
+  
         <div class="legend">
           <p>{% t menu.recommendations %}</p>
         </div>
         
         {% for section in site.translations[site.lang].menu_sections %}
-          <h2 class="section-title">{{ section.section_name }}</h2>
+          <h2 id="{{ section.section_name }}" class="section-title">{{ section.section_name }}</h2>
 
           {% if section.description %}
             <div class="section-description">{{ section.description }}</div>
@@ -93,6 +96,7 @@
       </div>
       
     </div>
+    
 
   </body>
 

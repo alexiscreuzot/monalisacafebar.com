@@ -1,6 +1,8 @@
 global:
   current_lang: Español
   current_lang_id: es
+  current_lang_flag: 🇲🇽
+  lang_uri: ""
 
 head:
   title: "Monalisa Café-Bar: Café tranquilo en el Centro de Querétaro"
@@ -11,10 +13,10 @@ head:
     Experiencia de café y trabajo en Querétaro centro
 
 intro:
-  "En Monalisa nos encargamos de hacer <b>nuestra propia mezcla de cafe con variedad 100% arábica</b> de la región de Coatepec, Veracruz.<br/>Disfruta su sabor y aroma únicos, con notas de nuez, almendra, chocolate, caramelo, frutales de toronja y lima."
+  "En Monalisa, les ofrecemos un espacio tranquilo en el corazón de Querétaro donde pueden <b>disfrutar un delicioso café</b>.<br/>Tambien contamos con una amplia variedad de antojos y platillos saludables, <b>con opciones veganas y vegetarianas</b>."
 
 menu:
-  recommendations: ✪ Recomendación del chef
+  recommendations: 🌿 Vegetariano<br/>⭐ Recomendación del chef
   title: Menu <i>&</i> horarios
   schedule:
     - day: Lunes
@@ -38,104 +40,100 @@ contact:
   contact_us: Contáctanos
 
 menu_sections:
-  - section_name: Alimentos
-    description: "<br/><br/><b>✨ Estamos reimaginando nuestro menu para ofrecerte una experiencia culinaria única.<br/>¡Pronto más detalles!</b><br/><br/>"
-  #   columns: 3
-  #   menu_items:
-  #     - name: 🌿 Queso crema
-  #       description: El clasico
-  #       price: $40
-  #       image: placeholder.png
-  #       options:
-  #         - option_name: Miel
-  #           option_price: +$20
-  #         - option_name: Miel de Maple
-  #           option_price: +$20
-  #         - option_name: Mermelada de fresa
-  #           option_price: +$20
-  #     - name: 🌿 Vegano
-  #       description: Hummus, tomate cherry, aceite de oliva, germinado, ajonjoli. Acompañado de ensalada de la casa.
-  #       price: $80
-  #       image: placeholder.png
-  #     - name: 🌿 Da Vinci 
-  #       description: Queso de cabra, nueces caramelizadas y rebanadas de pera. Acompañado de ensalada de la casa.
-  #       price: $85
-  #       image: placeholder.png
-  #     # - name: Caprese
-  #     #   description: Queso mozzarella, jitomate, albahaca, aceite de oliva. Acompañado de ensalada de la casa.
-  #     #   price: $85
-  #     - name: Al Pesto
-  #       description: Pollo, pesto de la casa, aguacate, jitomate. Acompañado de ensalada de la casa.
-  #       price: $85
-  #       image: placeholder.png
-  #     - name: Ibérico
-  #       description: Salami, Jamon, queso cheddar, aceite de oliva. Acompañado de ensalada de la casa.
-  #       price: $85
-  #       image: placeholder.png
-  #     - name: 🌿 Mexicano
-  #       description: Frijol refrito, queso cheddar, pico de gallo, aguacate. Acompañado de ensalada de la casa.
-  #       price: $85
-  #       image: placeholder.png
-  #       options:
-  #         - option_name: Pollo
-  #           option_price: +$40
-  #         - option_name: Jamon
-  #           option_price: +$40
+  - section_name: Bagels
+    section_id: food
+    description: "Todos nuestros bagels pueden cambiarse por pan de chapata y vienen <b>acompañado de ensalada de la casa</b>. "
+    columns: 3
+    menu_items:
+      - name: 🌿 Queso crema
+        description: El clasico
+        price: $40
+        image: placeholder.png
+        options:
+          - option_name: Miel
+            option_price: +$20
+          - option_name: Miel de Maple
+            option_price: +$20
+          - option_name: Mermelada de fresa
+            option_price: +$20
+      - name: ⭐🌿 Mexicano
+        description: Frijol refrito, queso cheddar, pico de gallo, aguacate. 
+        price: $85
+        image: bagel_mexicano.jpg
+        options:
+          - option_name: Pollo
+            option_price: +$40
+          - option_name: Jamon
+            option_price: +$40
+      - name: ⭐🌿 Da Vinci 
+        description: Queso de cabra, nueces caramelizadas y rebanadas de pera. 
+        price: $85
+        image: placeholder.png
+      - name: 🌿 Vegano
+        description: Hummus, tomate cherry, aceite de oliva, germinado, ajonjoli. 
+        price: $80
+        image: placeholder.png
+      # - name: Caprese
+      #   description: Queso mozzarella, jitomate, albahaca, aceite de oliva. 
+      #   price: $85
+      - name: Al Pesto
+        description: Pollo, pesto de la casa, aguacate, jitomate. 
+        price: $85
+        image: placeholder.png
+      - name: Ibérico
+        description: Salami, Jamon, queso cheddar, aceite de oliva. 
+        price: $85
+        image: placeholder.png
 
-  # - section_name: Platos fuertes
-  #   columns: 3
-  #   menu_items:
-  #     - name: ✪ 🌿 Chilaquiles
-  #       price: $65
-  #       description: Con salsa verde de la casa. Acompañados de frijolitos refritos.
-  #       image: chilaquiles.jpeg
-  #       options:
-  #         - option_name: Pollo
-  #           option_price: +$30
-  #     - name: ✪ Hamburguesa
-  #       price: $130
-  #       description: Carne, queso, lechuga, tomate, cebolla caramelizada y aderezo casero. Acompañada de papas a la francesa.
-  #       image: burger.jpeg
-  #     - name: Hot Dog
-  #       description: Acompañados de papas a la francesa y aderezo de la casa.
-  #       price: $120
+  - section_name: Platos fuertes
+    columns: 3
+    menu_items:
+      - name: ⭐🌿 Chilaquiles
+        price: $65
+        description: Con salsa verde de la casa. Acompañados de frijolitos refritos.
+        image: chilaquiles.jpeg
+        options:
+          - option_name: Pollo
+            option_price: +$30
+      - name: ⭐ Hamburguesa
+        price: $130
+        description: Carne, queso, lechuga, tomate, cebolla caramelizada y aderezo casero. Acompañada de ensalada de la casa.
+        image: burger.jpeg
+      - name: Hot Dog
+        description: Acompañada de ensalada de la casa.
+        price: $120
+      - name: 🌿 Ensalada Mona
+        price: $70
+        description: Mezcla de lechugas, espinaca, aguacate, queso panela, julianas de tortilla y chile guajillo.
+        image: ensalada_mona.jpeg
+        options:
+          - option_name: Pollo
+            option_price: +$30
+          - option_name: Jamon
+            option_price: +$40
+      - name: 🌿 Ensalada Lisa
+        price: $80
+        description: Mezcla de lechugas, manzana, nuez caramelizada, arándanos, queso de cabra, vinagreta de miel y mostaza.
+        image: ensalada_lisa.jpg
+        options:
+          - option_name: Pollo
+            option_price: +$30
+          - option_name: Jamon
+            option_price: +$40
 
-  # - section_name: Ensaladas
-  #   columns: 3
-  #   menu_items:
-  #     - name: 🌿 Ensalada Mona
-  #       price: $70
-  #       description: Mezcla de lechugas, espinaca, aguacate, queso panela, julianas de tortilla y chile guajillo.
-  #       image: ensalada_mona.jpeg
-  #       options:
-  #         - option_name: Pollo
-  #           option_price: +$30
-  #         - option_name: Arrachera
-  #           option_price: +$60
-  #     - name: 🌿 Ensalada Lisa
-  #       price: $80
-  #       description: Mezcla de lechugas, manzana, nuez caramelizada, arándanos, queso de cabra, vinagreta de miel y mostaza.
-  #       image: ensalada_lisa.jpg
-  #       options:
-  #         - option_name: Pollo
-  #           option_price: +$30
-  #         - option_name: Arrachera
-  #           option_price: +$60
-
-  # - section_name: Snacks
-  #   columns: 3
-  #   menu_items:
-  #     - name: Dedos de mozzarella
-  #       price: $85
-  #       description: Acompañados de salsa marinara de la casa.
-  #       image: dedos.jpeg
-  #     - name: Papas a la Francesa
-  #       price: $75
-  #       description: Orden de 400g de deliciosas papas sazonadas con limón y pimienta.
-  #     - name: Guacamole
-  #       price: $75
-  #       description: Orden de guacamole casero con totopos.
-  #       image: placeholder.png
+  - section_name: Snacks
+    columns: 3
+    menu_items:
+      - name: 🌿 Dedos de mozzarella
+        price: $85
+        description: Acompañados de salsa marinara de la casa.
+        image: dedos.jpeg
+      - name: 🌿 Papas a la Francesa
+        price: $75
+        description: Orden de 400g de deliciosas papas sazonadas con limón y pimienta.
+      - name: 🌿 Guacamole
+        price: $75
+        description: Orden de guacamole casero con totopos.
 
   - section_name: Postres
     columns: 3
@@ -143,9 +141,9 @@ menu_sections:
       - name: Pays y Pasteles
         image: pastel.jpeg
         choices:
-          - choice_name: ✪ Panque de Platano
+          - choice_name: ⭐ Panque de Platano
             choice_price: $65
-          - choice_name: ✪ Pay De Limon
+          - choice_name: ⭐ Pay De Limon
             choice_price: $65
           - choice_name: Pastel De Zanahoria
             choice_price: $75
@@ -157,7 +155,8 @@ menu_sections:
             choice_price: $20
 
   - section_name: Café y especialidades
-    description: "<br/>La mayoria de nuestras bebidas se pueden tomar <b>caliente, frias o frappé</b>.<br/>También contamos con <b>leches vegetales ($10 adicional)</b>."
+    section_id: drinks
+    description: "Disfrutan <b>nuestra propia mezcla de cafe con variedad 100% arábica</b> de la región de Coatepec, Veracruz.<br/>La mayoria de nuestras bebidas se pueden tomar <b>caliente, frias o frappé</b>. También contamos con <b>leches vegetales ($10 adicional)</b>."
     columns: 3
     menu_items:
       - name: Espresso
@@ -173,7 +172,7 @@ menu_sections:
       - name: Europeo
         description: Una parte espresso, 2 partes agua
         price: $35
-      - name: ✪ Flat White
+      - name: ⭐ Flat White
         price: $50
         image: flat_white.jpg
         description: "Nuestra especialidad : 1 parte espresso, 2 partes leche aterciopelada"
@@ -198,7 +197,7 @@ menu_sections:
             choice_price: $80
           - choice_name: Té verde
             choice_price: $80
-      - name: ✪ Taro
+      - name: ⭐ Taro
         price: $70
         description: Bebida con sabor ligero a mezcla de nuez, vainilla, camote y toque floral
         image: taro.jpg
@@ -224,7 +223,7 @@ menu_sections:
         price: $60
         description: Con base de naranja y fresa, inspirada de los atardeceres de verano italiano
         image: sunsetti.jpg
-      - name: ✪ Cherry Tonic
+      - name: ⭐ Cherry Tonic
         price: $60
         description: Con base de cereza, tónica y un shot de espresso
         image: cherry_tonic.jpeg

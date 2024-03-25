@@ -25,17 +25,6 @@
 
     <div id="top">
   <div class="container">
-
-    <div class="languages">
-    <ul>
-    
-    
-    
-    <li><a href="/" class="selected">🇲🇽</a></li>
-    <li><a href="/en/" >🇺🇸</a></li>
-    </ul>
-</div>
-
     <div class="front">&nbsp;</div>
   </div>
   <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -50,7 +39,7 @@
     <div id="intro" class="section">
   <div class="container centered">
     <h1 style="display: none;">Bienvenido a Monalisa café-bar</h1>
-    <p>En Monalisa nos encargamos de hacer <b>nuestra propia mezcla de cafe con variedad 100% arábica</b> de la región de Coatepec, Veracruz.<br/>Disfruta su sabor y aroma únicos, con notas de nuez, almendra, chocolate, caramelo, frutales de toronja y lima.</p>
+    <p>En Monalisa, les ofrecemos un espacio tranquilo en el corazón de Querétaro donde pueden <b>disfrutar un delicioso café</b>.<br/>Tambien contamos con una amplia variedad de antojos y platillos saludables, <b>con opciones veganas y vegetarianas</b>.</p>
       
     <ul>
       <li><img src="/assets/images/intro3.jpg" alt="Intérior del café" loading="lazy" /></li>
@@ -67,6 +56,32 @@
       
   </div>
 </div>
+    
+    <div class="languages">
+    <div class="selected-language" onclick="toggleLanguageMenu()">
+      🇲🇽
+    </div>
+    <ul id="language-menu">
+      
+        
+      
+        
+          <li>
+            <a href="en/">
+              🇺🇸
+            </a>
+          </li>
+        
+      
+    </ul>
+  </div>
+  
+  <script>
+    function toggleLanguageMenu() {
+      var menu = document.getElementById("language-menu");
+      menu.classList.toggle("show");
+    }
+  </script>
     
     <div id="menu" class="section">
   <div class="container">

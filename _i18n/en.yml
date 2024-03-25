@@ -1,6 +1,8 @@
 global:
   current_lang: English
   current_lang_id: en
+  current_lang_flag: 🇺🇸
+  lang_uri: en
 
 head:
   title: "Monalisa Café-Bar: Tranquil Café in the Center of Querétaro"

@@ -1,0 +1,71 @@
+.nav {
+    display: none;
+  #icon {
+    background-color: white;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 0 0 12px;
+    margin: 1.1rem 0 0 1.1rem;
+    .bar1, .bar2, .bar3 {
+      width: 20px;
+      height: 2px;
+      background-color: $font-primary;
+      margin: 5px 0;
+      transition: 0.4s;
+    }
+  }
+
+  #menu-nav {
+    font-size: 1.1rem;
+    background-color:white;
+    list-style-type: none;
+    margin: 8px 0 0 1rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+    border-radius: 20px;
+
+    li {
+        
+      a {
+        display: block;
+        color: $font-primary;
+        text-decoration: none;
+        padding: 10px 32px;
+        text-align: left;
+      }
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    &.show {
+      max-height: 500px; // Adjust this value as per your content height
+    }
+  }
+
+  #icon.change {
+    .bar1 {
+      transform: translate(0, 7px) rotate(-45deg);
+    }
+
+    .bar2 {
+      opacity: 0;
+    }
+
+    .bar3 {
+      transform: translate(0, -7px) rotate(45deg);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+    .nav {
+        display: block;
+        position: fixed;
+        z-index: 1000;
+    }
+}

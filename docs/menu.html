@@ -18,15 +18,68 @@
     <div class="leave5"></div>
 </div>
 
-    <div class="languages">
-    <ul>
+    <div class="nav">
+  <div id="icon" onclick="toggleNav()">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+  </div>
+  <ul id="menu-nav"">
+    <br/>
     
+      <li><a href="#Bagels" onclick="toggleNav()">Bagels</a></li>
     
+      <li><a href="#Platos fuertes" onclick="toggleNav()">Platos fuertes</a></li>
     
-    <li><a href="/menu.html" class="selected">🇲🇽</a></li>
-    <li><a href="/en/menu.html" >🇺🇸</a></li>
-    </ul>
+      <li><a href="#Snacks" onclick="toggleNav()">Snacks</a></li>
+    
+      <li><a href="#Postres" onclick="toggleNav()">Postres</a></li>
+    
+      <li><a href="#Café y especialidades" onclick="toggleNav()">Café y especialidades</a></li>
+    
+      <li><a href="#Otras Bebidas" onclick="toggleNav()">Otras Bebidas</a></li>
+    
+      <li><a href="#Alcohol" onclick="toggleNav()">Alcohol</a></li>
+    
+    <br/>
+  </ul>
 </div>
+
+  <script>
+    function toggleNav() {
+      var menu = document.getElementById("menu-nav");
+      menu.classList.toggle("show");
+      var icon = document.getElementById("icon");
+      icon.classList.toggle("change");
+    }
+  </script>
+
+    <div class="languages">
+    <div class="selected-language" onclick="toggleLanguageMenu()">
+      🇲🇽
+    </div>
+    <ul id="language-menu">
+      
+        
+      
+        
+          <li>
+            <a href="en/menu.html">
+              🇺🇸
+            </a>
+          </li>
+        
+      
+    </ul>
+  </div>
+  
+  <script>
+    function toggleLanguageMenu() {
+      var menu = document.getElementById("language-menu");
+      menu.classList.toggle("show");
+    }
+  </script>
+
 
     <div id="wrapper">
 
@@ -38,29 +91,411 @@
           </a>
         </div>
 
+        <p class="intro">En Monalisa, les ofrecemos un espacio tranquilo en el corazón de Querétaro donde pueden <b>disfrutar un delicioso café</b>.<br/>Tambien contamos con una amplia variedad de antojos y platillos saludables, <b>con opciones veganas y vegetarianas</b>.</p>
       </div>
 
       <div id="content">
 
-        <p class="intro">En Monalisa nos encargamos de hacer <b>nuestra propia mezcla de cafe con variedad 100% arábica</b> de la región de Coatepec, Veracruz.<br/>Disfruta su sabor y aroma únicos, con notas de nuez, almendra, chocolate, caramelo, frutales de toronja y lima.</p>
-
+  
         <div class="legend">
-          <p>✪ Recomendación del chef</p>
+          <p>🌿 Vegetariano<br/>⭐ Recomendación del chef</p>
         </div>
         
         
-          <h2 class="section-title">Alimentos</h2>
+          <h2 id="Bagels" class="section-title">Bagels</h2>
 
           
-            <div class="section-description"><br/><br/><b>✨ Estamos reimaginando nuestro menu para ofrecerte una experiencia culinaria única.<br/>¡Pronto más detalles!</b><br/><br/></div>
+            <div class="section-description">Todos nuestros bagels pueden cambiarse por pan de chapata y vienen <b>acompañado de ensalada de la casa</b>. </div>
           
 
-          <div class="grid md:grid-cols-">
+          <div class="grid md:grid-cols-3">
 
+            
+              <div class="card">
+                <div class="infos">
+                  <div class="title">
+                    <p>🌿 Queso crema
+                      <span class="font-semibold text-base"></span>
+                    </p>
+                    
+                      <div class="dots">&nbsp;</div>
+                    
+                    <p>$40</p>
+                  </div>
+                  <p class="small-text">El clasico</p>
+
+                  
+                    <ul class="option-list">
+                      
+                        <li class="option">Miel (+$20)</li>
+                      
+                        <li class="option">Miel de Maple (+$20)</li>
+                      
+                        <li class="option">Mermelada de fresa (+$20)</li>
+                      
+                    </ul>
+                  
+
+                  
+                </div>
+                
+                  <div class="image">
+                    <img src="/assets/images/menu/placeholder.png" />
+                  </div>
+                
+              </div>
+            
+              <div class="card">
+                <div class="infos">
+                  <div class="title">
+                    <p>⭐🌿 Mexicano
+                      <span class="font-semibold text-base"></span>
+                    </p>
+                    
+                      <div class="dots">&nbsp;</div>
+                    
+                    <p>$85</p>
+                  </div>
+                  <p class="small-text">Frijol refrito, queso cheddar, pico de gallo, aguacate.</p>
+
+                  
+                    <ul class="option-list">
+                      
+                        <li class="option">Pollo (+$40)</li>
+                      
+                        <li class="option">Jamon (+$40)</li>
+                      
+                    </ul>
+                  
+
+                  
+                </div>
+                
+                  <div class="image">
+                    <img src="/assets/images/menu/bagel_mexicano.jpg" />
+                  </div>
+                
+              </div>
+            
+              <div class="card">
+                <div class="infos">
+                  <div class="title">
+                    <p>⭐🌿 Da Vinci
+                      <span class="font-semibold text-base"></span>
+                    </p>
+                    
+                      <div class="dots">&nbsp;</div>
+                    
+                    <p>$85</p>
+                  </div>
+                  <p class="small-text">Queso de cabra, nueces caramelizadas y rebanadas de pera.</p>
+
+                  
+
+                  
+                </div>
+                
+                  <div class="image">
+                    <img src="/assets/images/menu/placeholder.png" />
+                  </div>
+                
+              </div>
+            
+              <div class="card">
+                <div class="infos">
+                  <div class="title">
+                    <p>🌿 Vegano
+                      <span class="font-semibold text-base"></span>
+                    </p>
+                    
+                      <div class="dots">&nbsp;</div>
+                    
+                    <p>$80</p>
+                  </div>
+                  <p class="small-text">Hummus, tomate cherry, aceite de oliva, germinado, ajonjoli.</p>
+
+                  
+
+                  
+                </div>
+                
+                  <div class="image">
+                    <img src="/assets/images/menu/placeholder.png" />
+                  </div>
+                
+              </div>
+            
+              <div class="card">
+                <div class="infos">
+                  <div class="title">
+                    <p>Al Pesto
+                      <span class="font-semibold text-base"></span>
+                    </p>
+                    
+                      <div class="dots">&nbsp;</div>
+                    
+                    <p>$85</p>
+                  </div>
+                  <p class="small-text">Pollo, pesto de la casa, aguacate, jitomate.</p>
+
+                  
+
+                  
+                </div>
+                
+                  <div class="image">
+                    <img src="/assets/images/menu/placeholder.png" />
+                  </div>
+                
+              </div>
+            
+              <div class="card">
+                <div class="infos">
+                  <div class="title">
+                    <p>Ibérico
+                      <span class="font-semibold text-base"></span>
+                    </p>
+                    
+                      <div class="dots">&nbsp;</div>
+                    
+                    <p>$85</p>
+                  </div>
+                  <p class="small-text">Salami, Jamon, queso cheddar, aceite de oliva.</p>
+
+                  
+
+                  
+                </div>
+                
+                  <div class="image">
+                    <img src="/assets/images/menu/placeholder.png" />
+                  </div>
+                
+              </div>
             
           </div>
         
-          <h2 class="section-title">Postres</h2>
+          <h2 id="Platos fuertes" class="section-title">Platos fuertes</h2>
+
+          
+
+          <div class="grid md:grid-cols-3">
+
+            
+              <div class="card">
+                <div class="infos">
+                  <div class="title">
+                    <p>⭐🌿 Chilaquiles
+                      <span class="font-semibold text-base"></span>
+                    </p>
+                    
+                      <div class="dots">&nbsp;</div>
+                    
+                    <p>$65</p>
+                  </div>
+                  <p class="small-text">Con salsa verde de la casa. Acompañados de frijolitos refritos.</p>
+
+                  
+                    <ul class="option-list">
+                      
+                        <li class="option">Pollo (+$30)</li>
+                      
+                    </ul>
+                  
+
+                  
+                </div>
+                
+                  <div class="image">
+                    <img src="/assets/images/menu/chilaquiles.jpeg" />
+                  </div>
+                
+              </div>
+            
+              <div class="card">
+                <div class="infos">
+                  <div class="title">
+                    <p>⭐ Hamburguesa
+                      <span class="font-semibold text-base"></span>
+                    </p>
+                    
+                      <div class="dots">&nbsp;</div>
+                    
+                    <p>$130</p>
+                  </div>
+                  <p class="small-text">Carne, queso, lechuga, tomate, cebolla caramelizada y aderezo casero. Acompañada de ensalada de la casa.</p>
+
+                  
+
+                  
+                </div>
+                
+                  <div class="image">
+                    <img src="/assets/images/menu/burger.jpeg" />
+                  </div>
+                
+              </div>
+            
+              <div class="card">
+                <div class="infos">
+                  <div class="title">
+                    <p>Hot Dog
+                      <span class="font-semibold text-base"></span>
+                    </p>
+                    
+                      <div class="dots">&nbsp;</div>
+                    
+                    <p>$120</p>
+                  </div>
+                  <p class="small-text">Acompañada de ensalada de la casa.</p>
+
+                  
+
+                  
+                </div>
+                
+              </div>
+            
+              <div class="card">
+                <div class="infos">
+                  <div class="title">
+                    <p>🌿 Ensalada Mona
+                      <span class="font-semibold text-base"></span>
+                    </p>
+                    
+                      <div class="dots">&nbsp;</div>
+                    
+                    <p>$70</p>
+                  </div>
+                  <p class="small-text">Mezcla de lechugas, espinaca, aguacate, queso panela, julianas de tortilla y chile guajillo.</p>
+
+                  
+                    <ul class="option-list">
+                      
+                        <li class="option">Pollo (+$30)</li>
+                      
+                        <li class="option">Jamon (+$40)</li>
+                      
+                    </ul>
+                  
+
+                  
+                </div>
+                
+                  <div class="image">
+                    <img src="/assets/images/menu/ensalada_mona.jpeg" />
+                  </div>
+                
+              </div>
+            
+              <div class="card">
+                <div class="infos">
+                  <div class="title">
+                    <p>🌿 Ensalada Lisa
+                      <span class="font-semibold text-base"></span>
+                    </p>
+                    
+                      <div class="dots">&nbsp;</div>
+                    
+                    <p>$80</p>
+                  </div>
+                  <p class="small-text">Mezcla de lechugas, manzana, nuez caramelizada, arándanos, queso de cabra, vinagreta de miel y mostaza.</p>
+
+                  
+                    <ul class="option-list">
+                      
+                        <li class="option">Pollo (+$30)</li>
+                      
+                        <li class="option">Jamon (+$40)</li>
+                      
+                    </ul>
+                  
+
+                  
+                </div>
+                
+                  <div class="image">
+                    <img src="/assets/images/menu/ensalada_lisa.jpg" />
+                  </div>
+                
+              </div>
+            
+          </div>
+        
+          <h2 id="Snacks" class="section-title">Snacks</h2>
+
+          
+
+          <div class="grid md:grid-cols-3">
+
+            
+              <div class="card">
+                <div class="infos">
+                  <div class="title">
+                    <p>🌿 Dedos de mozzarella
+                      <span class="font-semibold text-base"></span>
+                    </p>
+                    
+                      <div class="dots">&nbsp;</div>
+                    
+                    <p>$85</p>
+                  </div>
+                  <p class="small-text">Acompañados de salsa marinara de la casa.</p>
+
+                  
+
+                  
+                </div>
+                
+                  <div class="image">
+                    <img src="/assets/images/menu/dedos.jpeg" />
+                  </div>
+                
+              </div>
+            
+              <div class="card">
+                <div class="infos">
+                  <div class="title">
+                    <p>🌿 Papas a la Francesa
+                      <span class="font-semibold text-base"></span>
+                    </p>
+                    
+                      <div class="dots">&nbsp;</div>
+                    
+                    <p>$75</p>
+                  </div>
+                  <p class="small-text">Orden de 400g de deliciosas papas sazonadas con limón y pimienta.</p>
+
+                  
+
+                  
+                </div>
+                
+              </div>
+            
+              <div class="card">
+                <div class="infos">
+                  <div class="title">
+                    <p>🌿 Guacamole
+                      <span class="font-semibold text-base"></span>
+                    </p>
+                    
+                      <div class="dots">&nbsp;</div>
+                    
+                    <p>$75</p>
+                  </div>
+                  <p class="small-text">Orden de guacamole casero con totopos.</p>
+
+                  
+
+                  
+                </div>
+                
+              </div>
+            
+          </div>
+        
+          <h2 id="Postres" class="section-title">Postres</h2>
 
           
 
@@ -84,13 +519,13 @@
                     <ul class="choice-list">
                       
                         <li class="choice">
-                          <p>✪ Panque de Platano</p>
+                          <p>⭐ Panque de Platano</p>
                           <div class="dots">&nbsp;</div>
                           <b>$65</b>
                         </li>
                       
                         <li class="choice">
-                          <p>✪ Pay De Limon</p>
+                          <p>⭐ Pay De Limon</p>
                           <div class="dots">&nbsp;</div>
                           <b>$65</b>
                         </li>
@@ -147,10 +582,10 @@
             
           </div>
         
-          <h2 class="section-title">Café y especialidades</h2>
+          <h2 id="Café y especialidades" class="section-title">Café y especialidades</h2>
 
           
-            <div class="section-description"><br/>La mayoria de nuestras bebidas se pueden tomar <b>caliente, frias o frappé</b>.<br/>También contamos con <b>leches vegetales ($10 adicional)</b>.</div>
+            <div class="section-description">Disfrutan <b>nuestra propia mezcla de cafe con variedad 100% arábica</b> de la región de Coatepec, Veracruz.<br/>La mayoria de nuestras bebidas se pueden tomar <b>caliente, frias o frappé</b>. También contamos con <b>leches vegetales ($10 adicional)</b>.</div>
           
 
           <div class="grid md:grid-cols-3">
@@ -237,7 +672,7 @@
               <div class="card">
                 <div class="infos">
                   <div class="title">
-                    <p>✪ Flat White
+                    <p>⭐ Flat White
                       <span class="font-semibold text-base"></span>
                     </p>
                     
@@ -335,7 +770,7 @@
               <div class="card">
                 <div class="infos">
                   <div class="title">
-                    <p>✪ Taro
+                    <p>⭐ Taro
                       <span class="font-semibold text-base"></span>
                     </p>
                     
@@ -446,7 +881,7 @@
             
           </div>
         
-          <h2 class="section-title">Otras Bebidas</h2>
+          <h2 id="Otras Bebidas" class="section-title">Otras Bebidas</h2>
 
           
 
@@ -480,7 +915,7 @@
               <div class="card">
                 <div class="infos">
                   <div class="title">
-                    <p>✪ Cherry Tonic
+                    <p>⭐ Cherry Tonic
                       <span class="font-semibold text-base"></span>
                     </p>
                     
@@ -625,7 +1060,7 @@
             
           </div>
         
-          <h2 class="section-title">Alcohol</h2>
+          <h2 id="Alcohol" class="section-title">Alcohol</h2>
 
           
 
@@ -721,6 +1156,7 @@
       </div>
       
     </div>
+    
 
   </body>
 

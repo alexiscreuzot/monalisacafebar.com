@@ -18,15 +18,64 @@
     <div class="leave5"></div>
 </div>
 
-    <div class="languages">
-    <ul>
+    <div class="nav">
+  <div id="icon" onclick="toggleNav()">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+  </div>
+  <ul id="menu-nav"">
+    <br/>
     
+      <li><a href="#Food" onclick="toggleNav()">Food</a></li>
     
+      <li><a href="#Desserts" onclick="toggleNav()">Desserts</a></li>
     
-    <li><a href="/menu.html" >🇲🇽</a></li>
-    <li><a href="/en/menu.html" class="selected">🇺🇸</a></li>
-    </ul>
+      <li><a href="#Coffee and Specialties" onclick="toggleNav()">Coffee and Specialties</a></li>
+    
+      <li><a href="#Other Beverages" onclick="toggleNav()">Other Beverages</a></li>
+    
+      <li><a href="#Alcohol" onclick="toggleNav()">Alcohol</a></li>
+    
+    <br/>
+  </ul>
 </div>
+
+  <script>
+    function toggleNav() {
+      var menu = document.getElementById("menu-nav");
+      menu.classList.toggle("show");
+      var icon = document.getElementById("icon");
+      icon.classList.toggle("change");
+    }
+  </script>
+
+    <div class="languages">
+    <div class="selected-language" onclick="toggleLanguageMenu()">
+      🇺🇸
+    </div>
+    <ul id="language-menu">
+      
+        
+          <li>
+            <a href="/menu.html">
+              🇲🇽
+            </a>
+          </li>
+        
+      
+        
+      
+    </ul>
+  </div>
+  
+  <script>
+    function toggleLanguageMenu() {
+      var menu = document.getElementById("language-menu");
+      menu.classList.toggle("show");
+    }
+  </script>
+
 
     <div id="wrapper">
 
@@ -38,18 +87,18 @@
           </a>
         </div>
 
+        <p class="intro">At Monalisa we are making <b>our own coffee blend of 100% Arabica variety</b> from the region of Coatepec, Veracruz.<br/>Enjoy its unique flavor and aroma, with notes of walnut, almond, chocolate, caramel, fruity grapefruit and lime.</p>
       </div>
 
       <div id="content">
 
-        <p class="intro">At Monalisa we are making <b>our own coffee blend of 100% Arabica variety</b> from the region of Coatepec, Veracruz.<br/>Enjoy its unique flavor and aroma, with notes of walnut, almond, chocolate, caramel, fruity grapefruit and lime.</p>
-
+  
         <div class="legend">
           <p>✪ Chef's Recommendation</p>
         </div>
         
         
-          <h2 class="section-title">Food</h2>
+          <h2 id="Food" class="section-title">Food</h2>
 
           
             <div class="section-description"><br/><br/><b>✨ We're reimagining our menu to offer you a unique culinary experience.<br/>More details coming soon!</b><br/><br/></div>
@@ -60,7 +109,7 @@
             
           </div>
         
-          <h2 class="section-title">Desserts</h2>
+          <h2 id="Desserts" class="section-title">Desserts</h2>
 
           
 
@@ -147,7 +196,7 @@
             
           </div>
         
-          <h2 class="section-title">Coffee and Specialties</h2>
+          <h2 id="Coffee and Specialties" class="section-title">Coffee and Specialties</h2>
 
           
             <div class="section-description"><br/>Most of our drinks can be enjoyed <b>hot, cold, or as a frappé</b>.<br/>We also offer <b>plant-based milks ($10 additional)</b>.</div>
@@ -446,7 +495,7 @@
             
           </div>
         
-          <h2 class="section-title">Other Beverages</h2>
+          <h2 id="Other Beverages" class="section-title">Other Beverages</h2>
 
           
 
@@ -625,7 +674,7 @@
             
           </div>
         
-          <h2 class="section-title">Alcohol</h2>
+          <h2 id="Alcohol" class="section-title">Alcohol</h2>
 
           
 
@@ -721,6 +770,7 @@
       </div>
       
     </div>
+    
 
   </body>
 

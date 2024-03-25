@@ -10,11 +10,9 @@
 
   <body>
 
-    <div id="dimensionsDisplay"></div>
-
     {% include overlay.html %}
 
-    {% include languages.html %}
+    <div id="dimensionsDisplay"></div>
 
     <div id="wrapper">
 
@@ -26,13 +24,17 @@
           </a>
         </div>
 
+        <!-- <p class="intro">{% t intro %}</p> -->
+
       </div>
 
       <div id="content">
 
-        <!-- <p class="intro">{% t intro %}</p> -->
+        <!-- <div class="legend">
+          <p>{% t menu.recommendations %}</p>
+        </div> -->
 
-        {% for section in site.translations[site.lang].menu_sections limit: 5 %}
+        {% for section in site.translations[site.lang].menu_sections offset: 4 %}
           <h2 class="section-title">{{ section.section_name }}</h2>
 
           {% if section.description %}
@@ -88,12 +90,10 @@
       </div>
 
       <div id="footer">
-        <p>{% t menu.recommendations %}</p>
       </div>
     </div>
 
   </body>
-
 
   <!-- <script>
     function updateDimensionsDisplay() {

@@ -1,9 +1,23 @@
 <div class="languages">
-    <ul>
-    {% capture link_en %}{{ site.baseurl_root }}/en{{ page.url }}{% endcapture %}
-    {% capture link_es %}{{ site.baseurl_root }}{{ page.url }}{% endcapture %}
-    {% capture current_lang_id %}{{site.translations[site.lang].global.current_lang_id}}{% endcapture %}
-    <li><a href="{{ link_es }}" {% if current_lang_id == 'es' %}class="selected"{% endif %}>🇲🇽</a></li>
-    <li><a href="{{ link_en }}" {% if current_lang_id == 'en' %}class="selected"{% endif %}>🇺🇸</a></li>
+    <div class="selected-language" onclick="toggleLanguageMenu()">
+      {{ site.translations[site.lang].global.current_lang_flag }}
+    </div>
+    <ul id="language-menu">
+      {% for lang in site.translations %}
+        {% if lang[1].global.current_lang_id != site.lang %}
+          <li>
+            <a href="{{ site.baseurl_root }}{{ lang[1].global.lang_uri }}{{ page.url }}">
+              {{ lang[1].global.current_lang_flag }}
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
     </ul>
-</div>
+  </div>
+  
+  <script>
+    function toggleLanguageMenu() {
+      var menu = document.getElementById("language-menu");
+      menu.classList.toggle("show");
+    }
+  </script>
