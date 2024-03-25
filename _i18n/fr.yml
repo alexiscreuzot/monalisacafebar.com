@@ -1,0 +1,135 @@
+global:
+  current_lang: Français
+  current_lang_id: fr
+  current_lang_flag: 🇫🇷
+  lang_uri: /fr
+
+head:
+  title: "Monalisa Café-Bar : Café tranquille au centre de Querétaro"
+  description: Au cœur de Querétaro, profitez de l'authenticité du café Veracruzano dans notre café-bar. Une destination vibrante qui allie tradition et modernité pour offrir des expériences culinaires inoubliables et un service de haute qualité.
+  keywords: 
+    Café Veracruzano Querétaro, Bar tranquille centre Querétaro, Meilleur café pour travailler à Santiago de Querétaro, Café gourmet et wifi au centre de Querétaro, Ambiance de travail et espresso artisanal à Querétaro,
+    Cappuccino et espace de travail à Santiago de Querétaro, Travailler avec un americano de qualité à Querétaro, Espace de travail avec latte crémeux au centre de Querétaro, Frappé et ambiance de travail à Santiago de Querétaro,
+    Expérience café et travail au centre de Querétaro
+
+intro:
+  "Chez Monalisa, nous vous offrons un espace tranquille au cœur de Querétaro où vous pouvez <b>apprécier un délicieux café</b>.<br/>Nous proposons également une large gamme de snacks et de plats sains, <b>avec des options végétaliennes et végétariennes</b>."
+
+menu:
+  recommendations: 🌿 Végétarien<br/>⭐ Recommandation du chef
+  title: Menu <i>&</i> horaires
+  schedule:
+    - day: Lundi
+      hours: 9h30 - 22h00
+    - day: Mardi
+      hours: Fermé
+    - day: Mercredi
+      hours: 9h30 - 22h00
+    - day: Jeudi
+      hours: 9h30 - 22h00
+    - day: Vendredi
+      hours: 9h30 - 23h00
+    - day: Samedi
+      hours: 9h30 - 23h00
+    - day: Dimanche
+      hours: 9h30 - 21h00
+
+contact:
+  title: Emplacement <i>&</i> contact
+  address: Mariano Matamoros 2B, Centre<br/><b>76000 Santiago de Querétaro, Qro.</b>
+  contact_us: Contactez-nous
+
+menu_sections:
+  - section_name: Bagels
+    section_id: food
+    description: "Tous nos bagels peuvent être remplacés par du pain ciabatta et sont <b>accompagnés d'une salade maison</b>."
+    columns: 3
+    menu_items:
+      - name: 🌿 Fromage frais
+        description: Le classique
+        price: $40
+        image: placeholder.png
+        options:
+          - option_name: Miel
+            option_price: +$20
+          - option_name: Sirop d'érable
+            option_price: +$20
+          - option_name: Confiture de fraises
+            option_price: +$20
+      - name: ⭐🌿 Mexicain
+        description: Haricots refrits, fromage cheddar, pico de gallo, avocat.
+        price: $85
+        image: bagel_mexicano.jpg
+        options:
+          - option_name: Poulet
+            option_price: +$40
+          - option_name: Jambon
+            option_price: +$40
+      - name: ⭐🌿 Da Vinci 
+        description: Fromage de chèvre, noix caramélisées et tranches de poire.
+        price: $85
+        image: placeholder.png
+      - name: 🌿 Végétalien
+        description: Houmous, tomates cerises, huile d'olive, graines germées, sésame.
+        price: $80
+        image: placeholder.png
+      # - name: Caprese
+      #   description: Mozzarella, tomate, basilic, huile d'olive.
+      #   price: $85
+      - name: Au Pesto
+        description: Poulet, pesto maison, avocat, tomate.
+        price: $85
+        image: placeholder.png
+      - name: Ibérique
+        description: Salami, jambon, fromage cheddar, huile d'olive.
+        price: $85
+        image: placeholder.png
+
+  - section_name: Plats principaux
+    columns: 3
+    menu_items:
+      - name: ⭐🌿 Chilaquiles
+        price: $65
+        description: Avec sauce verte maison. Accompagnés de haricots refrits.
+        image: chilaquiles.jpeg
+        options:
+          - option_name: Poulet
+            option_price: +$30
+      - name: ⭐ Hamburger
+        price: $130
+        description: Viande, fromage, laitue, tomate, oignon caramélisé et sauce maison. Servi avec salade maison.
+        image: burger.jpeg
+      - name: Hot Dog
+        description: Servi avec salade maison.
+        price: $120
+      - name: 🌿 Salade Mona
+        price: $70
+        description: Mélange de laitues, épinards, avocat, fromage panela, julienne de tortilla et piment guajillo.
+        image: ensalada_mona.jpeg
+        options:
+          - option_name: Poulet
+            option_price: +$30
+          - option_name: Jambon
+            option_price: +$40
+      - name: 🌿 Salade Lisa
+        price: $80
+        description: Mélange de laitues, pomme, noix caramélisées, airelles, fromage de chèvre, vinaigrette miel et moutarde.
+        image: ensalada_lisa.jpg
+        options:
+          - option_name: Poulet
+            option_price: +$30
+          - option_name: Jambon
+            option_price: +$40
+
+  - section_name: Snacks
+    columns: 3
+    menu_items:
+      - name: 🌿 Bâtonnets de mozzarella
+        price: $85
+        description: Servis avec sauce marinara maison.
+        image: dedos.jpeg
+      - name: 🌿 Frites
+        price: $75
+        description: 400g de délicieuses frites assaisonnées au citron et au poivre.
+      - name: 🌿 Guacamole
+        price: $75

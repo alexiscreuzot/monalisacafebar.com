@@ -2,21 +2,22 @@ global:
   current_lang: English
   current_lang_id: en
   current_lang_flag: 🇺🇸
-  lang_uri: en
+  lang_uri: /en
 
 head:
-  title: "Monalisa Café-Bar: Tranquil Café in the Center of Querétaro"
-  description: In the heart of Querétaro, enjoy the authenticity of Veracruz coffee at our café-bar. A vibrant destination that combines tradition and modernity to provide unforgettable culinary experiences and high-quality service.
+  title: "Monalisa Café-Bar: Tranquil Café in Downtown Querétaro"
+  description: "In the heart of Querétaro, enjoy the authenticity of Veracruz coffee at our café-bar. A vibrant destination that combines tradition and modernity to provide unforgettable culinary experiences and high-quality service."
   keywords:
-    Veracruz Coffee Querétaro, Quiet Bar in Querétaro Center, Best Café for Working in Santiago de Querétaro, Gourmet Coffee and Wifi in Querétaro Center, Working Environment and Artisanal Espresso in Querétaro,
-    Cappuccino and Workspace in Santiago de Querétaro, Work with Quality Americano in Querétaro, Workspace with Creamy Latte in Querétaro Center, Frappe and Workspace in Santiago de Querétaro,
-    Coffee and Work Experience in Querétaro Center
+    Veracruz Coffee Querétaro, Tranquil Bar Downtown Querétaro, Best Café for Working in Santiago de Querétaro, Gourmet Coffee and Wifi in Downtown Querétaro, Workspace and Artisanal Espresso Querétaro,
+    Cappuccino and Workspace in Santiago de Querétaro, Work with Quality Americano in Querétaro, Workspace with Creamy Latte Downtown Querétaro, Frappe and Workspace Ambiance in Santiago de Querétaro,
+    Coffee and Workspace Experience in Downtown Querétaro
 
-intro:
-  "At Monalisa we are making <b>our own coffee blend of 100% Arabica variety</b> from the region of Coatepec, Veracruz.<br/>Enjoy its unique flavor and aroma, with notes of walnut, almond, chocolate, caramel, fruity grapefruit and lime."
+intro: 
+  "At Monalisa, we offer a tranquil space in the heart of Querétaro where you can <b>enjoy delicious coffee</b>.<br/>We also have a wide variety of cravings and healthy dishes, <b>with vegan and vegetarian options</b>."
+
 menu:
-  recommendations: ✪ Chef's Recommendation
-  title: Menu <i>&</i> Schedule
+  recommendations: 🌿 Vegetarian<br/>⭐ Chef's Recommendation
+  title: Menu <i>&</i> Hours
   schedule:
     - day: Monday
       hours: 9:30am - 10:00pm
@@ -35,12 +36,100 @@ menu:
 
 contact:
   title: Location <i>&</i> Contact
-  address: Mariano Matamoros 2B, Centro<br/><b>76000 Santiago de Querétaro, Qro.</b>
+  address: Mariano Matamoros 2B, Downtown<br/><b>76000 Santiago de Querétaro, Qro.</b>
   contact_us: Contact Us
 
 menu_sections:
-  - section_name: Food
-    description: "<br/><br/><b>✨ We're reimagining our menu to offer you a unique culinary experience.<br/>More details coming soon!</b><br/><br/>"
+  - section_name: Bagels
+    description: "All our bagels can be swapped for ciabatta bread and come <b>with house salad</b>."
+    columns: 3
+    menu_items:
+      - name: 🌿 Cream Cheese
+        description: The classic
+        price: $40
+        image: placeholder.png
+        options:
+          - option_name: Honey
+            option_price: +$20
+          - option_name: Maple Syrup
+            option_price: +$20
+          - option_name: Strawberry Jam
+            option_price: +$20
+      - name: ⭐🌿 Mexican
+        description: Refried beans, cheddar cheese, pico de gallo, avocado.
+        price: $85
+        image: bagel_mexicano.jpg
+        options:
+          - option_name: Chicken
+            option_price: +$40
+          - option_name: Ham
+            option_price: +$40
+      - name: ⭐🌿 Da Vinci
+        description: Goat cheese, caramelized walnuts, and slices of pear.
+        price: $85
+        image: placeholder.png
+      - name: 🌿 Vegan
+        description: Hummus, cherry tomato, olive oil, sprout, sesame seeds.
+        price: $80
+        image: placeholder.png
+      - name: Al Pesto
+        description: Chicken, house pesto, avocado, tomato.
+        price: $85
+        image: placeholder.png
+      - name: Iberian
+        description: Salami, Ham, cheddar cheese, olive oil.
+        price: $85
+        image: placeholder.png
+
+  - section_name: Main Courses
+    columns: 3
+    menu_items:
+      - name: ⭐🌿 Chilaquiles
+        price: $65
+        description: With house green sauce. Accompanied by refried beans.
+        image: chilaquiles.jpeg
+        options:
+          - option_name: Chicken
+            option_price: +$30
+      - name: ⭐ Burger
+        price: $130
+        description: Beef, cheese, lettuce, tomato, caramelized onion, homemade dressing. Served with house salad.
+        image: burger.jpeg
+      - name: Hot Dog
+        description: Served with house salad.
+        price: $120
+      - name: 🌿 Mona Salad
+        price: $70
+        description: Mix of lettuces, spinach, avocado, panela cheese, tortilla strips, and guajillo chili.
+        image: ensalada_mona.jpeg
+        options:
+          - option_name: Chicken
+            option_price: +$30
+          - option_name: Ham
+            option_price: +$40
+      - name: 🌿 Lisa Salad
+        price: $80
+        description: Mix of lettuces, apple, caramelized nut, cranberries, goat cheese, honey mustard vinaigrette.
+        image: ensalada_lisa.jpg
+        options:
+          - option_name: Chicken
+            option_price: +$30
+          - option_name: Ham
+            option_price: +$40
+
+  - section_name: Snacks
+    columns: 3
+    menu_items:
+      - name: 🌿 Mozzarella Sticks
+        price: $85
+        description: Served with house marinara sauce.
+        image: dedos.jpeg
+      - name: 🌿 French Fries
+        price: $75
+        description: 400g order of delicious potatoes seasoned with lemon and pepper.
+      - name: 🌿 Guacamole
+        price: $75
+        description: Order of homemade guacamole with tortilla chips.
 
   - section_name: Desserts
     columns: 3
@@ -48,9 +137,9 @@ menu_sections:
       - name: Pies and Cakes
         image: pastel.jpeg
         choices:
-          - choice_name: ✪ Banana Bread
+          - choice_name: ⭐ Banana Bread
             choice_price: $65
-          - choice_name: ✪ Lemon Pie
+          - choice_name: ⭐ Lemon Pie
             choice_price: $65
           - choice_name: Carrot Cake
             choice_price: $75
@@ -60,9 +149,9 @@ menu_sections:
             choice_price: $40
           - choice_name: Cookie
             choice_price: $20
-
   - section_name: Coffee and Specialties
-    description: "<br/>Most of our drinks can be enjoyed <b>hot, cold, or as a frappé</b>.<br/>We also offer <b>plant-based milks ($10 additional)</b>."
+    section_id: drinks
+    description: "Enjoy <b>our own blend of 100% arabica coffee</b> from the Coatepec region, Veracruz.<br/>Most of our drinks can be enjoyed <b>hot, cold, or as frappé</b>. We also offer <b>plant-based milks ($10 additional)</b>."
     columns: 3
     menu_items:
       - name: Espresso
@@ -73,15 +162,15 @@ menu_sections:
           - choice_name: Cortado
             choice_price: $35
       - name: Americano
-        description: 1 part espresso, 4 parts water
+        description: One part espresso, 4 parts water
         price: $35
-      - name: Europeo
-        description: 1 part espresso, 2 parts water
+      - name: European
+        description: One part espresso, 2 parts water
         price: $35
-      - name: ✪ Flat White
+      - name: ⭐ Flat White
         price: $50
         image: flat_white.jpg
-        description: Our specialty! 1 part espresso, 2 parts velvety milk
+        description: "Our specialty: 1 part espresso, 2 parts velvety milk"
       - name: Latte
         price: $55
         description: One part espresso, 3 parts steamed milk
@@ -94,7 +183,7 @@ menu_sections:
           - option_name: Mocha
             option_price: +$15
       - name: Chai
-        description: Creamy tea-based drink topped with milk foam
+        description: Creamy tea-based beverage, topped with milk foam
         choices:
           - choice_name: Vanilla
             choice_price: $80
@@ -102,9 +191,9 @@ menu_sections:
             choice_price: $80
           - choice_name: Green Tea
             choice_price: $80
-      - name: ✪ Taro
+      - name: ⭐ Taro
         price: $70
-        description: Beverage with a light flavor of nut, vanilla, sweet potato, and floral notes
+        description: Beverage with a light flavor blend of nut, vanilla, sweet potato, and floral hint
         image: taro.jpg
       - name: Matcha
         price: $80
@@ -113,12 +202,12 @@ menu_sections:
       - name: Infusions
         price: $40
         description: Chamomile / Green Tea / Apple-Cinnamon / Peppermint / Lemon
-      - name: Tisanes
+      - name: Herbal Teas
         price: $55
-        description: Cherry Cream / Coconut-Blueberry / Strawberry-Apple
+        description: Cherry Cream / Coconut-Cranberry / Strawberry-Apple
         image: tisana.jpg
       - name: Traditional Mexican Hot Chocolate
-        description: Another classic, chocolate with a hint of cinnamon
+        description: Another classic, chocolate with a touch of cinnamon
         price: $50
 
   - section_name: Other Beverages
@@ -128,7 +217,7 @@ menu_sections:
         price: $60
         description: With a base of orange and strawberry, inspired by Italian summer sunsets
         image: sunsetti.jpg
-      - name: ✪ Cherry Tonic
+      - name: ⭐ Cherry Tonic
         price: $60
         description: With a base of cherry, tonic, and a shot of espresso
         image: cherry_tonic.jpeg
@@ -143,32 +232,32 @@ menu_sections:
       - name: Juice
         price: $40
         description: Orange / Green
-      - name: Soft Drink
+      - name: Soda
         price: $30
-        description: Coca-Cola / Diet Coke / Fanta / Sprite / Sidral
+        description: Coke / Diet Coke / Fanta / Sprite / Sidral
       - name: Bottled Water
         choices:
-          - choice_name: Regular
+          - choice_name: Natural
             choice_price: $20
           - choice_name: Mineral
             choice_price: $25
+
   - section_name: Alcohol
     columns: 3
     menu_items:
       - name: National Beer
         choices:
-        - choice_name: Victoria
-          choice_price: $35
-        - choice_name: Corona
-          choice_price: $35
-      - name: Artisanal Beer
+          - choice_name: Victoria
+            choice_price: $35
+          - choice_name: Corona
+            choice_price: $35
+      - name: Craft Beer
         choices:
-        - choice_name: Bulla
-          choice_price: $80
-        - choice_name: Milpa
-          choice_price: $80
-        - choice_name: Quiota
-          choice_price: $80
-        - choice_name: Xocolat 
-          choice_price: $80
-
+          - choice_name: Bulla
+            choice_price: $80
+          - choice_name: Milpa
+            choice_price: $80
+          - choice_name: Quiota
+            choice_price: $80
+          - choice_name: Xocolat
+            choice_price: $80

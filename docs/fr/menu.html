@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Menu</title>
+    <link rel="stylesheet" href="/menu.css" />
+  </head>
+
+  <body>
+
+    <div id="overlay">
+    <div class="leave1"></div>
+    <div class="leave2"></div>
+    <div class="leave3"></div>
+    <div class="leave4"></div>
+    <div class="leave5"></div>
+</div>
+
+    <div class="nav">
+  <div id="icon" onclick="toggleNav()">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+  </div>
+  <ul id="menu-nav"">
+    <br/>
+    
+      <li><a href="#Bagels" onclick="toggleNav()">Bagels</a></li>
+    
+      <li><a href="#Plats principaux" onclick="toggleNav()">Plats principaux</a></li>
+    
+      <li><a href="#Snacks" onclick="toggleNav()">Snacks</a></li>
+    
+    <br/>
+  </ul>
+</div>
+
+  <script>
+    function toggleNav() {
+      var menu = document.getElementById("menu-nav");
+      menu.classList.toggle("show");
+      var icon = document.getElementById("icon");
+      icon.classList.toggle("change");
+    }
+  </script>
+
+    
+<div class="languages">
+    <div class="selected-language" onclick="toggleLanguageMenu()">
+      🇫🇷
+    </div>
+    <ul id="language-menu">
+      
+      
+        
+        
+        
+
+        
+        <li><a href="/menu.html">🇲🇽</a></li>
+        
+        
+      
+        
+        
+        
+
+        
+        <li><a href="/en/menu.html">🇺🇸</a></li>
+        
+        
+      
+        
+        
+        
+
+        
+        
+      
+    </ul>
+  </div>
+  
+  <script>
+    function toggleLanguageMenu() {
+      var menu = document.getElementById("language-menu");
+      menu.classList.toggle("show");
+    }
+  </script>
+
+    <div id="wrapper">
+
+      <div id="header">
+
+        <div class="center-flex">
+          <a class="header-link" href="./index.html">
+            <img class="header-img" src="/assets/images/monalisa_b.png">
+          </a>
+        </div>
+
+        <p class="intro">Chez Monalisa, nous vous offrons un espace tranquille au cœur de Querétaro où vous pouvez <b>apprécier un délicieux café</b>.<br/>Nous proposons également une large gamme de snacks et de plats sains, <b>avec des options végétaliennes et végétariennes</b>.</p>
+      </div>
+
+      <div id="content">
+
+  
+        <div class="legend">
+          <p>🌿 Végétarien<br/>⭐ Recommandation du chef</p>
+        </div>
+        
+        
+          <h2 id="Bagels" class="section-title">Bagels</h2>
+
+          
+            <div class="section-description">Tous nos bagels peuvent être remplacés par du pain ciabatta et sont <b>accompagnés d'une salade maison</b>.</div>
+          
+
+          <div class="grid md:grid-cols-3">
+
+            
+              <div class="card">
+                <div class="infos">
+                  <div class="title">
+                    <p>🌿 Fromage frais
+                      <span class="font-semibold text-base"></span>
+                    </p>
+                    
+                      <div class="dots">&nbsp;</div>
+                    
+                    <p>$40</p>
+                  </div>
+                  <p class="small-text">Le classique</p>
+
+                  
+                    <ul class="option-list">
+                      
+                        <li class="option">Miel (+$20)</li>
+                      
+                        <li class="option">Sirop d'érable (+$20)</li>
+                      
+                        <li class="option">Confiture de fraises (+$20)</li>
+                      
+                    </ul>
+                  
+
+                  
+                </div>
+                
+                  <div class="image">
+                    <img src="/assets/images/menu/placeholder.png" />
+                  </div>
+                
+              </div>
+            
+              <div class="card">
+                <div class="infos">
+                  <div class="title">
+                    <p>⭐🌿 Mexicain
+                      <span class="font-semibold text-base"></span>
+                    </p>
+                    
+                      <div class="dots">&nbsp;</div>
+                    
+                    <p>$85</p>
+                  </div>
+                  <p class="small-text">Haricots refrits, fromage cheddar, pico de gallo, avocat.</p>
+
+                  
+                    <ul class="option-list">
+                      
+                        <li class="option">Poulet (+$40)</li>
+                      
+                        <li class="option">Jambon (+$40)</li>
+                      
+                    </ul>
+                  
+
+                  
+                </div>
+                
+                  <div class="image">
+                    <img src="/assets/images/menu/bagel_mexicano.jpg" />
+                  </div>
+                
+              </div>
+            
+              <div class="card">
+                <div class="infos">
+                  <div class="title">
+                    <p>⭐🌿 Da Vinci
+                      <span class="font-semibold text-base"></span>
+                    </p>
+                    
+                      <div class="dots">&nbsp;</div>
+                    
+                    <p>$85</p>
+                  </div>
+                  <p class="small-text">Fromage de chèvre, noix caramélisées et tranches de poire.</p>
+
+                  
+
+                  
+                </div>
+                
+                  <div class="image">
+                    <img src="/assets/images/menu/placeholder.png" />
+                  </div>
+                
+              </div>
+            
+              <div class="card">
+                <div class="infos">
+                  <div class="title">
+                    <p>🌿 Végétalien
+                      <span class="font-semibold text-base"></span>
+                    </p>
+                    
+                      <div class="dots">&nbsp;</div>
+                    
+                    <p>$80</p>
+                  </div>
+                  <p class="small-text">Houmous, tomates cerises, huile d'olive, graines germées, sésame.</p>
+
+                  
+
+                  
+                </div>
+                
+                  <div class="image">
+                    <img src="/assets/images/menu/placeholder.png" />
+                  </div>
+                
+              </div>
+            
+              <div class="card">
+                <div class="infos">
+                  <div class="title">
+                    <p>Au Pesto
+                      <span class="font-semibold text-base"></span>
+                    </p>
+                    
+                      <div class="dots">&nbsp;</div>
+                    
+                    <p>$85</p>
+                  </div>
+                  <p class="small-text">Poulet, pesto maison, avocat, tomate.</p>
+
+                  
+
+                  
+                </div>
+                
+                  <div class="image">
+                    <img src="/assets/images/menu/placeholder.png" />
+                  </div>
+                
+              </div>
+            
+              <div class="card">
+                <div class="infos">
+                  <div class="title">
+                    <p>Ibérique
+                      <span class="font-semibold text-base"></span>
+                    </p>
+                    
+                      <div class="dots">&nbsp;</div>
+                    
+                    <p>$85</p>
+                  </div>
+                  <p class="small-text">Salami, jambon, fromage cheddar, huile d'olive.</p>
+
+                  
+
+                  
+                </div>
+                
+                  <div class="image">
+                    <img src="/assets/images/menu/placeholder.png" />
+                  </div>
+                
+              </div>
+            
+          </div>
+        
+          <h2 id="Plats principaux" class="section-title">Plats principaux</h2>
+
+          
+
+          <div class="grid md:grid-cols-3">
+
+            
+              <div class="card">
+                <div class="infos">
+                  <div class="title">
+                    <p>⭐🌿 Chilaquiles
+                      <span class="font-semibold text-base"></span>
+                    </p>
+                    
+                      <div class="dots">&nbsp;</div>
+                    
+                    <p>$65</p>
+                  </div>
+                  <p class="small-text">Avec sauce verte maison. Accompagnés de haricots refrits.</p>
+
+                  
+                    <ul class="option-list">
+                      
+                        <li class="option">Poulet (+$30)</li>
+                      
+                    </ul>
+                  
+
+                  
+                </div>
+                
+                  <div class="image">
+                    <img src="/assets/images/menu/chilaquiles.jpeg" />
+                  </div>
+                
+              </div>
+            
+              <div class="card">
+                <div class="infos">
+                  <div class="title">
+                    <p>⭐ Hamburger
+                      <span class="font-semibold text-base"></span>
+                    </p>
+                    
+                      <div class="dots">&nbsp;</div>
+                    
+                    <p>$130</p>
+                  </div>
+                  <p class="small-text">Viande, fromage, laitue, tomate, oignon caramélisé et sauce maison. Servi avec salade maison.</p>
+
+                  
+
+                  
+                </div>
+                
+                  <div class="image">
+                    <img src="/assets/images/menu/burger.jpeg" />
+                  </div>
+                
+              </div>
+            
+              <div class="card">
+                <div class="infos">
+                  <div class="title">
+                    <p>Hot Dog
+                      <span class="font-semibold text-base"></span>
+                    </p>
+                    
+                      <div class="dots">&nbsp;</div>
+                    
+                    <p>$120</p>
+                  </div>
+                  <p class="small-text">Servi avec salade maison.</p>
+
+                  
+
+                  
+                </div>
+                
+              </div>
+            
+              <div class="card">
+                <div class="infos">
+                  <div class="title">
+                    <p>🌿 Salade Mona
+                      <span class="font-semibold text-base"></span>
+                    </p>
+                    
+                      <div class="dots">&nbsp;</div>
+                    
+                    <p>$70</p>
+                  </div>
+                  <p class="small-text">Mélange de laitues, épinards, avocat, fromage panela, julienne de tortilla et piment guajillo.</p>
+
+                  
+                    <ul class="option-list">
+                      
+                        <li class="option">Poulet (+$30)</li>
+                      
+                        <li class="option">Jambon (+$40)</li>
+                      
+                    </ul>
+                  
+
+                  
+                </div>
+                
+                  <div class="image">
+                    <img src="/assets/images/menu/ensalada_mona.jpeg" />
+                  </div>
+                
+              </div>
+            
+              <div class="card">
+                <div class="infos">
+                  <div class="title">
+                    <p>🌿 Salade Lisa
+                      <span class="font-semibold text-base"></span>
+                    </p>
+                    
+                      <div class="dots">&nbsp;</div>
+                    
+                    <p>$80</p>
+                  </div>
+                  <p class="small-text">Mélange de laitues, pomme, noix caramélisées, airelles, fromage de chèvre, vinaigrette miel et moutarde.</p>
+
+                  
+                    <ul class="option-list">
+                      
+                        <li class="option">Poulet (+$30)</li>
+                      
+                        <li class="option">Jambon (+$40)</li>
+                      
+                    </ul>
+                  
+
+                  
+                </div>
+                
+                  <div class="image">
+                    <img src="/assets/images/menu/ensalada_lisa.jpg" />
+                  </div>
+                
+              </div>
+            
+          </div>
+        
+          <h2 id="Snacks" class="section-title">Snacks</h2>
+
+          
+
+          <div class="grid md:grid-cols-3">
+
+            
+              <div class="card">
+                <div class="infos">
+                  <div class="title">
+                    <p>🌿 Bâtonnets de mozzarella
+                      <span class="font-semibold text-base"></span>
+                    </p>
+                    
+                      <div class="dots">&nbsp;</div>
+                    
+                    <p>$85</p>
+                  </div>
+                  <p class="small-text">Servis avec sauce marinara maison.</p>
+
+                  
+
+                  
+                </div>
+                
+                  <div class="image">
+                    <img src="/assets/images/menu/dedos.jpeg" />
+                  </div>
+                
+              </div>
+            
+              <div class="card">
+                <div class="infos">
+                  <div class="title">
+                    <p>🌿 Frites
+                      <span class="font-semibold text-base"></span>
+                    </p>
+                    
+                      <div class="dots">&nbsp;</div>
+                    
+                    <p>$75</p>
+                  </div>
+                  <p class="small-text">400g de délicieuses frites assaisonnées au citron et au poivre.</p>
+
+                  
+
+                  
+                </div>
+                
+              </div>
+            
+              <div class="card">
+                <div class="infos">
+                  <div class="title">
+                    <p>🌿 Guacamole
+                      <span class="font-semibold text-base"></span>
+                    </p>
+                    
+                      <div class="dots">&nbsp;</div>
+                    
+                    <p>$75</p>
+                  </div>
+                  <p class="small-text"></p>
+
+                  
+
+                  
+                </div>
+                
+              </div>
+            
+          </div>
+        
+
+      </div>
+
+      <div id="footer">
+      </div>
+      
+    </div>
+    
+
+  </body>
+
+
+</html>

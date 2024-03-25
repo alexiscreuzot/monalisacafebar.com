@@ -1,16 +1,19 @@
+{% capture current_lang_id %}{{ site.lang }}{% endcapture %}
 <div class="languages">
     <div class="selected-language" onclick="toggleLanguageMenu()">
       {{ site.translations[site.lang].global.current_lang_flag }}
     </div>
     <ul id="language-menu">
-      {% for lang in site.translations %}
-        {% if lang[1].global.current_lang_id != site.lang %}
-          <li>
-            <a href="{{ site.baseurl_root }}{{ lang[1].global.lang_uri }}{{ page.url }}">
-              {{ lang[1].global.current_lang_flag }}
-            </a>
-          </li>
+      {% assign languages = "es,en,fr" | split: ',' %}
+      {% for lang_id in languages %}
+        {% capture lang_flag %}{{ site.translations[lang_id].global.current_lang_flag }}{% endcapture %}
+        {% capture lang_uri %}{{ site.translations[lang_id].global.lang_uri }}{% endcapture %}
+        {% capture link %}{{site.baseurl_root}}{{lang_uri}}{{page.url}}{% endcapture %}
+
+        {% if lang_id != current_lang_id %}
+        <li><a href="{{link}}">{{ lang_flag }}</a></li>
         {% endif %}
+        
       {% endfor %}
     </ul>
   </div>
