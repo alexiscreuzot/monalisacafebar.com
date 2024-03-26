@@ -47,7 +47,7 @@ menu_sections:
       - name: 🌿 Cream Cheese
         description: The classic
         price: $40
-        image: placeholder.png
+        
         options:
           - option_name: Honey
             option_price: +$20
@@ -61,25 +61,29 @@ menu_sections:
         image: bagel_mexicano.jpg
         options:
           - option_name: Chicken
-            option_price: +$40
-          - option_name: Ham
-            option_price: +$40
+            option_price: +$30
+          - option_name: Turkey ham
+            option_price: +$30
       - name: ⭐🌿 Da Vinci
         description: Goat cheese, caramelized walnuts, and slices of pear.
         price: $85
-        image: placeholder.png
+        
       - name: 🌿 Vegan
         description: Hummus, cherry tomato, olive oil, sprout, sesame seeds.
         price: $80
-        image: placeholder.png
+        
       - name: Al Pesto
         description: Chicken, house pesto, avocado, tomato.
         price: $85
-        image: placeholder.png
+        image: bagel_pesto.jpg
+        
       - name: Iberian
-        description: Salami, Ham, cheddar cheese, olive oil.
+        description: Salami, Turkey ham, cheddar cheese, olive oil.
         price: $85
-        image: placeholder.png
+        image: bagel_iberico.jpg
+      - name: Pavone
+        description: Turkey ham, cheddar cheese, touch of mayonnaise
+        price: $85
 
   - section_name: Main Courses
     columns: 3
@@ -105,8 +109,8 @@ menu_sections:
         options:
           - option_name: Chicken
             option_price: +$30
-          - option_name: Ham
-            option_price: +$40
+          - option_name: Turkey ham
+            option_price: +$30
       - name: 🌿 Lisa Salad
         price: $80
         description: Mix of lettuces, apple, caramelized nut, cranberries, goat cheese, honey mustard vinaigrette.
@@ -114,8 +118,8 @@ menu_sections:
         options:
           - option_name: Chicken
             option_price: +$30
-          - option_name: Ham
-            option_price: +$40
+          - option_name: Turkey ham
+            option_price: +$30
 
   - section_name: Snacks
     columns: 3
@@ -201,7 +205,7 @@ menu_sections:
         image: matcha.jpg
       - name: Infusions
         price: $40
-        description: Chamomile / Green Tea / Apple-Cinnamon / Peppermint / Lemon
+        description: CTurkey hamomile / Green Tea / Apple-Cinnamon / Peppermint / Lemon
       - name: Herbal Teas
         price: $55
         description: Cherry Cream / Coconut-Cranberry / Strawberry-Apple

@@ -48,7 +48,7 @@ menu_sections:
       - name: 🌿 Fromage frais
         description: Le classique
         price: $40
-        image: placeholder.png
+        
         options:
           - option_name: Miel
             option_price: +$20
@@ -62,28 +62,26 @@ menu_sections:
         image: bagel_mexicano.jpg
         options:
           - option_name: Poulet
-            option_price: +$40
-          - option_name: Jambon
-            option_price: +$40
+            option_price: +$30
+          - option_name: Jambon de dinde
+            option_price: +$30
       - name: ⭐🌿 Da Vinci 
         description: Fromage de chèvre, noix caramélisées et tranches de poire.
         price: $85
-        image: placeholder.png
       - name: 🌿 Végétalien
         description: Houmous, tomates cerises, huile d'olive, graines germées, sésame.
         price: $80
-        image: placeholder.png
-      # - name: Caprese
-      #   description: Mozzarella, tomate, basilic, huile d'olive.
-      #   price: $85
       - name: Au Pesto
         description: Poulet, pesto maison, avocat, tomate.
         price: $85
-        image: placeholder.png
+        image: bagel_pesto.jpg
       - name: Ibérique
-        description: Salami, jambon, fromage cheddar, huile d'olive.
+        description: Salami, Jambon de dinde, fromage cheddar, huile d'olive.
         price: $85
-        image: placeholder.png
+        image: bagel_iberico.jpg
+      - name: Pavone
+        description: Jambon de dinde, cheddar, touche de mayonnaise
+        price: $85
 
   - section_name: Plats principaux
     columns: 3
@@ -109,8 +107,8 @@ menu_sections:
         options:
           - option_name: Poulet
             option_price: +$30
-          - option_name: Jambon
-            option_price: +$40
+          - option_name: Jambon de dinde
+            option_price: +$30
       - name: 🌿 Salade Lisa
         price: $80
         description: Mélange de laitues, pomme, noix caramélisées, airelles, fromage de chèvre, vinaigrette miel et moutarde.
@@ -118,8 +116,8 @@ menu_sections:
         options:
           - option_name: Poulet
             option_price: +$30
-          - option_name: Jambon
-            option_price: +$40
+          - option_name: Jambon de dinde
+            option_price: +$30
 
   - section_name: Snacks
     columns: 3

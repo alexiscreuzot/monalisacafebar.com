@@ -45,10 +45,10 @@ menu_sections:
     description: "Todos nuestros bagels pueden cambiarse por pan de chapata y vienen <b>acompañado de ensalada de la casa</b>. "
     columns: 3
     menu_items:
-      - name: 🌿 Queso crema
-        description: El clasico
+      - name: 🌿 Clasico
+        description: Queso crema
         price: $40
-        image: placeholder.png
+        
         options:
           - option_name: Miel
             option_price: +$20
@@ -62,28 +62,31 @@ menu_sections:
         image: bagel_mexicano.jpg
         options:
           - option_name: Pollo
-            option_price: +$40
-          - option_name: Jamon
-            option_price: +$40
+            option_price: +$30
+          - option_name: Jamon de pavo
+            option_price: +$30
       - name: ⭐🌿 Da Vinci 
         description: Queso de cabra, nueces caramelizadas y rebanadas de pera. 
         price: $85
-        image: placeholder.png
+        
       - name: 🌿 Vegano
         description: Hummus, tomate cherry, aceite de oliva, germinado, ajonjoli. 
         price: $80
-        image: placeholder.png
-      # - name: Caprese
-      #   description: Queso mozzarella, jitomate, albahaca, aceite de oliva. 
-      #   price: $85
+        
       - name: Al Pesto
         description: Pollo, pesto de la casa, aguacate, jitomate. 
         price: $85
-        image: placeholder.png
+        image: bagel_pesto.jpg
+        
       - name: Ibérico
-        description: Salami, Jamon, queso cheddar, aceite de oliva. 
+        description: Salami, Jamon de pavo, queso cheddar, aceite de oliva 
         price: $85
-        image: placeholder.png
+        image: bagel_iberico.jpg
+        
+      - name: Pavone
+        description: Jamon de pavo, queso cheddar, toque de mayonesa
+        price: $85
+        
 
   - section_name: Platos fuertes
     columns: 3
@@ -91,7 +94,6 @@ menu_sections:
       - name: ⭐🌿 Chilaquiles
         price: $65
         description: Con salsa verde de la casa. Acompañados de frijolitos refritos.
-        image: chilaquiles.jpeg
         options:
           - option_name: Pollo
             option_price: +$30
@@ -109,8 +111,8 @@ menu_sections:
         options:
           - option_name: Pollo
             option_price: +$30
-          - option_name: Jamon
-            option_price: +$40
+          - option_name: Jamon de pavo
+            option_price: +$30
       - name: 🌿 Ensalada Lisa
         price: $80
         description: Mezcla de lechugas, manzana, nuez caramelizada, arándanos, queso de cabra, vinagreta de miel y mostaza.
@@ -118,8 +120,8 @@ menu_sections:
         options:
           - option_name: Pollo
             option_price: +$30
-          - option_name: Jamon
-            option_price: +$40
+          - option_name: Jamon de pavo
+            option_price: +$30
 
   - section_name: Snacks
     columns: 3
