@@ -79,7 +79,7 @@ menu_sections:
         image: bagel_pesto.jpg
         
       - name: Ibérico
-        description: Salami, Jamon de pavo, queso cheddar, aceite de oliva 
+        description: Salami, Jamon de pavo, queso manchego
         price: $85
         image: bagel_iberico.jpg
         

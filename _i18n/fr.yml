@@ -76,7 +76,7 @@ menu_sections:
         price: $85
         image: bagel_pesto.jpg
       - name: Ibérique
-        description: Salami, Jambon de dinde, fromage cheddar, huile d'olive.
+        description: Salami, Jambon de dinde, fromage manchego
         price: $85
         image: bagel_iberico.jpg
       - name: Pavone

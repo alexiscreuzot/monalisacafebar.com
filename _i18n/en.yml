@@ -78,7 +78,7 @@ menu_sections:
         image: bagel_pesto.jpg
         
       - name: Iberian
-        description: Salami, Turkey ham, cheddar cheese, olive oil.
+        description: Salami, Turkey ham, manchego cheese
         price: $85
         image: bagel_iberico.jpg
       - name: Pavone
