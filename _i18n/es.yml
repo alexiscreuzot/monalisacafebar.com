@@ -42,7 +42,7 @@ contact:
 menu_sections:
   - section_name: Bagels
     section_id: food
-    description: "Todos nuestros bagels pueden cambiarse por pan de chapata y vienen <b>acompañado de ensalada de la casa</b>. "
+    description: "<b style='color:red'>Horario de cocina excepcional : 4pm a 10pm</b><br/>Todos nuestros bagels pueden cambiarse por pan de chapata y vienen <b>acompañado de ensalada de la casa</b>. "
     columns: 3
     menu_items:
       - name: 🌿 Clasico
