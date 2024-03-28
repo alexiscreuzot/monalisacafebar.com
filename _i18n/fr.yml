@@ -95,10 +95,10 @@ menu_sections:
             option_price: +$30
       - name: ⭐ Hamburger
         price: $130
-        description: Viande, fromage, laitue, tomate, oignon caramélisé et sauce maison. Servi avec salade maison.
+        description: Viande de boeuf, fromage, laitue, tomate et sauce maison. Servi avec salade maison.
         image: burger.jpeg
       - name: Hot Dog
-        description: Servi avec salade maison.
+        description: Saucisse de bœuf géante exquise, fromage cheddar et vinaigrette maison. Servi avec salade maison.
         price: $120
       - name: 🌿 Salade Mona
         price: $70
@@ -209,7 +209,7 @@ menu_sections:
         image: limonada.jpeg
       - name: Sodas Italiens
         price: $50
-        description: Litchi / Mangue / Fraise / Cerise / Noix de Coco / Pastèque / Mojito
+        description: Litchi / Mangue / Fraise / Cerise / Pastèque / Mojito
         image: soda_italiano.jpg
       - name: Jus
         price: $40

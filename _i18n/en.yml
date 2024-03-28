@@ -97,10 +97,10 @@ menu_sections:
             option_price: +$30
       - name: ⭐ Burger
         price: $130
-        description: Beef, cheese, lettuce, tomato, caramelized onion, homemade dressing. Served with house salad.
+        description: Beef, cheese, lettuce, tomato, homemade dressing. Served with house salad.
         image: burger.jpeg
       - name: Hot Dog
-        description: Served with house salad.
+        description: Exquisite jumbo beef sausage, cheddar cheese and house dressing. Served with house salad.
         price: $120
       - name: 🌿 Mona Salad
         price: $70
@@ -231,7 +231,7 @@ menu_sections:
         image: limonada.jpeg
       - name: Italian Sodas
         price: $50
-        description: Lychee / Mango / Strawberry / Cherry / Coconut / Watermelon / Mojito
+        description: Lychee / Mango / Strawberry / Cherry / Watermelon / Mojito
         image: soda_italiano.jpg
       - name: Juice
         price: $40

@@ -57,7 +57,7 @@ menu_sections:
           - option_name: Mermelada de fresa
             option_price: +$20
       - name: ⭐🌿 Mexicano
-        description: Frijol refrito, queso cheddar, pico de gallo, aguacate. 
+        description: Frijoles refritos, queso cheddar, queso manchego, pico de gallo, aguacate. 
         price: $85
         image: bagel_mexicano.jpg
         options:
@@ -70,7 +70,7 @@ menu_sections:
         price: $85
         
       - name: 🌿 Vegano
-        description: Hummus, tomate cherry, aceite de oliva, germinado, ajonjoli. 
+        description: Hummus, tomate cherry, aceite de oliva, germen, ajonjoli. 
         price: $80
         
       - name: Al Pesto
@@ -99,10 +99,10 @@ menu_sections:
             option_price: +$30
       - name: ⭐ Hamburguesa
         price: $130
-        description: Carne, queso, lechuga, tomate, cebolla caramelizada y aderezo casero. Acompañada de ensalada de la casa.
+        description: Carne, queso, lechuga, jitomate y aderezo de la casa. Acompañada de ensalada de la casa.
         image: burger.jpeg
       - name: Hot Dog
-        description: Acompañada de ensalada de la casa.
+        description: Exquisita salchicha jumbo de res, queso cheddar y aderezo de la casa. Acompañado de ensalada de la casa.
         price: $120
       - name: 🌿 Ensalada Mona
         price: $70
@@ -235,7 +235,7 @@ menu_sections:
         image: limonada.jpeg
       - name: Sodas Italianas
         price: $50
-        description: Lichi / Mango / Fresa / Cereza / Coco / Sandia / Mojito
+        description: Lichi / Mango / Fresa / Cereza / Sandia / Mojito
         image: soda_italiano.jpg
       - name: Jugo
         price: $40
