@@ -40,7 +40,7 @@ contact:
   contact_us: Contact Us
 
 menu_sections:
-  - section_name: Bagels
+  - section_name: Bagels / Croissants / Ciabattas
     description: "<b style='color:red'>Provisional kitchen hours: 4pm to 10pm</b><br/>All our bagels can be swapped for ciabatta bread and come <b>with house salad</b>."
     columns: 3
     menu_items:
@@ -113,7 +113,7 @@ menu_sections:
             option_price: +$30
       - name: 🌿 Lisa Salad
         price: $80
-        description: Mix of lettuces, apple, caramelized nut, cranberries, goat cheese, honey mustard vinaigrette.
+        description: Mix of lettuces, pear, caramelized nut, cranberries, goat cheese, honey mustard vinaigrette.
         image: ensalada_lisa.jpg
         options:
           - option_name: Chicken

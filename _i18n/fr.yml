@@ -40,7 +40,7 @@ contact:
   contact_us: Contactez-nous
 
 menu_sections:
-  - section_name: Bagels
+  - section_name: Bagels / Croissants / Ciabattas
     section_id: food
     description: "<b style='color:red'>Horaires de cuisine provisoires: 16h a 22h</b><br/>Tous nos bagels peuvent être remplacés par du pain ciabatta et sont <b>accompagnés d'une salade maison</b>."
     columns: 3
@@ -111,7 +111,7 @@ menu_sections:
             option_price: +$30
       - name: 🌿 Salade Lisa
         price: $80
-        description: Mélange de laitues, pomme, noix caramélisées, airelles, fromage de chèvre, vinaigrette miel et moutarde.
+        description: Mélange de laitues, poire, noix caramélisées, airelles, fromage de chèvre, vinaigrette miel et moutarde.
         image: ensalada_lisa.jpg
         options:
           - option_name: Poulet
