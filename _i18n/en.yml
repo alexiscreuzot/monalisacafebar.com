@@ -41,7 +41,7 @@ contact:
 
 menu_sections:
   - section_name: Bagels
-    description: "<b style='color:red'>Exceptional kitchen hours: 4pm to 10pm</b><br/>All our bagels can be swapped for ciabatta bread and come <b>with house salad</b>."
+    description: "<b style='color:red'>Provisional kitchen hours: 4pm to 10pm</b><br/>All our bagels can be swapped for ciabatta bread and come <b>with house salad</b>."
     columns: 3
     menu_items:
       - name: 🌿 Cream Cheese
