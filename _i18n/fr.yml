@@ -13,7 +13,7 @@ head:
     Expérience café et travail au centre de Querétaro
 
 intro:
-  "Chez Monalisa, nous vous offrons un espace tranquille au cœur de Querétaro où vous pouvez <b>apprécier un délicieux café</b>.<br/>Nous proposons également une large gamme de snacks et de plats sains, <b>avec des options végétaliennes et végétariennes</b>."
+  "Chez Monalisa, nous vous offrons un espace tranquille au cœur de Querétaro où vous pouvez <b>apprécier un délicieux café</b>. Nous proposons également une large gamme de snacks et de plats sains, <b>avec des options végétaliennes et végétariennes</b>."
 
 menu:
   recommendations: 🌿 Végétarien<br/>⭐ Recommandation du chef
@@ -131,3 +131,115 @@ menu_sections:
         description: 400g de délicieuses frites assaisonnées au citron et au poivre.
       - name: 🌿 Guacamole
         price: $75
+  - section_name: Café et Spécialités
+    section_id: boissons
+    description: "Appréciez <b>notre propre mélange de café 100% arabica</b> de la région de Coatepec, Veracruz.<br/>La plupart de nos boissons peuvent être dégustées <b>chaudes, froides ou en frappé</b>. Nous proposons également des <b>lait végétaux (supplément de 10 $)</b>."
+    columns: 3
+    menu_items:
+      - name: Espresso
+        image: espresso.jpg
+        choices:
+          - choice_name: Classique
+            choice_price: $30
+          - choice_name: Cortado
+            choice_price: $35
+      - name: Americano
+        description: 1 part espresso, 4 parts d'eau
+        price: $35
+      - name: Européen
+        description: 1 part espresso, 2 parts d'eau
+        price: $35
+      - name: ⭐ Flat White
+        price: $50
+        image: flat_white.jpg
+        description: "Notre spécialité : 1 part espresso, 2 parts de lait velouté"
+      - name: Latte
+        price: $55
+        description: 1 part espresso, 3 parts de lait vapeur
+        image: latte.jpg
+        options:
+          - option_name: Crème d'Irish
+            option_price: +$25
+          - option_name: Caramel
+            option_price: +$25
+          - option_name: Mocha
+            option_price: +$15
+      - name: Chai
+        description: Boisson crémeuse à base de thé, garnie de mousse de lait
+        choices:
+          - choice_name: Vanille
+            choice_price: $80
+          - choice_name: Épices
+            choice_price: $80
+          - choice_name: Thé Vert
+            choice_price: $80
+      - name: ⭐ Taro
+        price: $70
+        description: Boisson avec une légère saveur de noix, vanille, patate douce et note florale
+        image: taro.jpg
+      - name: Matcha
+        price: $80
+        description: Boisson avec une légère saveur de thé vert, avec une touche sucrée et amère
+        image: matcha.jpg
+      - name: Infusions
+        price: $40
+        description: Camomille / Thé Vert / Pomme-Cannelle / Menthe Poivrée / Citron
+      - name: Tisanes
+        price: $55
+        description: Crème de Cerise / Coco-Canneberge / Fraise-Pomme
+        image: tisana.jpg
+      - name: Chocolat Chaud Traditionnel Mexicain
+        description: Un autre classique, chocolat avec une touche de cannelle
+        price: $50
+
+  - section_name: Autres Boissons
+    columns: 3
+    menu_items:
+      - name: Sunsetti
+        price: $60
+        description: Avec une base d'orange et de fraise, inspiré des couchers de soleil italiens estivaux
+        image: sunsetti.jpg
+      - name: ⭐ Tonic Cerise
+        price: $60
+        description: Avec une base de cerise, de tonic et un shot d'espresso
+        image: cherry_tonic.jpeg
+      - name: Orangeade / Limonade
+        price: $40
+        description: Avec de l'eau naturelle ou minérale
+        image: limonada.jpeg
+      - name: Sodas Italiens
+        price: $50
+        description: Litchi / Mangue / Fraise / Cerise / Noix de Coco / Pastèque / Mojito
+        image: soda_italiano.jpg
+      - name: Jus
+        price: $40
+        description: Orange / Vert
+      - name: Soda
+        price: $30
+        description: Coke / Coke Diète / Fanta / Sprite / Sidral
+      - name: Eau en Bouteille
+        choices:
+          - choice_name: Naturelle
+            choice_price: $20
+          - choice_name: Minérale
+            choice_price: $25
+
+  - section_name: Alcool
+    columns: 3
+    menu_items:
+      - name: Bière Nationale
+        choices:
+          - choice_name: Victoria
+            choice_price: $35
+          - choice_name: Corona
+            choice_price: $35
+      - name: Bière Artisanale
+        choices:
+          - choice_name: Bulla
+            choice_price: $80
+          - choice_name: Milpa
+            choice_price: $80
+          - choice_name: Quiota
+            choice_price: $80
+          - choice_name: Xocolat
+            choice_price: $80
