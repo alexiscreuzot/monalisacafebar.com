@@ -1,26 +1,26 @@
 {% capture current_lang_id %}{{ site.lang }}{% endcapture %}
 <div class="languages">
     <div class="selected-language" onclick="toggleLanguageMenu()">
-      {{ site.translations[site.lang].global.current_lang_flag }}
+        {{ site.translations[site.lang].global.current_lang_flag }}
     </div>
     <ul id="language-menu">
-      {% assign languages = "es,en,fr" | split: ',' %}
-      {% for lang_id in languages %}
-        {% capture lang_flag %}{{ site.translations[lang_id].global.current_lang_flag }}{% endcapture %}
-        {% capture lang_uri %}{{ site.translations[lang_id].global.lang_uri }}{% endcapture %}
-        {% capture link %}{{site.baseurl_root}}{{lang_uri}}{{page.url}}{% endcapture %}
+        {% assign languages = "es,en,fr" | split: ',' %}
+        {% for lang_id in languages %}
+            {% capture lang_flag %}{{ site.translations[lang_id].global.current_lang_flag }}{% endcapture %}
+            {% capture lang_uri %}{{ site.translations[lang_id].global.lang_uri }}{% endcapture %}
+            {% capture link %}{{site.baseurl_root}}{{lang_uri}}{{page.url}}{% endcapture %}
 
-        {% if lang_id != current_lang_id %}
-        <li><a href="{{link}}">{{ lang_flag }}</a></li>
-        {% endif %}
-        
-      {% endfor %}
+            {% if lang_id != current_lang_id %}
+            <li><a href="{{link}}">{{ lang_flag }}</a></li>
+            {% endif %}
+        {% endfor %}
     </ul>
-  </div>
-  
-  <script>
-    function toggleLanguageMenu() {
+</div>
+
+<script>
+  function toggleLanguageMenu() {
       var menu = document.getElementById("language-menu");
       menu.classList.toggle("show");
-    }
-  </script>
+  }
+
+</script>

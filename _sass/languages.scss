@@ -8,14 +8,20 @@
   }
   
   .languages .selected-language {
+    background-color: white;
     font-size: 2rem;
-    padding: 8px 16px;
+    width:48px;
+    height: 48px;
+    padding:4px 0 0 8px;
     cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
   }
   
   .languages #language-menu {
     position: absolute;
     top: 100%;
+    margin:10px 0 0 -10px;
     background-color: white;
     border-radius: 10px;
     overflow: hidden;
