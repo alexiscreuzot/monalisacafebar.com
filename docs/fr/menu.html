@@ -24,7 +24,7 @@
     <div class="bar2"></div>
     <div class="bar3"></div>
   </div>
-  <ul id="menu-nav"">
+  <ul id="menu-nav">
     <br/>
     
       <li><a href="#Bagels" onclick="toggleNav()">Bagels</a></li>
@@ -43,7 +43,7 @@
   </ul>
 </div>
 
-  <script>
+<script>
     function toggleNav() {
       var menu = document.getElementById("menu-nav");
       menu.classList.toggle("show");
@@ -51,7 +51,19 @@
       icon.classList.toggle("change");
     }
 
-  </script>
+    // Close navigation menu when clicking outside
+    document.addEventListener('click', function(event) {
+        var menu = document.getElementById("menu-nav");
+        var icon = document.getElementById("icon");
+        if (!event.target.closest('.nav') && !event.target.closest('#menu-nav')) {
+            if (menu.classList.contains('show')) {
+                menu.classList.remove('show');
+                icon.classList.remove("change");
+            }
+        }
+    });
+</script>
+
 
     
 <div class="languages">
@@ -91,7 +103,15 @@
       var menu = document.getElementById("language-menu");
       menu.classList.toggle("show");
   }
-
+  
+  window.onclick = function(event) {
+        if (!event.target.matches('.selected-language')) {
+            var menu = document.getElementById("language-menu");
+            if (menu.classList.contains('show')) {
+                menu.classList.remove('show');
+            }
+        }
+    }
 </script>
 
     <div id="wrapper">

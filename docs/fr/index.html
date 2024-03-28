@@ -95,7 +95,15 @@
       var menu = document.getElementById("language-menu");
       menu.classList.toggle("show");
   }
-
+  
+  window.onclick = function(event) {
+        if (!event.target.matches('.selected-language')) {
+            var menu = document.getElementById("language-menu");
+            if (menu.classList.contains('show')) {
+                menu.classList.remove('show');
+            }
+        }
+    }
 </script>
     
     <div id="menu" class="section">
