@@ -42,7 +42,7 @@ contact:
 menu_sections:
   - section_name: Bagels / Croissants / Ciabattas
     section_id: food
-    description: "Tous nos sandwichs sont <b>accompagnés d'une salade maison</b>."
+    description: "La majorité de nos sandwichs viennent <b>accompagnés d'une salade maison</b>."
     columns: 3
     menu_items:
       - name: 🌿 Fromage frais

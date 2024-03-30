@@ -42,7 +42,7 @@ contact:
 menu_sections:
   - section_name: Bagels / Croissants / Ciabattas
     section_id: food
-    description: "Todos nuestros sandwiches vienen <b>acompañado de ensalada de la casa</b>. "
+    description: "La mayoria de nuestros sandwiches vienen <b>acompañado de ensalada de la casa</b>. "
     columns: 3
     menu_items:
       - name: 🌿 Clasico

@@ -41,7 +41,7 @@ contact:
 
 menu_sections:
   - section_name: Bagels / Croissants / Ciabattas
-    description: "All our sandwiches come <b>with house salad</b>."
+    description: "The majority of our sandwiches come <b>with house salad</b>."
     columns: 3
     menu_items:
       - name: 🌿 Cream Cheese
