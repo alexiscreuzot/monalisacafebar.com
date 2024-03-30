@@ -48,6 +48,7 @@ menu_sections:
       - name: 🌿 Clasico
         description: Queso crema
         price: $40
+        image: bagel_clasico.jpg
         options:
           - option_name: Miel
             option_price: +$20
@@ -71,6 +72,7 @@ menu_sections:
       - name: 🌿 Vegano
         description: Hummus, tomate cherry, aceite de oliva, germen, ajonjoli. 
         price: $80
+        image: bagel_vegano.jpg
         
       - name: Al Pesto
         description: Pollo, pesto de la casa, aguacate, jitomate. 

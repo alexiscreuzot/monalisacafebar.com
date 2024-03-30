@@ -47,6 +47,7 @@ menu_sections:
       - name: 🌿 Cream Cheese
         description: The classic
         price: $40
+        image: bagel_clasico.jpg
         options:
           - option_name: Honey
             option_price: +$20
@@ -70,6 +71,7 @@ menu_sections:
       - name: 🌿 Vegan
         description: Hummus, cherry tomato, olive oil, sprout, sesame seeds.
         price: $80
+        image: bagel_vegano.jpg
         
       - name: Al Pesto
         description: Chicken, house pesto, avocado, tomato.

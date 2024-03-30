@@ -48,6 +48,7 @@ menu_sections:
       - name: 🌿 Fromage frais
         description: Le classique
         price: $40
+        image: bagel_clasico.jpg
         options:
           - option_name: Miel
             option_price: +$20
@@ -70,6 +71,7 @@ menu_sections:
       - name: 🌿 Végétalien
         description: Houmous, tomates cerises, huile d'olive, graines germées, sésame.
         price: $80
+        image: bagel_vegano.jpg
       - name: Au Pesto
         description: Poulet, pesto maison, avocat, tomate.
         price: $85
