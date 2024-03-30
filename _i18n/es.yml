@@ -42,13 +42,12 @@ contact:
 menu_sections:
   - section_name: Bagels / Croissants / Ciabattas
     section_id: food
-    description: "<b style='color:red'>Horario de cocina provisional : 4pm a 10pm</b><br/>Todos nuestros sandwiches vienen <b>acompañado de ensalada de la casa</b>. "
+    description: "Todos nuestros sandwiches vienen <b>acompañado de ensalada de la casa</b>. "
     columns: 3
     menu_items:
       - name: 🌿 Clasico
         description: Queso crema
         price: $40
-        
         options:
           - option_name: Miel
             option_price: +$20
