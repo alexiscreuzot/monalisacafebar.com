@@ -44,7 +44,7 @@ menu_sections:
     description: "The majority of our sandwiches come <b>with house salad</b>."
     columns: 3
     menu_items:
-      - name: 🌿 Cream Cheese
+      - name: 🌿 Clasico
         description: The classic
         price: $40
         image: bagel_clasico.jpg
@@ -55,7 +55,7 @@ menu_sections:
             option_price: +$20
           - option_name: Strawberry Jam
             option_price: +$20
-      - name: ⭐🌿 Mexican
+      - name: ⭐🌿 Mexicano
         description: Refried beans, cheddar cheese, pico de gallo, avocado.
         price: $85
         image: bagel_mexicano.jpg
@@ -68,7 +68,7 @@ menu_sections:
         description: Goat cheese, caramelized walnuts, and slices of pear.
         price: $85
         
-      - name: 🌿 Vegan
+      - name: 🌿 Vegano
         description: Hummus, cherry tomato, olive oil, sprout, sesame seeds.
         price: $80
         image: bagel_vegano.jpg
@@ -78,7 +78,7 @@ menu_sections:
         price: $85
         image: bagel_pesto.jpg
         
-      - name: Iberian
+      - name: Iberico
         description: Salami, Turkey ham, manchego cheese
         price: $85
         image: bagel_iberico.jpg

@@ -45,8 +45,8 @@ menu_sections:
     description: "La majorité de nos sandwichs viennent <b>accompagnés d'une salade maison</b>."
     columns: 3
     menu_items:
-      - name: 🌿 Fromage frais
-        description: Le classique
+      - name: 🌿 Clasico
+        description: Classique, au fromage frais
         price: $40
         image: bagel_clasico.jpg
         options:
@@ -56,7 +56,7 @@ menu_sections:
             option_price: +$20
           - option_name: Confiture de fraises
             option_price: +$20
-      - name: ⭐🌿 Mexicain
+      - name: ⭐🌿 Mexicano
         description: Haricots refrits, fromage cheddar, pico de gallo, avocat.
         price: $85
         image: bagel_mexicano.jpg
@@ -68,15 +68,15 @@ menu_sections:
       - name: ⭐🌿 Da Vinci 
         description: Fromage de chèvre, noix caramélisées et tranches de poire.
         price: $85
-      - name: 🌿 Végétalien
+      - name: 🌿 Vegano
         description: Houmous, tomates cerises, huile d'olive, graines germées, sésame.
         price: $80
         image: bagel_vegano.jpg
-      - name: Au Pesto
+      - name: Al Pesto
         description: Poulet, pesto maison, avocat, tomate.
         price: $85
         image: bagel_pesto.jpg
-      - name: Ibérique
+      - name: Iberico
         description: Salami, Jambon de dinde, fromage manchego
         price: $85
         image: bagel_iberico.jpg
