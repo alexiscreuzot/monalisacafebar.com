@@ -112,7 +112,7 @@ menu_sections:
             option_price: +$30
       - name: 🌿 Salade Lisa
         price: $80
-        description: Mélange de laitues, poire, noix caramélisées, airelles, fromage de chèvre, vinaigrette miel et moutarde.
+        description: Mélange de laitues, poire, noix caramélisées, airelles, fromage de chèvre, vinaigrette moutarde & miel.
         image: ensalada_lisa.jpg
         options:
           - option_name: Poulet
