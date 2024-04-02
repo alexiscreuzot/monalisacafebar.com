@@ -22,7 +22,7 @@ menu:
     - day: Lundi
       hours: 9h30 - 22h00
     - day: Mardi
-      hours: Fermé
+      hours: 9:30am - 22h00
     - day: Mercredi
       hours: 9h30 - 22h00
     - day: Jeudi
@@ -42,7 +42,7 @@ contact:
 menu_sections:
   - section_name: Bagels / Croissants / Ciabattas
     section_id: food
-    description: "La majorité de nos sandwichs viennent <b>accompagnés d'une salade maison</b>."
+    description: "La plupart de nos sandwichs viennent <b>accompagnés d'une salade maison</b>."
     columns: 3
     menu_items:
       - name: 🌿 Clasico
