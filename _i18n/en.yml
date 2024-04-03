@@ -92,7 +92,7 @@ menu_sections:
       - name: ⭐🌿 Chilaquiles
         price: $65
         description: With house green sauce. Accompanied by refried beans.
-        image: chilaquiles.jpeg
+        image: chilaquiles.jpg
         options:
           - option_name: Chicken
             option_price: +$30

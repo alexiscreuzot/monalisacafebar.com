@@ -90,7 +90,7 @@ menu_sections:
       - name: ⭐🌿 Chilaquiles
         price: $65
         description: Avec sauce verte maison. Accompagnés de haricots refrits.
-        image: chilaquiles.jpeg
+        image: chilaquiles.jpg
         options:
           - option_name: Poulet
             option_price: +$30

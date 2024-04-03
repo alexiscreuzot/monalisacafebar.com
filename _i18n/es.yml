@@ -95,6 +95,7 @@ menu_sections:
       - name: ⭐🌿 Chilaquiles
         price: $65
         description: Con salsa verde de la casa. Acompañados de frijolitos refritos.
+        image: chilaquiles.jpg
         options:
           - option_name: Pollo
             option_price: +$30
