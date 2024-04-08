@@ -81,8 +81,9 @@ menu_sections:
         price: $85
         image: bagel_iberico.jpg
       - name: Pavone
-        description: Jambon de dinde, cheddar, touche de mayonnaise
+        description: Jambon de dinde, cheddar, pousses d'épinards et touche de mayonnaise
         price: $85
+        image: croissant_pavone.jpg
 
   - section_name: Plats principaux
     columns: 3
@@ -192,6 +193,7 @@ menu_sections:
       - name: Chocolat Chaud Traditionnel Mexicain
         description: Un autre classique, chocolat avec une touche de cannelle
         price: $50
+        image: chocolate.jpg
 
   - section_name: Autres Boissons
     columns: 3

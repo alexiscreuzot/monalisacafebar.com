@@ -85,8 +85,9 @@ menu_sections:
         image: bagel_iberico.jpg
         
       - name: Pavone
-        description: Jamon de pavo, queso cheddar, toque de mayonesa
+        description: Jamon de pavo, queso cheddar, espinaca y toque de mayonesa
         price: $85
+        image: croissant_pavone.jpg
         
 
   - section_name: Platos fuertes
@@ -219,6 +220,7 @@ menu_sections:
       - name: Chocolate Tradicional Mexicano
         description: Otro clasico, chocolate con un toque de canela
         price: $50
+        image: chocolate.jpg
 
   - section_name: Otras Bebidas
     columns: 3

@@ -83,8 +83,9 @@ menu_sections:
         price: $85
         image: bagel_iberico.jpg
       - name: Pavone
-        description: Turkey ham, cheddar cheese, touch of mayonnaise
+        description: Turkey ham, cheddar, spinnach and a touch of mayonnaise
         price: $85
+        image: croissant_pavone.jpg
 
   - section_name: Main Courses
     columns: 3
@@ -214,6 +215,7 @@ menu_sections:
       - name: Traditional Mexican Hot Chocolate
         description: Another classic, chocolate with a touch of cinnamon
         price: $50
+        image: chocolate.jpg
 
   - section_name: Other Beverages
     columns: 3
