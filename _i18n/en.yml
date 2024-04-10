@@ -90,9 +90,9 @@ menu_sections:
   - section_name: Main Courses
     columns: 3
     menu_items:
-      - name: ⭐🌿 Chilaquiles
+      - name: ⭐🌿 Chilaquiles verdes
         price: $65
-        description: With house green sauce. Accompanied by refried beans.
+        description: With homemade sauce. Accompanied by refried beans.
         image: chilaquiles.jpg
         options:
           - option_name: Chicken

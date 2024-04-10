@@ -93,7 +93,7 @@ menu_sections:
   - section_name: Platos fuertes
     columns: 3
     menu_items:
-      - name: ⭐🌿 Chilaquiles
+      - name: ⭐🌿 Chilaquiles verdes
         price: $65
         description: Con salsa verde de la casa. Acompañados de frijolitos refritos.
         image: chilaquiles.jpg

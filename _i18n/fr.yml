@@ -88,9 +88,9 @@ menu_sections:
   - section_name: Plats principaux
     columns: 3
     menu_items:
-      - name: ⭐🌿 Chilaquiles
+      - name: ⭐🌿 Chilaquiles verdes
         price: $65
-        description: Avec sauce verte maison. Accompagnés de haricots refrits.
+        description: Sauce faite maison. Accompagnés de haricots refrits.
         image: chilaquiles.jpg
         options:
           - option_name: Poulet
