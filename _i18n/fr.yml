@@ -135,23 +135,24 @@ menu_sections:
         price: $75
 
   - section_name: Desserts
-    colonnes: 3
-    éléments_de_menu:
-      - nom: Pies et Gâteaux
+    columns: 3
+    menu_items:
+      - name: Gateaux et tartes
         image: pastel.jpeg
-        choix:
-          - nom_du_choix: ⭐ Banana Bread
-            prix_du_choix: $65
-          - nom_du_choix: ⭐ Tarte au Citron
-            prix_du_choix: $65
-          - nom_du_choix: Carrot cake
-            prix_du_choix: $75
-      - nom: Boulangerie
-        choix:
-          - nom_du_choix: Concha
-            prix_du_choix: $30
-          - nom_du_choix: Cookie
-            prix_du_choix: $20
+        choices:
+          - choice_name: ⭐ Banana Bread
+            choice_price: $65
+          - choice_name: ⭐ Tartes au citron
+            choice_price: $65
+          - choice_name: Carrot Cake
+            choice_price: $75
+      - name: Viennoiseries
+        choices:
+          - choice_name: Concha
+            choice_price: $30
+          - choice_name: Cookie
+            choice_price: $20
+
 
   - section_name: Café et Spécialités
     section_id: boissons
