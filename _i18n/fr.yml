@@ -162,14 +162,14 @@ menu_sections:
       - name: Espresso
         image: espresso.jpg
         choices:
-          - choice_name: Classique
+          - choice_name: Clasico
             choice_price: $30
           - choice_name: Cortado
             choice_price: $35
       - name: Americano
         description: 1 part espresso, 4 parts d'eau
         price: $35
-      - name: Européen
+      - name: Europeo
         description: 1 part espresso, 2 parts d'eau
         price: $35
       - name: ⭐ Flat White
