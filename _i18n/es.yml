@@ -154,8 +154,8 @@ menu_sections:
             choice_price: $75
       - name: Panaderia
         choices:
-          - choice_name: Pan dulce
-            choice_price: $40
+          - choice_name: Concha
+            choice_price: $30
           - choice_name: Galleta
             choice_price: $20
 

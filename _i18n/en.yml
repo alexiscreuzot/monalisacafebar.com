@@ -151,8 +151,8 @@ menu_sections:
             choice_price: $75
       - name: Bakery
         choices:
-          - choice_name: Sweet Bread
-            choice_price: $40
+          - choice_name: Concha
+            choice_price: $30
           - choice_name: Cookie
             choice_price: $20
   - section_name: Coffee and Specialties

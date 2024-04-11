@@ -133,6 +133,26 @@ menu_sections:
         description: 400g de délicieuses frites assaisonnées au citron et au poivre.
       - name: 🌿 Guacamole
         price: $75
+
+  - section_name: Desserts
+    colonnes: 3
+    éléments_de_menu:
+      - nom: Pies et Gâteaux
+        image: pastel.jpeg
+        choix:
+          - nom_du_choix: ⭐ Banana Bread
+            prix_du_choix: $65
+          - nom_du_choix: ⭐ Tarte au Citron
+            prix_du_choix: $65
+          - nom_du_choix: Carrot cake
+            prix_du_choix: $75
+      - nom: Boulangerie
+        choix:
+          - nom_du_choix: Concha
+            prix_du_choix: $30
+          - nom_du_choix: Cookie
+            prix_du_choix: $20
+
   - section_name: Café et Spécialités
     section_id: boissons
     description: "Appréciez <b>notre propre mélange de café 100% arabica</b> de la région de Coatepec, Veracruz.<br/>La plupart de nos boissons peuvent être dégustées <b>chaudes, froides ou en frappé</b>. Nous proposons également des <b>lait végétaux (supplément de 10 $)</b>."
