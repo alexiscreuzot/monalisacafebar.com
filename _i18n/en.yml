@@ -67,6 +67,7 @@ menu_sections:
       - name: ⭐🌿 Da Vinci
         description: Goat cheese, caramelized walnuts, and slices of pear.
         price: $85
+        image: bagel_davinci.jpg
         
       - name: 🌿 Vegano
         description: Hummus, cherry tomato, olive oil, sprout, sesame seeds.

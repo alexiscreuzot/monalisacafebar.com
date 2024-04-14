@@ -68,6 +68,7 @@ menu_sections:
       - name: ⭐🌿 Da Vinci 
         description: Fromage de chèvre, noix caramélisées et tranches de poire.
         price: $85
+        image: bagel_davinci.jpg
       - name: 🌿 Vegano
         description: Houmous, tomates cerises, huile d'olive, graines germées, sésame.
         price: $80

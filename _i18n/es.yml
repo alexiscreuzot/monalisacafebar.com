@@ -68,6 +68,7 @@ menu_sections:
       - name: ⭐🌿 Da Vinci 
         description: Queso de cabra, nueces caramelizadas y rebanadas de pera. 
         price: $85
+        image: bagel_davinci.jpg
         
       - name: 🌿 Vegano
         description: Hummus, tomate cherry, aceite de oliva, germen, ajonjoli. 
