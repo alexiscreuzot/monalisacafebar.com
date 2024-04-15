@@ -65,7 +65,7 @@ menu_sections:
             option_price: +$30
           - option_name: Jambon de dinde
             option_price: +$30
-      - name: ⭐🌿 Da Vinci 
+      - name: 🌿 Da Vinci 
         description: Fromage de chèvre, noix caramélisées et tranches de poire.
         price: $85
         image: bagel_davinci.jpg
@@ -73,7 +73,7 @@ menu_sections:
         description: Houmous, tomates cerises, huile d'olive, graines germées, sésame.
         price: $80
         image: bagel_vegano.jpg
-      - name: Al Pesto
+      - name: ⭐ Al Pesto
         description: Poulet, pesto maison, avocat, tomate.
         price: $85
         image: bagel_pesto.jpg
@@ -84,7 +84,6 @@ menu_sections:
       - name: Pavone
         description: Jambon de dinde, cheddar, pousses d'épinards et touche de mayonnaise
         price: $85
-        image: croissant_pavone.jpg
 
   - section_name: Plats principaux
     columns: 3
@@ -100,9 +99,15 @@ menu_sections:
         price: $130
         description: Viande de boeuf, fromage, laitue, tomate et sauce maison. Servi avec salade maison.
         image: burger.jpeg
+        options:
+          - option_name: Salade
+          - option_name: Frites
       - name: Hot Dog
         description: Saucisse de bœuf géante exquise, fromage cheddar et vinaigrette maison. Servi avec salade maison.
         price: $120
+        options:
+          - option_name: Salade
+          - option_name: Frites
       - name: 🌿 Salade Mona
         price: $70
         description: Mélange de laitues, épinards, avocat, fromage panela, julienne de tortilla et piment guajillo.

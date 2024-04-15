@@ -40,9 +40,9 @@ contact:
   contact_us: Contáctanos
 
 menu_sections:
-  - section_name: Bagels / Croissants / Ciabattas
+  - section_name: Bagels / Chapata
     section_id: food
-    description: "La mayoria de nuestros sandwiches vienen <b>acompañado de ensalada de la casa</b>. "
+    description: "<b>Tipo de pan a su eleccion.</b><br/> La mayoria de nuestros sandwiches vienen <b>acompañado de ensalada de la casa</b>. "
     columns: 3
     menu_items:
       - name: 🌿 Clasico
@@ -65,7 +65,7 @@ menu_sections:
             option_price: +$30
           - option_name: Jamon de pavo
             option_price: +$30
-      - name: ⭐🌿 Da Vinci 
+      - name: 🌿 Da Vinci 
         description: Queso de cabra, nueces caramelizadas y rebanadas de pera. 
         price: $85
         image: bagel_davinci.jpg
@@ -75,7 +75,7 @@ menu_sections:
         price: $80
         image: bagel_vegano.jpg
         
-      - name: Al Pesto
+      - name: ⭐ Al Pesto
         description: Pollo, pesto de la casa, aguacate, jitomate. 
         price: $85
         image: bagel_pesto.jpg
@@ -88,7 +88,6 @@ menu_sections:
       - name: Pavone
         description: Jamon de pavo, queso cheddar, espinaca y toque de mayonesa
         price: $85
-        image: croissant_pavone.jpg
         
 
   - section_name: Platos fuertes
@@ -103,11 +102,17 @@ menu_sections:
             option_price: +$30
       - name: ⭐ Hamburguesa
         price: $130
-        description: Carne, queso, lechuga, jitomate y aderezo de la casa. Acompañada de ensalada de la casa.
+        description: Carne, queso, lechuga, jitomate y aderezo de la casa.
         image: burger.jpeg
+        options:
+          - option_name: Ensalada
+          - option_name: Papas
+            
       - name: Hot Dog
-        description: Exquisita salchicha jumbo de res, queso cheddar y aderezo de la casa. Acompañado de ensalada de la casa.
-        price: $120
+        description: Exquisita salchicha jumbo de res, queso cheddar y aderezo de la casa.
+        options:
+          - option_name: Ensalada
+          - option_name: Papas
       - name: 🌿 Ensalada Mona
         price: $70
         description: Mezcla de lechugas, espinaca, aguacate, queso panela, julianas de tortilla y chile guajillo.

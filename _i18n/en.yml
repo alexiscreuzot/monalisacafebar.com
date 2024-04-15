@@ -64,7 +64,7 @@ menu_sections:
             option_price: +$30
           - option_name: Turkey ham
             option_price: +$30
-      - name: ⭐🌿 Da Vinci
+      - name: 🌿 Da Vinci
         description: Goat cheese, caramelized walnuts, and slices of pear.
         price: $85
         image: bagel_davinci.jpg
@@ -74,7 +74,7 @@ menu_sections:
         price: $80
         image: bagel_vegano.jpg
         
-      - name: Al Pesto
+      - name: ⭐ Al Pesto
         description: Chicken, house pesto, avocado, tomato.
         price: $85
         image: bagel_pesto.jpg
@@ -86,7 +86,6 @@ menu_sections:
       - name: Pavone
         description: Turkey ham, cheddar, spinnach and a touch of mayonnaise
         price: $85
-        image: croissant_pavone.jpg
 
   - section_name: Main Courses
     columns: 3
@@ -102,9 +101,15 @@ menu_sections:
         price: $130
         description: Beef, cheese, lettuce, tomato, homemade dressing. Served with house salad.
         image: burger.jpeg
+        options:
+          - option_name: Salad
+          - option_name: French fries
       - name: Hot Dog
         description: Exquisite jumbo beef sausage, cheddar cheese and house dressing. Served with house salad.
         price: $120
+        options:
+          - option_name: Salad
+          - option_name: French fries
       - name: 🌿 Mona Salad
         price: $70
         description: Mix of lettuces, spinach, avocado, panela cheese, tortilla strips, and guajillo chili.

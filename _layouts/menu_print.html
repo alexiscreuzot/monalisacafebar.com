@@ -60,7 +60,10 @@
                   {% if item.options %}
                     <ul class="option-list">
                       {% for option in item.options %}
-                        <li class="option">{{ option.option_name }} ({{ option.option_price }})</li>
+                        <li class="option">{{ option.option_name }} 
+                          {% if option.option_price  %}
+                          ({{ option.option_price }})
+                          {% endif %}</li>
                       {% endfor %}
                     </ul>
                   {% endif %}
