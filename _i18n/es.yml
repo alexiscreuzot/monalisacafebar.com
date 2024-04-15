@@ -77,17 +77,17 @@ menu_sections:
         
       - name: ⭐ Al Pesto
         description: Pollo, pesto de la casa, aguacate, jitomate. 
-        price: $85
+        price: $130
         image: bagel_pesto.jpg
         
       - name: Ibérico
         description: Salami, Jamon de pavo, queso manchego
-        price: $85
+        price: $110
         image: bagel_iberico.jpg
         
       - name: Pavone
         description: Jamon de pavo, queso cheddar, espinaca y toque de mayonesa
-        price: $85
+        price: $100
         
 
   - section_name: Platos fuertes
@@ -101,7 +101,7 @@ menu_sections:
           - option_name: Pollo
             option_price: +$30
       - name: ⭐ Hamburguesa
-        price: $130
+        price: $140
         description: Carne, queso, lechuga, jitomate y aderezo de la casa.
         image: burger.jpeg
         options:

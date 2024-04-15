@@ -76,16 +76,16 @@ menu_sections:
         
       - name: ⭐ Al Pesto
         description: Chicken, house pesto, avocado, tomato.
-        price: $85
+        price: $130
         image: bagel_pesto.jpg
         
       - name: Iberico
         description: Salami, Turkey ham, manchego cheese
-        price: $85
+        price: $110
         image: bagel_iberico.jpg
       - name: Pavone
         description: Turkey ham, cheddar, spinnach and a touch of mayonnaise
-        price: $85
+        price: $100
 
   - section_name: Main Courses
     columns: 3
@@ -98,7 +98,7 @@ menu_sections:
           - option_name: Chicken
             option_price: +$30
       - name: ⭐ Burger
-        price: $130
+        price: $140
         description: Beef, cheese, lettuce, tomato, homemade dressing. Served with house salad.
         image: burger.jpeg
         options:

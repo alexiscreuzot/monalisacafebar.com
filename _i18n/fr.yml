@@ -75,15 +75,15 @@ menu_sections:
         image: bagel_vegano.jpg
       - name: ⭐ Al Pesto
         description: Poulet, pesto maison, avocat, tomate.
-        price: $85
+        price: $130
         image: bagel_pesto.jpg
       - name: Iberico
         description: Salami, Jambon de dinde, fromage manchego
-        price: $85
+        price: $110
         image: bagel_iberico.jpg
       - name: Pavone
         description: Jambon de dinde, cheddar, pousses d'épinards et touche de mayonnaise
-        price: $85
+        price: $100
 
   - section_name: Plats principaux
     columns: 3
@@ -96,7 +96,7 @@ menu_sections:
           - option_name: Poulet
             option_price: +$30
       - name: ⭐ Hamburger
-        price: $130
+        price: $140
         description: Viande de boeuf, fromage, laitue, tomate et sauce maison. Servi avec salade maison.
         image: burger.jpeg
         options:
