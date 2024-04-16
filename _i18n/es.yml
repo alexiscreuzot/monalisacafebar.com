@@ -72,22 +72,22 @@ menu_sections:
         
       - name: 🌿 Vegano
         description: Hummus, tomate cherry, aceite de oliva, germen, ajonjoli. 
-        price: $80
+        price: $85
         image: bagel_vegano.jpg
-        
-      - name: ⭐ Al Pesto
-        description: Pollo, pesto de la casa, aguacate, jitomate. 
-        price: $130
-        image: bagel_pesto.jpg
-        
+
+      - name: Pavone
+        description: Jamon de pavo, queso cheddar, espinaca y toque de mayonesa
+        price: $100
+
       - name: Ibérico
         description: Salami, Jamon de pavo, queso manchego
         price: $110
         image: bagel_iberico.jpg
         
-      - name: Pavone
-        description: Jamon de pavo, queso cheddar, espinaca y toque de mayonesa
-        price: $100
+      - name: ⭐ Al Pesto
+        description: Pollo, pesto de la casa, aguacate, jitomate. 
+        price: $130
+        image: bagel_pesto.jpg
         
 
   - section_name: Platos fuertes
@@ -107,9 +107,10 @@ menu_sections:
         options:
           - option_name: Ensalada
           - option_name: Papas
-            
       - name: Hot Dog
         description: Exquisita salchicha jumbo de res, queso cheddar y aderezo de la casa.
+        price: $120
+        image: hot_dog.jpg
         options:
           - option_name: Ensalada
           - option_name: Papas

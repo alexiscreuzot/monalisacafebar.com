@@ -71,19 +71,20 @@ menu_sections:
         image: bagel_davinci.jpg
       - name: 🌿 Vegano
         description: Houmous, tomates cerises, huile d'olive, graines germées, sésame.
-        price: $80
+        price: $85
         image: bagel_vegano.jpg
-      - name: ⭐ Al Pesto
-        description: Poulet, pesto maison, avocat, tomate.
-        price: $130
-        image: bagel_pesto.jpg
+      - name: Pavone
+        description: Jambon de dinde, cheddar, pousses d'épinards et touche de mayonnaise
+        price: $100
       - name: Iberico
         description: Salami, Jambon de dinde, fromage manchego
         price: $110
         image: bagel_iberico.jpg
-      - name: Pavone
-        description: Jambon de dinde, cheddar, pousses d'épinards et touche de mayonnaise
-        price: $100
+      - name: ⭐ Al Pesto
+        description: Poulet, pesto maison, avocat, tomate.
+        price: $130
+        image: bagel_pesto.jpg
+      
 
   - section_name: Plats principaux
     columns: 3
@@ -105,6 +106,7 @@ menu_sections:
       - name: Hot Dog
         description: Saucisse de bœuf géante exquise, fromage cheddar et vinaigrette maison. Servi avec salade maison.
         price: $120
+        image: hot_dog.jpg
         options:
           - option_name: Salade
           - option_name: Frites

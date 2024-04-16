@@ -71,21 +71,22 @@ menu_sections:
         
       - name: 🌿 Vegano
         description: Hummus, cherry tomato, olive oil, sprout, sesame seeds.
-        price: $80
+        price: $85
         image: bagel_vegano.jpg
-        
-      - name: ⭐ Al Pesto
-        description: Chicken, house pesto, avocado, tomato.
-        price: $130
-        image: bagel_pesto.jpg
+
+      - name: Pavone
+        description: Turkey ham, cheddar, spinnach and a touch of mayonnaise
+        price: $100
         
       - name: Iberico
         description: Salami, Turkey ham, manchego cheese
         price: $110
         image: bagel_iberico.jpg
-      - name: Pavone
-        description: Turkey ham, cheddar, spinnach and a touch of mayonnaise
-        price: $100
+        
+      - name: ⭐ Al Pesto
+        description: Chicken, house pesto, avocado, tomato.
+        price: $130
+        image: bagel_pesto.jpg
 
   - section_name: Main Courses
     columns: 3
@@ -107,6 +108,7 @@ menu_sections:
       - name: Hot Dog
         description: Exquisite jumbo beef sausage, cheddar cheese and house dressing. Served with house salad.
         price: $120
+        image: hot_dog.jpg
         options:
           - option_name: Salad
           - option_name: French fries
