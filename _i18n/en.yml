@@ -40,8 +40,8 @@ contact:
   contact_us: Contact Us
 
 menu_sections:
-  - section_name: Bagels / Croissants / Ciabattas
-    description: "The majority of our sandwiches come <b>with house salad</b>."
+  - section_name: Bagels / Ciabattas
+    description: "<b>Choose your bread type.</b>The majority of our sandwiches come <b>with house salad</b>."
     columns: 3
     menu_items:
       - name: 🌿 Clasico

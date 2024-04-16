@@ -40,9 +40,9 @@ contact:
   contact_us: Contactez-nous
 
 menu_sections:
-  - section_name: Bagels / Croissants / Ciabattas
+  - section_name: Bagels / Ciabattas
     section_id: food
-    description: "La plupart de nos sandwichs viennent <b>accompagnés d'une salade maison</b>."
+    description: "<b>Type de pain au choix.</b>La plupart de nos sandwichs viennent <b>accompagnés d'une salade maison</b>."
     columns: 3
     menu_items:
       - name: 🌿 Clasico
