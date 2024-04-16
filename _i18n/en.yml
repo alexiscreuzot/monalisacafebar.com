@@ -77,6 +77,7 @@ menu_sections:
       - name: Pavone
         description: Turkey ham, cheddar, spinnach and a touch of mayonnaise
         price: $100
+        image: chapata_pavone.jpg
         
       - name: Iberico
         description: Salami, Turkey ham, manchego cheese

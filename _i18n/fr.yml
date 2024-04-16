@@ -76,6 +76,7 @@ menu_sections:
       - name: Pavone
         description: Jambon de dinde, cheddar, pousses d'épinards et touche de mayonnaise
         price: $100
+        image: chapata_pavone.jpg
       - name: Iberico
         description: Salami, Jambon de dinde, fromage manchego
         price: $110

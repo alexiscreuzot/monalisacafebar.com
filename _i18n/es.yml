@@ -78,6 +78,7 @@ menu_sections:
       - name: Pavone
         description: Jamon de pavo, queso cheddar, espinaca y toque de mayonesa
         price: $100
+        image: chapata_pavone.jpg
 
       - name: Ibérico
         description: Salami, Jamon de pavo, queso manchego
