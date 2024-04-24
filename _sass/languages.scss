@@ -5,21 +5,23 @@
     right: 1.2rem;
     margin-top: 1.2rem;
     display: inline;
-    z-index: 100;
+    z-index: 1000;
+    cursor: pointer;
   }
   
   .languages .selected-language {
+    cursor: pointer;
     background-color: white;
     font-size: 2rem;
     width:48px;
     height: 48px;
     padding:4px 0 0 8px;
-    cursor: pointer;
     border-radius: 50%;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
   }
   
   .languages #language-menu {
+    cursor: pointer;
     position: absolute;
     top: 100%;
     margin:10px 0 0 -10px;
