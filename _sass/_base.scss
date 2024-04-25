@@ -117,19 +117,20 @@ html {
 #intro {
   ul {
     padding: 3rem 0 0;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
   }
 
   ul li {
     display: inline;
-    padding: 1rem;
+    padding: 1.2rem;
   }
 
   ul li img {
     width : 260px;
     height: 260px;
     border-radius: 10px;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    
   }
 
 }
