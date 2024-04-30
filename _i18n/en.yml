@@ -137,7 +137,6 @@ menu_sections:
     menu_items:
       - name: 🌿 Mozzarella Sticks
         price: $85
-        description: Served with house marinara sauce.
         image: dedos.jpeg
       - name: 🌿 French Fries
         price: $75

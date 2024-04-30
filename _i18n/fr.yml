@@ -135,7 +135,6 @@ menu_sections:
     menu_items:
       - name: 🌿 Bâtonnets de mozzarella
         price: $85
-        description: Servis avec sauce marinara maison.
         image: dedos.jpeg
       - name: 🌿 Frites
         price: $75

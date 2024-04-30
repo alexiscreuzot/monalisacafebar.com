@@ -139,11 +139,10 @@ menu_sections:
     menu_items:
       - name: 🌿 Dedos de mozzarella
         price: $85
-        description: Acompañados de salsa marinara de la casa.
         image: dedos.jpeg
       - name: 🌿 Papas a la Francesa
         price: $75
-        description: Orden de 400g de deliciosas papas sazonadas con limón y pimienta.
+        description: Orden de 400g de deliciosas papas fritas al aire, sazonadas con limón y pimienta.
       - name: 🌿 Guacamole
         price: $75
         description: Orden de guacamole casero con totopos.
