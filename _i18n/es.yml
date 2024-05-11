@@ -95,11 +95,13 @@ menu_sections:
     columns: 3
     menu_items:
       - name: ⭐🌿 Chilaquiles verdes
-        price: $65
+        price: $70
         description: Con salsa verde de la casa. Acompañados de frijolitos refritos.
         image: chilaquiles.jpg
         options:
           - option_name: Pollo
+            option_price: +$30
+          - option_name: Jamon de pavo
             option_price: +$30
       - name: ⭐ Hamburguesa
         price: $140

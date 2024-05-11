@@ -91,11 +91,13 @@ menu_sections:
     columns: 3
     menu_items:
       - name: ⭐🌿 Chilaquiles verdes
-        price: $65
+        price: $70
         description: Sauce faite maison. Accompagnés de haricots refrits.
         image: chilaquiles.jpg
         options:
           - option_name: Poulet
+            option_price: +$30
+          - option_name: Jambon de dinde
             option_price: +$30
       - name: ⭐ Hamburger
         price: $140

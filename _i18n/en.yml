@@ -93,11 +93,13 @@ menu_sections:
     columns: 3
     menu_items:
       - name: ⭐🌿 Chilaquiles verdes
-        price: $65
+        price: $70
         description: With homemade sauce. Accompanied by refried beans.
         image: chilaquiles.jpg
         options:
           - option_name: Chicken
+            option_price: +$30
+          - option_name: Turkey ham
             option_price: +$30
       - name: ⭐ Burger
         price: $140
