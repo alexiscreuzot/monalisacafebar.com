@@ -156,6 +156,8 @@ menu_sections:
             choice_price: $65
           - choice_name: Carrot Cake
             choice_price: $75
+          - choice_name: Gâteau au Chocolat
+            choice_price: $75
       - name: Viennoiseries
         choices:
           - choice_name: Concha

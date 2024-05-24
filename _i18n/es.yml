@@ -161,6 +161,8 @@ menu_sections:
             choice_price: $65
           - choice_name: Pastel De Zanahoria
             choice_price: $75
+          - choice_name: Pastel de Chocolate
+            choice_price: $75
       - name: Panaderia
         choices:
           - choice_name: Concha
