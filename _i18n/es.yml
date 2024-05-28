@@ -42,7 +42,7 @@ contact:
 menu_sections:
   - section_name: Bagels / Chapata
     section_id: food
-    description: "<b>Tipo de pan a su eleccion.</b><br/> La mayoria de nuestros sandwiches vienen <b>acompañado de ensalada de la casa</b>. "
+    description: "<b>Tipo de pan a su eleccion.</b><br/> Nuestros sandwiches salados vienen <b>acompañado de ensalada de la casa con aderezo miel mostaza</b>. "
     columns: 3
     menu_items:
       - name: 🌿 Clasico

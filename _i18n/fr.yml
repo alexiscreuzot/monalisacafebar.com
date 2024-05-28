@@ -42,7 +42,7 @@ contact:
 menu_sections:
   - section_name: Bagels / Ciabattas
     section_id: food
-    description: "<b>Type de pain au choix.</b><br/>La plupart de nos sandwichs viennent <b>accompagnés d'une salade maison</b>."
+    description: "<b>Type de pain au choix.</b><br/>La plupart de nos sandwichs viennent <b>accompagnés de notre salade maison et sa vinaigrette moutarde au miel</b>."
     columns: 3
     menu_items:
       - name: 🌿 Clasico
