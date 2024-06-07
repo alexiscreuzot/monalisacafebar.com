@@ -262,21 +262,23 @@ menu_sections:
             choice_price: $25
 
   - section_name: Alcohol
-    columns: 3
+    columns: 2
     menu_items:
+      - name: Craft Beers
+        description: Made with love in Querétaro
+        image: cerveza_mitote.jpg
+        choices:
+          - choice_name: Bulla (5.2°)<br/><small>Fruity touch, made with garambullo</small>
+            choice_price: $80
+          - choice_name: Milpa (7°)<br/><small>IPA type, infused with Mezcal</small>
+            choice_price: $80
+          - choice_name: Xocolatl (6°)<br/><small>Sweet stout, light with moderate bitterness</small>
+            choice_price: $80
+          - choice_name: Quiota (5°)<br/><small>With maguey flower, smoky flavor</small>
+            choice_price: $80
       - name: National Beer
         choices:
           - choice_name: Victoria
             choice_price: $35
           - choice_name: Corona
             choice_price: $35
-      - name: Craft Beer
-        choices:
-          - choice_name: Bulla
-            choice_price: $80
-          - choice_name: Milpa
-            choice_price: $80
-          - choice_name: Quiota
-            choice_price: $80
-          - choice_name: Xocolat
-            choice_price: $80

@@ -265,21 +265,25 @@ menu_sections:
           - choice_name: Mineral
             choice_price: $25
   - section_name: Alcohol
-    columns: 3
+    columns: 2
     menu_items:
+      - name: Cerveza Artesanal
+        description: Hechas con amor en Querétaro
+        image: cerveza_mitote.jpg
+        choices:
+        - choice_name: Bulla (5.2°)<br/><small>Toque frutal, hecha con garambullo</small>
+          choice_price: $80
+        - choice_name: Milpa (7°)<br/><small>Tipo IPA, con maíz morado</small>
+          choice_price: $80
+        - choice_name: Xocolatl (6°)<br/><small>Sweet stout, ligero con amargor moderado</small>
+          choice_price: $80
+        - choice_name: Quiota (5°)<br/><small>Con flor del maguey, sabor ahumado</small>
+          choice_price: $80
       - name: Cerveza Nacional
+        image: cerveza_nacional.jpg
         choices:
         - choice_name: Victoria
           choice_price: $35
         - choice_name: Corona
           choice_price: $35
-      - name: Cerveza Artesanal
-        choices:
-        - choice_name: Bulla
-          choice_price: $80
-        - choice_name: Milpa
-          choice_price: $80
-        - choice_name: Quiota
-          choice_price: $80
-        - choice_name: Xocolat 
-          choice_price: $80
+      

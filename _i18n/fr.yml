@@ -259,23 +259,25 @@ menu_sections:
             choice_price: $20
           - choice_name: Minérale
             choice_price: $25
-
   - section_name: Alcool
-    columns: 3
+    columns: 2
     menu_items:
-      - name: Bière Nationale
+      - name: Bères Artisanales
+        description: Faite avec amour à Querétaro
+        image: cerveza_mitote.jpg
+        choices:
+          - choice_name: Bulla (5.2°)<br/><small>Touche fruitée, faite avec garambullo</small>
+            choice_price: $80
+          - choice_name: Milpa (7°)<br/><small>Type IPA, infusée au Mezcal</small>
+            choice_price: $80
+          - choice_name: Xocolatl (6°)<br/><small>Sweet stout, amertume modérée</small>
+            choice_price: $80
+          - choice_name: Quiota (5°)<br/><small>Avec fleur de maguey, saveur fumée</small>
+            choice_price: $80
+      - name: Bières Nationales
         choices:
           - choice_name: Victoria
             choice_price: $35
           - choice_name: Corona
             choice_price: $35
-      - name: Bière Artisanale
-        choices:
-          - choice_name: Bulla
-            choice_price: $80
-          - choice_name: Milpa
-            choice_price: $80
-          - choice_name: Quiota
-            choice_price: $80
-          - choice_name: Xocolat
-            choice_price: $80
+
