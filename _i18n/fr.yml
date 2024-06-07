@@ -76,7 +76,7 @@ menu_sections:
       - name: Pavone
         description: Jambon de dinde, cheddar, pousses d'épinards et touche de mayonnaise
         price: $100
-        image: chapata_pavone.jpg
+        image: bagel_pavone.jpg
       - name: Iberico
         description: Salami, Jambon de dinde, fromage manchego
         price: $110
@@ -102,7 +102,7 @@ menu_sections:
       - name: ⭐ Hamburger
         price: $140
         description: Viande de boeuf, fromage, laitue, tomate et sauce maison. Servi avec salade maison.
-        image: burger.jpeg
+        image: burger.jpg
         options:
           - option_name: Salade
           - option_name: Frites
@@ -139,13 +139,14 @@ menu_sections:
         price: $85
         image: dedos.jpeg
       - name: 🌿 Frites
+        image: papas.jpg
         price: $75
         description: 400g de délicieuses frites assaisonnées au citron et au poivre.
       - name: 🌿 Guacamole
         price: $75
 
   - section_name: Desserts
-    columns: 3
+    columns: 2
     menu_items:
       - name: Gateaux et tartes
         image: pastel.jpeg

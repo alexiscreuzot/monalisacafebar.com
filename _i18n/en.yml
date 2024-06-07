@@ -77,7 +77,7 @@ menu_sections:
       - name: Pavone
         description: Turkey ham, cheddar, spinnach and a touch of mayonnaise
         price: $100
-        image: chapata_pavone.jpg
+        image: bagel_pavone.jpg
         
       - name: Iberico
         description: Salami, Turkey ham, manchego cheese
@@ -104,7 +104,7 @@ menu_sections:
       - name: ⭐ Burger
         price: $140
         description: Beef, cheese, lettuce, tomato, homemade dressing. Served with house salad.
-        image: burger.jpeg
+        image: burger.jpg
         options:
           - option_name: Salad
           - option_name: French fries
@@ -141,6 +141,7 @@ menu_sections:
         price: $85
         image: dedos.jpeg
       - name: 🌿 French Fries
+        image: papas.jpg
         price: $75
         description: 400g order of delicious potatoes seasoned with lemon and pepper.
       - name: 🌿 Guacamole
@@ -148,12 +149,12 @@ menu_sections:
         description: Order of homemade guacamole with tortilla chips.
 
   - section_name: Desserts
-    columns: 3
+    columns: 2
     menu_items:
       - name: Pies and Cakes
-        image: pastel.jpeg
+        image: panque.jpg
         choices:
-          - choice_name: ⭐ Banana Bread
+          - choice_name: ⭐ Homemade Banana Bread
             choice_price: $65
           - choice_name: ⭐ Lemon Pie
             choice_price: $65
@@ -163,7 +164,7 @@ menu_sections:
             choice_price: $75
       - name: Bakery
         choices:
-          - choice_name: Concha
+          - choice_name: Homemade Concha
             choice_price: $30
           - choice_name: Cookie
             choice_price: $20

@@ -78,7 +78,7 @@ menu_sections:
       - name: Pavone
         description: Jamon de pavo, queso cheddar, espinaca y toque de mayonesa
         price: $100
-        image: chapata_pavone.jpg
+        image: bagel_pavone.jpg
 
       - name: Ibérico
         description: Salami, Jamon de pavo, queso manchego
@@ -106,7 +106,7 @@ menu_sections:
       - name: ⭐ Hamburguesa
         price: $140
         description: Carne, queso, lechuga, jitomate y aderezo de la casa.
-        image: burger.jpeg
+        image: burger.jpg
         options:
           - option_name: Ensalada
           - option_name: Papas
@@ -143,6 +143,7 @@ menu_sections:
         price: $85
         image: dedos.jpeg
       - name: 🌿 Papas a la Francesa
+        image: papas.jpg
         price: $75
         description: Orden de 400g de deliciosas papas fritas al aire, sazonadas con limón y pimienta.
       - name: 🌿 Guacamole
@@ -150,12 +151,12 @@ menu_sections:
         description: Orden de guacamole casero con totopos.
 
   - section_name: Postres
-    columns: 3
+    columns: 2
     menu_items:
       - name: Pays y Pasteles
-        image: pastel.jpeg
+        image: panque.jpg
         choices:
-          - choice_name: ⭐ Panque de Platano
+          - choice_name: ⭐ Panque de Platano casero
             choice_price: $65
           - choice_name: ⭐ Pay De Limon
             choice_price: $65
@@ -165,7 +166,7 @@ menu_sections:
             choice_price: $75
       - name: Panaderia
         choices:
-          - choice_name: Concha
+          - choice_name: ⭐ Concha
             choice_price: $30
           - choice_name: Galleta
             choice_price: $20
