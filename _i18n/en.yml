@@ -181,6 +181,7 @@ menu_sections:
           - choice_name: Cortado
             choice_price: $35
       - name: Americano
+        image: americano.jpg
         description: One part espresso, 4 parts water
         price: $35
       - name: European
