@@ -74,7 +74,7 @@
     
     <div id="top">
   <div class="container">
-    <div class="front">&nbsp;</div>
+    <div class="front"></div>
   </div>
   <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
   viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
@@ -84,6 +84,10 @@
     <use id="wave" xlink:href="#gentle-wave" x="0" y="0" />
   </svg>
 </div>
+
+<script>
+  var e=[];var a=1e3;var t=false;var r=document.querySelector(".front");var i=getComputedStyle(r).backgroundImage;var s="/assets/images/moaning.png";r.addEventListener("click",function(){e.push((new Date).getTime());if(e.length>=3){if(e[e.length-1]-e[e.length-3]<=a){if(t){this.style.backgroundImage=i;t=false}else{this.style.backgroundImage='url("'+s+'")';t=true}e=[]}e.shift()}});
+</script>
 
     <div id="intro" class="section">
   <div class="container centered">
