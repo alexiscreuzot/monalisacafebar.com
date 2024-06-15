@@ -251,6 +251,7 @@ menu_sections:
         description: Lychee / Mango / Strawberry / Cherry / Watermelon / Mojito
         image: soda_italiano.jpg
       - name: Juice
+        image: jugo.jpg
         price: $40
         description: Orange / Green
       - name: Soda

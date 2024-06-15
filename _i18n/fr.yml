@@ -250,6 +250,7 @@ menu_sections:
         description: Litchi / Mangue / Fraise / Cerise / Pastèque / Mojito
         image: soda_italiano.jpg
       - name: Jus
+        image: jugo.jpg
         price: $40
         description: Orange / Vert
       - name: Soda

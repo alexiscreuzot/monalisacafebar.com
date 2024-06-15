@@ -255,6 +255,7 @@ menu_sections:
         description: Lichi / Mango / Fresa / Cereza / Sandia / Mojito
         image: soda_italiano.jpg
       - name: Jugo
+        image: jugo.jpg
         price: $40
         description: Naranja / Verde
       - name: Refresco
