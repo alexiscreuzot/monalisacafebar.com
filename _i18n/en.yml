@@ -90,6 +90,7 @@ menu_sections:
         image: bagel_pesto.jpg
 
   - section_name: Main Courses
+    description: "We use an air fryer to prepare our dishes, which allows us to offer you a healthier option."
     columns: 3
     menu_items:
       - name: ⭐🌿 Chilaquiles verdes

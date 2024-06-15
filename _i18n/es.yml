@@ -92,6 +92,7 @@ menu_sections:
         
 
   - section_name: Platos fuertes
+    description: "Usamos una freidoras de aire para cocinar nuestros platillos, lo que los hace <b>más saludables y menos grasosos.</b>"
     columns: 3
     menu_items:
       - name: ⭐🌿 Chilaquiles verdes

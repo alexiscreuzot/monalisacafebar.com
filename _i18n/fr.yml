@@ -88,6 +88,7 @@ menu_sections:
       
 
   - section_name: Plats principaux
+    description: "Nous utilisons une frieuse à air pour des préparations plus saines."
     columns: 3
     menu_items:
       - name: ⭐🌿 Chilaquiles verdes
