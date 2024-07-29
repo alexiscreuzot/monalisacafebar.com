@@ -159,8 +159,6 @@ menu_sections:
             choice_price: $65
           - choice_name: ⭐ Lemon Pie
             choice_price: $65
-          - choice_name: Carrot Cake
-            choice_price: $75
           - choice_name: Chocolate Cake
             choice_price: $75
       - name: Bakery
@@ -255,9 +253,9 @@ menu_sections:
         image: jugo.jpg
         price: $40
         description: Orange / Green
-      - name: Soda
+      - name: Sodas
         price: $30
-        description: Coke / Diet Coke / Fanta / Sprite / Sidral
+        description: Coke / Diet Coke / Dr Pepper
       - name: Bottled Water
         choices:
           - choice_name: Natural

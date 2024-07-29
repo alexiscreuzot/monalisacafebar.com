@@ -156,8 +156,6 @@ menu_sections:
             choice_price: $65
           - choice_name: ⭐ Tartes au citron
             choice_price: $65
-          - choice_name: Carrot Cake
-            choice_price: $75
           - choice_name: Gâteau au Chocolat
             choice_price: $75
       - name: Viennoiseries
@@ -254,9 +252,9 @@ menu_sections:
         image: jugo.jpg
         price: $40
         description: Orange / Vert
-      - name: Soda
+      - name: Sodas
         price: $30
-        description: Coke / Coke Diète / Fanta / Sprite / Sidral
+        description: Coke / Coke Light / Dr Pepper
       - name: Eau en Bouteille
         choices:
           - choice_name: Naturelle

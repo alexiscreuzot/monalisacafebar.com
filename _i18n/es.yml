@@ -161,8 +161,6 @@ menu_sections:
             choice_price: $65
           - choice_name: ⭐ Pay De Limon
             choice_price: $65
-          - choice_name: Pastel De Zanahoria
-            choice_price: $75
           - choice_name: Pastel de Chocolate
             choice_price: $75
       - name: Panaderia
@@ -259,9 +257,9 @@ menu_sections:
         image: jugo.jpg
         price: $40
         description: Naranja / Verde
-      - name: Refresco
+      - name: Refrescos
         price: $30
-        description: Coca / Coca-light / Fanta / Sprite / Sidral
+        description: Coca / Coca-light / Dr Pepper
       - name: Agua Embotellada
         choices:
           - choice_name: Natural
