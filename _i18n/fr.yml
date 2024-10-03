@@ -47,61 +47,60 @@ menu_sections:
     menu_items:
       - name: 🌿 Clasico
         description: Classique, au fromage frais
-        price: $40
+        price_key: bagels_ciabattas.clasico
         image: bagel_clasico.jpg
         options:
           - option_name: Miel
-            option_price: +$20
+            option_price_key: options.honey
           - option_name: Sirop d'érable
-            option_price: +$20
+            option_price_key: options.maple_syrup
           - option_name: Confiture de fraises
-            option_price: +$20
+            option_price_key: options.strawberry_jam
       - name: ⭐🌿 Mexicano
         description: Haricots refrits, fromage cheddar, pico de gallo, avocat.
-        price: $85
+        price_key: bagels_ciabattas.mexicano
         image: bagel_mexicano.jpg
         options:
           - option_name: Poulet
-            option_price: +$30
+            option_price_key: options.chicken
           - option_name: Jambon de dinde
-            option_price: +$30
+            option_price_key: options.turkey_ham
       - name: 🌿 Da Vinci 
         description: Fromage de chèvre, noix caramélisées et tranches de poire.
-        price: $85
+        price_key: bagels_ciabattas.da_vinci
         image: bagel_davinci.jpg
       - name: 🌿 Vegano
         description: Houmous, tomates cerises, huile d'olive, graines germées, sésame.
-        price: $85
+        price_key: bagels_ciabattas.vegano
         image: bagel_vegano.jpg
       - name: Pavone
         description: Jambon de dinde, cheddar, pousses d'épinards et touche de mayonnaise
-        price: $100
+        price_key: bagels_ciabattas.pavone
         image: bagel_pavone.jpg
       - name: Iberico
         description: Salami, Jambon de dinde, fromage manchego
-        price: $110
+        price_key: bagels_ciabattas.iberico
         image: bagel_iberico.jpg
       - name: ⭐ Al Pesto
         description: Poulet, pesto maison, avocat, tomate.
-        price: $130
+        price_key: bagels_ciabattas.al_pesto
         image: bagel_pesto.jpg
       
-
   - section_name: Plats principaux
     description: "Nous utilisons une frieuse à air pour des préparations plus saines."
     columns: 3
     menu_items:
       - name: ⭐🌿 Chilaquiles verdes
-        price: $70
+        price_key: main_courses.chilaquiles_verdes
         description: Sauce faite maison. Accompagnés de haricots refrits.
         image: chilaquiles.jpg
         options:
           - option_name: Poulet
-            option_price: +$30
+            option_price_key: options.chicken
           - option_name: Jambon de dinde
-            option_price: +$30
+            option_price_key: options.turkey_ham
       - name: ⭐ Hamburger
-        price: $140
+        price_key: main_courses.burger
         description: Viande de boeuf, fromage, laitue, tomate et sauce maison. Servi avec salade maison.
         image: burger.jpg
         options:
@@ -109,42 +108,42 @@ menu_sections:
           - option_name: Frites
       - name: Hot Dog
         description: Saucisse de bœuf géante exquise, fromage cheddar et vinaigrette maison. Servi avec salade maison.
-        price: $120
+        price_key: main_courses.hot_dog
         image: hot_dog.jpg
         options:
           - option_name: Salade
           - option_name: Frites
       - name: 🌿 Salade Mona
-        price: $70
+        price_key: main_courses.mona_salad
         description: Mélange de laitues, épinards, avocat, fromage panela, julienne de tortilla et piment guajillo.
         image: ensalada_mona.jpeg
         options:
           - option_name: Poulet
-            option_price: +$30
+            option_price_key: options.chicken
           - option_name: Jambon de dinde
-            option_price: +$30
+            option_price_key: options.turkey_ham
       - name: 🌿 Salade Lisa
-        price: $80
+        price_key: main_courses.lisa_salad
         description: Mélange de laitues, poire, noix caramélisées, airelles, fromage de chèvre, vinaigrette moutarde & miel.
         image: ensalada_lisa.jpg
         options:
           - option_name: Poulet
-            option_price: +$30
+            option_price_key: options.chicken
           - option_name: Jambon de dinde
-            option_price: +$30
+            option_price_key: options.turkey_ham
 
   - section_name: Snacks
     columns: 3
     menu_items:
       - name: 🌿 Bâtonnets de mozzarella
-        price: $85
+        price_key: snacks.mozzarella_sticks
         image: dedos.jpeg
       - name: 🌿 Frites
         image: papas.jpg
-        price: $75
+        price_key: snacks.french_fries
         description: 400g de délicieuses frites assaisonnées au citron et au poivre.
       - name: 🌿 Guacamole
-        price: $75
+        price_key: snacks.guacamole
 
   - section_name: Desserts
     columns: 2
@@ -153,18 +152,21 @@ menu_sections:
         image: pastel.jpeg
         choices:
           - choice_name: ⭐ Banana Bread
-            choice_price: $65
+            choice_price_key: desserts.homemade_banana_bread
           - choice_name: ⭐ Tartes au citron
-            choice_price: $65
+            choice_price_key: desserts.lemon_pie
+          - choice_name: Cheesecake
+            choice_price_key: desserts.cheesecake
           - choice_name: Gâteau au Chocolat
-            choice_price: $75
+            choice_price_key: desserts.chocolate_cake
       - name: Viennoiseries
         choices:
+          - choice_name: ⭐ Roulé au Nutella
+            choice_price_key: desserts.homemade_rol_de_nutella
           - choice_name: Concha
-            choice_price: $30
+            choice_price_key: desserts.homemade_concha
           - choice_name: Cookie
-            choice_price: $20
-
+            choice_price_key: desserts.cookie
 
   - section_name: Café et Spécialités
     section_id: boissons
@@ -175,92 +177,92 @@ menu_sections:
         image: espresso.jpg
         choices:
           - choice_name: Clasico
-            choice_price: $30
+            choice_price_key: coffee_specialties.espresso_regular
           - choice_name: Cortado
-            choice_price: $35
+            choice_price_key: coffee_specialties.espresso_cortado
       - name: Americano
         image: americano.jpg
         description: 1 part espresso, 4 parts d'eau
-        price: $35
+        price_key: coffee_specialties.americano
       - name: Europeo
         description: 1 part espresso, 2 parts d'eau
-        price: $35
+        price_key: coffee_specialties.european
       - name: ⭐ Flat White
-        price: $50
+        price_key: coffee_specialties.flat_white
         image: flat_white.jpg
         description: "Notre spécialité : 1 part espresso, 2 parts de lait velouté"
       - name: Latte
-        price: $55
+        price_key: coffee_specialties.latte
         description: 1 part espresso, 3 parts de lait vapeur
         image: latte.jpg
         options:
           - option_name: Crème d'Irish
-            option_price: +$25
+            option_price_key: options.irish_cream
           - option_name: Caramel
-            option_price: +$25
+            option_price_key: options.caramel
           - option_name: Mocha
-            option_price: +$15
+            option_price_key: options.mocha
       - name: Chai
         description: Boisson crémeuse à base de thé, garnie de mousse de lait
         choices:
           - choice_name: Vanille
-            choice_price: $80
+            choice_price_key: coffee_specialties.chai
           - choice_name: Épices
-            choice_price: $80
+            choice_price_key: coffee_specialties.chai
           - choice_name: Thé Vert
-            choice_price: $80
+            choice_price_key: coffee_specialties.chai
       - name: ⭐ Taro
-        price: $70
+        price_key: coffee_specialties.taro
         description: Boisson avec une légère saveur de noix, vanille, patate douce et note florale
         image: taro.jpg
       - name: Matcha
-        price: $80
+        price_key: coffee_specialties.matcha
         description: Boisson avec une légère saveur de thé vert, avec une touche sucrée et amère
         image: matcha.jpg
       - name: Infusions
-        price: $40
+        price_key: coffee_specialties.infusions
         description: Camomille / Thé Vert / Pomme-Cannelle / Menthe Poivrée / Citron
       - name: Tisanes
-        price: $55
+        price_key: coffee_specialties.herbal_teas
         description: Crème de Cerise / Coco-Canneberge / Fraise-Pomme
         image: tisana.jpg
       - name: Chocolat Chaud Traditionnel Mexicain
         description: Un autre classique, chocolat avec une touche de cannelle
-        price: $50
+        price_key: coffee_specialties.traditional_mexican_hot_chocolate
         image: chocolate.jpg
 
   - section_name: Autres Boissons
     columns: 3
     menu_items:
       - name: Sunsetti
-        price: $60
+        price_key: other_beverages.sunsetti
         description: Avec une base d'orange et de fraise, inspiré des couchers de soleil italiens estivaux
         image: sunsetti.jpg
       - name: ⭐ Tonic Cerise
-        price: $60
+        price_key: other_beverages.cherry_tonic
         description: Avec une base de cerise, de tonic et un shot d'espresso
         image: cherry_tonic.jpeg
       - name: Orangeade / Limonade
-        price: $40
+        price_key: other_beverages.orangeade_lemonade
         description: Avec de l'eau naturelle ou minérale
         image: limonada.jpeg
       - name: Sodas Italiens
-        price: $50
+        price_key: other_beverages.italian_sodas
         description: Litchi / Mangue / Fraise / Cerise / Pastèque / Mojito
         image: soda_italiano.jpg
       - name: Jus
         image: jugo.jpg
-        price: $40
+        price_key: other_beverages.juice
         description: Orange / Vert
       - name: Sodas
-        price: $30
+        price_key: other_beverages.sodas
         description: Coke / Coke Light / Dr Pepper
       - name: Eau en Bouteille
         choices:
           - choice_name: Naturelle
-            choice_price: $20
+            choice_price_key: other_beverages.bottled_water_natural
           - choice_name: Minérale
-            choice_price: $25
+            choice_price_key: other_beverages.bottled_water_mineral
   - section_name: Alcool
     columns: 2
     menu_items:
@@ -269,17 +271,16 @@ menu_sections:
         image: cerveza_mitote.jpg
         choices:
           - choice_name: Bulla (5.2°)<br/><small>Touche fruitée, faite avec garambullo</small>
-            choice_price: $80
+            choice_price_key: alcohol.craft_beers
           - choice_name: Milpa (7°)<br/><small>Type IPA, infusée au Mezcal</small>
-            choice_price: $80
+            choice_price_key: alcohol.craft_beers
           - choice_name: Xocolatl (6°)<br/><small>Sweet stout, amertume modérée</small>
-            choice_price: $80
+            choice_price_key: alcohol.craft_beers
           - choice_name: Quiota (5°)<br/><small>Avec fleur de maguey, saveur fumée</small>
-            choice_price: $80
+            choice_price_key: alcohol.craft_beers
       - name: Bières Nationales
         choices:
           - choice_name: Victoria
-            choice_price: $35
+            choice_price_key: alcohol.national_beer
           - choice_name: Corona
-            choice_price: $35
-
+            choice_price_key: alcohol.national_beer

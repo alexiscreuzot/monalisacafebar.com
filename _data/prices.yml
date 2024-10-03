@@ -1,0 +1,62 @@
+prices:
+  bagels_ciabattas:
+    clasico: 50
+    mexicano: 95
+    da_vinci: 95
+    vegano: 95
+    pavone: 110
+    iberico: 115
+    al_pesto: 130
+  main_courses:
+    chilaquiles_verdes: 80
+    burger: 140
+    hot_dog: 120
+    mona_salad: 85
+    lisa_salad: 95
+  snacks:
+    mozzarella_sticks: 95
+    french_fries: 85
+    guacamole: 85
+  desserts:
+    homemade_banana_bread: 70
+    lemon_pie: 65
+    cheesecake: 65
+    chocolate_cake: 75
+    homemade_rol_de_nutella: 45
+    homemade_concha: 30
+    cookie: 20
+  coffee_specialties:
+    espresso_regular: 35
+    espresso_cortado: 40
+    americano: 40
+    european: 40
+    flat_white: 55
+    latte: 60
+    chai: 80
+    taro: 70
+    matcha: 80
+    infusions: 40
+    herbal_teas: 55
+    traditional_mexican_hot_chocolate: 60
+  other_beverages:
+    sunsetti: 65
+    cherry_tonic: 65
+    orangeade_lemonade: 45
+    italian_sodas: 55
+    juice: 45
+    sodas: 30
+    bottled_water_natural: 20
+    bottled_water_mineral: 25
+  alcohol:
+    craft_beers: 90
+    national_beer: 40
+  options:
+    honey: 20
+    maple_syrup: 20
+    strawberry_jam: 20
+    chicken: 30
+    turkey_ham: 30
+    irish_cream: 25
+    caramel: 25
+    mocha: 15
+    plant_based_milk: 10

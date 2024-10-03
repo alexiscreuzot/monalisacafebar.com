@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.lang }}">
 
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee Menu</title>
-    <link rel="stylesheet" href="{{ " /menu_print.css" | prepend: site.baseurl_root }}" />
+    <link rel="stylesheet" href="{{ "/menu_print.css" | prepend: site.baseurl_root }}" />
   </head>
 
   <body>
@@ -20,21 +20,21 @@
 
         <div class="center-flex">
           <a class="header-link" href="./index.html">
-            <img class="header-img" src="{{ site.baseurl_root }}/assets/images/monalisa_b.png">
+            <img class="header-img" src="{{ site.baseurl_root }}/assets/images/monalisa_b.png" alt="Monalisa Logo">
           </a>
         </div>
 
-        <!-- <p class="intro">{% t intro %}</p> -->
+        <!-- <p class="intro">{{ site.translations[site.lang].intro }}</p> -->
 
       </div>
 
       <div id="content">
 
         <!-- <div class="legend">
-          <p>{% t menu.recommendations %}</p>
+          <p>{{ site.translations[site.lang].menu.recommendations }}</p>
         </div> -->
 
-        {% for section in site.translations[site.lang].menu_sections offset: 4 %}
+        {% for section in site.data.menu.menu_sections offset: 4 %}
           <h2 class="section-title">{{ section.section_name }}</h2>
 
           {% if section.description %}
@@ -50,10 +50,15 @@
                     <p>{{ item.name }}
                       <span class="font-semibold text-base"></span>
                     </p>
-                    {% if item.price %}
+                    {% if item.price_key %}
                       <div class="dots">&nbsp;</div>
+                      {% assign price_parts = item.price_key | split: "." %}
+                      {% assign price = site.data.prices.prices %}
+                      {% for part in price_parts %}
+                        {% assign price = price[part] %}
+                      {% endfor %}
+                      <p>${{ price }}</p>
                     {% endif %}
-                    <p>{{ item.price }}</p>
                   </div>
                   <p class="small-text">{{ item.description }}</p>
 
@@ -61,9 +66,15 @@
                     <ul class="option-list">
                       {% for option in item.options %}
                         <li class="option">{{ option.option_name }} 
-                          {% if option.option_price  %}
-                          ({{ option.option_price }})
-                          {% endif %}</li>
+                          {% if option.option_price_key %}
+                            {% assign option_key_parts = option.option_price_key | split: "." %}
+                            {% assign option_key = option_key_parts | last %}
+                            {% assign option_price = site.data.prices.prices.options[option_key] %}
+                            {% if option_price %}
+                              (+${{ option_price }})
+                            {% endif %}
+                          {% endif %}
+                        </li>
                       {% endfor %}
                     </ul>
                   {% endif %}
@@ -74,7 +85,14 @@
                         <li class="choice">
                           <p>{{ choice.choice_name }}</p>
                           <div class="dots">&nbsp;</div>
-                          <b>{{ choice.choice_price }}</b>
+                          {% if choice.choice_price_key %}
+                            {% assign choice_price_parts = choice.choice_price_key | split: "." %}
+                            {% assign choice_price = site.data.prices.prices %}
+                            {% for part in choice_price_parts %}
+                              {% assign choice_price = choice_price[part] %}
+                            {% endfor %}
+                            <b>${{ choice_price }}</b>
+                          {% endif %}
                         </li>
                       {% endfor %}
                     </ul>
@@ -82,7 +100,7 @@
                 </div>
                 {% if item.image %}
                   <div class="image">
-                    <img src="/assets/images/menu/{{ item.image }}" />
+                    <img src="/assets/images/menu/{{ item.image }}" alt="{{ item.name }}"/>
                   </div>
                 {% endif %}
               </div>
