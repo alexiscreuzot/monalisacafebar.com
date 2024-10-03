@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coffee Menu</title>
+    <title>{% t head.title %}</title>
     <link rel="stylesheet" href="{{ "/menu_print.css" | prepend: site.baseurl_root }}" />
   </head>
 
@@ -24,17 +24,17 @@
           </a>
         </div>
 
-        <!-- <p class="intro">{{ site.translations[site.lang].intro }}</p> -->
+        <!-- <p class="intro">{% t intro %}</p> -->
 
       </div>
 
       <div id="content">
 
         <!-- <div class="legend">
-          <p>{{ site.translations[site.lang].menu.recommendations }}</p>
+          <p>{% t menu.recommendations %}</p>
         </div> -->
 
-        {% for section in site.data.menu.menu_sections offset: 4 %}
+        {% for section in site.translations[site.lang].menu_sections offset: 4 %}
           <h2 class="section-title">{{ section.section_name }}</h2>
 
           {% if section.description %}
