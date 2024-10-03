@@ -279,6 +279,7 @@ menu_sections:
           - choice_name: Quiota (5°)<br/><small>Avec fleur de maguey, saveur fumée</small>
             choice_price_key: alcohol.craft_beers
       - name: Bières Nationales
+        image: cerveza_nacional.jpg
         choices:
           - choice_name: Victoria
             choice_price_key: alcohol.national_beer
