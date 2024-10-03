@@ -285,9 +285,9 @@ menu_sections:
           choice_price_key: alcohol.craft_beers
         - choice_name: Quiota (5°)<br/><small>Con flor del maguey, sabor ahumado</small>
           choice_price_key: alcohol.craft_beers
-  - name: Cerveza Nacional
-    choices:
-      - choice_name: Victoria
-        choice_price_key: alcohol.national_beer
-      - choice_name: Corona
-        choice_price_key: alcohol.national_beer
+      - name: Cerveza Nacional
+        choices:
+          - choice_name: Victoria
+            choice_price_key: alcohol.national_beer
+          - choice_name: Corona
+            choice_price_key: alcohol.national_beer
