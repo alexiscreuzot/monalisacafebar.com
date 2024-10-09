@@ -34,6 +34,11 @@
           <p>{% t menu.recommendations %}</p>
         </div> -->
 
+        <div class="qrcode">
+          <img src="{{ site.baseurl_root }}/assets/images/qrcode_monalisa_insta.png" alt="QR Code">
+          <p>Entérate de nuestros eventos<br/>Siguenos!</p>
+        </div>
+
         {% for section in site.translations[site.lang].menu_sections offset: 4 %}
           <h2 class="section-title">{{ section.section_name }}</h2>
 
@@ -116,7 +121,7 @@
 
   </body>
 
-  <!-- <script>
+  <script>
     function updateDimensionsDisplay() {
         var pageWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
         var pageHeight = pageWidth * (1398.0 / 1080.0);
@@ -128,7 +133,7 @@
         var dimensionsDisplay = document.getElementById('dimensionsDisplay');
 
         // Update its content
-        dimensionsDisplay.innerHTML = "Width: " + pageWidth + "px<br>Total Height: " + pageHeight + "px";
+        // dimensionsDisplay.innerHTML = "Width: " + pageWidth + "px<br>Total Height: " + pageHeight + "px";
     }
 
     // Attach the event listener to the window's resize event
@@ -136,6 +141,6 @@
 
     // Call the function initially to update the dimensions on load
     updateDimensionsDisplay();
-  </script> -->
+  </script>
 
 </html>

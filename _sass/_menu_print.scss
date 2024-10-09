@@ -2,6 +2,37 @@ html {
     background-color: red;
 }
 
+body {
+    background-color: $background;
+    #header, #content {
+        background-color: $secondary;
+    }
+}
+
+.legend {
+    position: absolute;
+    top:10rem;
+    left: 6rem;
+    font-size: 1.3rem;
+}
+
+.qrcode {
+    position: absolute;
+    top:6rem;
+    right: 22rem;
+    text-align: center;
+    font-family :'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    img {
+        opacity: 0.8;
+        width: 9rem;
+        height: auto;
+        border-radius: 1rem;
+    }
+    
+}
+
 .leave1 {
     top : 8%;
 }
