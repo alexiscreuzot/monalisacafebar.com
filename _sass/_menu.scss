@@ -8,11 +8,12 @@ body {
     background: $main_bg;
     font-family :'Times New Roman', Times, serif;
     overflow: hidden;
+    font-size: $font-size-body;
 }
 
 h2 {
     font-family: 'Atteron', serif;
-    font-size: 1.6rem;
+    font-size: $font-size-title;
 }
 
 small {
@@ -27,7 +28,7 @@ small {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    margin: 0 1rem;
+    margin: 1rem;
 }
 
 #content, #header {
@@ -43,14 +44,14 @@ small {
 .intro {
     padding: 0 1.5rem;
     padding-top: 2rem;
-    font-size: 1.2rem;
+    font-size: $font-size-subtitle;
     text-align: center;
     font-style: italic;
 }
 
 .legend {
     padding: 2rem 4rem 0 4rem;
-    font-size: 1.1rem;
+    font-size: $font-size-subtitle;
     font-weight: bold;
 }
 
@@ -81,7 +82,7 @@ small {
 
 .section-description {
     padding: 0 1rem 2rem 1rem;
-    font-size: 1.2rem;
+    font-size: $font-size-subtitle;
     text-align: center;
     font-style: italic;
 }
@@ -123,13 +124,12 @@ small {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 1.25rem;
+    font-size: $font-size-subtitle;
     font-weight: bold;
 }
 
 .small-text {
     opacity: 0.9;
-    font-size: 1.1rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     font-style: italic;
@@ -139,7 +139,7 @@ small {
     display: flex;
     margin-top: 0.5rem;
     column-gap: 0.5rem;
-    font-size: 1rem;
+    font-size: $font-size-small;
 }
 
 .option {
@@ -147,12 +147,7 @@ small {
     padding: 0.3rem 0.5rem;
     border-radius: 0.25rem;
     background-color: rgba(136, 142, 128, 0.15);
-    font-size: 0.9rem;
     font-weight: bold;
-}
-
-.choice-list {
-    font-size: 1rem;
 }
 
 .choice {
@@ -187,7 +182,7 @@ small {
 
     .intro {
         padding: 2rem 8rem 0rem 8rem;
-        font-size: 1.3rem;
+        font-size: $font-size-subtitle;
     }
 
     #wrapper {

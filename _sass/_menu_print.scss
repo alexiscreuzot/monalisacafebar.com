@@ -4,9 +4,19 @@ html {
 
 body {
     background-color: $background;
+    background-color: darken($secondary, 4%);
     #header, #content {
-        background-color: $secondary;
+        background-color: lighten($background, 2%);
     }
+}
+
+#wrapper {
+    padding: 0 20px;
+    margin:0;
+}
+
+.section-title {
+    padding: 0.8rem 0;
 }
 
 .legend {
@@ -18,8 +28,8 @@ body {
 
 .qrcode {
     position: absolute;
-    top:6rem;
-    right: 22rem;
+    top:7rem;
+    right: 18rem;
     text-align: center;
     font-family :'Times New Roman', Times, serif;
     font-style: italic;
@@ -42,11 +52,11 @@ body {
 }
 
 .leave3 {
-    top : 33%;
+    top : 48%;
 }
 
 .leave4 {
-    top : 55%;
+    top : 39%;
 }
 
 .leave5 {
