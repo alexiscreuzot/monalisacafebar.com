@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% t head.title %}</title>
+    <link rel="stylesheet" href="{{ "/menu_print.css" | prepend: site.baseurl_root }}" />
+  </head>
+
+  <body>
+
+    {% include overlay.html %}
+
+    <div id="dimensionsDisplay"></div>
+
+    <div id="wrapper">
+
+      <div id="header">
+
+        <div class="center-flex">
+          <a class="header-link" href="./index.html">
+            <img class="header-img" src="{{ site.baseurl_root }}/assets/images/monalisa_b.png" alt="Monalisa Logo">
+          </a>
+        </div>
+
+        <!-- <p class="intro">{% t intro %}</p> -->
+
+      </div>
+
+      <div id="content">
+
+        <div class="legend">
+          <p>{% t menu.recommendations %}</p>
+        </div>
+
+        {% for section in site.translations[site.lang].menu_sections limit: 4 %}
+          <h2 class="section-title">{{ section.section_name }}</h2>
+
+          {% if section.description %}
+            <div class="section-description">{{ section.description }}</div>
+          {% endif %}
+
+          <div class="grid md:grid-cols-{{ section.columns }}">
+
+            {% for item in section.menu_items %}
+              <div class="card">
+                <div class="infos">
+                  <div class="title">
+                    <p>{{ item.name }}
+                      <span class="font-semibold text-base"></span>
+                    </p>
+                    {% if item.price_key %}
+                      <div class="dots">&nbsp;</div>
+                      {% assign price_parts = item.price_key | split: "." %}
+                      {% assign price = site.data.prices.prices %}
+                      {% for part in price_parts %}
+                        {% assign price = price[part] %}
+                      {% endfor %}
+                      <p>${{ price }}</p>
+                    {% endif %}
+                  </div>
+                  <p class="small-text">{{ item.description }}</p>
+
+                  {% if item.options %}
+                    <ul class="option-list">
+                      {% for option in item.options %}
+                        <li class="option">{{ option.option_name }} 
+                          {% if option.option_price_key %}
+                            {% assign option_key_parts = option.option_price_key | split: "." %}
+                            {% assign option_key = option_key_parts | last %}
+                            {% assign option_price = site.data.prices.prices.options[option_key] %}
+                            {% if option_price %}
+                              (+${{ option_price }})
+                            {% endif %}
+                          {% endif %}
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  {% endif %}
+
+                  {% if item.choices %}
+                    <ul class="choice-list">
+                      {% for choice in item.choices %}
+                        <li class="choice">
+                          <p>{{ choice.choice_name }}</p>
+                          <div class="dots">&nbsp;</div>
+                          {% if choice.choice_price_key %}
+                            {% assign choice_price_parts = choice.choice_price_key | split: "." %}
+                            {% assign choice_price = site.data.prices.prices %}
+                            {% for part in choice_price_parts %}
+                              {% assign choice_price = choice_price[part] %}
+                            {% endfor %}
+                            <b>${{ choice_price }}</b>
+                          {% endif %}
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  {% endif %}
+                </div>
+                {% if item.image %}
+                  <div class="image">
+                    <img src="/assets/images/menu/{{ item.image }}" alt="{{ item.name }}"/>
+                  </div>
+                {% endif %}
+              </div>
+            {% endfor %}
+          </div>
+        {% endfor %}
+
+      </div>
+
+      <div id="footer">
+      </div>
+    </div>
+
+  </body>
+
+  <script>
+    function updateDimensionsDisplay() {
+        var pageWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+        var pageHeight = pageWidth * (3508 / 2480);
+
+        // Set the body height to be 2 times the width
+        document.body.style.height = pageHeight + 'px';
+
+        // Get the dimensions display element
+        var dimensionsDisplay = document.getElementById('dimensionsDisplay');
+
+        // Update its content
+        // dimensionsDisplay.innerHTML = "Width: " + pageWidth + "px<br>Total Height: " + pageHeight + "px";
+    }
+
+    // Attach the event listener to the window's resize event
+    window.addEventListener('resize', updateDimensionsDisplay);
+
+    // Call the function initially to update the dimensions on load
+    updateDimensionsDisplay();
+  </script>
+
+</html>

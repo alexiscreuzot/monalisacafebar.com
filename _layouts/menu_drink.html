@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="{{ "/menu_print.css" | prepend: site.baseurl_root }}" />
   </head>
 
-  <body>
+  <body class="drink">
 
     {% include overlay.html %}
 
@@ -30,16 +30,16 @@
 
       <div id="content">
 
-        <div class="legend">
+        <!-- <div class="legend">
           <p>{% t menu.recommendations %}</p>
-        </div>
-
-        <!-- <div class="qrcode">
-          <img src="{{ site.baseurl_root }}/assets/images/qrcode_monalisa_insta.png" alt="QR Code">
-          <p>Entérate de nuestros eventos<br/>Siguenos!</p>
         </div> -->
 
-        {% for section in site.translations[site.lang].menu_sections limit: 4 %}
+        <div class="qrcode">
+          <img src="{{ site.baseurl_root }}/assets/images/qrcode_monalisa_insta.png" alt="QR Code">
+          <p>Entérate de nuestros eventos<br/>Siguenos!</p>
+        </div>
+
+        {% for section in site.translations[site.lang].menu_sections offset: 4 %}
           <h2 class="section-title">{{ section.section_name }}</h2>
 
           {% if section.description %}
