@@ -18,6 +18,55 @@
     <div class="leave5"></div>
 </div>
 
+    
+<div class="languages">
+    <div class="selected-language" onclick="toggleLanguageMenu()">
+        🇲🇽
+    </div>
+    <ul id="language-menu">
+        
+        
+            
+            
+            
+
+            
+        
+            
+            
+            
+
+            
+            <li><a href="/en/menu_food.html">🇺🇸</a></li>
+            
+        
+            
+            
+            
+
+            
+            <li><a href="/fr/menu_food.html">🇫🇷</a></li>
+            
+        
+    </ul>
+</div>
+
+<script>
+  function toggleLanguageMenu() {
+      var menu = document.getElementById("language-menu");
+      menu.classList.toggle("show");
+  }
+  
+  window.onclick = function(event) {
+        if (!event.target.matches('.selected-language')) {
+            var menu = document.getElementById("language-menu");
+            if (menu.classList.contains('show')) {
+                menu.classList.remove('show');
+            }
+        }
+    }
+</script>
+
     <div id="dimensionsDisplay"></div>
 
     <div id="wrapper">
