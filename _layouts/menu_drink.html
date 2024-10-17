@@ -3,7 +3,6 @@
 
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% t head.title %}</title>
     <link rel="stylesheet" href="{{ "/menu_print.css" | prepend: site.baseurl_root }}" />
   </head>
@@ -36,7 +35,7 @@
 
         <div class="qrcode">
           <img src="{{ site.baseurl_root }}/assets/images/qrcode_monalisa_insta.png" alt="QR Code">
-          <p>Entérate de nuestros eventos<br/>Siguenos!</p>
+          <p>{% t head.follow_us %}</p>
         </div>
 
         {% for section in site.translations[site.lang].menu_sections offset: 4 %}
