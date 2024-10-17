@@ -92,7 +92,7 @@ menu_sections:
     menu_items:
       - name: ⭐🌿 Chilaquiles verdes
         price_key: main_courses.chilaquiles_verdes
-        description: Sauce faite maison. Accompagnés de haricots refrits.
+        description: Sauce faite maison. Accompagnés d'ognons, avocat et haricots refrits.
         image: chilaquiles.jpg
         options:
           - option_name: Poulet

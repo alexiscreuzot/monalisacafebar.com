@@ -91,7 +91,7 @@ menu_sections:
     menu_items:
       - name: ⭐🌿 Chilaquiles verdes
         price_key: main_courses.chilaquiles_verdes
-        description: With homemade sauce. Accompanied by refried beans.
+        description: With homemade sauce. Accompanied by onion, avocado and refried beans.
         image: chilaquiles.jpg
         options:
           - option_name: Chicken

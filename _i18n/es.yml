@@ -97,7 +97,7 @@ menu_sections:
     menu_items:
       - name: ⭐🌿 Chilaquiles verdes
         price_key: main_courses.chilaquiles_verdes
-        description: Con salsa verde de la casa. Acompañados de frijolitos refritos.
+        description: Con salsa verde de la casa. Acompañados de cebolla, aguacate y frijolitos refritos.
         image: chilaquiles.jpg
         options:
           - option_name: Pollo
