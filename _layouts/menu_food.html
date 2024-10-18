@@ -12,7 +12,9 @@
 
     {% include overlay.html %}
 
+    {%  if site.lang != 'es' %}
     {% include languages.html %}
+    {% endif %}
 
     <div id="dimensionsDisplay"></div>
 
