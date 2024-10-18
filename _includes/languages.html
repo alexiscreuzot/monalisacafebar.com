@@ -1,17 +1,17 @@
-{% capture current_lang_id %}{{ site.lang }}{% endcapture %}
+{% assign current_lang_id = site.lang | strip %}
 <div class="languages">
     <div class="selected-language" onclick="toggleLanguageMenu()">
-        {{ site.translations[site.lang].global.current_lang_flag }}
+        {{ site.translations[current_lang_id].global.current_lang_flag }}
     </div>
     <ul id="language-menu">
         {% assign languages = "es,en,fr" | split: ',' %}
         {% for lang_id in languages %}
-            {% capture lang_flag %}{{ site.translations[lang_id].global.current_lang_flag }}{% endcapture %}
-            {% capture lang_uri %}{{ site.translations[lang_id].global.lang_uri }}{% endcapture %}
-            {% capture link %}{{site.baseurl_root}}{{lang_uri}}{{page.url}}{% endcapture %}
+            {% assign lang_flag = site.translations[lang_id].global.current_lang_flag %}
+            {% assign lang_uri = site.translations[lang_id].global.lang_uri %}
+            {% assign link = site.baseurl_root | append: lang_uri | append: page.url %}
 
             {% if lang_id != current_lang_id %}
-            <li><a href="{{link}}">{{ lang_flag }}</a></li>
+                <li><a href="{{ link }}">{{ lang_flag }}</a></li>
             {% endif %}
         {% endfor %}
     </ul>
@@ -30,5 +30,6 @@
                 menu.classList.remove('show');
             }
         }
+
     }
 </script>

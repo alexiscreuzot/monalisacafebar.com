@@ -68,7 +68,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll-multiple-languages-plugin
+  jekyll (~> 4.3)
+  jekyll-multiple-languages-plugin (~> 1.8)
 
 BUNDLED WITH
    2.1.4
