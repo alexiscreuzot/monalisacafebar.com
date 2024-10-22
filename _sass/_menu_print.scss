@@ -7,6 +7,16 @@ body {
     #header, #content {
         background-color: lighten($background, 3%);
     }
+
+    .header-img {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+}
+
+#footer {
+    padding:0;
+    height: 2rem;
 }
 
 body.drink {
@@ -45,11 +55,11 @@ body.drink {
 }
 
 .section-title {
-    padding: 1rem 0;
+    padding: 0.75rem 0;
 }
 
 .section-description {
-    padding: 1rem 2rem;
+    padding: 0.2rem 2rem;
 }
 
 .legend {
@@ -60,9 +70,13 @@ body.drink {
     font-size: 1.3rem;
 }
 
+.card {
+    padding: 0.9rem 0.2rem;
+}
+
 .qrcode {
     position: absolute;
-    top:6.5rem;
+    top:5rem;
     right: 17rem;
     text-align: center;
     font-family :'Times New Roman', Times, serif;
