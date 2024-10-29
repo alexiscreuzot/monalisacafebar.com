@@ -7,7 +7,7 @@
   <ul id="menu-nav">
     <br/>
     {% for section in site.translations[site.lang].menu_sections %}
-      <li><a href="#{{ section.section_name }}" onclick="toggleNav()">{{ section.section_name }}</a></li>
+      <li><a href="#{{ section.section_name | slugify }}" onclick="toggleNav()">{{ section.section_name }}</a></li>
     {% endfor %}
     <br/>
   </ul>
