@@ -21,20 +21,19 @@ menu:
   title: Menu <i>&</i> horaires
   schedule:
     - day: Lundi
-      hours: 9h30 - 22h00
+      hours: 10:00am - 10:00pm
     - day: Mardi
       hours: Fermé
     - day: Mercredi
-      hours: 9h30 - 22h00
+      hours: 10:00am - 10:00pm
     - day: Jeudi
-      hours: 9h30 - 22h00
+      hours: 10:00am - 11:00pm
     - day: Vendredi
-      hours: 9h30 - 23h00
+      hours: 10:00am - 00:00am
     - day: Samedi
-      hours: 9h30 - 23h00
+      hours: 10:00am - 00:00am
     - day: Dimanche
-      hours: 9h30 - 21h00
-
+      hours: 10:00am - 10:00pm
 contact:
   title: Emplacement <i>&</i> contact
   address: Mariano Matamoros 2B, Centre<br/><b>76000 Santiago de Querétaro, Qro.</b>

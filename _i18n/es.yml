@@ -21,19 +21,19 @@ menu:
   title: Menu <i>&</i> horarios
   schedule:
     - day: Lunes
-      hours: 9:30am - 10:00pm
+      hours: 10:00am - 10:00pm
     - day: Martes
       hours: Cerrado
-    - day: Miércoles
-      hours: 9:30am - 10:00pm
+    - day: Miercoles
+      hours: 10:00am - 10:00pm
     - day: Jueves
-      hours: 9:30am - 10:00pm
+      hours: 10:00am - 11:00pm
     - day: Viernes
-      hours: 9:30am - 11:00pm
-    - day: Sábado
-      hours: 9:30am - 11:00pm
+      hours: 10:00am - 00:00am
+    - day: Sabado
+      hours: 10:00am - 00:00am
     - day: Domingo
-      hours: 9:30am - 9:00pm
+      hours: 10:00am - 10:00pm
 
 contact:
   title: Ubicacion <i>&</i> contacto
