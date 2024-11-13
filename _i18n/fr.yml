@@ -263,25 +263,25 @@ menu_sections:
             choice_price_key: other_beverages.bottled_water_natural
           - choice_name: Minérale
             choice_price_key: other_beverages.bottled_water_mineral
-  - section_name: Alcool
-    columns: 2
-    menu_items:
-      - name: Bères Artisanales
-        description: Faite avec amour à Querétaro
-        image: cerveza_mitote.jpg
-        choices:
-          - choice_name: Bulla (5.2°)<br/><small>Touche fruitée, faite avec garambullo</small>
-            choice_price_key: alcohol.craft_beers
-          - choice_name: Milpa (7°)<br/><small>Type IPA, infusée au Mezcal</small>
-            choice_price_key: alcohol.craft_beers
-          - choice_name: Xocolatl (6°)<br/><small>Sweet stout, amertume modérée</small>
-            choice_price_key: alcohol.craft_beers
-          - choice_name: Quiota (5°)<br/><small>Avec fleur de maguey, saveur fumée</small>
-            choice_price_key: alcohol.craft_beers
-      - name: Bières Nationales
-        image: cerveza_nacional.jpg
-        choices:
-          - choice_name: Victoria
-            choice_price_key: alcohol.national_beer
-          - choice_name: Corona
-            choice_price_key: alcohol.national_beer
+  # - section_name: Alcool
+  #   columns: 2
+  #   menu_items:
+  #     - name: Bères Artisanales
+  #       description: Faite avec amour à Querétaro
+  #       image: cerveza_mitote.jpg
+  #       choices:
+  #         - choice_name: Bulla (5.2°)<br/><small>Touche fruitée, faite avec garambullo</small>
+  #           choice_price_key: alcohol.craft_beers
+  #         - choice_name: Milpa (7°)<br/><small>Type IPA, infusée au Mezcal</small>
+  #           choice_price_key: alcohol.craft_beers
+  #         - choice_name: Xocolatl (6°)<br/><small>Sweet stout, amertume modérée</small>
+  #           choice_price_key: alcohol.craft_beers
+  #         - choice_name: Quiota (5°)<br/><small>Avec fleur de maguey, saveur fumée</small>
+  #           choice_price_key: alcohol.craft_beers
+  #     - name: Bières Nationales
+  #       image: cerveza_nacional.jpg
+  #       choices:
+  #         - choice_name: Victoria
+  #           choice_price_key: alcohol.national_beer
+  #         - choice_name: Corona
+  #           choice_price_key: alcohol.national_beer

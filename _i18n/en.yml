@@ -265,25 +265,25 @@ menu_sections:
           - choice_name: Mineral
             choice_price_key: other_beverages.bottled_water_mineral
 
-  - section_name: Alcohol
-    columns: 2
-    menu_items:
-      - name: Craft Beers
-        description: Made with love in Querétaro
-        image: cerveza_mitote.jpg
-        choices:
-          - choice_name: Bulla (5.2°)<br/><small>Fruity touch, made with garambullo</small>
-            choice_price_key: alcohol.craft_beers
-          - choice_name: Milpa (7°)<br/><small>IPA type, infused with Mezcal</small>
-            choice_price_key: alcohol.craft_beers
-          - choice_name: Xocolatl (6°)<br/><small>Sweet stout, light with moderate bitterness</small>
-            choice_price_key: alcohol.craft_beers
-          - choice_name: Quiota (5°)<br/><small>With maguey flower, smoky flavor</small>
-            choice_price_key: alcohol.craft_beers
-      - name: National Beer
-        image: cerveza_nacional.jpg
-        choices:
-          - choice_name: Victoria
-            choice_price_key: alcohol.national_beer
-          - choice_name: Corona
-            choice_price_key: alcohol.national_beer
+  # - section_name: Alcohol
+  #   columns: 2
+  #   menu_items:
+  #     - name: Craft Beers
+  #       description: Made with love in Querétaro
+  #       image: cerveza_mitote.jpg
+  #       choices:
+  #         - choice_name: Bulla (5.2°)<br/><small>Fruity touch, made with garambullo</small>
+  #           choice_price_key: alcohol.craft_beers
+  #         - choice_name: Milpa (7°)<br/><small>IPA type, infused with Mezcal</small>
+  #           choice_price_key: alcohol.craft_beers
+  #         - choice_name: Xocolatl (6°)<br/><small>Sweet stout, light with moderate bitterness</small>
+  #           choice_price_key: alcohol.craft_beers
+  #         - choice_name: Quiota (5°)<br/><small>With maguey flower, smoky flavor</small>
+  #           choice_price_key: alcohol.craft_beers
+  #     - name: National Beer
+  #       image: cerveza_nacional.jpg
+  #       choices:
+  #         - choice_name: Victoria
+  #           choice_price_key: alcohol.national_beer
+  #         - choice_name: Corona
+  #           choice_price_key: alcohol.national_beer
