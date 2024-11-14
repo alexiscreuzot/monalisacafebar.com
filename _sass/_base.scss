@@ -52,6 +52,11 @@ html {
   }
 }
 
+.flipHorizontal {
+  transform:scale(-1, 1);
+  display: inline-block;
+}
+
 .wrapper {
   overflow-x: hidden;
 }
@@ -173,6 +178,7 @@ html {
   }
   
 }
+
 
 
 footer {
