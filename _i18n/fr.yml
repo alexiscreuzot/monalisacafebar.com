@@ -151,8 +151,6 @@ menu_sections:
       - name: Gateaux et tartes
         image: pastel.jpeg
         choices:
-          - choice_name: ⭐ Banana Bread
-            choice_price_key: desserts.homemade_banana_bread
           - choice_name: ⭐ Flan maison
             choice_price_key: desserts.homemade_flan
           - choice_name: ⭐ Tartes au citron
@@ -163,6 +161,8 @@ menu_sections:
             choice_price_key: desserts.chocolate_cake
       - name: Viennoiseries
         choices:
+          - choice_name: ⭐ Banana Bread
+            choice_price_key: desserts.homemade_banana_bread
           - choice_name: ⭐ Roulé au Nutella
             choice_price_key: desserts.homemade_rol_de_nutella
           - choice_name: Concha

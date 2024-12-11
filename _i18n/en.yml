@@ -152,8 +152,6 @@ menu_sections:
       - name: Pies and Cakes
         image: panque.jpg
         choices:
-          - choice_name: ⭐ Homemade Banana Bread
-            choice_price_key: desserts.homemade_banana_bread
           - choice_name: ⭐ Lemon Pie
             choice_price_key: desserts.lemon_pie
           - choice_name: ⭐ Homemade Flan
@@ -164,6 +162,8 @@ menu_sections:
             choice_price_key: desserts.chocolate_cake
       - name: Bakery
         choices:
+          - choice_name: ⭐ Homemade Banana Bread
+            choice_price_key: desserts.homemade_banana_bread
           - choice_name: ⭐ Homemade Rol de Nutella
             choice_price_key: desserts.homemade_rol_de_nutella
           - choice_name: Homemade Concha

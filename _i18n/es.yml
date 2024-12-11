@@ -158,8 +158,6 @@ menu_sections:
       - name: Pays y Pasteles
         image: panque.jpg
         choices:
-          - choice_name: ⭐ Panque de Platano casero
-            choice_price_key: desserts.homemade_banana_bread
           - choice_name: ⭐ Flan casero
             choice_price_key: desserts.homemade_flan
           - choice_name: ⭐ Pay De Limon
@@ -170,7 +168,9 @@ menu_sections:
             choice_price_key: desserts.chocolate_cake
       - name: Panaderia
         choices:
-          - choice_name: ⭐ Rol de Nutella Casero
+          - choice_name: ⭐ Panque de Platano casero
+            choice_price_key: desserts.homemade_banana_bread
+          - choice_name: ⭐ Rol de Nutella casero
             choice_price_key: desserts.homemade_rol_de_nutella
           - choice_name: ⭐ Concha
             choice_price_key: desserts.homemade_concha
