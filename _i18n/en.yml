@@ -156,6 +156,8 @@ menu_sections:
             choice_price_key: desserts.homemade_banana_bread
           - choice_name: ⭐ Lemon Pie
             choice_price_key: desserts.lemon_pie
+          - choice_name: ⭐ Homemade Flan
+            choice_price_key: desserts.homemade_flan
           - choice_name: Cheesecake
             choice_price_key: desserts.cheesecake
           - choice_name: Chocolate Cake
