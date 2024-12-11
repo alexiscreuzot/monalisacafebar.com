@@ -156,7 +156,7 @@ menu_sections:
     columns: 2
     menu_items:
       - name: Pays y Pasteles
-        image: panque.jpg
+        image: pastel.jpg
         choices:
           - choice_name: ⭐ Flan casero
             choice_price_key: desserts.homemade_flan
@@ -167,6 +167,7 @@ menu_sections:
           - choice_name: Pastel de Chocolate
             choice_price_key: desserts.chocolate_cake
       - name: Panaderia
+        image: panque.jpg
         choices:
           - choice_name: ⭐ Panque de Platano casero
             choice_price_key: desserts.homemade_banana_bread

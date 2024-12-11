@@ -149,7 +149,7 @@ menu_sections:
     columns: 2
     menu_items:
       - name: Gateaux et tartes
-        image: pastel.jpeg
+        image: pastel.jpg
         choices:
           - choice_name: ⭐ Flan maison
             choice_price_key: desserts.homemade_flan
@@ -160,6 +160,7 @@ menu_sections:
           - choice_name: Gâteau au Chocolat
             choice_price_key: desserts.chocolate_cake
       - name: Viennoiseries
+        image: panque.jpg
         choices:
           - choice_name: ⭐ Banana Bread
             choice_price_key: desserts.homemade_banana_bread

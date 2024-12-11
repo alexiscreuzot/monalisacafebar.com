@@ -150,7 +150,7 @@ menu_sections:
     columns: 2
     menu_items:
       - name: Pies and Cakes
-        image: panque.jpg
+        image: pastel.jpg
         choices:
           - choice_name: ⭐ Lemon Pie
             choice_price_key: desserts.lemon_pie
@@ -161,6 +161,7 @@ menu_sections:
           - choice_name: Chocolate Cake
             choice_price_key: desserts.chocolate_cake
       - name: Bakery
+        image: panque.jpg
         choices:
           - choice_name: ⭐ Homemade Banana Bread
             choice_price_key: desserts.homemade_banana_bread
