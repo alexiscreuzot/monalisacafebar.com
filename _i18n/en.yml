@@ -167,8 +167,8 @@ menu_sections:
             choice_price_key: desserts.homemade_banana_bread
           - choice_name: ⭐ Homemade Rol de Nutella
             choice_price_key: desserts.homemade_rol_de_nutella
-          - choice_name: Matcha biscuits
-            choice_price_key: desserts.matcha_cookies
+          - choice_name: Chai biscuits
+            choice_price_key: desserts.chai_biscuits
           - choice_name: Cookie
             choice_price_key: desserts.cookie
 
