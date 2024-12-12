@@ -173,8 +173,8 @@ menu_sections:
             choice_price_key: desserts.homemade_banana_bread
           - choice_name: ⭐ Rol de Nutella casero
             choice_price_key: desserts.homemade_rol_de_nutella
-          - choice_name: ⭐ Concha
-            choice_price_key: desserts.homemade_concha
+          - choice_name: Galletas Matcha
+            choice_price_key: desserts.matcha_cookies
           - choice_name: Galleta
             choice_price_key: desserts.cookie
 

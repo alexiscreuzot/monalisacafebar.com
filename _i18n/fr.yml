@@ -166,8 +166,8 @@ menu_sections:
             choice_price_key: desserts.homemade_banana_bread
           - choice_name: ⭐ Roulé au Nutella
             choice_price_key: desserts.homemade_rol_de_nutella
-          - choice_name: Concha
-            choice_price_key: desserts.homemade_concha
+          - choice_name: Biscuits au Matcha
+            choice_price_key: desserts.matcha_cookies
           - choice_name: Cookie
             choice_price_key: desserts.cookie
 
