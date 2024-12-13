@@ -268,21 +268,26 @@ menu_sections:
           - choice_name: Mineral
             choice_price_key: other_beverages.bottled_water_mineral
 
-  # - section_name: Alcohol
-  #   columns: 2
-  #   menu_items:
-  #     - name: Craft Beers
-  #       description: Made with love in Querétaro
-  #       image: cerveza_mitote.jpg
-  #       choices:
-  #         - choice_name: Bulla (5.2°)<br/><small>Fruity touch, made with garambullo</small>
-  #           choice_price_key: alcohol.craft_beers
-  #         - choice_name: Milpa (7°)<br/><small>IPA type, infused with Mezcal</small>
-  #           choice_price_key: alcohol.craft_beers
-  #         - choice_name: Xocolatl (6°)<br/><small>Sweet stout, light with moderate bitterness</small>
-  #           choice_price_key: alcohol.craft_beers
-  #         - choice_name: Quiota (5°)<br/><small>With maguey flower, smoky flavor</small>
-  #           choice_price_key: alcohol.craft_beers
+  - section_name: Alcohol
+    columns: 2
+    menu_items:
+      - name: Craft Beers Mitote
+        image: cerveza_mitote.jpg
+        choices:
+          - choice_name: Bulla (5.2°)<br/><small>Fruity touch, made with garambullo</small>
+            choice_price_key: alcohol.craft_beers
+          - choice_name: Milpa (7°)<br/><small>IPA type, infused with Mezcal</small>
+            choice_price_key: alcohol.craft_beers
+          - choice_name: Xocolatl (6°)<br/><small>Stout with a chocolate undertaste, moderate bitterness</small>
+            choice_price_key: alcohol.craft_beers
+          - choice_name: Quiota (5°)<br/><small>With maguey flower, smoky flavor</small>
+            choice_price_key: alcohol.craft_beers
+          
+      - name: Craft Beers Arellano
+        image: cerveza_ollin.jpg
+        choices:
+          - choice_name: Ollin (6°)<br/><small>Light Stout with a sweet touch</small>
+            choice_price_key: alcohol.craft_beers
   #     - name: National Beer
   #       image: cerveza_nacional.jpg
   #       choices:
