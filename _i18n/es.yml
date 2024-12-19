@@ -58,7 +58,7 @@ menu_sections:
       - name: 🌿 Clasico
         description: Queso crema
         price_key: bagels_ciabattas.clasico
-        image: bagel_clasico.jpg
+        image: bagel_aguacate.jpg
         options:
           - option_name: Miel
             option_price_key: options.honey
