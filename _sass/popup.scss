@@ -1,0 +1,172 @@
+/* Toast styles */
+.toast {
+  position: fixed;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: $primary;
+  border-radius: 0.75rem;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 10px 10px -3px rgba(0, 0, 0, 0.2);
+  max-width: 24rem;
+  z-index: 50;
+  display: none;
+  animation: float 3s ease-in-out infinite;
+  cursor: pointer;
+
+  &:hover {
+    transform: translateX(-50%) translateY(-2px);
+    background-color: darken($primary, 5%);
+  }
+}
+
+.toast-text {
+  color: white;
+  font-weight: 600;
+  padding-right: 1rem;
+  margin: 0;
+}
+
+.close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: none;
+  border: none;
+  padding: 0.25rem;
+  cursor: pointer;
+  color: black;
+  opacity: 0.8;
+  
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.toast {
+  .close-button {
+    top: 0.5rem;
+    right: 0.5rem;
+  }
+}
+
+/* Popup styles */
+.popup {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+  text-align: center;
+
+  &.hidden {
+    display: none;
+  }
+
+  img {
+    width: 60%;
+    height: auto;
+    opacity: 0.75;
+    margin: auto;
+  }
+}
+
+.popup-content {
+  background-color: $background;
+  border-radius: 1rem;
+  padding: 2rem;
+  max-width: 32rem;
+  width: calc(100% - 2rem);
+  margin: 0 1rem;
+  animation: floatUp 0.3s ease-out forwards;
+  border: 1px solid $primary;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.popup-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  position: relative;
+
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: serif;
+    margin: 0;
+  }
+}
+
+.popup-body {
+  color: $font-secondary;
+  line-height: 1.2;
+  text-align: left;
+
+  ol {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+  }
+
+  li {
+    margin-bottom: 0.75rem;
+  }
+
+  small {
+    display: block;
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: $secondary;
+    border-radius: 0.5rem;
+  }
+}
+
+.popup-footer {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.review-button {
+  background-color: $primary;
+  color: white;
+  padding: 0.75rem 1.2rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 10px 10px -3px rgba(0, 0, 0, 0.2);
+  
+  &:hover {
+    background-color: darken($primary, 5%);
+    transform: translateY(-1px);
+  }
+}
+
+/* Essential animations */
+@keyframes float {
+  0%, 100% { transform: translate(-50%, 0); }
+  50% { transform: translate(-50%, -10px); }
+}
+
+@keyframes floatUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.toast-dismiss {
+  animation: floatDown 0.3s ease-in forwards;
+}
+
+@keyframes floatDown {
+  to {
+    opacity: 0;
+    transform: translate(-50%, 20px);
+  }
+}

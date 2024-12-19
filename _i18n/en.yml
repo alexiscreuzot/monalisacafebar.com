@@ -40,6 +40,15 @@ contact:
   address: Mariano Matamoros 2B, Downtown<br/><b>76000 Santiago de Querétaro, Qro.</b>
   contact_us: Contact Us
 
+review_popup:
+  toast: Would you like a free coffee or tea?
+  title: Do you love Monalisa?<br/>Share it!
+  action_1: Take a photo of something you like at Monalisa
+  action_2: Upload it to Google with a review
+  action_3: Show us your review and enjoy your free drink*!
+  note: "*Valid for any coffee or tea without milk."
+  button: I want my free drink!
+
 menu_sections:
   - section_name: Bagels / Ciabattas
     description: "<b>Choose your bread type.</b><br/>The majority of our sandwiches come <b>with our house salad and its honey-mustard dressing</b>."

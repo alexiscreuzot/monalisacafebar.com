@@ -1674,9 +1674,49 @@
 
       <div id="footer">
       </div>
+
+      <div id="review-toast" class="toast">
+    <p class="toast-text" onclick="showReviewPopup()">¿Se te antoja un café o té gratis?</p>
+    <button onclick="dismissReviewToast()" class="close-button">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" width="20" height="20">
+            <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+        </svg>
+    </button>
+</div>
+
+<div id="review-popup" class="popup hidden">
+    <div class="popup-content">
+        <div class="popup-header">
+            <h2>¿Amas Monalisa?<br/>¡Compartélo!</h2>
+            <button onclick="closeReviewPopup()" class="close-button">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" width="20" height="20">
+                    <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+            </button>
+        </div>
+        <img src="/assets/images/cafe_love.png" alt="Cafe love" />
+        <div class="popup-body">
+            <ol>
+                <li>Toma una foto de algo que te guste en Monalisa</li>
+                <li>Subéla a Google con una reseña</li>
+                <li>Muestranos tu reseña y disfuta tu bebida gratis*!</li>
+            </ol>
+            <small>*Válido para cualquier café o té sin leche.</small>
+        </div>
+        <div class="popup-footer">
+            <button onclick="window.open('https://bit.ly/monalisa_review', '_blank'); closeReviewPopup();" class="review-button">¡Quiero mi bebida gratis!</button>
+        </div>
+    </div>
+</div>
       
     </div>
     
   </body>
+
+    <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js" type="text/javascript"></script>
+            
+  <!-- Main -->
+  <script src="/menu.js" defer></script>
 
 </html>

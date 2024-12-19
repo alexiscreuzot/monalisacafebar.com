@@ -16,6 +16,15 @@ head:
 intro:
   "En Monalisa, les ofrecemos un espacio tranquilo en el corazón de Querétaro donde pueden <b>disfrutar de un delicioso café</b>. Tambien contamos con una amplia variedad de antojos y platillos saludables, <b>con opciones veganas y vegetarianas</b>."
 
+review_popup:
+  toast: ¿Se te antoja un café o té gratis?
+  title: ¿Amas Monalisa?<br/>¡Compartélo!
+  action_1: Toma una foto de algo que te guste en Monalisa
+  action_2: Subéla a Google con una reseña
+  action_3: Muestranos tu reseña y disfuta tu bebida gratis*!
+  note: "*Válido para cualquier café o té sin leche."
+  button: ¡Quiero mi bebida gratis!
+
 menu:
   recommendations: 🌿 Vegetariano<br/>⭐ Recomendación del chef
   title: Menu <i>&</i> horarios
