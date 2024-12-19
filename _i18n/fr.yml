@@ -55,7 +55,7 @@ menu_sections:
     columns: 3
     menu_items:
       - name: 🌿 Clasico
-        description: Classique, au fromage frais
+        description: Classique, au fromage frais avec une touche sucrée ou salée!
         price_key: bagels_ciabattas.clasico
         image: bagel_aguacate.jpg
         options:

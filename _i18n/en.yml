@@ -55,7 +55,7 @@ menu_sections:
     columns: 3
     menu_items:
       - name: 🌿 Clasico
-        description: The classic
+        description: The classic, with a sweet or savory touch!
         price_key: bagels_ciabattas.clasico
         image: bagel_aguacate.jpg
         options:

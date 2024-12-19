@@ -56,7 +56,7 @@ menu_sections:
     columns: 3
     menu_items:
       - name: 🌿 Clasico
-        description: Queso crema
+        description: Queso crema, con un toque dulce o salado!
         price_key: bagels_ciabattas.clasico
         image: bagel_aguacate.jpg
         options:
