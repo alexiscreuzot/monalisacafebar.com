@@ -4,32 +4,87 @@
     <div class="bar2"></div>
     <div class="bar3"></div>
   </div>
+  
   <ul id="menu-nav">
     <br/>
-    {% for section in site.translations[site.lang].menu_sections %}
-      <li><a href="#{{ section.section_name | slugify }}" onclick="toggleNav()">{{ section.section_name }}</a></li>
-    {% endfor %}
+    {% if site.lang %}
+      {% assign translations = site.translations[site.lang] %}
+      {% if translations and translations.menu_sections %}
+        {% for section in translations.menu_sections %}
+          <li>
+            <a href="#{{ section.section_name | downcase | replace: ' ', '-' }}" 
+               onclick="toggleNav()"
+               data-section="{{ section.section_name }}">
+              {{ section.section_name }}
+            </a>
+          </li>
+        {% endfor %}
+      {% else %}
+        <!-- Fallback menu items if translations aren't loading -->
+        <li><a href="#home" onclick="toggleNav()">Home</a></li>
+        <li><a href="#about" onclick="toggleNav()">About</a></li>
+        <li><a href="#contact" onclick="toggleNav()">Contact</a></li>
+      {% endif %}
+    {% endif %}
     <br/>
+    
+    <!-- Language switcher -->
+    <div class="language-switcher">
+      {% for lang in site.languages %}
+        {% if lang == site.lang %}
+          <span class="current-lang">{{ lang }}</span>
+        {% else %}
+          {% if lang == site.default_lang %}
+            <a href="{{ site.baseurl_root }}{{ page.url }}" class="lang-link">{{ lang }}</a>
+          {% else %}
+            <a href="{{ site.baseurl_root }}/{{ lang }}{{ page.url }}" class="lang-link">{{ lang }}</a>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </div>
   </ul>
 </div>
 
 <script>
     function toggleNav() {
       var menu = document.getElementById("menu-nav");
-      menu.classList.toggle("show");
       var icon = document.getElementById("icon");
-      icon.classList.toggle("change");
+      
+      if (menu && icon) {
+        menu.classList.toggle("show");
+        icon.classList.toggle("change");
+      }
     }
 
     // Close navigation menu when clicking outside
     document.addEventListener('click', function(event) {
         var menu = document.getElementById("menu-nav");
         var icon = document.getElementById("icon");
-        if (!event.target.closest('.nav') && !event.target.closest('#menu-nav')) {
-            if (menu.classList.contains('show')) {
-                menu.classList.remove('show');
-                icon.classList.remove("change");
+        
+        if (menu && icon) {
+            if (!event.target.closest('.nav') && !event.target.closest('#menu-nav')) {
+                if (menu.classList.contains('show')) {
+                    menu.classList.remove('show');
+                    icon.classList.remove("change");
+                }
             }
         }
+    });
+
+    // Ensure menu closes after navigation
+    document.querySelectorAll('#menu-nav a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            
+            const targetId = this.getAttribute('href').slice(1);
+            const targetElement = document.getElementById(targetId);
+            
+            if (targetElement) {
+                targetElement.scrollIntoView({
+                    behavior: 'smooth'
+                });
+                toggleNav();
+            }
+        });
     });
 </script>

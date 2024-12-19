@@ -7,6 +7,7 @@ plugins:
 
 languages: ["es", "en", "fr"]
 exclude_from_localizations: ["CNAME","assets", "docs", "resources", "LICENSE", "README", "robots.txt", "sitemap.txt"]
+languages_inc: true
 
 # Set the Sass partials directory, as we're using @imports
 sass:

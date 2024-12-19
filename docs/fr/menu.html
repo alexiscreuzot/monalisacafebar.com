@@ -76,45 +76,137 @@
     <div class="bar2"></div>
     <div class="bar3"></div>
   </div>
+  
   <ul id="menu-nav">
     <br/>
     
-      <li><a href="#bagels-ciabattas" onclick="toggleNav()">Bagels / Ciabattas</a></li>
-    
-      <li><a href="#plats-principaux" onclick="toggleNav()">Plats principaux</a></li>
-    
-      <li><a href="#snacks" onclick="toggleNav()">Snacks</a></li>
-    
-      <li><a href="#desserts" onclick="toggleNav()">Desserts</a></li>
-    
-      <li><a href="#café-et-spécialités" onclick="toggleNav()">Café et Spécialités</a></li>
-    
-      <li><a href="#autres-boissons" onclick="toggleNav()">Autres Boissons</a></li>
-    
-      <li><a href="#bières-artisanales" onclick="toggleNav()">Bières artisanales</a></li>
+      
+      
+        
+          <li>
+            <a href="#bagels-/-ciabattas" 
+               onclick="toggleNav()"
+               data-section="Bagels / Ciabattas">
+              Bagels / Ciabattas
+            </a>
+          </li>
+        
+          <li>
+            <a href="#plats-principaux" 
+               onclick="toggleNav()"
+               data-section="Plats principaux">
+              Plats principaux
+            </a>
+          </li>
+        
+          <li>
+            <a href="#snacks" 
+               onclick="toggleNav()"
+               data-section="Snacks">
+              Snacks
+            </a>
+          </li>
+        
+          <li>
+            <a href="#desserts" 
+               onclick="toggleNav()"
+               data-section="Desserts">
+              Desserts
+            </a>
+          </li>
+        
+          <li>
+            <a href="#café-et-spécialités" 
+               onclick="toggleNav()"
+               data-section="Café et Spécialités">
+              Café et Spécialités
+            </a>
+          </li>
+        
+          <li>
+            <a href="#autres-boissons" 
+               onclick="toggleNav()"
+               data-section="Autres Boissons">
+              Autres Boissons
+            </a>
+          </li>
+        
+          <li>
+            <a href="#bières-artisanales" 
+               onclick="toggleNav()"
+               data-section="Bières artisanales">
+              Bières artisanales
+            </a>
+          </li>
+        
+      
     
     <br/>
+    
+    <!-- Language switcher -->
+    <div class="language-switcher">
+      
+        
+          
+            <a href="/menu.html" class="lang-link">es</a>
+          
+        
+      
+        
+          
+            <a href="/en/menu.html" class="lang-link">en</a>
+          
+        
+      
+        
+          <span class="current-lang">fr</span>
+        
+      
+    </div>
   </ul>
 </div>
 
 <script>
     function toggleNav() {
       var menu = document.getElementById("menu-nav");
-      menu.classList.toggle("show");
       var icon = document.getElementById("icon");
-      icon.classList.toggle("change");
+      
+      if (menu && icon) {
+        menu.classList.toggle("show");
+        icon.classList.toggle("change");
+      }
     }
 
     // Close navigation menu when clicking outside
     document.addEventListener('click', function(event) {
         var menu = document.getElementById("menu-nav");
         var icon = document.getElementById("icon");
-        if (!event.target.closest('.nav') && !event.target.closest('#menu-nav')) {
-            if (menu.classList.contains('show')) {
-                menu.classList.remove('show');
-                icon.classList.remove("change");
+        
+        if (menu && icon) {
+            if (!event.target.closest('.nav') && !event.target.closest('#menu-nav')) {
+                if (menu.classList.contains('show')) {
+                    menu.classList.remove('show');
+                    icon.classList.remove("change");
+                }
             }
         }
+    });
+
+    // Ensure menu closes after navigation
+    document.querySelectorAll('#menu-nav a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            
+            const targetId = this.getAttribute('href').slice(1);
+            const targetElement = document.getElementById(targetId);
+            
+            if (targetElement) {
+                targetElement.scrollIntoView({
+                    behavior: 'smooth'
+                });
+                toggleNav();
+            }
+        });
     });
 </script>
 

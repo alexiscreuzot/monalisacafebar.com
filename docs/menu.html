@@ -30,7 +30,7 @@
             
 
             
-                <li><a href="/menu.html"></a></li>
+                <li><a href="/en/menu.html">🇺🇸</a></li>
             
         
             
@@ -38,7 +38,7 @@
             
 
             
-                <li><a href="/menu.html"></a></li>
+                <li><a href="/fr/menu.html">🇫🇷</a></li>
             
         
     </ul>
@@ -76,45 +76,137 @@
     <div class="bar2"></div>
     <div class="bar3"></div>
   </div>
+  
   <ul id="menu-nav">
     <br/>
     
-      <li><a href="#bagels-chapata" onclick="toggleNav()">Bagels / Chapata</a></li>
-    
-      <li><a href="#platos-fuertes" onclick="toggleNav()">Platos fuertes</a></li>
-    
-      <li><a href="#snacks" onclick="toggleNav()">Snacks</a></li>
-    
-      <li><a href="#postres" onclick="toggleNav()">Postres</a></li>
-    
-      <li><a href="#café-y-especialidades" onclick="toggleNav()">Café y especialidades</a></li>
-    
-      <li><a href="#otras-bebidas" onclick="toggleNav()">Otras Bebidas</a></li>
-    
-      <li><a href="#cerveza-artesanales" onclick="toggleNav()">Cerveza Artesanales</a></li>
+      
+      
+        
+          <li>
+            <a href="#bagels-/-chapata" 
+               onclick="toggleNav()"
+               data-section="Bagels / Chapata">
+              Bagels / Chapata
+            </a>
+          </li>
+        
+          <li>
+            <a href="#platos-fuertes" 
+               onclick="toggleNav()"
+               data-section="Platos fuertes">
+              Platos fuertes
+            </a>
+          </li>
+        
+          <li>
+            <a href="#snacks" 
+               onclick="toggleNav()"
+               data-section="Snacks">
+              Snacks
+            </a>
+          </li>
+        
+          <li>
+            <a href="#postres" 
+               onclick="toggleNav()"
+               data-section="Postres">
+              Postres
+            </a>
+          </li>
+        
+          <li>
+            <a href="#café-y-especialidades" 
+               onclick="toggleNav()"
+               data-section="Café y especialidades">
+              Café y especialidades
+            </a>
+          </li>
+        
+          <li>
+            <a href="#otras-bebidas" 
+               onclick="toggleNav()"
+               data-section="Otras Bebidas">
+              Otras Bebidas
+            </a>
+          </li>
+        
+          <li>
+            <a href="#cerveza-artesanales" 
+               onclick="toggleNav()"
+               data-section="Cerveza Artesanales">
+              Cerveza Artesanales
+            </a>
+          </li>
+        
+      
     
     <br/>
+    
+    <!-- Language switcher -->
+    <div class="language-switcher">
+      
+        
+          <span class="current-lang">es</span>
+        
+      
+        
+          
+            <a href="/en/menu.html" class="lang-link">en</a>
+          
+        
+      
+        
+          
+            <a href="/fr/menu.html" class="lang-link">fr</a>
+          
+        
+      
+    </div>
   </ul>
 </div>
 
 <script>
     function toggleNav() {
       var menu = document.getElementById("menu-nav");
-      menu.classList.toggle("show");
       var icon = document.getElementById("icon");
-      icon.classList.toggle("change");
+      
+      if (menu && icon) {
+        menu.classList.toggle("show");
+        icon.classList.toggle("change");
+      }
     }
 
     // Close navigation menu when clicking outside
     document.addEventListener('click', function(event) {
         var menu = document.getElementById("menu-nav");
         var icon = document.getElementById("icon");
-        if (!event.target.closest('.nav') && !event.target.closest('#menu-nav')) {
-            if (menu.classList.contains('show')) {
-                menu.classList.remove('show');
-                icon.classList.remove("change");
+        
+        if (menu && icon) {
+            if (!event.target.closest('.nav') && !event.target.closest('#menu-nav')) {
+                if (menu.classList.contains('show')) {
+                    menu.classList.remove('show');
+                    icon.classList.remove("change");
+                }
             }
         }
+    });
+
+    // Ensure menu closes after navigation
+    document.querySelectorAll('#menu-nav a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            
+            const targetId = this.getAttribute('href').slice(1);
+            const targetElement = document.getElementById(targetId);
+            
+            if (targetElement) {
+                targetElement.scrollIntoView({
+                    behavior: 'smooth'
+                });
+                toggleNav();
+            }
+        });
     });
 </script>
 
@@ -1736,7 +1828,7 @@
             <ol>
                 <li>Toma una foto de algo que te guste en Monalisa</li>
                 <li>Subéla a Google con una reseña</li>
-                <li>Muestranos tu reseña y disfuta tu bebida gratis*!</li>
+                <li>Muestrala a un barista y disfuta tu bebida gratis*!</li>
             </ol>
             <small>*Válido para cualquier café o té sin leche.</small>
         </div>
