@@ -305,7 +305,7 @@ menu_sections:
     - name: Cervezeria Arellano
       image: "cerveza_ollin.jpg"
       choices:
-        - choice_name: Ollin (6°)<br/><small>Stout ligera y con un toque dulcecillo</small>
+        - choice_name: Ollin Sra (6°)<br/><small>Stout ligera y con un toque dulcecillo</small>
           choice_price_key: alcohol.craft_beers
 
   #     - name: Cerveza Nacional

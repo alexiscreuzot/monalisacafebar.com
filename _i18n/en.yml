@@ -300,7 +300,7 @@ menu_sections:
       - name: Craft Beers Arellano
         image: cerveza_ollin.jpg
         choices:
-          - choice_name: Ollin (6°)<br/><small>Light Stout with a sweet touch</small>
+          - choice_name: Ollin Sra (6°)<br/><small>Light Stout with a sweet touch</small>
             choice_price_key: alcohol.craft_beers
   #     - name: National Beer
   #       image: cerveza_nacional.jpg

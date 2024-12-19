@@ -297,7 +297,7 @@ menu_sections:
       - name: Brasserie Arellano
         image: cerveza_ollin.jpg
         choices:
-          - choice_name: Ollin (6°)<br/><small>Stout légère avec une touche sucrée</small>
+          - choice_name: Ollin Sra (6°)<br/><small>Stout légère avec une touche sucrée</small>
             choice_price_key: alcohol.craft_beers
   #     - name: Bières Nationales
   #       image: cerveza_nacional.jpg
