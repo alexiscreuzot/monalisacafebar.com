@@ -154,6 +154,9 @@ menu_sections:
       - name: 🌿 Guacamole
         price_key: snacks.guacamole
         description: Order of homemade guacamole with tortilla chips.
+      - name: 🌿 Hummus
+        price_key: snacks.hummus
+        description: Hummus with totopos.
 
   - section_name: Desserts
     columns: 2

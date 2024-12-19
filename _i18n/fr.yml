@@ -153,6 +153,9 @@ menu_sections:
         description: 400g de délicieuses frites assaisonnées au citron et au poivre.
       - name: 🌿 Guacamole
         price_key: snacks.guacamole
+      - name: 🌿 Hummus
+        price_key: snacks.hummus
+        description: Hummus accompagné de totopos.
 
   - section_name: Desserts
     columns: 2

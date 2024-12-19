@@ -160,6 +160,9 @@ menu_sections:
       - name: 🌿 Guacamole
         price_key: snacks.guacamole
         description: Orden de guacamole casero con totopos.
+      - name: 🌿 Hummus con totopos
+        price_key: snacks.hummus
+        description: Orden de hummus con totopos.
 
   - section_name: Postres
     columns: 2
