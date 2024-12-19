@@ -59,6 +59,8 @@ menu_sections:
         price_key: bagels_ciabattas.clasico
         image: bagel_clasico.jpg
         options:
+          - option_name: Avocado
+            option_price_key: options.aguacate
           - option_name: Honey
             option_price_key: options.honey
           - option_name: Maple Syrup

@@ -65,6 +65,8 @@ menu_sections:
             option_price_key: options.maple_syrup
           - option_name: Confiture de fraises
             option_price_key: options.strawberry_jam
+          - option_name: Avocat
+            option_price_key: options.aguacate
       - name: ⭐🌿 Mexicano
         description: Haricots refrits, fromage cheddar, pico de gallo, avocat.
         price_key: bagels_ciabattas.mexicano

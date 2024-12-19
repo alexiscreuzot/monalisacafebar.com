@@ -66,7 +66,9 @@ menu_sections:
             option_price_key: options.maple_syrup
           - option_name: Mermelada de fresa
             option_price_key: options.strawberry_jam
-      - name: ⭐🌿 Mexicano
+          - option_name: Aguacate
+            option_price_key: options.aguacate
+      - name: ⭐🌿 Mexicano (Molletes)
         description: Frijoles refritos, queso cheddar, queso manchego, pico de gallo, aguacate. 
         price_key: bagels_ciabattas.mexicano
         image: bagel_mexicano.jpg

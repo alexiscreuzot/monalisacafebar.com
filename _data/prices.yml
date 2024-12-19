@@ -54,6 +54,7 @@ prices:
     craft_beers: 90
     national_beer: 40
   options:
+    aguacate: 20
     honey: 20
     maple_syrup: 20
     strawberry_jam: 20
