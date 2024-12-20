@@ -20,25 +20,33 @@
     transform: translateX(-50%) translateY(-2px);
     background-color: darken($primary, 5%);
   }
+
+  img {
+    height: 50px;
+  }
+}
+
+.toast-content {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
 }
 
 .toast-text {
   color: white;
   font-weight: 600;
-  padding-right: 1rem;
   margin: 0;
+  flex-grow: 1; // Allows text to take up available space
 }
 
 .close-button {
-  position: absolute;
-  top: 0;
-  right: 0;
   background: none;
   border: none;
   padding: 0.25rem;
   cursor: pointer;
   color: black;
   opacity: 0.8;
+  margin-left: auto; // Pushes the button to the right
   
   &:hover {
     opacity: 1;
@@ -47,8 +55,8 @@
 
 .toast {
   .close-button {
-    top: 0.5rem;
-    right: 0.5rem;
+    margin: 0;
+    padding: 0.5rem;
   }
 }
 
@@ -74,6 +82,14 @@
     opacity: 0.75;
     margin: auto;
   }
+
+  .close-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.25rem;
+  }
+  
 }
 
 .popup-content {
