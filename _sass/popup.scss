@@ -107,21 +107,43 @@
   text-align: left;
 
   ol {
-    margin: 1rem 0;
-    padding-left: 1.5rem;
+    list-style: none;
+    counter-reset: item;
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: 0;
   }
-
+  
   li {
-    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 0.5rem;
+    counter-increment: item;
+  }
+  
+  li::before {
+    content: counter(item);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.8rem;
+    height: 1.8rem;
+    margin-right: 1rem;
+    background: $secondary;
+    border-radius: 50%;
+    color: $font-secondary;
+    font-size: 1rem;
+    font-weight: 800;
   }
 
-  small {
-    display: block;
-    margin-top: 1rem;
-    padding: 0.75rem;
-    background-color: $secondary;
-    border-radius: 0.5rem;
-  }
+}
+
+small {
+  display: block;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  color: lighten($font-secondary, 25%);
+  border-radius: 0.5rem;
 }
 
 .popup-footer {
