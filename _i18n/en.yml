@@ -291,24 +291,21 @@ menu_sections:
       - name: Craft Beers Mitote
         image: cerveza_mitote.jpg
         choices:
-          - choice_name: Bulla (5.2°)<br/><small>Fruity touch, made with garambullo</small>
+          - choice_name: Bulla (5.2°)
+            description: Fruity touch, made with garambullo
             choice_price_key: alcohol.craft_beers
-          - choice_name: Milpa (7°)<br/><small>IPA type, infused with Mezcal</small>
+          - choice_name: Milpa (7°)
+            description: IPA type, infused with Mezcal
             choice_price_key: alcohol.craft_beers
-          - choice_name: Xocolatl (6°)<br/><small>Stout with a chocolate undertaste, moderate bitterness</small>
+          - choice_name: Xocolatl (6°)
+            description: Stout with a chocolate undertaste, moderate bitterness
             choice_price_key: alcohol.craft_beers
-          - choice_name: Quiota (5°)<br/><small>With maguey flower, smoky flavor</small>
+          - choice_name: Quiota (5°)
+            description: With maguey flower, smoky flavor
             choice_price_key: alcohol.craft_beers
-          
       - name: Craft Beers Arellano
         image: cerveza_ollin.jpg
         choices:
-          - choice_name: Ollin Sra (6°)<br/><small>Light Stout with a sweet touch</small>
+          - choice_name: Ollin Sra (6°)
+            description: Light Stout with a sweet touch
             choice_price_key: alcohol.craft_beers
-  #     - name: National Beer
-  #       image: cerveza_nacional.jpg
-  #       choices:
-  #         - choice_name: Victoria
-  #           choice_price_key: alcohol.national_beer
-  #         - choice_name: Corona
-  #           choice_price_key: alcohol.national_beer

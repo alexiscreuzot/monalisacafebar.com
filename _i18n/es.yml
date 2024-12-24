@@ -297,19 +297,25 @@ menu_sections:
     - name: Cervezeria Mitote
       image: cerveza_mitote.jpg
       choices:
-        - choice_name: Bulla (5.2°)<br/><small>Toque frutal, hecha con garambullo</small>
+        - choice_name: Bulla (5.2°)
+          description: Toque frutal, hecha con garambullo
           choice_price_key: alcohol.craft_beers
-        - choice_name: Milpa (7°)<br/><small>Tipo IPA, con maíz morado</small>
+        - choice_name: Milpa (7°)
+          description: Tipo IPA, con maíz morado
           choice_price_key: alcohol.craft_beers
-        - choice_name: Xocolatl (6°)<br/><small>Stout con saborcito chocolatoso, amargor moderado</small>
+        - choice_name: Xocolatl (6°)
+          description: Stout con saborcito chocolatoso, amargor moderado
           choice_price_key: alcohol.craft_beers
-        - choice_name: Quiota (5°)<br/><small>Con flor del maguey, sabor ahumado</small>
+        - choice_name: Quiota (5°)
+          description: Con flor del maguey, sabor ahumado
           choice_price_key: alcohol.craft_beers
     - name: Cervezeria Arellano
       image: "cerveza_ollin.jpg"
       choices:
-        - choice_name: Ollin Sra (6°)<br/><small>Stout ligera y con un toque dulcecillo</small>
+        - choice_name: Ollin Sra (6°)
+          description: Stout ligera y con un toque dulcecillo
           choice_price_key: alcohol.craft_beers
+
 
   #     - name: Cerveza Nacional
   #       image: cerveza_nacional.jpg
