@@ -2,6 +2,11 @@
   <div class="container centered">
     <h1 style="display: none;">Bienvenido a Monalisa café-bar</h1>
 
+    {% if site.translations[site.lang].update == "" %}
+    {% else %}
+    <p style="font-size: 1.4rem;"><b>{% t update %}</b></p>
+    <img src="/assets/images/sep.png" alt="separator" loading="lazy" width="120" style="opacity: 0.8;"/>
+    {% endif %}
     <p>{% t intro %}</p>
       
     <ul>
