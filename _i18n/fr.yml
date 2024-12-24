@@ -307,11 +307,3 @@ menu_sections:
           - choice_name: Ollin Sra (6°)
             description: Stout légère avec une touche sucrée
             choice_price_key: alcohol.craft_beers
-
-  #     - name: Bières Nationales
-  #       image: cerveza_nacional.jpg
-  #       choices:
-  #         - choice_name: Victoria
-  #           choice_price_key: alcohol.national_beer
-  #         - choice_name: Corona
-  #           choice_price_key: alcohol.national_beer
