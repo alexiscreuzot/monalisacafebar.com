@@ -27,21 +27,7 @@
       {% endif %}
     {% endif %}
     <br/>
-    
-    <!-- Language switcher -->
-    <div class="language-switcher">
-      {% for lang in site.languages %}
-        {% if lang == site.lang %}
-          <span class="current-lang">{{ lang }}</span>
-        {% else %}
-          {% if lang == site.default_lang %}
-            <a href="{{ site.baseurl_root }}{{ page.url }}" class="lang-link">{{ lang }}</a>
-          {% else %}
-            <a href="{{ site.baseurl_root }}/{{ lang }}{{ page.url }}" class="lang-link">{{ lang }}</a>
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-    </div>
+  
   </ul>
 </div>
 
