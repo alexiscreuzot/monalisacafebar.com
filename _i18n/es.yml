@@ -52,9 +52,9 @@ contact:
   contact_us: Contáctanos
 
 menu_sections:
-  - section_name: Bagels / Chapata
+  - section_name: Bagels / Chapatas
     section_id: food
-    description: "<b>Tipo de pan a su eleccion.</b><br/> Nuestros sandwiches salados vienen <b>acompañado de ensalada de la casa con aderezo miel mostaza</b>. "
+    description: "Nuestros sandwiches salados vienen <b>acompañado de ensalada de la casa con aderezo miel mostaza</b>. "
     columns: 3
     menu_items:
       - name: 🌿 Clasico
@@ -64,13 +64,13 @@ menu_sections:
         options:
           - option_name: Miel
             option_price_key: options.honey
-          - option_name: Miel de Maple
+          - option_name: Maple
             option_price_key: options.maple_syrup
           - option_name: Mermelada de fresa
             option_price_key: options.strawberry_jam
           - option_name: Aguacate
             option_price_key: options.aguacate
-      - name: ⭐🌿 Mexicano (Molletes)
+      - name: ⭐🌿 Molletes
         description: Frijoles refritos, queso cheddar, queso manchego, pico de gallo, aguacate. 
         price_key: bagels_ciabattas.mexicano
         image: bagel_mexicano.jpg
@@ -156,6 +156,7 @@ menu_sections:
     menu_items:
       - name: 🌿 Dedos de mozzarella
         price_key: snacks.mozzarella_sticks
+        description: Orden de dedos de queso mozzarella empanizados, acompañados de salsa de tomate.
         image: dedos.jpeg
       - name: 🌿 Papas a la Francesa
         image: papas.jpg
@@ -311,6 +312,12 @@ menu_sections:
     - name: Cervezeria Arellano
       image: "cerveza_ollin.jpg"
       choices:
-        - choice_name: Ollin Sra (6°)
+        - choice_name: Señora (6°)
           description: Stout ligera y con un toque dulcecillo
+          choice_price_key: alcohol.craft_beers
+        - choice_name: Señor (4.6°)
+          description: Lager, ligera y refrescante
+          choice_price_key: alcohol.craft_beers
+        - choice_name: Julia (6.7°)
+          description: IPA, con un toque amargo
           choice_price_key: alcohol.craft_beers
