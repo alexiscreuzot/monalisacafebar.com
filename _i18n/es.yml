@@ -294,30 +294,31 @@ menu_sections:
   - section_name: Cerveza Artesanales
     columns: 2
     menu_items:
-    - name: Cervezeria Mitote
-      image: cerveza_mitote.jpg
-      choices:
-        - choice_name: Bulla (5.2°)
-          description: Toque frutal, hecha con garambullo
-          choice_price_key: alcohol.craft_beers
-        - choice_name: Milpa (7°)
-          description: Tipo IPA, con maíz morado
-          choice_price_key: alcohol.craft_beers
-        - choice_name: Xocolatl (6°)
-          description: Stout con saborcito chocolatoso, amargor moderado
-          choice_price_key: alcohol.craft_beers
-        - choice_name: Quiota (5°)
-          description: Con flor del maguey, sabor ahumado
-          choice_price_key: alcohol.craft_beers
-    - name: Cervezeria Arellano
-      image: "cerveza_ollin.jpg"
-      choices:
-        - choice_name: Señora (6°)
-          description: Stout ligera y con un toque dulcecillo
-          choice_price_key: alcohol.craft_beers
-        - choice_name: Señor (4.6°)
-          description: Lager, ligera y refrescante
-          choice_price_key: alcohol.craft_beers
-        - choice_name: Julia (6.7°)
-          description: IPA, con un toque amargo
-          choice_price_key: alcohol.craft_beers
+      - name: Cervezeria Arellano
+        image: "cerveza_ollin.jpg"
+        choices:
+          - choice_name: Señora (6°)
+            description: Stout ligera y con un toque dulcecillo
+            choice_price_key: alcohol.craft_beers
+          - choice_name: Señor (4.6°)
+            description: Lager, ligera y refrescante
+            choice_price_key: alcohol.craft_beers
+          - choice_name: Julia (6.7°)
+            description: IPA, con un toque amargo
+            choice_price_key: alcohol.craft_beers
+      - name: Cervezeria Mitote
+        image: cerveza_mitote.jpg
+        choices:
+          - choice_name: Bulla (5.2°)
+            description: Toque frutal, hecha con garambullo
+            choice_price_key: alcohol.craft_beers
+          - choice_name: Milpa (7°)
+            description: Tipo IPA, con maíz morado
+            choice_price_key: alcohol.craft_beers
+          - choice_name: Xocolatl (6°)
+            description: Stout con saborcito chocolatoso, amargor moderado
+            choice_price_key: alcohol.craft_beers
+          - choice_name: Quiota (5°)
+            description: Con flor del maguey, sabor ahumado
+            choice_price_key: alcohol.craft_beers
+    
