@@ -294,18 +294,18 @@ menu_sections:
   - section_name: Cerveza Artesanales
     columns: 2
     menu_items:
-      - name: Cervezeria Arellano
-        image: "cerveza_ollin.jpg"
-        choices:
-          - choice_name: Señora (6°)
-            description: Stout ligera y con un toque dulcecillo
-            choice_price_key: alcohol.craft_beers
-          - choice_name: Señor (4.6°)
-            description: Lager, ligera y refrescante
-            choice_price_key: alcohol.craft_beers
-          - choice_name: Julia (6.7°)
-            description: IPA, con un toque amargo
-            choice_price_key: alcohol.craft_beers
+      # - name: Cervezeria Arellano
+      #   image: "cerveza_ollin.jpg"
+      #   choices:
+      #     - choice_name: Señora (6°)
+      #       description: Stout ligera y con un toque dulcecillo
+      #       choice_price_key: alcohol.craft_beers
+      #     - choice_name: Señor (4.6°)
+      #       description: Lager, ligera y refrescante
+      #       choice_price_key: alcohol.craft_beers
+      #     - choice_name: Julia (6.7°)
+      #       description: IPA, con un toque amargo
+      #       choice_price_key: alcohol.craft_beers
       - name: Cervezeria Mitote
         image: cerveza_mitote.jpg
         choices:

@@ -287,18 +287,18 @@ menu_sections:
   - section_name: Alcohol
     columns: 2
     menu_items:
-    - name: Craft Beers Arellano
-      image: cerveza_ollin.jpg
-      choices:
-        - choice_name: Ollin Sra (6°)
-          description: Stout with a sweet touch
-          choice_price_key: alcohol.craft_beers
-        - choice_name: Señor (4.6°)
-          description: Light and refreshing
-          choice_price_key: alcohol.craft_beers
-        - choice_name: Julia (6.7°)
-          description: IPA, with a touch of bitterness
-          choice_price_key: alcohol.craft_beers
+    # - name: Craft Beers Arellano
+    #   image: cerveza_ollin.jpg
+    #   choices:
+    #     - choice_name: Ollin Sra (6°)
+    #       description: Stout with a sweet touch
+    #       choice_price_key: alcohol.craft_beers
+    #     - choice_name: Señor (4.6°)
+    #       description: Light and refreshing
+    #       choice_price_key: alcohol.craft_beers
+    #     - choice_name: Julia (6.7°)
+    #       description: IPA, with a touch of bitterness
+    #       choice_price_key: alcohol.craft_beers
     - name: Craft Beers Mitote
       image: cerveza_mitote.jpg
       choices:
