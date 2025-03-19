@@ -294,9 +294,12 @@ menu_sections:
   - section_name: Cerveza Artesanales
     columns: 2
     menu_items:
-      # - name: Cervezeria Arellano
-      #   image: "cerveza_ollin.jpg"
-      #   choices:
+      - name: Cervezeria Arellano
+        image: "cerveza_ollin.jpg"
+        choices:
+        - choice_name: RAIA (5.0°)
+          description: Rice Lager
+          choice_price_key: alcohol.craft_beers
       #     - choice_name: Señora (6°)
       #       description: Stout ligera y con un toque dulcecillo
       #       choice_price_key: alcohol.craft_beers

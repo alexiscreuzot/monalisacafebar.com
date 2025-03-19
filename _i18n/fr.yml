@@ -285,9 +285,12 @@ menu_sections:
   - section_name: Bières artisanales
     columns: 2
     menu_items:
-    # - name: Brasserie Arellano
-    #   image: cerveza_ollin.jpg
-    #   choices:
+    - name: Brasserie Arellano
+      image: cerveza_ollin.jpg
+      choices:
+      - choice_name: RAIA (5.0°)
+        description: Rice Lager
+        choice_price_key: alcohol.craft_beers
     #     - choice_name: Ollin Sra (6°)
     #       description: Stout légère avec une touche sucrée
     #       choice_price_key: alcohol.craft_beers
