@@ -61,12 +61,8 @@ menu_sections:
         price_key: bagels_ciabattas.clasico
         image: bagel_aguacate.jpg
         options:
-          - option_name: Miel
+          - option_name: Miel / Sirop d'érable / Confiture
             option_price_key: options.honey
-          - option_name: Sirop d'érable
-            option_price_key: options.maple_syrup
-          - option_name: Confiture de fraises
-            option_price_key: options.strawberry_jam
           - option_name: Avocat
             option_price_key: options.aguacate
       - name: ⭐🌿 Mexicano

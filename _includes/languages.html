@@ -4,7 +4,7 @@
         {{ site.translations[current_lang_id].global.current_lang_flag }}
     </div>
     <ul id="language-menu">
-        {% assign languages = 'es,en,fr' | split: ',' %}
+        {% assign languages = "es,en,fr" | split: ',' %}
         {% for lang_id in languages %}
             {% assign lang_flag = site.translations[lang_id].global.current_lang_flag %}
             {% assign lang_uri = site.translations[lang_id].global.lang_uri %}
