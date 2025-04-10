@@ -62,12 +62,8 @@ menu_sections:
         price_key: bagels_ciabattas.clasico
         image: bagel_aguacate.jpg
         options:
-          - option_name: Miel
+          - option_name: Miel / Maple / Mermelada
             option_price_key: options.honey
-          - option_name: Maple
-            option_price_key: options.maple_syrup
-          - option_name: Mermelada de fresa
-            option_price_key: options.strawberry_jam
           - option_name: Aguacate
             option_price_key: options.aguacate
       - name: ⭐🌿 Molletes

@@ -63,12 +63,8 @@ menu_sections:
         options:
           - option_name: Avocado
             option_price_key: options.aguacate
-          - option_name: Honey
+          - option_name: Honey / Maple / Jam
             option_price_key: options.honey
-          - option_name: Maple Syrup
-            option_price_key: options.maple_syrup
-          - option_name: Strawberry Jam
-            option_price_key: options.strawberry_jam
       - name: ⭐🌿 Mexicano
         description: Refried beans, cheddar cheese, pico de gallo, avocado.
         price_key: bagels_ciabattas.mexicano
