@@ -258,6 +258,10 @@ menu_sections:
   - section_name: Otras Bebidas
     columns: 3
     menu_items:
+      - name: Espresso Tonic
+        price_key: other_beverages.espresso_tonic
+        description: Shot de espresso sobre agua tonica
+        image: espresso_tonic.jpg
       - name: Sunsetti
         price_key: other_beverages.sunsetti
         description: Con base de naranja y fresa, inspirada de los atardeceres de verano italiano
@@ -283,6 +287,8 @@ menu_sections:
         description: Coca / Coca-light / Dr Pepper
       - name: Agua Embotellada
         choices:
+          - choice_name: Tonica
+            choice_price_key: other_beverages.tonic_water
           - choice_name: Natural
             choice_price_key: other_beverages.bottled_water_natural
           - choice_name: Mineral

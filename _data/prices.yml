@@ -42,8 +42,10 @@ prices:
     herbal_teas: 55
     traditional_mexican_hot_chocolate: 60
   other_beverages:
+    espresso_tonic: 60
     sunsetti: 70
     cherry_tonic: 70
+    tonic_water: 35
     orangeade_lemonade: 45
     italian_sodas: 60
     juice: 45

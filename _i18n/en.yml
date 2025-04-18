@@ -250,6 +250,10 @@ menu_sections:
   - section_name: Other Beverages
     columns: 3
     menu_items:
+      - name: Espresso Tonic
+        price_key: other_beverages.espresso_tonic
+        description: Tonic water with espresso shot
+        image: espresso_tonic.jpg
       - name: Sunsetti
         price_key: other_beverages.sunsetti
         description: With a base of orange and strawberry, inspired by Italian summer sunsets
@@ -275,9 +279,11 @@ menu_sections:
         description: Coke / Diet Coke / Dr Pepper
       - name: Bottled Water
         choices:
+          - choice_name: Tonic
+            choice_price_key: other_beverages.tonic_water
           - choice_name: Natural
             choice_price_key: other_beverages.bottled_water_natural
-          - choice_name: Mineral
+          - choice_name: Sparkling
             choice_price_key: other_beverages.bottled_water_mineral
 
   - section_name: Alcohol

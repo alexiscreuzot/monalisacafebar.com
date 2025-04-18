@@ -249,6 +249,10 @@ menu_sections:
   - section_name: Autres Boissons
     columns: 3
     menu_items:
+      - name: Espresso Tonic
+        price_key: other_beverages.espresso_tonic
+        description: Notre shot d'espresso classique servi sur de l'eau tonique glacée
+        image: espresso_tonic.jpg
       - name: Sunsetti
         price_key: other_beverages.sunsetti
         description: Avec une base d'orange et de fraise, inspiré des couchers de soleil italiens estivaux
@@ -274,9 +278,11 @@ menu_sections:
         description: Coke / Coke Light / Dr Pepper
       - name: Eau en Bouteille
         choices:
-          - choice_name: Naturelle
+          - choice_name: Schweppes Tonic
+            choice_price_key: other_beverages.tonic_water
+          - choice_name: Minerale
             choice_price_key: other_beverages.bottled_water_natural
-          - choice_name: Minérale
+          - choice_name: Gazeuse
             choice_price_key: other_beverages.bottled_water_mineral
   - section_name: Bières artisanales
     columns: 2
