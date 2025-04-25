@@ -70,6 +70,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 4.3)
   jekyll-multiple-languages-plugin (~> 1.8)
+  liquid (~> 4.0)
 
 BUNDLED WITH
-   2.1.4
+   2.6.8
