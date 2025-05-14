@@ -293,15 +293,15 @@ menu_sections:
       - choice_name: RAIA (5.0°)
         description: Rice Lager
         choice_price_key: alcohol.craft_beers
-    #     - choice_name: Ollin Sra (6°)
-    #       description: Stout légère avec une touche sucrée
-    #       choice_price_key: alcohol.craft_beers
-    #     - choice_name: Señor (4.6°)
-    #       description: Fraiche et légère
-    #       choice_price_key: alcohol.craft_beers
-    #     - choice_name: Julia (6.7°)
-    #       description: IPA, avec une touche de fruits tropicaux
-    #       choice_price_key: alcohol.craft_beers
+      - choice_name: Ollin Sra (6°)
+        description: Stout légère avec une touche sucrée
+        choice_price_key: alcohol.craft_beers
+      - choice_name: Ollin Señor (4.6°)
+        description: Fraiche et légère
+        choice_price_key: alcohol.craft_beers
+      - choice_name: Julia (6.7°)
+        description: IPA, avec une touche de fruits tropicaux
+        choice_price_key: alcohol.craft_beers
     - name: Brasserie Mitote
       image: cerveza_mitote.jpg
       choices:

@@ -302,15 +302,15 @@ menu_sections:
         - choice_name: RAIA (5.0°)
           description: Rice Lager
           choice_price_key: alcohol.craft_beers
-      #     - choice_name: Señora (6°)
-      #       description: Stout ligera y con un toque dulcecillo
-      #       choice_price_key: alcohol.craft_beers
-      #     - choice_name: Señor (4.6°)
-      #       description: Lager, ligera y refrescante
-      #       choice_price_key: alcohol.craft_beers
-      #     - choice_name: Julia (6.7°)
-      #       description: IPA, con un toque amargo
-      #       choice_price_key: alcohol.craft_beers
+        - choice_name: Ollin Señora (6°)
+          description: Stout ligera y con un toque dulcecillo
+          choice_price_key: alcohol.craft_beers
+        - choice_name: Ollin Señor (4.6°)
+          description: Lager, ligera y refrescante
+          choice_price_key: alcohol.craft_beers
+        - choice_name: Julia (6.7°)
+          description: IPA, con un toque amargo
+          choice_price_key: alcohol.craft_beers
       - name: Cervezeria Mitote
         image: cerveza_mitote.jpg
         choices:
