@@ -23,19 +23,19 @@ menu:
   title: Menu <i>&</i> Hours
   schedule:
     - day: Monday
-      hours: 10:00am - 10:00pm
+      hours: 10:00am - 9:00pm
     - day: Tuesday
       hours: Closed
     - day: Wednesday
-      hours: 10:00am - 10:00pm
+      hours: 10:00am - 9:00pm
     - day: Thursday
-      hours: 10:00am - 11:00pm
+      hours: 10:00am - 9:00pm
     - day: Friday
-      hours: 10:00am - 00:00am
+      hours: 10:00am - 11:00pm
     - day: Saturday
-      hours: 10:00am - 00:00am
+      hours: 10:00am - 11:00pm
     - day: Sunday
-      hours: 10:00am - 10:00pm
+      hours: 10:00am - 9:00pm
 
 contact:
   title: Location <i>&</i> Contact
