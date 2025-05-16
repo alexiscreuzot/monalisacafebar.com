@@ -2,17 +2,17 @@ prices:
   bagels_ciabattas:
     clasico: 60
     mexicano: 105
-    da_vinci: 105
+    da_vinci: 115
     vegano: 105
-    pavone: 120
-    iberico: 125
-    al_pesto: 140
+    pavone: 130
+    iberico: 135
+    al_pesto: 150
   main_courses:
-    chilaquiles_verdes: 100
-    burger: 145
-    hot_dog: 125
-    mona_salad: 105
-    lisa_salad: 105
+    chilaquiles_verdes: 110
+    burger: 160
+    hot_dog: 140
+    mona_salad: 115
+    lisa_salad: 115
   snacks:
     mozzarella_sticks: 95
     french_fries: 85
@@ -56,12 +56,12 @@ prices:
     craft_beers: 92
     national_beer: 40
   options:
+    chicken: 35
+    turkey_ham: 35
     aguacate: 20
     honey: 20
     maple_syrup: 20
     strawberry_jam: 20
-    chicken: 30
-    turkey_ham: 30
     irish_cream: 25
     caramel: 25
     mocha: 15
