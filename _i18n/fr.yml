@@ -24,7 +24,7 @@ menu:
   schedule:
     - day: Lundi
       hours: 10:00am - 9:00pm
-    - day: Mardi
+    - day: 10:00am - 9:00pm
       hours: Fermé
     - day: Mercredi
       hours: 10:00am - 9:00pm
