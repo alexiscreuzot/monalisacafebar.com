@@ -287,21 +287,6 @@ menu_sections:
   - section_name: Bières artisanales
     columns: 2
     menu_items:
-    - name: Brasserie Arellano
-      image: cerveza_ollin.jpg
-      choices:
-      - choice_name: RAIA (5.0°)
-        description: Rice Lager
-        choice_price_key: alcohol.craft_beers
-      - choice_name: Ollin Sra (6°)
-        description: Stout légère avec une touche sucrée
-        choice_price_key: alcohol.craft_beers
-      - choice_name: Ollin Señor (4.6°)
-        description: Fraiche et légère
-        choice_price_key: alcohol.craft_beers
-      - choice_name: Julia (6.7°)
-        description: IPA, avec une touche de fruits tropicaux
-        choice_price_key: alcohol.craft_beers
     - name: Brasserie Mitote
       image: cerveza_mitote.jpg
       choices:
@@ -317,3 +302,26 @@ menu_sections:
         - choice_name: Quiota (5°)
           description: Avec fleur de maguey, saveur fumée
           choice_price_key: alcohol.craft_beers
+    - name: Bières Nationales
+      image: cerveza_nacional.jpg
+      choices:
+        - choice_name: Victoria
+          choice_price_key: alcohol.national_beer
+        - choice_name: Corona
+          choice_price_key: alcohol.national_beer
+    # - name: Brasserie Arellano
+    #   image: cerveza_ollin.jpg
+    #   choices:
+    #   - choice_name: RAIA (5.0°)
+    #     description: Rice Lager
+    #     choice_price_key: alcohol.craft_beers
+    #   - choice_name: Ollin Sra (6°)
+    #     description: Stout légère avec une touche sucrée
+    #     choice_price_key: alcohol.craft_beers
+    #   - choice_name: Ollin Señor (4.6°)
+    #     description: Fraiche et légère
+    #     choice_price_key: alcohol.craft_beers
+    #   - choice_name: Julia (6.7°)
+    #     description: IPA, avec une touche de fruits tropicaux
+    #     choice_price_key: alcohol.craft_beers
+
