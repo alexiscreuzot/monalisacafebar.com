@@ -38,7 +38,7 @@
           <p>{% t menu.recommendations %}</p>
         </div>
 
-        {% for section in site.translations[site.lang].menu_sections limit: 4 %}
+        {% for section in site.translations[site.lang].menu_sections limit: 3 %}
           <h2 class="section-title">{{ section.section_name }}</h2>
 
           {% if section.description %}
