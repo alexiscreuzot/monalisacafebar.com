@@ -10,29 +10,22 @@ prices:
   main_courses:
     chilaquiles_verdes: 110
     burger: 160
-    hot_dog: 140
     mona_salad: 115
     lisa_salad: 115
+    pizza: 120
   snacks:
     mozzarella_sticks: 95
     french_fries: 85
     guacamole: 85
-    hummus: 85
   desserts:
-    homemade_banana_bread: 72
-    lemon_pie: 68
-    cheesecake: 68
-    chocolate_cake: 78
-    homemade_rol_de_nutella: 48
-    homemade_concha: 35
-    homemade_flan: 70
-    chai_biscuits: 40
-    cookie: 20
+  lemon_pie: 68
+  cheesecake: 68
+  chocolate_cake: 78
+  homemade_flan: 70
   coffee_specialties:
     espresso_regular: 38
     espresso_cortado: 43
     americano: 43
-    european: 43
     flat_white: 58
     latte: 63
     chai: 80
@@ -54,15 +47,15 @@ prices:
     bottled_water_mineral: 25
   alcohol:
     craft_beers: 92
-    national_beer: 40
   options:
+    irish_cream: 25
+    mocha: 25
+    huevo: 20
     chicken: 35
-    turkey_ham: 35
+    cecina: 35
     aguacate: 20
     honey: 20
-    maple_syrup: 20
-    strawberry_jam: 20
-    irish_cream: 25
+    cherry: 25
     caramel: 25
-    mocha: 15
+    lemon: 25
     plant_based_milk: 10

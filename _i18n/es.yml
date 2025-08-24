@@ -50,104 +50,64 @@ contact:
   title: Ubicacion <i>&</i> contacto
   address: Mariano Matamoros 2B, Centro<br/><b>76000 Santiago de Querétaro, Qro.</b>
   contact_us: Contáctanos
-
 menu_sections:
-  - section_name: Bagels / Chapatas
+  - section_name: Platos fuertes
+    description: "<b>Platos caseros y reconfortantes</b> para disfrutar en cualquier momento."
     section_id: food
-    description: "Nuestros sandwiches salados vienen <b>acompañado de ensalada de la casa con aderezo miel mostaza</b>. "
     columns: 3
     menu_items:
-      - name: 🌿 Clasico
-        description: Queso crema, con un toque dulce o salado!
-        price_key: bagels_ciabattas.clasico
-        image: bagel_aguacate.jpg
+      - name: 🌿 Chilaquiles
+        price_key: main_courses.chilaquiles_verdes
+        description: Con salsa casera. Acompañados de cebolla, aguacate y frijolitos refritos.
+        image: chilaquiles.jpg
         options:
-          - option_name: Miel / Maple / Mermelada
-            option_price_key: options.honey
-          - option_name: Aguacate
-            option_price_key: options.aguacate
-      - name: ⭐🌿 Molletes
-        description: Frijoles refritos, queso cheddar, queso manchego, pico de gallo, aguacate. 
+          - option_name: Huevo
+            option_price_key: options.huevo
+          - option_name: Pollo
+            option_price_key: options.chicken
+          - option_name: Cecina
+            option_price_key: options.cecina
+      - name: 🌿 Molletes
+        description: Frijoles refritos, queso cheddar, queso manchego, pico de gallo, aguacate.
         price_key: bagels_ciabattas.mexicano
         image: bagel_mexicano.jpg
         options:
+          - option_name: Huevo
+            option_price_key: options.huevo
           - option_name: Pollo
             option_price_key: options.chicken
-          - option_name: Jamon de pavo
-            option_price_key: options.turkey_ham
-      - name: 🌿 Da Vinci 
-        description: Queso de cabra, nueces caramelizadas y rebanadas de pera. 
-        price_key: bagels_ciabattas.da_vinci
-        image: bagel_davinci.jpg
-        
-      - name: 🌿 Vegano
-        description: Hummus, tomate cherry, aceite de oliva, germen, ajonjoli. 
-        price_key: bagels_ciabattas.vegano
-        image: bagel_vegano.jpg
-
-      - name: Pavone
-        description: Jamon de pavo, queso cheddar, espinaca y toque de mayonesa
-        price_key: bagels_ciabattas.pavone
-        image: bagel_pavone.jpg
-
-      - name: Ibérico
-        description: Salami, Jamon de pavo, queso manchego
-        price_key: bagels_ciabattas.iberico
-        image: bagel_iberico.jpg
-        
-      - name: ⭐ Al Pesto
-        description: Pollo, pesto de la casa, aguacate, jitomate. 
-        price_key: bagels_ciabattas.al_pesto
-        image: bagel_pesto.jpg
-        
-
-  - section_name: Platos fuertes
-    description: "Usamos una freidoras de aire para cocinar nuestros platillos, lo que los hace <b>más saludables y menos grasosos.</b>"
-    columns: 3
-    menu_items:
-      - name: ⭐🌿 Chilaquiles verdes
-        price_key: main_courses.chilaquiles_verdes
-        description: Con salsa verde de la casa. Acompañados de cebolla, aguacate y frijolitos refritos.
-        image: chilaquiles.jpg
-        options:
-          - option_name: Pollo
-            option_price_key: options.chicken
-          - option_name: Jamon de pavo
-            option_price_key: options.turkey_ham
-      - name: ⭐ Hamburguesa
+          - option_name: Cecina
+            option_price_key: options.cecina
+      - name: Hamburguesa
         price_key: main_courses.burger
         description: Carne, queso, lechuga, jitomate y aderezo de la casa.
         image: burger.jpg
         options:
           - option_name: Ensalada
           - option_name: Papas
-      - name: Hot Dog
-        description: Exquisita salchicha jumbo de res, queso cheddar y aderezo de la casa.
-        price_key: main_courses.hot_dog
-        image: hot_dog.jpg
-        options:
-          - option_name: Ensalada
-          - option_name: Papas
-      - name: 🌿 Ensalada Mona
-        price_key: main_courses.mona_salad
-        description: Mezcla de lechugas, espinaca, aguacate, queso panela, julianas de tortilla y chile guajillo.
-        image: ensalada_mona.jpeg
-        options:
-          - option_name: Pollo
-            option_price_key: options.chicken
-          - option_name: Jamon de pavo
-            option_price_key: options.turkey_ham
+      - name: Al Pesto
+        description: Pollo, pesto de la casa, aguacate, jitomate.
+        price_key: bagels_ciabattas.al_pesto
+        image: bagel_pesto.jpg
+      - name: Pizza 
+        price_key: main_courses.pizza 
+        description: Pizza para compartir 
+
+  - section_name: Ensaladas
+    description: "<b>Frescura y sabor</b> en cada ensalada. Ligeras y saludables."
+    columns: 2
+    menu_items:
       - name: 🌿 Ensalada Lisa
         price_key: main_courses.lisa_salad
         description: Mezcla de lechugas, pera, nuez caramelizada, arándanos, queso de cabra, vinagreta de miel y mostaza.
         image: ensalada_lisa.jpg
-        options:
-          - option_name: Pollo
-            option_price_key: options.chicken
-          - option_name: Jamon de pavo
-            option_price_key: options.turkey_ham
+      - name: 🌿 Ensalada Mona
+        price_key: main_courses.mona_salad
+        description: Mezcla de lechugas, espinaca, aguacate, queso panela, julianas de tortilla y chile guajillo.
+        image: ensalada_mona.jpeg
 
   - section_name: Snacks
+    description: "<b>Snacks irresistibles</b> para compartir o acompañar tu bebida."
     columns: 3
     menu_items:
       - name: 🌿 Dedos de mozzarella
@@ -161,35 +121,6 @@ menu_sections:
       - name: 🌿 Guacamole
         price_key: snacks.guacamole
         description: Orden de guacamole casero con totopos.
-      - name: 🌿 Hummus con totopos
-        price_key: snacks.hummus
-        description: Orden de hummus con totopos.
-
-  - section_name: Postres
-    columns: 2
-    menu_items:
-      - name: Pays y Pasteles
-        image: pastel.jpg
-        choices:
-          - choice_name: ⭐ Flan casero
-            choice_price_key: desserts.homemade_flan
-          - choice_name: ⭐ Pay De Limon
-            choice_price_key: desserts.lemon_pie
-          - choice_name: Cheesecake
-            choice_price_key: desserts.cheesecake
-          - choice_name: Pastel de Chocolate
-            choice_price_key: desserts.chocolate_cake
-      - name: Panaderia
-        image: panque.jpg
-        choices:
-          - choice_name: ⭐ Panque de Platano casero
-            choice_price_key: desserts.homemade_banana_bread
-          - choice_name: ⭐ Rol de Nutella casero
-            choice_price_key: desserts.homemade_rol_de_nutella
-          - choice_name: Galletas de Chai
-            choice_price_key: desserts.chai_biscuits
-          - choice_name: Galleta
-            choice_price_key: desserts.cookie
 
   - section_name: Café y especialidades
     section_id: drinks
@@ -203,13 +134,8 @@ menu_sections:
             choice_price_key: coffee_specialties.espresso_regular
           - choice_name: Cortado
             choice_price_key: coffee_specialties.espresso_cortado
-      - name: Americano
-        image: americano.jpg
-        description: Una parte espresso, 4 partes agua
-        price_key: coffee_specialties.americano
-      - name: Europeo
-        description: Una parte espresso, 2 partes agua
-        price_key: coffee_specialties.european
+          - choice_name: Americano
+            choice_price_key: coffee_specialties.americano
       - name: ⭐ Flat White
         price_key: coffee_specialties.flat_white
         image: flat_white.jpg
@@ -225,7 +151,6 @@ menu_sections:
             option_price_key: options.caramel
           - option_name: Mocha
             option_price_key: options.mocha
-      
       - name: Chai
         description: Bebida cremosa a base de té, rematada con espuma de leche
         choices:
@@ -258,18 +183,21 @@ menu_sections:
   - section_name: Otras Bebidas
     columns: 3
     menu_items:
-      - name: Espresso Tonic
+      - name: Tónica de Espresso
+        image: cherry_tonic.jpeg
+        description: "Con espresso y agua tónica. Prueba con jarabe de cereza, caramelo o limón."
         price_key: other_beverages.espresso_tonic
-        description: Shot de espresso sobre agua tonica
-        image: espresso_tonic.jpg
+        options:
+          - option_name: Cereza
+            option_price_key: options.cherry
+          - option_name: Caramelo
+            option_price_key: options.caramel
+          - option_name: Limón
+            option_price_key: options.lemon
       - name: Sunsetti
         price_key: other_beverages.sunsetti
         description: Con base de naranja y fresa, inspirada de los atardeceres de verano italiano
         image: sunsetti.jpg
-      - name: ⭐ Cherry Tonic
-        price_key: other_beverages.cherry_tonic
-        description: Con base de cereza, tónica y un shot de espresso
-        image: cherry_tonic.jpeg
       - name: Naranjada / Limonada
         price_key: other_beverages.orangeade_lemonade
         description: Con agua natural o mineral
@@ -293,7 +221,9 @@ menu_sections:
             choice_price_key: other_beverages.bottled_water_natural
           - choice_name: Mineral
             choice_price_key: other_beverages.bottled_water_mineral
+
   - section_name: Cerveza Artesanales
+    description: "<b>Cervezas artesanales locales</b> con carácter único."
     columns: 2
     menu_items:
     - name: Cervezeria Mitote
@@ -318,6 +248,7 @@ menu_sections:
           choice_price_key: alcohol.national_beer
         - choice_name: Corona
           choice_price_key: alcohol.national_beer
+
     # - name: Cervezeria Arellano
     #   image: "cerveza_ollin.jpg"
     #   choices:

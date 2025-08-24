@@ -24,8 +24,8 @@ menu:
   schedule:
     - day: Lundi
       hours: 10:00am - 9:00pm
-    - day: 10:00am - 9:00pm
-      hours: Fermé
+    - day: Mardi
+      hours: 10:00am - 9:00pm
     - day: Mercredi
       hours: 10:00am - 9:00pm
     - day: Jeudi
@@ -51,167 +51,101 @@ review_popup:
   button: Je veux ma boisson gratuite !
 
 menu_sections:
-  - section_name: Bagels / Ciabattas
+  - section_name: Plats forts
+    description: "<b>Plats réconfortants maison</b> à déguster à tout moment."
     section_id: food
-    description: "<b>Type de pain au choix.</b><br/>La plupart de nos sandwichs viennent <b>accompagnés de notre salade maison et sa vinaigrette moutarde au miel</b>."
     columns: 3
     menu_items:
-      - name: 🌿 Clasico
-        description: Classique, au fromage frais avec une touche sucrée ou salée!
-        price_key: bagels_ciabattas.clasico
-        image: bagel_aguacate.jpg
+      - name: 🌿 Chilaquiles
+        price_key: main_courses.chilaquiles_verdes
+        description: Avec sauce maison. Accompagnés d'oignon, avocat et haricots refrits.
+        image: chilaquiles.jpg
         options:
-          - option_name: Miel / Sirop d'érable / Confiture
-            option_price_key: options.honey
-          - option_name: Avocat
-            option_price_key: options.aguacate
-      - name: ⭐🌿 Mexicano
-        description: Haricots refrits, fromage cheddar, pico de gallo, avocat.
+          - option_name: Œuf
+            option_price_key: options.huevo
+          - option_name: Poulet
+            option_price_key: options.chicken
+          - option_name: Cecina
+            option_price_key: options.cecina
+      - name: 🌿 Molletes
+        description: Haricots refrits, fromage cheddar, fromage manchego, pico de gallo, avocat.
         price_key: bagels_ciabattas.mexicano
         image: bagel_mexicano.jpg
         options:
+          - option_name: Œuf
+            option_price_key: options.huevo
           - option_name: Poulet
             option_price_key: options.chicken
-          - option_name: Jambon de dinde
-            option_price_key: options.turkey_ham
-      - name: 🌿 Da Vinci 
-        description: Fromage de chèvre, noix caramélisées et tranches de poire.
-        price_key: bagels_ciabattas.da_vinci
-        image: bagel_davinci.jpg
-      - name: 🌿 Vegano
-        description: Houmous, tomates cerises, huile d'olive, graines germées, sésame.
-        price_key: bagels_ciabattas.vegano
-        image: bagel_vegano.jpg
-      - name: Pavone
-        description: Jambon de dinde, cheddar, pousses d'épinards et touche de mayonnaise
-        price_key: bagels_ciabattas.pavone
-        image: bagel_pavone.jpg
-      - name: Iberico
-        description: Salami, Jambon de dinde, fromage manchego
-        price_key: bagels_ciabattas.iberico
-        image: bagel_iberico.jpg
-      - name: ⭐ Al Pesto
-        description: Poulet, pesto maison, avocat, tomate.
-        price_key: bagels_ciabattas.al_pesto
-        image: bagel_pesto.jpg
-      
-  - section_name: Plats principaux
-    description: "Nous utilisons une frieuse à air pour des préparations plus saines."
-    columns: 3
-    menu_items:
-      - name: ⭐🌿 Chilaquiles verdes
-        price_key: main_courses.chilaquiles_verdes
-        description: Sauce faite maison. Accompagnés d'ognons, avocat et haricots refrits.
-        image: chilaquiles.jpg
-        options:
-          - option_name: Poulet
-            option_price_key: options.chicken
-          - option_name: Jambon de dinde
-            option_price_key: options.turkey_ham
-      - name: ⭐ Hamburger
+          - option_name: Cecina
+            option_price_key: options.cecina
+      - name: Hamburger
         price_key: main_courses.burger
-        description: Viande de boeuf, fromage, laitue, tomate et sauce maison. Servi avec salade maison.
+        description: Viande, fromage, laitue, tomate et sauce maison.
         image: burger.jpg
         options:
           - option_name: Salade
           - option_name: Frites
-      - name: Hot Dog
-        description: Saucisse de bœuf géante exquise, fromage cheddar et vinaigrette maison. Servi avec salade maison.
-        price_key: main_courses.hot_dog
-        image: hot_dog.jpg
-        options:
-          - option_name: Salade
-          - option_name: Frites
+      - name: Al Pesto
+        description: Poulet, pesto maison, avocat, tomate.
+        price_key: bagels_ciabattas.al_pesto
+        image: bagel_pesto.jpg
+      - name: Pizza 
+        price_key: main_courses.pizza 
+        description: Pizza à partager
+
+  - section_name: Salades
+    description: "<b>Fraîcheur et saveur</b> dans chaque salade. Légères et saines."
+    columns: 2
+    menu_items:
+      - name: 🌿 Salade Lisa
+        price_key: main_courses.lisa_salad
+        description: Mélange de laitues, poire, noix caramélisées, canneberges, fromage de chèvre, vinaigrette miel et moutarde.
+        image: ensalada_lisa.jpg
       - name: 🌿 Salade Mona
         price_key: main_courses.mona_salad
         description: Mélange de laitues, épinards, avocat, fromage panela, julienne de tortilla et piment guajillo.
         image: ensalada_mona.jpeg
-        options:
-          - option_name: Poulet
-            option_price_key: options.chicken
-          - option_name: Jambon de dinde
-            option_price_key: options.turkey_ham
-      - name: 🌿 Salade Lisa
-        price_key: main_courses.lisa_salad
-        description: Mélange de laitues, poire, noix caramélisées, airelles, fromage de chèvre, vinaigrette moutarde & miel.
-        image: ensalada_lisa.jpg
-        options:
-          - option_name: Poulet
-            option_price_key: options.chicken
-          - option_name: Jambon de dinde
-            option_price_key: options.turkey_ham
 
   - section_name: Snacks
+    description: "<b>Snacks irrésistibles</b> à partager ou pour accompagner votre boisson."
     columns: 3
     menu_items:
       - name: 🌿 Bâtonnets de mozzarella
         price_key: snacks.mozzarella_sticks
+        description: Portion de bâtonnets de mozzarella panés, accompagnés de sauce tomate.
         image: dedos.jpeg
       - name: 🌿 Frites
         image: papas.jpg
         price_key: snacks.french_fries
-        description: 400g de délicieuses frites assaisonnées au citron et au poivre.
+        description: Portion de 400g de délicieuses pommes de terre frites à l'air, assaisonnées au citron et au poivre.
       - name: 🌿 Guacamole
         price_key: snacks.guacamole
-      - name: 🌿 Hummus
-        price_key: snacks.hummus
-        description: Hummus accompagné de totopos.
+        description: Portion de guacamole maison avec totopos.
 
-  - section_name: Desserts
-    columns: 2
-    menu_items:
-      - name: Gateaux et tartes
-        image: pastel.jpg
-        choices:
-          - choice_name: ⭐ Flan maison
-            choice_price_key: desserts.homemade_flan
-          - choice_name: ⭐ Tartes au citron
-            choice_price_key: desserts.lemon_pie
-          - choice_name: Cheesecake
-            choice_price_key: desserts.cheesecake
-          - choice_name: Gâteau au Chocolat
-            choice_price_key: desserts.chocolate_cake
-      - name: Viennoiseries
-        image: panque.jpg
-        choices:
-          - choice_name: ⭐ Banana Bread
-            choice_price_key: desserts.homemade_banana_bread
-          - choice_name: ⭐ Roulé au Nutella
-            choice_price_key: desserts.homemade_rol_de_nutella
-          - choice_name: Buiscuits thé Chai
-            choice_price_key: desserts.chai_biscuits
-          - choice_name: Cookie
-            choice_price_key: desserts.cookie
-
-  - section_name: Café et Spécialités
-    section_id: boissons
-    description: "Appréciez <b>notre propre mélange de café 100% arabica</b> de la région de Coatepec, Veracruz.<br/>La plupart de nos boissons peuvent être dégustées <b>chaudes, froides ou en frappé</b>. Nous proposons également des <b>lait végétaux (supplément de 10 $)</b>."
+  - section_name: Café et spécialités
+    section_id: drinks
+    description: "Savourez <b>notre propre mélange de café 100% arabica</b> de la région de Coatepec, Veracruz.<br/>Nos boissons peuvent être servies <b>chaudes, froides ou frappées</b>. Nous proposons également <b>des laits végétaux (10$ supplémentaires)</b>."
     columns: 3
     menu_items:
       - name: Espresso
         image: espresso.jpg
         choices:
-          - choice_name: Clasico
+          - choice_name: Classique
             choice_price_key: coffee_specialties.espresso_regular
           - choice_name: Cortado
             choice_price_key: coffee_specialties.espresso_cortado
-      - name: Americano
-        image: americano.jpg
-        description: 1 part espresso, 4 parts d'eau
-        price_key: coffee_specialties.americano
-      - name: Europeo
-        description: 1 part espresso, 2 parts d'eau
-        price_key: coffee_specialties.european
+          - choice_name: Americano
+            choice_price_key: coffee_specialties.americano
       - name: ⭐ Flat White
         price_key: coffee_specialties.flat_white
         image: flat_white.jpg
         description: "Notre spécialité : 1 part espresso, 2 parts de lait velouté"
       - name: Latte
         price_key: coffee_specialties.latte
-        description: 1 part espresso, 3 parts de lait vapeur
+        description: Une part espresso, 3 parts de lait vapeur
         image: latte.jpg
         options:
-          - option_name: Crème d'Irish
+          - option_name: Crème Irlandaise
             option_price_key: options.irish_cream
           - option_name: Caramel
             option_price_key: options.caramel
@@ -224,11 +158,11 @@ menu_sections:
             choice_price_key: coffee_specialties.chai
           - choice_name: Épices
             choice_price_key: coffee_specialties.chai
-          - choice_name: Thé Vert
+          - choice_name: Thé vert
             choice_price_key: coffee_specialties.chai
       - name: ⭐ Taro
         price_key: coffee_specialties.taro
-        description: Boisson avec une légère saveur de noix, vanille, patate douce et note florale
+        description: Boisson avec une légère saveur de mélange de noix, vanille, patate douce et touche florale
         image: taro.jpg
       - name: Matcha
         price_key: coffee_specialties.matcha
@@ -236,12 +170,12 @@ menu_sections:
         image: matcha.jpg
       - name: Infusions
         price_key: coffee_specialties.infusions
-        description: Camomille / Thé Vert / Pomme-Cannelle / Menthe Poivrée / Citron
+        description: Camomille / Thé vert / Pomme-Cannelle / Menthe poivrée / Citron
       - name: Tisanes
         price_key: coffee_specialties.herbal_teas
         description: Crème de Cerise / Coco-Canneberge / Fraise-Pomme
         image: tisana.jpg
-      - name: Chocolat Chaud Traditionnel Mexicain
+      - name: Chocolat Traditionnel Mexicain
         description: Un autre classique, chocolat avec une touche de cannelle
         price_key: coffee_specialties.traditional_mexican_hot_chocolate
         image: chocolate.jpg
@@ -249,21 +183,24 @@ menu_sections:
   - section_name: Autres Boissons
     columns: 3
     menu_items:
-      - name: Espresso Tonic
+      - name: Tonic Espresso
+        image: cherry_tonic.jpeg
+        description: "Avec espresso et eau tonique. Essayez avec sirop de cerise, caramel ou citron."
         price_key: other_beverages.espresso_tonic
-        description: Notre shot d'espresso classique servi sur de l'eau tonique glacée
-        image: espresso_tonic.jpg
+        options:
+          - option_name: Cerise
+            option_price_key: options.cherry
+          - option_name: Caramel
+            option_price_key: options.caramel
+          - option_name: Citron
+            option_price_key: options.lemon
       - name: Sunsetti
         price_key: other_beverages.sunsetti
         description: Avec une base d'orange et de fraise, inspiré des couchers de soleil italiens estivaux
         image: sunsetti.jpg
-      - name: ⭐ Tonic Cerise
-        price_key: other_beverages.cherry_tonic
-        description: Avec une base de cerise, de tonic et un shot d'espresso
-        image: cherry_tonic.jpeg
       - name: Orangeade / Limonade
         price_key: other_beverages.orangeade_lemonade
-        description: Avec de l'eau naturelle ou minérale
+        description: Avec eau naturelle ou minérale
         image: limonada.jpeg
       - name: Sodas Italiens
         price_key: other_beverages.italian_sodas
@@ -275,16 +212,18 @@ menu_sections:
         description: Orange / Vert
       - name: Sodas
         price_key: other_beverages.sodas
-        description: Coke / Coke Light / Dr Pepper
+        description: Coca / Coca Light / Dr Pepper
       - name: Eau en Bouteille
         choices:
-          - choice_name: Schweppes Tonic
+          - choice_name: Tonique
             choice_price_key: other_beverages.tonic_water
-          - choice_name: Minerale
+          - choice_name: Naturelle
             choice_price_key: other_beverages.bottled_water_natural
-          - choice_name: Gazeuse
+          - choice_name: Minérale
             choice_price_key: other_beverages.bottled_water_mineral
-  - section_name: Bières artisanales
+
+  - section_name: Bières Artisanales
+    description: "<b>Bières artisanales locales</b> au caractère unique."
     columns: 2
     menu_items:
     - name: Brasserie Mitote
@@ -294,34 +233,19 @@ menu_sections:
           description: Touche fruitée, faite avec garambullo
           choice_price_key: alcohol.craft_beers
         - choice_name: Milpa (7°)
-          description: Type IPA, infusée au Mezcal
+          description: Type IPA, avec maïs violet
           choice_price_key: alcohol.craft_beers
         - choice_name: Xocolatl (6°)
-          description: Stout avec arrière-goût chocolaté, légère amertume
+          description: Stout avec petit goût chocolaté, amertume modérée
           choice_price_key: alcohol.craft_beers
         - choice_name: Quiota (5°)
           description: Avec fleur de maguey, saveur fumée
           choice_price_key: alcohol.craft_beers
-    - name: Bières Nationales
+    - name: Bière Nationale
       image: cerveza_nacional.jpg
       choices:
         - choice_name: Victoria
           choice_price_key: alcohol.national_beer
         - choice_name: Corona
           choice_price_key: alcohol.national_beer
-    # - name: Brasserie Arellano
-    #   image: cerveza_ollin.jpg
-    #   choices:
-    #   - choice_name: RAIA (5.0°)
-    #     description: Rice Lager
-    #     choice_price_key: alcohol.craft_beers
-    #   - choice_name: Ollin Sra (6°)
-    #     description: Stout légère avec une touche sucrée
-    #     choice_price_key: alcohol.craft_beers
-    #   - choice_name: Ollin Señor (4.6°)
-    #     description: Fraiche et légère
-    #     choice_price_key: alcohol.craft_beers
-    #   - choice_name: Julia (6.7°)
-    #     description: IPA, avec une touche de fruits tropicaux
-    #     choice_price_key: alcohol.craft_beers
 

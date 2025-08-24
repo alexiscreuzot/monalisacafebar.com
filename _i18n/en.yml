@@ -52,141 +52,80 @@ review_popup:
   button: I want my free drink!
 
 menu_sections:
-  - section_name: Bagels / Ciabattas
-    description: "<b>Choose your bread type.</b><br/>The majority of our sandwiches come <b>with our house salad and its honey-mustard dressing</b>."
+  - section_name: Main Dishes
+    description: "<b>Homemade comfort food</b> to enjoy anytime."
+    section_id: food
     columns: 3
     menu_items:
-      - name: 🌿 Clasico
-        description: The classic, with a sweet or savory touch!
-        price_key: bagels_ciabattas.clasico
-        image: bagel_aguacate.jpg
-        options:
-          - option_name: Avocado
-            option_price_key: options.aguacate
-          - option_name: Honey / Maple / Jam
-            option_price_key: options.honey
-      - name: ⭐🌿 Mexicano
-        description: Refried beans, cheddar cheese, pico de gallo, avocado.
-        price_key: bagels_ciabattas.mexicano
-        image: bagel_mexicano.jpg
-        options:
-          - option_name: Chicken
-            option_price_key: options.chicken
-          - option_name: Turkey ham
-            option_price_key: options.turkey_ham
-      - name: 🌿 Da Vinci
-        description: Goat cheese, caramelized walnuts, and slices of pear.
-        price_key: bagels_ciabattas.da_vinci
-        image: bagel_davinci.jpg
-      - name: 🌿 Vegano
-        description: Hummus, cherry tomato, olive oil, sprout, sesame seeds.
-        price_key: bagels_ciabattas.vegano
-        image: bagel_vegano.jpg
-      - name: Pavone
-        description: Turkey ham, cheddar, spinnach and a touch of mayonnaise
-        price_key: bagels_ciabattas.pavone
-        image: bagel_pavone.jpg
-      - name: Iberico
-        description: Salami, Turkey ham, manchego cheese
-        price_key: bagels_ciabattas.iberico
-        image: bagel_iberico.jpg
-      - name: ⭐ Al Pesto
-        description: Chicken, house pesto, avocado, tomato.
-        price_key: bagels_ciabattas.al_pesto
-        image: bagel_pesto.jpg
-
-  - section_name: Main Courses
-    description: "We use an air fryer to prepare our dishes, which allows us to offer you a healthier option."
-    columns: 3
-    menu_items:
-      - name: ⭐🌿 Chilaquiles verdes
+      - name: 🌿 Chilaquiles
         price_key: main_courses.chilaquiles_verdes
         description: With homemade sauce. Accompanied by onion, avocado and refried beans.
         image: chilaquiles.jpg
         options:
+          - option_name: Egg
+            option_price_key: options.huevo
           - option_name: Chicken
             option_price_key: options.chicken
-          - option_name: Turkey ham
-            option_price_key: options.turkey_ham
-      - name: ⭐ Burger
+          - option_name: Cecina
+            option_price_key: options.cecina
+      - name: 🌿 Molletes
+        description: Refried beans, cheddar cheese, manchego cheese, pico de gallo, avocado.
+        price_key: bagels_ciabattas.mexicano
+        image: bagel_mexicano.jpg
+        options:
+          - option_name: Egg
+            option_price_key: options.huevo
+          - option_name: Chicken
+            option_price_key: options.chicken
+          - option_name: Cecina
+            option_price_key: options.cecina
+      - name: Burger
         price_key: main_courses.burger
-        description: Beef, cheese, lettuce, tomato, homemade dressing. Served with house salad.
+        description: Meat, cheese, lettuce, tomato and house dressing.
         image: burger.jpg
         options:
           - option_name: Salad
-          - option_name: French fries
-      - name: Hot Dog
-        description: Exquisite jumbo beef sausage, cheddar cheese and house dressing. Served with house salad.
-        price_key: main_courses.hot_dog
-        image: hot_dog.jpg
-        options:
-          - option_name: Salad
-          - option_name: French fries
-      - name: 🌿 Mona Salad
-        price_key: main_courses.mona_salad
-        description: Mix of lettuces, spinach, avocado, panela cheese, tortilla strips, and guajillo chili.
-        image: ensalada_mona.jpeg
-        options:
-          - option_name: Chicken
-            option_price_key: options.chicken
-          - option_name: Turkey ham
-            option_price_key: options.turkey_ham
+          - option_name: Fries
+      - name: Al Pesto
+        description: Chicken, house pesto, avocado, tomato.
+        price_key: bagels_ciabattas.al_pesto
+        image: bagel_pesto.jpg
+      - name: Pizza 
+        price_key: main_courses.pizza 
+        description: Pizza to share
+
+  - section_name: Salads
+    description: "<b>Freshness and flavor</b> in every salad. Light and healthy."
+    columns: 2
+    menu_items:
       - name: 🌿 Lisa Salad
         price_key: main_courses.lisa_salad
-        description: Mix of lettuces, pear, caramelized nut, cranberries, goat cheese, honey mustard vinaigrette.
+        description: Mix of lettuces, pear, caramelized nuts, cranberries, goat cheese, honey mustard vinaigrette.
         image: ensalada_lisa.jpg
-        options:
-          - option_name: Chicken
-            option_price_key: options.chicken
-          - option_name: Turkey ham
-            option_price_key: options.turkey_ham
+      - name: 🌿 Mona Salad
+        price_key: main_courses.mona_salad
+        description: Mix of lettuces, spinach, avocado, panela cheese, tortilla strips and guajillo chili.
+        image: ensalada_mona.jpeg
 
   - section_name: Snacks
+    description: "<b>Irresistible snacks</b> to share or enjoy with your drink."
     columns: 3
     menu_items:
       - name: 🌿 Mozzarella Sticks
         price_key: snacks.mozzarella_sticks
+        description: Order of breaded mozzarella cheese sticks, accompanied by tomato sauce.
         image: dedos.jpeg
       - name: 🌿 French Fries
         image: papas.jpg
         price_key: snacks.french_fries
-        description: 400g order of delicious potatoes seasoned with lemon and pepper.
+        description: 400g order of delicious air-fried potatoes, seasoned with lemon and pepper.
       - name: 🌿 Guacamole
         price_key: snacks.guacamole
         description: Order of homemade guacamole with tortilla chips.
-      - name: 🌿 Hummus
-        price_key: snacks.hummus
-        description: Hummus with totopos.
-
-  - section_name: Desserts
-    columns: 2
-    menu_items:
-      - name: Pies and Cakes
-        image: pastel.jpg
-        choices:
-          - choice_name: ⭐ Lemon Pie
-            choice_price_key: desserts.lemon_pie
-          - choice_name: ⭐ Homemade Flan
-            choice_price_key: desserts.homemade_flan
-          - choice_name: Cheesecake
-            choice_price_key: desserts.cheesecake
-          - choice_name: Chocolate Cake
-            choice_price_key: desserts.chocolate_cake
-      - name: Bakery
-        image: panque.jpg
-        choices:
-          - choice_name: ⭐ Homemade Banana Bread
-            choice_price_key: desserts.homemade_banana_bread
-          - choice_name: ⭐ Homemade Rol de Nutella
-            choice_price_key: desserts.homemade_rol_de_nutella
-          - choice_name: Chai biscuits
-            choice_price_key: desserts.chai_biscuits
-          - choice_name: Cookie
-            choice_price_key: desserts.cookie
 
   - section_name: Coffee and Specialties
     section_id: drinks
-    description: "Enjoy <b>our own blend of 100% arabica coffee</b> from the Coatepec region, Veracruz.<br/>Most of our drinks can be enjoyed <b>hot, cold, or as frappé</b>. We also offer <b>plant-based milks ($10 additional)</b>."
+    description: "Enjoy <b>our own coffee blend with 100% arabica variety</b> from the Coatepec region, Veracruz.<br/>Our drinks can be served <b>hot, cold or frappé</b>. We also have <b>plant-based milks ($10 additional)</b>."
     columns: 3
     menu_items:
       - name: Espresso
@@ -196,13 +135,8 @@ menu_sections:
             choice_price_key: coffee_specialties.espresso_regular
           - choice_name: Cortado
             choice_price_key: coffee_specialties.espresso_cortado
-      - name: Americano
-        image: americano.jpg
-        description: One part espresso, 4 parts water
-        price_key: coffee_specialties.americano
-      - name: European
-        description: One part espresso, 2 parts water
-        price_key: coffee_specialties.european
+          - choice_name: Americano
+            choice_price_key: coffee_specialties.americano
       - name: ⭐ Flat White
         price_key: coffee_specialties.flat_white
         image: flat_white.jpg
@@ -229,7 +163,7 @@ menu_sections:
             choice_price_key: coffee_specialties.chai
       - name: ⭐ Taro
         price_key: coffee_specialties.taro
-        description: Beverage with a light flavor blend of nut, vanilla, sweet potato, and floral hint
+        description: Beverage with a light flavor blend of nut, vanilla, sweet potato, and floral touch
         image: taro.jpg
       - name: Matcha
         price_key: coffee_specialties.matcha
@@ -238,7 +172,7 @@ menu_sections:
       - name: Infusions
         price_key: coffee_specialties.infusions
         description: Chamomile / Green Tea / Apple-Cinnamon / Peppermint / Lemon
-      - name: Herbal Teas
+      - name: Tisanes
         price_key: coffee_specialties.herbal_teas
         description: Cherry Cream / Coconut-Cranberry / Strawberry-Apple
         image: tisana.jpg
@@ -251,17 +185,20 @@ menu_sections:
     columns: 3
     menu_items:
       - name: Espresso Tonic
+        image: cherry_tonic.jpeg
+        description: "With espresso and tonic water. Try with cherry, caramel or lemon syrup."
         price_key: other_beverages.espresso_tonic
-        description: Tonic water with espresso shot
-        image: espresso_tonic.jpg
+        options:
+          - option_name: Cherry
+            option_price_key: options.cherry
+          - option_name: Caramel
+            option_price_key: options.caramel
+          - option_name: Lemon
+            option_price_key: options.lemon
       - name: Sunsetti
         price_key: other_beverages.sunsetti
-        description: With a base of orange and strawberry, inspired by Italian summer sunsets
+        description: With orange and strawberry base, inspired by Italian summer sunsets
         image: sunsetti.jpg
-      - name: ⭐ Cherry Tonic
-        price_key: other_beverages.cherry_tonic
-        description: With a base of cherry, tonic, and a shot of espresso
-        image: cherry_tonic.jpeg
       - name: Orangeade / Lemonade
         price_key: other_beverages.orangeade_lemonade
         description: With natural or mineral water
@@ -283,23 +220,24 @@ menu_sections:
             choice_price_key: other_beverages.tonic_water
           - choice_name: Natural
             choice_price_key: other_beverages.bottled_water_natural
-          - choice_name: Sparkling
+          - choice_name: Mineral
             choice_price_key: other_beverages.bottled_water_mineral
 
-  - section_name: Alcohol
+  - section_name: Craft Beers
+    description: "<b>Local craft beers</b> with unique character."
     columns: 2
     menu_items:
-    - name: Craft Beers Mitote
+    - name: Mitote Brewery
       image: cerveza_mitote.jpg
       choices:
         - choice_name: Bulla (5.2°)
           description: Fruity touch, made with garambullo
           choice_price_key: alcohol.craft_beers
         - choice_name: Milpa (7°)
-          description: IPA type, infused with Mezcal
+          description: IPA type, with purple corn
           choice_price_key: alcohol.craft_beers
         - choice_name: Xocolatl (6°)
-          description: Stout with a chocolate undertaste, moderate bitterness
+          description: Stout with chocolate flavor, moderate bitterness
           choice_price_key: alcohol.craft_beers
         - choice_name: Quiota (5°)
           description: With maguey flower, smoky flavor
@@ -311,20 +249,4 @@ menu_sections:
           choice_price_key: alcohol.national_beer
         - choice_name: Corona
           choice_price_key: alcohol.national_beer
-
-    # - name: Craft Beers Arellano
-    #   image: cerveza_ollin.jpg
-    #   choices:
-    #   - choice_name: RAIA (5.0°)
-    #     description: Rice Lager
-    #     choice_price_key: alcohol.craft_beers
-    #   - choice_name: Ollin Sra (6°)
-    #     description: Stout with a sweet touch
-    #     choice_price_key: alcohol.craft_beers
-    #   - choice_name: Ollin Señor (4.6°)
-    #     description: Light and refreshing
-    #     choice_price_key: alcohol.craft_beers
-    #   - choice_name: Julia (6.7°)
-    #     description: IPA, with a touch of bitterness
-    #     choice_price_key: alcohol.craft_beers
       
