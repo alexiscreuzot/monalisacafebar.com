@@ -68,7 +68,7 @@ menu_sections:
             option_price_key: options.chicken
           - option_name: Cecina
             option_price_key: options.cecina
-      - name: 🌿 Molletes
+      - name: 🌿 Mexican Bagel
         description: Refried beans, cheddar cheese, manchego cheese, pico de gallo, avocado.
         price_key: bagels_ciabattas.mexicano
         image: bagel_mexicano.jpg
@@ -86,7 +86,7 @@ menu_sections:
         options:
           - option_name: Salad
           - option_name: Fries
-      - name: Al Pesto
+      - name: Bagel Al Pesto
         description: Chicken, house pesto, avocado, tomato.
         price_key: bagels_ciabattas.al_pesto
         image: bagel_pesto.jpg
