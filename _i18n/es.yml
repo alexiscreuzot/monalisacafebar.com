@@ -119,6 +119,7 @@ menu_sections:
         price_key: snacks.french_fries
         description: Orden de 400g de deliciosas papas fritas al aire, sazonadas con limón y pimienta.
       - name: 🌿 Guacamole
+        image: guacamole.jpg
         price_key: snacks.guacamole
         description: Orden de guacamole casero con totopos.
 

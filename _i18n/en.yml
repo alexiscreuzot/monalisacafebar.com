@@ -144,6 +144,7 @@ menu_sections:
         price_key: snacks.french_fries
         description: 400g order of delicious potatoes seasoned with lemon and pepper.
       - name: 🌿 Guacamole
+        image: guacamole.jpg
         price_key: snacks.guacamole
         description: Order of homemade guacamole with tortilla chips.
 
