@@ -58,7 +58,7 @@ menu_sections:
     menu_items:
       - name: 🌿 Chilaquiles
         price_key: main_courses.chilaquiles_verdes
-        description: Con salsa casera. Acompañados de cebolla, aguacate y frijolitos refritos.
+        description: Con salsa verde o roja casera. Acompañados de cebolla, aguacate y frijolitos refritos.
         image: chilaquiles.jpg
         options:
           - option_name: Huevo
