@@ -85,13 +85,13 @@ menu_sections:
         options:
           - option_name: Ensalada
           - option_name: Papas
-      - name: Al Pesto
+      - name: Bagel Al Pesto
         description: Pollo, pesto de la casa, aguacate, jitomate.
         price_key: bagels_ciabattas.al_pesto
         image: bagel_pesto.jpg
       - name: Pizza 
         price_key: main_courses.pizza 
-        description: Pizza para compartir 
+        description: Pizza para compartir, o no!
 
   - section_name: Ensaladas
     description: "<b>Frescura y sabor</b> en cada ensalada. Ligeras y saludables."

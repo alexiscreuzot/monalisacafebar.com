@@ -92,7 +92,7 @@ menu_sections:
         image: bagel_pesto.jpg
       - name: Pizza 
         price_key: main_courses.pizza 
-        description: Pizza to share 
+        description: Pizza to share, or not!
 
   - section_name: Salads
     description: "<b>Fresh and flavorful</b> salads. Light and healthy."

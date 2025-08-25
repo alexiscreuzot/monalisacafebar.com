@@ -67,7 +67,7 @@ menu_sections:
             option_price_key: options.chicken
           - option_name: Cecina
             option_price_key: options.cecina
-      - name: 🌿 Molletes
+      - name: 🌿 Bagel MexicMexicainano
         description: Haricots refritos, cheddar, manchego, pico de gallo, avocat.
         price_key: bagels_ciabattas.mexicano
         image: bagel_mexicano.jpg
@@ -85,13 +85,13 @@ menu_sections:
         options:
           - option_name: Salade
           - option_name: Frites
-      - name: Al Pesto
+      - name: Bagel Al Pesto
         description: Poulet, pesto maison, avocat, tomate.
         price_key: bagels_ciabattas.al_pesto
         image: bagel_pesto.jpg
       - name: Pizza 
         price_key: main_courses.pizza 
-        description: Pizza à partager 
+        description: Pizza a partager, ou pas!
 
   - section_name: Salades
     description: "<b>Fraîcheur et saveur</b> dans chaque salade. Légères et saines."
