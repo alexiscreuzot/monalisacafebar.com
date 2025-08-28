@@ -15,6 +15,28 @@
             <tr class="{% cycle 'odd', 'even' %}"><td class="days">{{ item.day }}</td><td class="hours">{{ item.hours }}</td></tr>
         {% endfor %}
         </table>
+
+        <!-- Display menu sections -->
+        {% for section in site.translations[site.lang].menu_sections %}
+          <div class="section-title">{{ section.section_name }}</div>
+          <div class="section-description">{{ section.description }}</div>
+          <div class="grid md:grid-cols-{{ section.columns | default: 2 }}">
+            {% for item in section.menu_items %}
+              <div class="card">
+                <div class="image">{% if item.image %}<img src="/assets/images/menu/{{ item.image }}" alt="{{ item.name }}" />{% endif %}</div>
+                <div class="infos">
+                  <div class="title">
+                    {{ item.name }}
+                    {% if item.coming_soon %}
+                      <span class="coming-soon-badge">Coming Soon</span>
+                    {% endif %}
+                  </div>
+                  <div class="small-text">{{ item.description }}</div>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        {% endfor %}
       </div>
     </div>
   </div>

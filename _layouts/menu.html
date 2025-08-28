@@ -50,6 +50,9 @@
                 <div class="infos">
                   <div class="title">
                     <p>{{ item.name }}
+                      {% if item.coming_soon %}
+                        <span class="coming-soon-badge">{% t global.coming_soon_badge %}</span>
+                      {% endif %}
                       <span class="font-semibold text-base"></span>
                     </p>
                     {% if item.price_key %}

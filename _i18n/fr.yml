@@ -1,4 +1,5 @@
 global:
+  coming_soon_badge: "Bientôt disponible"
   current_lang: Français
   current_lang_id: fr
   current_lang_flag: 🇫🇷
@@ -56,6 +57,7 @@ menu_sections:
     columns: 2
     menu_items:
       - name: Formule Petit-déjeuner
+        coming_soon: true
         price_key: packages.breakfast
         description: Chilaquiles ou Bagel Mexicain + jus + café
         image: paquete_desayuno.jpg
@@ -67,6 +69,7 @@ menu_sections:
           - option_name: Cecina
             option_price_key: options.cecina
       - name: Formule Italienne
+        coming_soon: true
         price_key: packages.italiano
         description: Pizza + 2 verres de vin
         image: paquete_italiano.jpg
@@ -109,6 +112,7 @@ menu_sections:
         price_key: bagels_ciabattas.al_pesto
         image: bagel_pesto.jpg
       - name: Pizza 
+        coming_soon: true
         price_key: main_courses.pizza 
         description: Pizza a partager, ou pas!
         image: pizza.jpg
@@ -236,6 +240,7 @@ menu_sections:
         price_key: other_beverages.sodas
         description: Coca / Coca-light / Dr Pepper
       - name: Vin de la maison
+        coming_soon: true
         choices:
           - choice_name: Verre (15mL)
             choice_price_key: alcohol.vino_copa

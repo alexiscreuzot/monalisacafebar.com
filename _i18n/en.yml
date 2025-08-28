@@ -1,4 +1,5 @@
 global:
+  coming_soon_badge: "Coming Soon"
   current_lang: English
   current_lang_id: en
   current_lang_flag: 🇺🇸
@@ -57,6 +58,7 @@ menu_sections:
     columns: 2
     menu_items:
       - name: Breakfast Package
+        coming_soon: true
         price_key: packages.breakfast
         description: Chilaquiles or Mexican Bagel + juice + coffee
         image: paquete_desayuno.jpg
@@ -68,6 +70,7 @@ menu_sections:
           - option_name: Cecina
             option_price_key: options.cecina
       - name: Italiano Package
+        coming_soon: true
         price_key: packages.italiano
         description: Pizza + 2 wine glasses
         image: paquete_italiano.jpg
@@ -114,6 +117,7 @@ menu_sections:
         price_key: bagels_ciabattas.al_pesto
         image: bagel_pesto.jpg
       - name: Pizza 
+        coming_soon: true
         price_key: main_courses.pizza 
         description: Pizza to share, or not!
         image: pizza.jpg
@@ -245,6 +249,7 @@ menu_sections:
         price_key: other_beverages.sodas
         description: Coke / Diet Coke / Dr Pepper
       - name: House Wine
+        coming_soon: true
         choices:
           - choice_name: Glass (15mL)
             choice_price_key: alcohol.vino_copa

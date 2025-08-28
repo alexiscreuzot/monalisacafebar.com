@@ -1,3 +1,15 @@
+// Badge for "Coming Soon"
+.coming-soon-badge {
+    display: inline-block;
+    background: #bfae8e;
+    color: #fff;
+    font-size: 0.7em;
+    font-weight: bold;
+    padding: 0.2em 0.7em;
+    border-radius: 1em;
+    vertical-align: middle;
+    letter-spacing: 0.05em;
+}
 $main_bg: #e4dfcb;
 $content_bg: #FDEDDE;
 // $content_bg: #e4dccb;
