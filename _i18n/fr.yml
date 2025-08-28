@@ -51,6 +51,25 @@ review_popup:
   button: Je veux ma boisson gratuite !
 
 menu_sections:
+  - section_name: Formules
+    description: "<b>Combos spéciaux</b> pour une expérience complète."
+    columns: 2
+    menu_items:
+      - name: Formule Petit-déjeuner
+        price_key: packages.breakfast
+        description: Chilaquiles ou Bagel Mexicain + jus + café
+        image: paquete_desayuno.jpg
+        options:
+          - option_name: Œuf
+            option_price_key: options.huevo
+          - option_name: Poulet
+            option_price_key: options.chicken
+          - option_name: Cecina
+            option_price_key: options.cecina
+      - name: Formule Italienne
+        price_key: packages.italiano
+        description: Pizza + 2 verres de vin
+        image: paquete_italiano.jpg
   - section_name: Plats principaux
     description: "<b>Plats maison et réconfortants</b> à déguster à tout moment."
     section_id: food
@@ -92,6 +111,7 @@ menu_sections:
       - name: Pizza 
         price_key: main_courses.pizza 
         description: Pizza a partager, ou pas!
+        image: pizza.jpg
 
   - section_name: Salades
     description: "<b>Fraîcheur et saveur</b> dans chaque salade. Légères et saines."
@@ -215,7 +235,13 @@ menu_sections:
       - name: Sodas
         price_key: other_beverages.sodas
         description: Coca / Coca-light / Dr Pepper
-      - name: Eau Embouteillée
+      - name: Vin de la maison
+        choices:
+          - choice_name: Verre (15mL)
+            choice_price_key: alcohol.vino_copa
+          - choice_name: Bouteille (75mL)
+            choice_price_key: alcohol.vino_botella
+      - name: Eau en Bouteille
         choices:
           - choice_name: Tonique
             choice_price_key: other_beverages.tonic_water

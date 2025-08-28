@@ -1,18 +1,16 @@
 prices:
+  packages:
+    breakfast: 150
+    italiano: 300
   bagels_ciabattas:
-    clasico: 60
-    mexicano: 105
-    da_vinci: 115
-    vegano: 105
-    pavone: 130
-    iberico: 135
+    mexicano: 110
     al_pesto: 150
   main_courses:
     chilaquiles_verdes: 110
     burger: 160
     mona_salad: 115
     lisa_salad: 115
-    pizza: 120
+    pizza: 180
   snacks:
     mozzarella_sticks: 95
     french_fries: 85
@@ -47,6 +45,8 @@ prices:
     bottled_water_mineral: 25
   alcohol:
     craft_beers: 92
+    vino_copa: 80
+    vino_botella: 320
   options:
     irish_cream: 25
     mocha: 25
@@ -59,3 +59,4 @@ prices:
     caramel: 25
     lemon: 25
     plant_based_milk: 10
+    peperroni: 10

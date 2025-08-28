@@ -52,6 +52,29 @@ review_popup:
   button: I want my free drink!
 
 menu_sections:
+  - section_name: Packages
+    description: "<b>Special combos</b> for a complete experience."
+    columns: 2
+    menu_items:
+      - name: Breakfast Package
+        price_key: packages.breakfast
+        description: Chilaquiles or Mexican Bagel + juice + coffee
+        image: paquete_desayuno.jpg
+        options:
+          - option_name: Egg
+            option_price_key: options.huevo
+          - option_name: Chicken
+            option_price_key: options.chicken
+          - option_name: Cecina
+            option_price_key: options.cecina
+      - name: Italiano Package
+        price_key: packages.italiano
+        description: Pizza + 2 wine glasses
+        image: paquete_italiano.jpg
+        options:
+          - option_name: Cheese
+          - option_name: Peperroni
+            option_price_key: options.peperroni
   - section_name: Main Courses
     description: "<b>Comforting homemade dishes</b> to enjoy anytime."
     section_id: food
@@ -93,6 +116,11 @@ menu_sections:
       - name: Pizza 
         price_key: main_courses.pizza 
         description: Pizza to share, or not!
+        image: pizza.jpg
+        options:
+          - option_name: Cheese
+          - option_name: Peperroni
+            option_price_key: options.peperroni
 
   - section_name: Salads
     description: "<b>Fresh and flavorful</b> salads. Light and healthy."
@@ -216,6 +244,12 @@ menu_sections:
       - name: Sodas
         price_key: other_beverages.sodas
         description: Coke / Diet Coke / Dr Pepper
+      - name: House Wine
+        choices:
+          - choice_name: Glass (15mL)
+            choice_price_key: alcohol.vino_copa
+          - choice_name: Bottle(75mL)
+            choice_price_key: alcohol.vino_botella
       - name: Bottled Water
         choices:
           - choice_name: Tonic

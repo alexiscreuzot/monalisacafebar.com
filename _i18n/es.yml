@@ -51,6 +51,29 @@ contact:
   address: Mariano Matamoros 2B, Centro<br/><b>76000 Santiago de Querétaro, Qro.</b>
   contact_us: Contáctanos
 menu_sections:
+  - section_name: Paquetes
+    description: "<b>Combos especiales</b> para una experiencia completa."
+    columns: 2
+    menu_items:
+      - name: Paquete Desayuno
+        price_key: packages.breakfast
+        description: Chilaquiles o Bagel Mexicano + jugo + café
+        image: paquete_desayuno.jpg
+        options:
+          - option_name: Huevo
+            option_price_key: options.huevo
+          - option_name: Pollo
+            option_price_key: options.chicken
+          - option_name: Cecina
+            option_price_key: options.cecina
+      - name: Paquete Italiano
+        price_key: packages.italiano
+        description: Pizza + 2 copas de vino
+        image: paquete_italiano.jpg
+        options:
+          - option_name: Cheese
+          - option_name: Peperroni
+            option_price_key: options.peperroni
   - section_name: Platos fuertes
     description: "<b>Platos caseros y reconfortantes</b> para disfrutar en cualquier momento."
     section_id: food
@@ -92,6 +115,11 @@ menu_sections:
       - name: Pizza 
         price_key: main_courses.pizza 
         description: Pizza para compartir, o no!
+        image: pizza.jpg
+        options:
+          - option_name: Cheese
+          - option_name: Peperroni
+            option_price_key: options.peperroni
 
   - section_name: Ensaladas
     description: "<b>Frescura y sabor</b> en cada ensalada. Ligeras y saludables."
@@ -214,6 +242,12 @@ menu_sections:
       - name: Refrescos
         price_key: other_beverages.sodas
         description: Coca / Coca-light / Dr Pepper
+      - name: Vino de la casa
+        choices:
+          - choice_name: Copa (15mL)
+            choice_price_key: alcohol.vino_copa
+          - choice_name: Botella completa (75mL)
+            choice_price_key: alcohol.vino_botella
       - name: Agua Embotellada
         choices:
           - choice_name: Tonica
