@@ -77,7 +77,7 @@ menu_sections:
   - section_name: Platos fuertes
     description: "<b>Platos caseros y reconfortantes</b> para disfrutar en cualquier momento."
     section_id: food
-    columns: 2
+    columns: 3
     menu_items:
       - name: 🌿 Chilaquiles
         price_key: main_courses.chilaquiles_verdes
@@ -136,7 +136,7 @@ menu_sections:
 
   - section_name: Snacks
     description: "<b>Snacks irresistibles</b> para compartir o acompañar tu bebida."
-    columns: 2
+    columns: 3
     menu_items:
       - name: 🌿 Dedos de mozzarella
         price_key: snacks.mozzarella_sticks
