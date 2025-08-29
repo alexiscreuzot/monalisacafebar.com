@@ -140,7 +140,7 @@ menu_sections:
 
   - section_name: Snacks
     description: "<b>Snacks irresistibles</b> para compartir o acompañar tu bebida."
-    columns: 3
+    columns: 2
     menu_items:
       - name: 🌿 Dedos de mozzarella
         price_key: snacks.mozzarella_sticks
