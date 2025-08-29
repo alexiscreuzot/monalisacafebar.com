@@ -216,9 +216,9 @@ menu_sections:
   - section_name: Otras Bebidas
     columns: 3
     menu_items:
-      - name: Tónica de Espresso
+      - name: Espresso Tonic
         image: cherry_tonic.jpeg
-        description: "Con espresso y agua tónica. Pruebalo con jarabe de cereza o caramelo!"
+        description: "Agua tónica con un shot de espresso. Pruebalo con jarabe de cereza o caramelo!"
         price_key: other_beverages.espresso_tonic
         options:
           - option_name: Cereza
@@ -231,7 +231,7 @@ menu_sections:
         image: sunsetti.jpg
       - name: Naranjada / Limonada
         price_key: other_beverages.orangeade_lemonade
-        description: Con agua natural o mineral
+        description: Con agua natural o mineral. Puedes pedir el nivel de jarabe que te gusta!
         image: limonada.jpeg
       - name: Sodas Italianas
         price_key: other_beverages.italian_sodas

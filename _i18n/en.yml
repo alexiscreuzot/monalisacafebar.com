@@ -220,7 +220,7 @@ menu_sections:
     menu_items:
       - name: Espresso Tonic
         image: cherry_tonic.jpeg
-        description: "With espresso and tonic water. Try it with cherry or caramel syrup!"
+        description: "Tonic water with espresso shot. Try it with cherry or caramel syrup!"
         price_key: other_beverages.espresso_tonic
         options:
           - option_name: Cherry
