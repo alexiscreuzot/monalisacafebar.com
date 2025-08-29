@@ -209,9 +209,9 @@ menu_sections:
     description: "<b>Boissons rafraîchissantes</b> aux saveurs uniques."
     columns: 3
     menu_items:
-      - name: Tonic à l'Espresso
+      - name: Espresso-Tonic
         image: cherry_tonic.jpeg
-        description: "Avec espresso et eau tonique. Essayez avec sirop de cerise, caramel ou citron."
+        description: "Essayez avec sirop de cerise ou caramel!"
         price_key: other_beverages.espresso_tonic
         options:
           - option_name: Cerise

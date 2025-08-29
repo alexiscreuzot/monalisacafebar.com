@@ -220,15 +220,13 @@ menu_sections:
     menu_items:
       - name: Espresso Tonic
         image: cherry_tonic.jpeg
-        description: "With espresso and tonic water. Try with cherry, caramel or lemon syrup."
+        description: "With espresso and tonic water. Try it with cherry or caramel syrup!"
         price_key: other_beverages.espresso_tonic
         options:
           - option_name: Cherry
             option_price_key: options.cherry
           - option_name: Caramel
             option_price_key: options.caramel
-          - option_name: Lemon
-            option_price_key: options.lemon
       - name: Sunsetti
         price_key: other_beverages.sunsetti
         description: With orange and strawberry base, inspired by Italian summer sunsets

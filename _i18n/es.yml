@@ -218,15 +218,13 @@ menu_sections:
     menu_items:
       - name: Tónica de Espresso
         image: cherry_tonic.jpeg
-        description: "Con espresso y agua tónica. Prueba con jarabe de cereza, caramelo o limón."
+        description: "Con espresso y agua tónica. Pruebalo con jarabe de cereza o caramelo!"
         price_key: other_beverages.espresso_tonic
         options:
           - option_name: Cereza
             option_price_key: options.cherry
           - option_name: Caramelo
             option_price_key: options.caramel
-          - option_name: Limón
-            option_price_key: options.lemon
       - name: Sunsetti
         price_key: other_beverages.sunsetti
         description: Con base de naranja y fresa, inspirada de los atardeceres de verano italiano
