@@ -116,7 +116,6 @@ menu_sections:
         price_key: bagels_ciabattas.al_pesto
         image: bagel_pesto.jpg
       - name: Pizza 
-        coming_soon: true
         price_key: main_courses.pizza 
         description: Pizza para compartir, o no!
         image: pizza.jpg
