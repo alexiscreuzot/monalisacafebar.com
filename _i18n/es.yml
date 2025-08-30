@@ -57,7 +57,6 @@ menu_sections:
     columns: 2
     menu_items:
       - name: Paquete Desayuno
-        coming_soon: true
         price_key: packages.breakfast
         description: Chilaquiles o Bagel Mexicano + jugo + café
         image: paquete_desayuno.jpg
@@ -69,7 +68,6 @@ menu_sections:
           - option_name: Cecina
             option_price_key: options.cecina
       - name: Paquete Italiano
-        coming_soon: true
         price_key: packages.italiano
         description: Pizza + 2 copas de vino
         image: paquete_italiano.jpg
@@ -244,7 +242,6 @@ menu_sections:
         price_key: other_beverages.sodas
         description: Coca / Coca-light / Dr Pepper
       - name: Vino de la casa
-        coming_soon: true
         choices:
           - choice_name: Copa (15mL)
             choice_price_key: alcohol.vino_copa
