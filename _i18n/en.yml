@@ -64,9 +64,9 @@ menu_sections:
         options:
           - option_name: Egg
             option_price_key: options.huevo
-          - option_name: Chicken
+          - option_name: Chicken 60g
             option_price_key: options.chicken
-          - option_name: Cecina
+          - option_name: Cecina 60g
             option_price_key: options.cecina
       - name: Italiano Package
         price_key: packages.italiano
@@ -88,9 +88,9 @@ menu_sections:
         options:
           - option_name: Egg
             option_price_key: options.huevo
-          - option_name: Chicken
+          - option_name: Chicken 60g
             option_price_key: options.chicken
-          - option_name: Cecina
+          - option_name: Cecina 60g
             option_price_key: options.cecina
       - name: 🌿 Mexican Bagel
         description: Refried beans, cheddar cheese, manchego cheese, pico de gallo, avocado.
@@ -99,9 +99,9 @@ menu_sections:
         options:
           - option_name: Egg
             option_price_key: options.huevo
-          - option_name: Chicken
+          - option_name: Chicken 60g
             option_price_key: options.chicken
-          - option_name: Cecina
+          - option_name: Cecina 60g
             option_price_key: options.cecina
       - name: Hamburger
         price_key: main_courses.burger
@@ -111,7 +111,7 @@ menu_sections:
           - option_name: Salad
           - option_name: Fries
       - name: Bagel Al Pesto
-        description: Chicken, house pesto, avocado, tomato.
+        description: Chicken (60g), house pesto, avocado, tomato.
         price_key: bagels_ciabattas.al_pesto
         image: bagel_pesto.jpg
       - name: Pizza 
@@ -244,10 +244,11 @@ menu_sections:
         price_key: other_beverages.sodas
         description: Coke / Diet Coke / Dr Pepper
       - name: House Wine
+        description: "Elegant Argentinian Malbec with notes of plum jam and chocolate."
         choices:
-          - choice_name: Glass (15mL)
+          - choice_name: Glass (15cL)
             choice_price_key: alcohol.vino_copa
-          - choice_name: Bottle(75mL)
+          - choice_name: Bottle (75cL)
             choice_price_key: alcohol.vino_botella
       - name: Bottled Water
         choices:

@@ -63,9 +63,9 @@ menu_sections:
         options:
           - option_name: Huevo
             option_price_key: options.huevo
-          - option_name: Pollo
+          - option_name: Pollo 60g
             option_price_key: options.chicken
-          - option_name: Cecina
+          - option_name: Cecina 60g
             option_price_key: options.cecina
       - name: Paquete Italiano
         price_key: packages.italiano
@@ -87,9 +87,9 @@ menu_sections:
         options:
           - option_name: Huevo
             option_price_key: options.huevo
-          - option_name: Pollo
+          - option_name: Pollo 60g
             option_price_key: options.chicken
-          - option_name: Cecina
+          - option_name: Cecina 60g
             option_price_key: options.cecina
       - name: 🌿 Molletes
         description: Frijoles refritos, queso cheddar, queso manchego, pico de gallo, aguacate.
@@ -98,9 +98,9 @@ menu_sections:
         options:
           - option_name: Huevo
             option_price_key: options.huevo
-          - option_name: Pollo
+          - option_name: Pollo 60g
             option_price_key: options.chicken
-          - option_name: Cecina
+          - option_name: Cecina 60g
             option_price_key: options.cecina
       - name: Hamburguesa
         price_key: main_courses.burger
@@ -110,7 +110,7 @@ menu_sections:
           - option_name: Ensalada
           - option_name: Papas
       - name: Bagel Al Pesto
-        description: Pollo, pesto de la casa, aguacate, jitomate.
+        description: Pollo (60g), pesto de la casa, aguacate, jitomate.
         price_key: bagels_ciabattas.al_pesto
         image: bagel_pesto.jpg
       - name: Pizza 
@@ -242,10 +242,11 @@ menu_sections:
         price_key: other_beverages.sodas
         description: Coca / Coca-light / Dr Pepper
       - name: Vino de la casa
+        description: "Malbec argentino elegante con notas de mermelada de ciruelas y chocolate."
         choices:
-          - choice_name: Copa (15mL)
+          - choice_name: Copa (15cL)
             choice_price_key: alcohol.vino_copa
-          - choice_name: Botella completa (75mL)
+          - choice_name: Botella completa (75cL)
             choice_price_key: alcohol.vino_botella
       - name: Agua Embotellada
         choices:
